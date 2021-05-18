@@ -122,7 +122,7 @@ exports.config = {
             // it is possible to configure which logTypes to include/exclude.
             // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
             // excludeDriverLogs: ['bugreport', 'server'],
-        },
+        },/*
         {
             maxInstances: 5,
             browserName: 'firefox',
@@ -130,7 +130,7 @@ exports.config = {
             os: 'Windows',
             os_version: '10'
         },
-        /*,
+        ,
         {
             browser: 'chrome',
             browser_version: '90.0',
@@ -233,8 +233,8 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
-    /*reporters: [
+    // reporters: ['spec'],
+    reporters: [
         // [
         //     video, {
         //         saveAllVideos: true,       // If true, also saves videos for successful test cases
@@ -253,12 +253,12 @@ exports.config = {
             'junit',
             {
             outputDir: './junit-report',
-            // outputFileFormat: function (options) {
-            //   return `results-${new Date().getTime()}.xml`;
-            // },
+            outputFileFormat: function (options) {
+                return `results-${new Date().getTime()}.xml`;
+            },
           },
         ],
-    ],*/
+    ],
     
     //
     // Options to be passed to Mocha.
