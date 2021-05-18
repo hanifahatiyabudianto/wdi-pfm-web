@@ -44,7 +44,7 @@ exports.config = {
         // './test/specs/case/negative/register/emptypassword.register.js'
         // './test/specs/case/negative/register/emptypasswordconfirm.register.js'  -> masih error
         // './test/specs/case/negative/register/emptyname.register.js'
-        // './test/specs/case/negative/register/emptynik.register.js'
+        './test/specs/case/negative/register/empty/nik.register.js'
         // './test/specs/case/negative/register/emptyphonenumber.register.js'
         // './test/specs/case/negative/register/notchecktnc.register.js'  -> masih error
     ],
@@ -202,7 +202,7 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
     // reporters: ['spec'],
-    reporters: [
+    /*reporters: [
         // [
         //     video, {
         //         saveAllVideos: true,       // If true, also saves videos for successful test cases
@@ -226,7 +226,7 @@ exports.config = {
             // },
           },
         ],
-    ],
+    ],*/
     
     //
     // Options to be passed to Mocha.
