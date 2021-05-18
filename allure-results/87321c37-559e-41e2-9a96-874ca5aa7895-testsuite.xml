@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621260454783' stop='1621260460788'>
+    <name>Prima Freshmart Customer Login</name>
+    <title>Prima Freshmart Customer Login</title>
+    <test-cases>
+        <test-case start='1621260454783' status='passed' stop='1621260460787'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='Critical'/>
+                <label name='Positive Case' value='undefined'/>
+                <label name='feature' value='Success Login'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='Chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='16f51344-2db8-4f8a-98f3-a032afb9a8d9-attachment.mp4' type='video/mp4' size='155'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

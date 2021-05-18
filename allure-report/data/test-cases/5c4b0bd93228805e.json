@@ -1,0 +1,174 @@
+{
+  "uid" : "5c4b0bd93228805e",
+  "name" : "should direct to my account page",
+  "fullName" : "Prima Freshmart Customer Login.should direct to my account page",
+  "historyId" : "d7c1ac5e5c55afb7c251df99816922f1",
+  "time" : {
+    "start" : 1621192863453,
+    "stop" : 1621192866485,
+    "duration" : 3032
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1621192863458,
+        "stop" : 1621192863468,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f07f621e23f801ac",
+        "name" : "Request",
+        "source" : "f07f621e23f801ac.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "45b688090dfbd07c",
+        "name" : "Response",
+        "source" : "45b688090dfbd07c.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "elementClick",
+      "time" : {
+        "start" : 1621192863484,
+        "stop" : 1621192863550,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2c9df1f0c8f56c6c",
+        "name" : "Request",
+        "source" : "2c9df1f0c8f56c6c.json",
+        "type" : "application/json",
+        "size" : 30
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "getUrl",
+      "time" : {
+        "start" : 1621192866216,
+        "stop" : 1621192866379,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e211506ce0ab2d5a",
+        "name" : "Response",
+        "source" : "e211506ce0ab2d5a.json",
+        "type" : "application/json",
+        "size" : 46
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "getTitle",
+      "time" : {
+        "start" : 1621192866471,
+        "stop" : 1621192866485,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "741ecb74bad6ffd",
+        "name" : "Response",
+        "source" : "741ecb74bad6ffd.json",
+        "type" : "application/json",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should direct to my account page"
+  }, {
+    "name" : "package",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Edge-90.0.818.62"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "846126091ce435da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621192084865,
+        "stop" : 1621192088643,
+        "duration" : 3778
+      }
+    }, {
+      "uid" : "a9d5dcd26cd2966c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621191726091,
+        "stop" : 1621191728412,
+        "duration" : 2321
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c4b0bd93228805e.json",
+  "parameterValues" : [ "Edge-90.0.818.62" ]
+}

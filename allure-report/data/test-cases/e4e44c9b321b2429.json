@@ -1,0 +1,130 @@
+{
+  "uid" : "e4e44c9b321b2429",
+  "name" : "should save a screenshot of the browser view when success login",
+  "fullName" : "Prima Freshmart Customer Login.should save a screenshot of the browser view when success login",
+  "historyId" : "a98b0076835cc502d033e4006d67562c",
+  "time" : {
+    "start" : 1621259349586,
+    "stop" : 1621259349588,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should save a screenshot of the browser view when success login"
+  }, {
+    "name" : "package",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9db145384df1dd13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621259007179,
+        "stop" : 1621259007181,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "a53ffebf55499f67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621258903418,
+        "stop" : 1621258903418,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "46154a9366bdb38e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621258872908,
+        "stop" : 1621258872910,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "9aed43d5183ffbe9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621258718966,
+        "stop" : 1621258718968,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "7d17cb80de6cfb38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621258481700,
+        "stop" : 1621258481704,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "c5a0528d60cd79d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621258228838,
+        "stop" : 1621258228839,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "780b9754c6683791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621257772096,
+        "stop" : 1621257772097,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c78453deea1755e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621194495352,
+        "stop" : 1621194495354,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "c638f4fab6cd2f56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621193902213,
+        "stop" : 1621193902215,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4e44c9b321b2429.json",
+  "parameterValues" : [ "Chrome-90.0.4430.212" ]
+}

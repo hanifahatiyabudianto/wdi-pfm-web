@@ -1,0 +1,56 @@
+{
+  "uid" : "3aac939a8b789c13",
+  "name" : "should save a screenshot of the browser view when empty password",
+  "fullName" : "Login Page negative case.should save a screenshot of the browser view when empty password",
+  "historyId" : "99dce888582324d0697aad1a9fe7604e",
+  "time" : {
+    "start" : 1621191711095,
+    "stop" : 1621191711096,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Page negative case"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Page negative case"
+  }, {
+    "name" : "testMethod",
+    "value" : "should save a screenshot of the browser view when empty password"
+  }, {
+    "name" : "package",
+    "value" : "Login Page negative case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Edge-90.0.818.62"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3aac939a8b789c13.json",
+  "parameterValues" : [ "Edge-90.0.818.62" ]
+}

@@ -1,0 +1,127 @@
+{
+  "uid" : "69f98186a476d37f",
+  "name" : "should login with valid credentials",
+  "fullName" : "Prima Freshmart Customer Login.should login with valid credentials",
+  "historyId" : "455b8f662e350aa77da1b7abe99d86c5",
+  "time" : {
+    "start" : 1621260454783,
+    "stop" : 1621260460787,
+    "duration" : 6004
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "899d09fec38d3e7c",
+      "name" : "Execution video",
+      "source" : "899d09fec38d3e7c.mp4",
+      "type" : "video/mp4",
+      "size" : 155
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Positive Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Success Login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "7b575240622c258b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621260382498,
+        "stop" : 1621260389563,
+        "duration" : 7065
+      }
+    }, {
+      "uid" : "86d5359b700da4f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621260317231,
+        "stop" : 1621260324159,
+        "duration" : 6928
+      }
+    }, {
+      "uid" : "ba6741451f5d847e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621260235913,
+        "stop" : 1621260250943,
+        "duration" : 15030
+      }
+    }, {
+      "uid" : "64ce2ac6fa438f8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621259805785,
+        "stop" : 1621259812608,
+        "duration" : 6823
+      }
+    }, {
+      "uid" : "9be9280c6196152b",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1621257194975,
+        "stop" : 1621257195041,
+        "duration" : 66
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69f98186a476d37f.json",
+  "parameterValues" : [ "Chrome-90.0.4430.212", "90.0.4430.212" ]
+}

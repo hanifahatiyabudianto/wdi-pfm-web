@@ -1,0 +1,74 @@
+{
+  "uid" : "423d1b69e01eadac",
+  "name" : "should save a screenshot of the browser view of account page",
+  "fullName" : "Prima Freshmart Customer Login.should save a screenshot of the browser view of account page",
+  "historyId" : "e9a11369ce32383042685d1499aaae86",
+  "time" : {
+    "start" : 1621192866486,
+    "stop" : 1621192866490,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should save a screenshot of the browser view of account page"
+  }, {
+    "name" : "package",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Edge-90.0.818.62"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "79743692cee9c1e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621192088644,
+        "stop" : 1621192088646,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "9ff30083d45fafe4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621191728412,
+        "stop" : 1621191728416,
+        "duration" : 4
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "423d1b69e01eadac.json",
+  "parameterValues" : [ "Edge-90.0.818.62" ]
+}

@@ -1,0 +1,104 @@
+{
+  "uid" : "9e881b0c60aab069",
+  "name" : "should show error message when empty email",
+  "fullName" : "Customer did not fill email register form.should show error message when empty email",
+  "historyId" : "5bdb2fb75cf73453c46ba365af52a998",
+  "time" : {
+    "start" : 1621271959940,
+    "stop" : 1621271966168,
+    "duration" : 6228
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bbe23ee2793833f3",
+      "name" : "Execution video",
+      "source" : "bbe23ee2793833f3.mp4",
+      "type" : "video/mp4",
+      "size" : 173
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Register"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty email"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6f5c7e2343d5290b",
+      "status" : "broken",
+      "statusDetails" : "RegisterPage.login is not a function",
+      "time" : {
+        "start" : 1621271850332,
+        "stop" : 1621271850421,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "167aeadfa152f5b3",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#email-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1621271697930,
+        "stop" : 1621271726428,
+        "duration" : 28498
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e881b0c60aab069.json",
+  "parameterValues" : [ "Chrome-90.0.4430.212", "90.0.4430.212" ]
+}

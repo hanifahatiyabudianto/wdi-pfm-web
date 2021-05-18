@@ -1,0 +1,26 @@
+{
+  "total" : 23,
+  "items" : [ {
+    "uid" : "f90fceef4ea22e085331cbff9537313a",
+    "name" : "Success Login",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "2e0395f6f3c359683de312576ccd4ab6",
+    "name" : "Failed Register",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

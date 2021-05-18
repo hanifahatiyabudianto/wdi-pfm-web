@@ -1,0 +1,111 @@
+{
+  "uid" : "c78453deea1755e7",
+  "name" : "should save a screenshot of the browser view when success login",
+  "fullName" : "Prima Freshmart Customer Login.should save a screenshot of the browser view when success login",
+  "historyId" : "a98b0076835cc502d033e4006d67562c",
+  "time" : {
+    "start" : 1621194495352,
+    "stop" : 1621194495354,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "getUrl",
+      "time" : {
+        "start" : 1621194495355,
+        "stop" : 0,
+        "duration" : -1621194495355
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "takeScreenshot",
+        "time" : {
+          "start" : 1621194495355,
+          "stop" : 0,
+          "duration" : -1621194495355
+        },
+        "status" : "unknown",
+        "steps" : [ {
+          "name" : "takeScreenshot",
+          "time" : {
+            "start" : 1621194495358,
+            "stop" : 0,
+            "duration" : -1621194495358
+          },
+          "status" : "unknown",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should save a screenshot of the browser view when success login"
+  }, {
+    "name" : "package",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c78453deea1755e7.json",
+  "parameterValues" : [ "Chrome-90.0.4430.212" ]
+}
