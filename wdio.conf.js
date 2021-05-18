@@ -33,8 +33,8 @@ exports.config = {
     // define all tests
     specs: [
         // './test/specs/**/*.js'
-        './test/specs/case/positive/login/success.login.js'
-        // './test/specs/case/positive/login/view.myaccount.js'
+        // './test/specs/case/positive/login/success.login.js'
+        './test/specs/case/positive/login/view.myaccount.js'
         // './test/specs/case/negative/login/emptyemail.login.js' 
         // './test/specs/case/negative/login/emptypassword.login.js'
         // './test/specs/case/negative/login/invalidformat.login.js'  
