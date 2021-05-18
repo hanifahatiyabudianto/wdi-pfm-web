@@ -124,6 +124,14 @@ exports.config = {
             // excludeDriverLogs: ['bugreport', 'server'],
         },
         {
+            maxInstances: 5,
+            browserName: 'firefox',
+            browser_version: 'latest',
+            os: 'Windows',
+            os_version: '10'
+        },
+        /*,
+        {
             browser: 'chrome',
             browser_version: '90.0',
             os: 'Windows',
@@ -135,13 +143,7 @@ exports.config = {
             os: 'OS X',
             os_version: 'Big Sur'
         },
-        /*{
-            maxInstances: 5,
-            browserName: 'firefox',
-            browser_version: 'latest',
-            os: 'Windows',
-            os_version: '10'
-        },
+        /*
         {
             maxInstances: 5,
             browserName: 'MicrosoftEdge',
