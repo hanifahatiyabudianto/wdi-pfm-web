@@ -2,8 +2,9 @@ const video = require('wdio-video-reporter');
 
 exports.config = {
     //Browserstack Config
-    // user: process.env.BROWSERSTACK_USERNAME,
-    // key: process.env.BROWSERSTACK_KEY,
+    user: 'hanifahatiyabudi_y0A1YR',
+    key: 'KwLrzSGqmxDMf1x5oeXB',
+    updateJob: false,
 
         //
     // ====================
@@ -32,7 +33,7 @@ exports.config = {
     // define all tests
     specs: [
         // './test/specs/**/*.js'
-        // './test/specs/case/positive/login/success.login.js'
+        './test/specs/case/positive/login/success.login.js'
         // './test/specs/case/positive/login/view.myaccount.js'
         // './test/specs/case/negative/login/emptyemail.login.js' 
         // './test/specs/case/negative/login/emptypassword.login.js'
@@ -44,7 +45,7 @@ exports.config = {
         // './test/specs/case/negative/register/emptypassword.register.js'
         // './test/specs/case/negative/register/emptypasswordconfirm.register.js'  -> masih error
         // './test/specs/case/negative/register/emptyname.register.js'
-        './test/specs/case/negative/register/empty/nik.register.js'
+        // './test/specs/case/negative/register/emptynik.register.js'
         // './test/specs/case/negative/register/emptyphonenumber.register.js'
         // './test/specs/case/negative/register/notchecktnc.register.js'  -> masih error
     ],
@@ -101,28 +102,57 @@ exports.config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
+    commonCapabilities: {
+        name: 'parallel_test',
+        build: 'browserstack-build-1'
+      },
+
     capabilities: [
         {
         //     // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         //     // grid with only 5 firefox instances available you can make sure that not more than
         //     // 5 instances get started at a time.
-            maxInstances: 5,
-        //     //
+            // maxInstances: 5,
              browserName: 'chrome',
-             acceptInsecureCerts: true
-        //     // If outputDir is provided WebdriverIO can capture driver session logs
-        //     // it is possible to configure which logTypes to include/exclude.
-        //     // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
-        //     // excludeDriverLogs: ['bugreport', 'server'],
-         },
-        // {
-        //     maxInstances: 5,
-        //     browserName: 'firefox',
-        // },
+             browser_version: 'latest',
+             os: 'Windows',
+             os_version: '10'
+            //  acceptInsecureCerts: true
+            // If outputDir is provided WebdriverIO can capture driver session logs
+            // it is possible to configure which logTypes to include/exclude.
+            // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
+            // excludeDriverLogs: ['bugreport', 'server'],
+        },
+        {
+            browser: 'chrome',
+            browser_version: '90.0',
+            os: 'Windows',
+            os_version: '7'
+        },
+        {
+            browser: 'safari',
+            browser_version: 'latest',
+            os: 'OS X',
+            os_version: 'Big Sur'
+        },
+        /*{
+            maxInstances: 5,
+            browserName: 'firefox',
+            browser_version: 'latest',
+            os: 'Windows',
+            os_version: '10'
+        },
         {
             maxInstances: 5,
             browserName: 'MicrosoftEdge',
+            browser_version: 'latest',
         },
+        {
+            browser: 'safari',
+            browser_version: 'latest',
+            os: 'OS X',
+            os_version: 'Big Sur'
+        },*/
     ],
     //
     // ===================
@@ -172,9 +202,9 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     // services: ['chromedriver'],   //only run test case(s) at chrome browser
-    services: ['selenium-standalone'],
-
-    // services: ['browserstack'],
+    // services: ['selenium-standalone'],
+    host: 'hub.browserstack.com',
+    services: ['browserstack'],
     // services: [
     //     ['browserstack', {
     //         browserstackLocal: true
@@ -201,7 +231,7 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    // reporters: ['spec'],
+    reporters: ['spec'],
     /*reporters: [
         // [
         //     video, {
@@ -280,6 +310,9 @@ exports.config = {
      */
     // before: function (capabilities, specs) {
     //     LoginPage.open();
+    //     var chai = require('chai');
+    //     global.expect = chai.expect;
+    //     chai.Should();
     // },
     /**
      * Runs before a WebdriverIO command gets executed.
@@ -326,11 +359,21 @@ exports.config = {
     // },
     // afterTest: function (test, context, { error, result, duration, passed, retries }) {
     // },
-    afterStep: function (test, context, { error, result, duration, passed, retries }) {
-        if (passed) {
-           browser.takeScreenshot();
+    // Code to mark the status of test on BrowserStack based on the assertion status
+    afterTest: function (test, context, { passed }) {
+        if(passed) {
+        browser.executeScript('browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"passed","reason": "Assertions passed"}}');
+        } else {
+        browser.executeScript('browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed","reason": "At least 1 assertion failed"}}');
         }
     },
+
+    // afterStep: function (test, context, { error, result, duration, passed, retries }) {
+    //     if (passed) {
+    //        browser.takeScreenshot();
+    //     }
+    // },
+    
 
     /**
      * Hook that gets executed after the suite has ended
@@ -402,3 +445,8 @@ exports.config = {
     //onReload: function(oldSessionId, newSessionId) {
     //}
 }
+    // Code to support common capabilities
+exports.config.capabilities.forEach(function(caps, index){
+    for(var i in exports.config.commonCapabilities) caps[i] = caps[i] || exports.config.commonCapabilities[i];
+    exports.config.capabilities[index] = { ...caps, ...caps['browser'] && { browserName: caps['browser'] } };
+});

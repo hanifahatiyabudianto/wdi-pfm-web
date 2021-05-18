@@ -16,7 +16,7 @@
     "@babel/register": "^7.13.16",
     "@wdio/allure-reporter": "^7.6.0",
     "@wdio/appium-service": "^7.6.0",
-    "@wdio/browserstack-service": "^7.5.7",
+    "@wdio/browserstack-service": "^7.6.0",
     "@wdio/cli": "^7.5.7",
     "@wdio/crossbrowsertesting-service": "^7.5.7",
     "@wdio/junit-reporter": "^7.6.0",
