@@ -9,4 +9,4 @@ Setup
 How to run
 ------------
 Terminal: npx wdio wdio.conf.js
-Pada file wdio.conf.js, uncomment case yang akan di run
+**Pada file wdio.conf.js, uncomment case yang akan di run
