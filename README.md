@@ -1,4 +1,4 @@
-# wdi-pfm-web
+# wdio-pfm-web
 Wdio Automation test Prima Freshmart
 
 Setup
