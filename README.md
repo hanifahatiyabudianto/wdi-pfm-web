@@ -1,5 +1,5 @@
 # wdio-pfm-web
-Wdio Automation test Prima Freshmart
+Wdio automation test Prima Freshmart estore website
 
 Setup
 ------------
@@ -8,5 +8,5 @@ Setup
 
 How to run
 ------------
-Terminal: npx wdio wdio.conf.js 
-**pada file wdio.conf.js, uncoment case yang akan di run
+Terminal: npx wdio wdio.conf.js
+Pada file wdio.conf.js, uncomment case yang akan di run
