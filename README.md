@@ -8,4 +8,4 @@ Setup
 How to run
 ------------
 1. Terminal: "npx wdio wdio.conf.js"
-**Pada file wdio.conf.js, uncomment case yang akan di run
+**Uncomment case yang akan di-run pada file wdio.conf.js
