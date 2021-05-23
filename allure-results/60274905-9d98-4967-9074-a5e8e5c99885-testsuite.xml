@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621791387492' stop='1621791398986'>
+    <name>Customer success register</name>
+    <title>Customer success register</title>
+    <test-cases>
+        <test-case start='1621791387493' status='broken' stop='1621791398985'>
+            <name>should register with fill form data with gender is male</name>
+            <title>should register with fill form data with gender is male</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f9ba4afc-a7bb-49cd-b06d-9d279a4fca34-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='af4e506a-2c80-4633-b4b5-ca222c80722c-attachment.png' type='image/png' size='74062'/>
+                <attachment title='Screenshot' source='d8f415e0-f964-4810-bc0b-e4bee2b72969-attachment.png' type='image/png' size='74062'/>
+                <attachment title='Screenshot' source='1a661fd0-17ef-4841-9903-44ffcf3bd426-attachment.png' type='image/png' size='75895'/>
+                <attachment title='Screenshot' source='2721a304-e67e-4841-aa9b-38b0d62e2677-attachment.png' type='image/png' size='75875'/>
+                <attachment title='Screenshot' source='d724e425-8421-4aec-9cd9-b36432835f6d-attachment.png' type='image/png' size='72815'/>
+                <attachment title='Screenshot' source='6f408cbe-38a2-43d3-a7db-b784ed9f0a26-attachment.png' type='image/png' size='68909'/>
+                <attachment title='Screenshot' source='1a414267-8bf5-4dc6-a434-57ec7edfe9e4-attachment.png' type='image/png' size='68909'/>
+                <attachment title='Screenshot' source='6355d5ae-c587-4eee-84b1-d4f8e125bede-attachment.png' type='image/png' size='68865'/>
+                <attachment title='Screenshot' source='19f7b71b-7a82-46c3-9d6f-4bc146e2dc5d-attachment.png' type='image/png' size='68281'/>
+                <attachment title='Execution video' source='6a14a747-6ee9-461d-91a5-33dc514761b7-attachment.mp4' type='video/mp4' size='170'/>
+            </attachments>
+            <failure>
+                <message>invalid selector: An invalid or illegal selector was specified
+                  (Session info: chrome=90.0.4430.212)</message>
+                <stack-trace>invalid selector: invalid selector: An invalid or illegal selector was specified
+                  (Session info: chrome=90.0.4430.212)
+                    at Object.getErrorFromResponseBody (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Browser.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Browser.$ (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\commands\browser\$.js:83:17)
+                    at Browser.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at RegisterPage.register (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\pageobjects\estore\/register.page.js:46:16)
+                    at Context.&lt;anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\register\/successgendermale.register.js:22:9)
+                    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

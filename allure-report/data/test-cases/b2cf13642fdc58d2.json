@@ -1,0 +1,62 @@
+{
+  "uid" : "b2cf13642fdc58d2",
+  "name" : "should login with valid credentials",
+  "fullName" : "Prima Freshmart Customer Login.should login with valid credentials",
+  "historyId" : "bf655cdf1f49fe6614af488dfdea2722",
+  "time" : {
+    "start" : 1621258858968,
+    "stop" : 1621258872906,
+    "duration" : 13938
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Success Login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2cf13642fdc58d2.json",
+  "parameterValues" : [ "Chrome-90.0.4430.212" ]
+}

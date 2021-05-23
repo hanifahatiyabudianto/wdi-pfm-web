@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621665534629' stop='1621665559860'>
+    <name>Customer did not fill email login form</name>
+    <title>Customer did not fill email login form</title>
+    <test-cases>
+        <test-case start='1621665534630' status='failed' stop='1621665559859'>
+            <name>should show error message when empty email</name>
+            <title>should show error message when empty email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='High'/>
+                <label name='Negative Case' value='undefined'/>
+                <label name='feature' value='Failed Login'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.72'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.72'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`#email-error`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"</message>
+                <stack-trace>Error: Expect $(`#email-error`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"
+                    at Context.&lt;anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\login\/emptyemail.login.js:23:46)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621792982136' stop='1621793008067'>
+    <name>Customer did not check tnc register form</name>
+    <title>Customer did not check tnc register form</title>
+    <test-cases>
+        <test-case start='1621792982136' status='failed' stop='1621793008066'>
+            <name>should show error message when did not check tnc</name>
+            <title>should show error message when did not check tnc</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1ddfc798-42b0-443b-bc76-19e373dbb345-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='ebc58c5e-a322-45e7-831b-4fee25ca25a4-attachment.png' type='image/png' size='74062'/>
+                <attachment title='Screenshot' source='a00c6396-5853-473d-b2a4-d6a131ffb10e-attachment.png' type='image/png' size='74062'/>
+                <attachment title='Screenshot' source='46090c57-44da-40aa-bc4b-64e75c366b6a-attachment.png' type='image/png' size='75895'/>
+                <attachment title='Screenshot' source='7158d9e6-a831-4013-b216-a93204410356-attachment.png' type='image/png' size='75895'/>
+                <attachment title='Screenshot' source='8899003b-0b2f-4753-bc32-3ab27b4f06a4-attachment.png' type='image/png' size='72815'/>
+                <attachment title='Screenshot' source='11d4aa36-3361-42f0-b10c-31a6a9315517-attachment.png' type='image/png' size='72815'/>
+                <attachment title='Screenshot' source='876cd8bf-7d50-4ab3-96ef-aba6b3dfef1a-attachment.png' type='image/png' size='68909'/>
+                <attachment title='Screenshot' source='bf36c310-79c3-40c5-9c29-de0416352ffc-attachment.png' type='image/png' size='68281'/>
+                <attachment title='Screenshot' source='3303b45a-a36d-4731-909f-7dce0395b298-attachment.png' type='image/png' size='68281'/>
+                <attachment title='Screenshot' source='ceeccf71-f73b-42d8-a5dd-0fb5add3bd27-attachment.png' type='image/png' size='68287'/>
+                <attachment title='Screenshot' source='48111b3c-245c-471a-940e-30b4c1fbe155-attachment.png' type='image/png' size='57527'/>
+                <attachment title='Screenshot' source='f7412dd6-00b5-45e3-8974-322d79a534dc-attachment.png' type='image/png' size='58066'/>
+                <attachment title='Screenshot' source='15fe15f8-ed27-48c4-8125-1668e66d982a-attachment.png' type='image/png' size='58066'/>
+                <attachment title='Screenshot' source='3e026dbd-de32-4ba3-9d51-503b66448744-attachment.png' type='image/png' size='58994'/>
+                <attachment title='Screenshot' source='57042096-e535-409c-a215-0710e428c4e5-attachment.png' type='image/png' size='58994'/>
+                <attachment title='Screenshot' source='bf58044e-4932-453c-8f8a-d63d1ce5779d-attachment.png' type='image/png' size='75201'/>
+                <attachment title='Screenshot' source='883d2da9-b014-471e-9da2-6b2a3e651503-attachment.png' type='image/png' size='76844'/>
+                <attachment title='Screenshot' source='f2f64337-c360-4d27-b363-905b56995f76-attachment.png' type='image/png' size='60385'/>
+                <attachment title='Execution video' source='4349a1de-7b9e-4241-8db0-3b7b63461f1a-attachment.mp4' type='video/mp4' size='178'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`#termscondition-error`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"</message>
+                <stack-trace>Error: Expect $(`#termscondition-error`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"
+                    at Context.&lt;anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\register\/notchecktnc.register.js:23:47)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

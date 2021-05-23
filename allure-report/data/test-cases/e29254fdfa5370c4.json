@@ -1,0 +1,183 @@
+{
+  "uid" : "e29254fdfa5370c4",
+  "name" : "should show error message when did not check tnc",
+  "fullName" : "Customer did not check tnc register form.should show error message when did not check tnc",
+  "historyId" : "fd5282da7b97f2193a90c9c73077840a",
+  "time" : {
+    "start" : 1621792925846,
+    "stop" : 1621792938111,
+    "duration" : 12265
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "63267467fdd7b5af",
+      "name" : "Screenshot",
+      "source" : "63267467fdd7b5af.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "fbc53eb60015487c",
+      "name" : "Screenshot",
+      "source" : "fbc53eb60015487c.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "399088f4d10679e7",
+      "name" : "Screenshot",
+      "source" : "399088f4d10679e7.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "4d134ace8e379327",
+      "name" : "Screenshot",
+      "source" : "4d134ace8e379327.png",
+      "type" : "image/png",
+      "size" : 72962
+    }, {
+      "uid" : "ddea4c8af5a72831",
+      "name" : "Screenshot",
+      "source" : "ddea4c8af5a72831.png",
+      "type" : "image/png",
+      "size" : 72962
+    }, {
+      "uid" : "6c4b0f2fdaf94e56",
+      "name" : "Screenshot",
+      "source" : "6c4b0f2fdaf94e56.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "9bad135e722d2b4c",
+      "name" : "Screenshot",
+      "source" : "9bad135e722d2b4c.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "f8e1c3dc89146de",
+      "name" : "Screenshot",
+      "source" : "f8e1c3dc89146de.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "e19ac41a63372548",
+      "name" : "Screenshot",
+      "source" : "e19ac41a63372548.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "5bd881c698a46faf",
+      "name" : "Screenshot",
+      "source" : "5bd881c698a46faf.png",
+      "type" : "image/png",
+      "size" : 68281
+    }, {
+      "uid" : "baac3309f7551eb3",
+      "name" : "Screenshot",
+      "source" : "baac3309f7551eb3.png",
+      "type" : "image/png",
+      "size" : 68287
+    }, {
+      "uid" : "47a335c5e45389cb",
+      "name" : "Screenshot",
+      "source" : "47a335c5e45389cb.png",
+      "type" : "image/png",
+      "size" : 54288
+    }, {
+      "uid" : "4933359545c3d42",
+      "name" : "Screenshot",
+      "source" : "4933359545c3d42.png",
+      "type" : "image/png",
+      "size" : 54288
+    }, {
+      "uid" : "1107f725a3fa0b2e",
+      "name" : "Screenshot",
+      "source" : "1107f725a3fa0b2e.png",
+      "type" : "image/png",
+      "size" : 54315
+    }, {
+      "uid" : "75f0e946b4bb3a9f",
+      "name" : "Screenshot",
+      "source" : "75f0e946b4bb3a9f.png",
+      "type" : "image/png",
+      "size" : 55406
+    }, {
+      "uid" : "eb94e67375dcbce",
+      "name" : "Screenshot",
+      "source" : "eb94e67375dcbce.png",
+      "type" : "image/png",
+      "size" : 70712
+    }, {
+      "uid" : "ae4671e72aea70a7",
+      "name" : "Screenshot",
+      "source" : "ae4671e72aea70a7.png",
+      "type" : "image/png",
+      "size" : 70712
+    }, {
+      "uid" : "f31d19eff2f43bba",
+      "name" : "Screenshot",
+      "source" : "f31d19eff2f43bba.png",
+      "type" : "image/png",
+      "size" : 67643
+    }, {
+      "uid" : "f690bee8a914ddf4",
+      "name" : "Execution video",
+      "source" : "f690bee8a914ddf4.mp4",
+      "type" : "video/mp4",
+      "size" : 42129
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 19,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not check tnc register form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not check tnc register form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when did not check tnc"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not check tnc register form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e29254fdfa5370c4.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

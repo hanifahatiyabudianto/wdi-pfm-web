@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621792487935' stop='1621792512487'>
+    <name>Customer success register</name>
+    <title>Customer success register</title>
+    <test-cases>
+        <test-case start='1621792487935' status='failed' stop='1621792512486'>
+            <name>should register with fill form data with gender is male</name>
+            <title>should register with fill form data with gender is male</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2ef947c4-1da4-4224-9766-247a320eb3b6-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='10d9cb23-0510-4285-a543-7004c4883a1e-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='977eb541-1afd-4caf-b07b-5de5143f09ca-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='5bfcacde-c5f8-4c35-bb0b-95b204f9127c-attachment.png' type='image/png' size='75895'/>
+                <attachment title='Screenshot' source='21ab6282-4dad-4279-97f1-1767f286a7a9-attachment.png' type='image/png' size='75875'/>
+                <attachment title='Screenshot' source='bdd5d1a1-58a0-4367-a2f3-de30adc9ac96-attachment.png' type='image/png' size='72815'/>
+                <attachment title='Screenshot' source='e45d9d5f-e9bd-4886-b741-9e1c49683945-attachment.png' type='image/png' size='72778'/>
+                <attachment title='Screenshot' source='1ab0b605-ac06-4998-89f5-3a7e05fc42c7-attachment.png' type='image/png' size='68909'/>
+                <attachment title='Screenshot' source='a4c12f6c-c5d0-4e9f-a9f5-69f386d644d9-attachment.png' type='image/png' size='68909'/>
+                <attachment title='Screenshot' source='6b99c75a-9d45-4259-9ea5-15f5a14993f1-attachment.png' type='image/png' size='68281'/>
+                <attachment title='Screenshot' source='f60b3688-ea13-41b8-829a-1684eda7772b-attachment.png' type='image/png' size='68287'/>
+                <attachment title='Screenshot' source='996ef87f-9235-4996-ad74-b1cfeac75a2b-attachment.png' type='image/png' size='57527'/>
+                <attachment title='Screenshot' source='6745a9d3-0ac0-4304-beb1-bbc02073cf56-attachment.png' type='image/png' size='58066'/>
+                <attachment title='Screenshot' source='7b2a4113-7ac2-49c8-9188-ff78effcd75c-attachment.png' type='image/png' size='58994'/>
+                <attachment title='Screenshot' source='014b016c-905c-496c-8522-71208feab47b-attachment.png' type='image/png' size='58994'/>
+                <attachment title='Screenshot' source='0ac06030-be7a-4b50-b127-51e37b7c0105-attachment.png' type='image/png' size='58972'/>
+                <attachment title='Screenshot' source='3d10a9b5-92f4-4f25-aff0-6723ffb021df-attachment.png' type='image/png' size='75201'/>
+                <attachment title='Screenshot' source='10bd5b84-ea9d-4cdc-a4ff-c7517f766ece-attachment.png' type='image/png' size='76844'/>
+                <attachment title='Screenshot' source='c170516a-bb13-4e98-827a-2bce43fe06b5-attachment.png' type='image/png' size='31944'/>
+                <attachment title='Screenshot' source='a6e19c44-4bfb-4259-893c-8755bf5977ea-attachment.png' type='image/png' size='31944'/>
+                <attachment title='Screenshot' source='a6a0920b-3af6-4031-81fd-35912b51ba40-attachment.png' type='image/png' size='31944'/>
+                <attachment title='Screenshot' source='9ceab4e2-8385-4e5c-8442-1374574b0d50-attachment.png' type='image/png' size='31944'/>
+                <attachment title='Screenshot' source='d8d3355f-299c-4cc3-97f0-f963cc14870e-attachment.png' type='image/png' size='31944'/>
+                <attachment title='Screenshot' source='3d7762be-11ea-482c-b755-f2ba8e094d31-attachment.png' type='image/png' size='31944'/>
+                <attachment title='Screenshot' source='e360684e-b4d8-42fc-8ae8-28a79b2a81d7-attachment.png' type='image/png' size='31944'/>
+                <attachment title='Screenshot' source='95f249f3-13d6-4000-a6fe-dff6666cff22-attachment.png' type='image/png' size='31944'/>
+                <attachment title='Execution video' source='8524fa45-268a-46ff-9234-81f157b3c50b-attachment.mp4' type='video/mp4' size='170'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have url
+                
+                Expected: "https://primafreshmart.com/customer/account/create/"
+                Received: "https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/createpost/"</message>
+                <stack-trace>Error: Expect window to have url
+                
+                Expected: "https://primafreshmart.com/customer/account/create/"
+                Received: "https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/createpost/"
+                    at Context.&lt;anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\register\/successgendermale.register.js:23:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

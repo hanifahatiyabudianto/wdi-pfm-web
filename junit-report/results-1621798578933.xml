@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer failed forgot password" timestamp="2021-05-24T02:36:23" time="8.172" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer failed forgot password"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\forgotpassword\tomanyrequested.forgotpassword.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer failed forgot password" name="should forgot password with valid credentials but to many requested" time="8.071">
+      <system-out><![CDATA[
+COMMAND: POST /session/afa17a8547a00ba8e8d794b799f83246/window/maximize - {}
+COMMAND: POST /session/afa17a8547a00ba8e8d794b799f83246/element - {"using":"css selector","value":"div.secondary > a.action.remind"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+COMMAND: GET /session/afa17a8547a00ba8e8d794b799f83246/screenshot - {}
+RESULT: {"using":"css selector","value":"div.secondary > a.action.remind"}
+COMMAND: POST /session/afa17a8547a00ba8e8d794b799f83246/element/a6f73779-d47e-4bf9-abdc-c08b23d07040/click - {}
+RESULT: {}
+COMMAND: GET /session/afa17a8547a00ba8e8d794b799f83246/screenshot - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/afa17a8547a00ba8e8d794b799f83246/screenshot - {}
+COMMAND: POST /session/afa17a8547a00ba8e8d794b799f83246/element - {"using":"css selector","value":"#forgotpass-title"}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#forgotpass-title"}
+COMMAND: GET /session/afa17a8547a00ba8e8d794b799f83246/element/e6570a4d-a7ae-4c4b-a305-8855310685f5/text - {}
+RESULT: {}
+COMMAND: POST /session/afa17a8547a00ba8e8d794b799f83246/element - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/afa17a8547a00ba8e8d794b799f83246/element/5ff3c200-4e96-4375-827e-5c9928867fe0/clear - {}
+RESULT: {}
+COMMAND: GET /session/afa17a8547a00ba8e8d794b799f83246/screenshot - {}
+COMMAND: POST /session/afa17a8547a00ba8e8d794b799f83246/element/5ff3c200-4e96-4375-827e-5c9928867fe0/value - {"text":"hello.hanifahatiya@gmail.com"}
+RESULT: {}
+RESULT: {"text":"hello.hanifahatiya@gmail.com"}
+COMMAND: GET /session/afa17a8547a00ba8e8d794b799f83246/screenshot - {}
+COMMAND: POST /session/afa17a8547a00ba8e8d794b799f83246/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/afa17a8547a00ba8e8d794b799f83246/element/44f5a3c8-3c42-4782-bd09-b80bd69de92e/click - {}
+RESULT: {}
+COMMAND: GET /session/afa17a8547a00ba8e8d794b799f83246/screenshot - {}
+COMMAND: GET /session/afa17a8547a00ba8e8d794b799f83246/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/afa17a8547a00ba8e8d794b799f83246/screenshot - {}
+COMMAND: POST /session/afa17a8547a00ba8e8d794b799f83246/element - {"using":"css selector","value":"div.message-error.error.message"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"div.message-error.error.message"}
+COMMAND: POST /session/afa17a8547a00ba8e8d794b799f83246/elements - {"using":"css selector","value":"div.message-error.error.message"}
+RESULT: {"using":"css selector","value":"div.message-error.error.message"}
+COMMAND: POST /session/afa17a8547a00ba8e8d794b799f83246/element - {"using":"css selector","value":"div.message-error.error.message"}
+RESULT: {"using":"css selector","value":"div.message-error.error.message"}
+COMMAND: GET /session/afa17a8547a00ba8e8d794b799f83246/element/1c78352a-097f-47c1-aff2-fee8964c1543/text - {}
+RESULT: {}
+COMMAND: GET /session/afa17a8547a00ba8e8d794b799f83246/screenshot - {}
+COMMAND: DELETE /session/afa17a8547a00ba8e8d794b799f83246 - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

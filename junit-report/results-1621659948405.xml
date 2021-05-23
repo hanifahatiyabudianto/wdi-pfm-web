@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer success login" timestamp="2021-05-22T12:05:57" time="11.799" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer success login"/>
+      <property name="capabilities" value="chrome.90_0_4430_72.windows"/>
+      <property name="file" value=".\test\specs\case\positive\login\success.login.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_72.windows.Customer success login" name="should login with valid credentials" time="11.77">
+      <system-out><![CDATA[
+COMMAND: POST /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c/window/current/maximize - {}
+COMMAND: POST /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c/element/0/clear - {}
+RESULT: {}
+COMMAND: POST /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c/element/0/value - {"value":["h","e","l","l","o",".","h","a","n","i","(18 more items)"]}
+RESULT: {"value":["h","e","l","l","o",".","h","a","n","i","(18 more items)"]}
+COMMAND: POST /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c/element/1/clear - {}
+RESULT: {}
+COMMAND: POST /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c/element/1/value - {"value":["P","f","m","1","2","3","4","5"]}
+RESULT: {"value":["P","f","m","1","2","3","4","5"]}
+COMMAND: POST /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c/element/2/click - {}
+RESULT: {}
+COMMAND: GET /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c/url - {}
+RESULT: {}
+COMMAND: POST /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c/element - {"using":"css selector","value":"#close-profile-popup"}
+RESULT: {"using":"css selector","value":"#close-profile-popup"}
+COMMAND: GET /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c/element/3/displayed - {}
+RESULT: {}
+COMMAND: POST /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c/execute - {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\",\"reason\": \"Assertions passed\"}}"}
+COMMAND: GET /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c/screenshot - {}
+COMMAND: DELETE /session/0c7cb10d3c28ab6c4b343f8365f8f28439fd8d8c - {}
+RESULT: {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\",\"reason\": \"Assertions passed\"}}"}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

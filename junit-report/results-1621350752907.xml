@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Prima Freshmart Customer Login" timestamp="2021-05-18T22:12:41" time="25.513" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Prima Freshmart Customer Login"/>
+      <property name="capabilities" value="chrome.90_0_4430_72.windows"/>
+      <property name="file" value=".\test\specs\case\positive\login\view.myaccount.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_72.windows.Prima Freshmart Customer Login" name="should login with valid credentials" time="18.748">
+      <system-out><![CDATA[
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/window/current/maximize - {}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://primafreshmart.com/customer/account/login"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element/0/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element/0/value - {"value":["h","e","l","l","o",".","h","a","n","i","(18 more items)"]}
+RESULT: {"value":["h","e","l","l","o",".","h","a","n","i","(18 more items)"]}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element/1/clear - {}
+RESULT: {}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element/1/value - {"value":["P","f","m","1","2","3","4","5"]}
+RESULT: {"value":["P","f","m","1","2","3","4","5"]}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element/2/click - {}
+RESULT: {}
+COMMAND: GET /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/url - {}
+RESULT: {}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element - {"using":"css selector","value":"#close-profile-popup"}
+RESULT: {"using":"css selector","value":"#close-profile-popup"}
+COMMAND: GET /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element/3/displayed - {}
+RESULT: {}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/execute - {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\",\"reason\": \"Assertions passed\"}}"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.90_0_4430_72.windows.Prima Freshmart Customer Login" name="should avatar will be displayed" time="1.642">
+      <system-out><![CDATA[
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/window/current/maximize - {}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element - {"using":"css selector","value":"#close-profile-popup"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#close-profile-popup"}
+COMMAND: GET /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element/3/displayed - {}
+RESULT: {}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/execute - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"3","ELEMENT":"3"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"3","ELEMENT":"3"}]}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element - {"using":"css selector","value":"#close-profile-popup"}
+RESULT: {"using":"css selector","value":"#close-profile-popup"}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element/3/click - {}
+RESULT: {}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element - {"using":"css selector","value":"span.avatar-name"}
+RESULT: {"using":"css selector","value":"span.avatar-name"}
+COMMAND: GET /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element/4/displayed - {}
+RESULT: {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\",\"reason\": \"Assertions passed\"}}"}
+RESULT: {}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element - {"using":"css selector","value":"span.avatar-name"}
+RESULT: {"using":"css selector","value":"span.avatar-name"}
+COMMAND: GET /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element/4/text - {}
+RESULT: {}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/execute - {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\",\"reason\": \"Assertions passed\"}}"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.90_0_4430_72.windows.Prima Freshmart Customer Login" name="should direct to my account page" time="5.055">
+      <system-out><![CDATA[
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/window/current/maximize - {}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element - {"using":"css selector","value":"#profile-popup-account"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#profile-popup-account"}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/element/5/click - {}
+RESULT: {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\",\"reason\": \"Assertions passed\"}}"}
+RESULT: {}
+COMMAND: GET /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/url - {}
+RESULT: {}
+COMMAND: GET /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/title - {}
+RESULT: {}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/execute - {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\",\"reason\": \"Assertions passed\"}}"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.90_0_4430_72.windows.Prima Freshmart Customer Login" name="should save a screenshot of the browser view of account page" time="0.023">
+      <system-out><![CDATA[
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/window/current/maximize - {}
+COMMAND: GET /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/screenshot - {}
+COMMAND: GET /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/screenshot - {}
+COMMAND: POST /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555/execute - {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\",\"reason\": \"Assertions passed\"}}"}
+RESULT: {}
+RESULT: {}
+COMMAND: DELETE /session/91a0aea723b4764ecb2979d93a9a0d7ac35a0555 - {}
+RESULT: {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\",\"reason\": \"Assertions passed\"}}"}
+RESULT: {}
+RESULT: {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\",\"reason\": \"Assertions passed\"}}"}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

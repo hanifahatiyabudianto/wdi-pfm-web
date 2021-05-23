@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer did not fill email register form" timestamp="2021-05-22T14:45:11" time="8.329" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer did not fill email register form"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\register\emptyemail.register.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer did not fill email register form" name="should show error message when empty email" time="8.301">
+      <system-out><![CDATA[
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/window/maximize - {}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/a98912f6-9ee2-4063-acb2-e246cba0a1c7/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/a98912f6-9ee2-4063-acb2-e246cba0a1c7/value - {"text":""}
+RESULT: {"text":""}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/ce72f9bb-2a1a-4e4e-9121-a9d76b85a715/clear - {}
+RESULT: {}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/ce72f9bb-2a1a-4e4e-9121-a9d76b85a715/value - {"text":"Pfm12345"}
+RESULT: {"text":"Pfm12345"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element - {"using":"css selector","value":"#password_confirmation"}
+RESULT: {"using":"css selector","value":"#password_confirmation"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/81ed67c8-f7a6-4149-a18c-c9e6a17887dc/clear - {}
+RESULT: {}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/81ed67c8-f7a6-4149-a18c-c9e6a17887dc/value - {"text":"Pfm12345"}
+RESULT: {"text":"Pfm12345"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element - {"using":"css selector","value":"#firstname"}
+RESULT: {"using":"css selector","value":"#firstname"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/a3b77327-2a4e-48a8-b6ef-94089fb262e8/clear - {}
+RESULT: {}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/a3b77327-2a4e-48a8-b6ef-94089fb262e8/value - {"text":"Pfm Wdio Satu"}
+RESULT: {"text":"Pfm Wdio Satu"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element - {"using":"css selector","value":"#nik"}
+RESULT: {"using":"css selector","value":"#nik"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/e00bf049-70c3-433e-968f-d4e9b3e28b8b/clear - {}
+RESULT: {}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/e00bf049-70c3-433e-968f-d4e9b3e28b8b/value - {"text":"0001112223330001"}
+RESULT: {"text":"0001112223330001"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element - {"using":"css selector","value":"#phone_number"}
+RESULT: {"using":"css selector","value":"#phone_number"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/7579b355-49e1-4d1f-98d2-302f713b5f2f/clear - {}
+RESULT: {}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/7579b355-49e1-4d1f-98d2-302f713b5f2f/value - {"text":"8123400000001"}
+RESULT: {"text":"8123400000001"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element - {"using":"css selector","value":"#dob"}
+RESULT: {"using":"css selector","value":"#dob"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/7a4b658d-e34c-41d8-b2e8-fca1418677e3/clear - {}
+RESULT: {}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/7a4b658d-e34c-41d8-b2e8-fca1418677e3/value - {"text":"01-01-1985"}
+RESULT: {"text":"01-01-1985"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element - {"using":"css selector","value":"form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark"}
+RESULT: {"using":"css selector","value":"form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/206c8a63-5173-46be-8713-cfb00ecee3b3/click - {}
+RESULT: {}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element/97d983f5-9901-4af8-9050-a26ecee63d86/click - {}
+RESULT: {}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"e51a523e-5fc5-46c7-8955-0bbe88c548a4","ELEMENT":"e51a523e-5fc5-46c7-8955-0bbe88c548a4"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"e51a523e-5fc5-46c7-8955-0bbe88c548a4","ELEMENT":"e51a523e-5fc5-46c7-8955-0bbe88c548a4"}]}
+COMMAND: POST /session/027e448d07e23d475a755b806b55fd37/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: GET /session/027e448d07e23d475a755b806b55fd37/element/e51a523e-5fc5-46c7-8955-0bbe88c548a4/text - {}
+RESULT: {}
+COMMAND: GET /session/027e448d07e23d475a755b806b55fd37/screenshot - {}
+COMMAND: DELETE /session/027e448d07e23d475a755b806b55fd37 - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

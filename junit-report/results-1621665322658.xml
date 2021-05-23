@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Prima Freshmart Customer Login" timestamp="2021-05-22T13:35:31" time="101.156" tests="4" failures="3" errors="3" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Prima Freshmart Customer Login"/>
+      <property name="capabilities" value="chrome.90_0_4430_72.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\login\view.myaccount.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_72.windows.Prima Freshmart Customer Login" name="should login with valid credentials" time="29.25">
+      <failure/>
+      <error message="Expect window to have url&#xA;&#xA;Expected: &quot;https://primafreshmart.com/&quot;&#xA;Received: &quot;https://eprimafreshmart.cp.co.id/pfm/index.php/&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/window/current/maximize - {}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element/0/clear - {}
+RESULT: {}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element/0/value - {"value":["h","e","l","l","o",".","h","a","n","i","(18 more items)"]}
+RESULT: {"value":["h","e","l","l","o",".","h","a","n","i","(18 more items)"]}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element/1/clear - {}
+RESULT: {}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element/1/value - {"value":["P","f","m","1","2","3","4","5"]}
+RESULT: {"value":["P","f","m","1","2","3","4","5"]}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element/2/click - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/url - {}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/execute - {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"failed\",\"reason\": \"At least 1 assertion failed\"}}"}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect window to have url
+
+Expected: "https://primafreshmart.com/"
+Received: "https://eprimafreshmart.cp.co.id/pfm/index.php/"
+    at successLogin (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\login\/view.myaccount.js:15:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+    <testcase classname="chrome.90_0_4430_72.windows.Prima Freshmart Customer Login" name="should avatar will be displayed" time="11.827">
+      <failure/>
+      <error message="Expect $(`span.avatar-name`) to have text containing&#xA;&#xA;Expected: &quot;Atiya&quot;&#xA;Received: &quot;Hani Hani&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/window/current/maximize - {}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element - {"using":"css selector","value":"#close-profile-popup"}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#close-profile-popup"}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/3/displayed - {}
+RESULT: {}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/execute - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"3","ELEMENT":"3"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"3","ELEMENT":"3"}]}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element - {"using":"css selector","value":"#close-profile-popup"}
+RESULT: {"using":"css selector","value":"#close-profile-popup"}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element/3/click - {}
+RESULT: {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"failed\",\"reason\": \"At least 1 assertion failed\"}}"}
+RESULT: {}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element - {"using":"css selector","value":"span.avatar-name"}
+RESULT: {"using":"css selector","value":"span.avatar-name"}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/displayed - {}
+RESULT: {}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element - {"using":"css selector","value":"span.avatar-name"}
+RESULT: {"using":"css selector","value":"span.avatar-name"}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/element/4/text - {}
+RESULT: {}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/execute - {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"failed\",\"reason\": \"At least 1 assertion failed\"}}"}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`span.avatar-name`) to have text containing
+
+Expected: "Atiya"
+Received: "Hani Hani"
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\login\/view.myaccount.js:31:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+    <testcase classname="chrome.90_0_4430_72.windows.Prima Freshmart Customer Login" name="should direct to my account page" time="60.006">
+      <failure/>
+      <error message="Timeout of 60000ms exceeded. The execution in the test &quot;Prima Freshmart Customer Login should direct to my account page&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\login\view.myaccount.js)"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/window/current/maximize - {}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element - {"using":"css selector","value":"#profile-popup-account"}
+RESULT: {"using":"css selector","value":"#profile-popup-account"}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/element/5/click - {}
+RESULT: {}
+RESULT: {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"failed\",\"reason\": \"At least 1 assertion failed\"}}"}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Timeout of 60000ms exceeded. The execution in the test "Prima Freshmart Customer Login should direct to my account page" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\login\view.myaccount.js)
+    at createTimeoutError (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\mocha\lib\errors.js:498:15)
+    at Test.Runnable._timeoutError (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\mocha\lib\runnable.js:431:10)
+    at Timeout.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\mocha\lib\runnable.js:246:24)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+]]></system-err>
+    </testcase>
+    <testcase classname="chrome.90_0_4430_72.windows.Prima Freshmart Customer Login" name="should save a screenshot of the browser view of account page" time="0.02">
+      <system-out><![CDATA[
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/window/current/maximize - {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/screenshot - {}
+COMMAND: GET /session/522925c376674266c0c1108808e754aff8036e57/screenshot - {}
+COMMAND: POST /session/522925c376674266c0c1108808e754aff8036e57/execute - {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\",\"reason\": \"Assertions passed\"}}"}
+COMMAND: DELETE /session/522925c376674266c0c1108808e754aff8036e57 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

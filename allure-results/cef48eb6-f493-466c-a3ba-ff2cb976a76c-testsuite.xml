@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621789441538' stop='1621789456982'>
+    <name>Customer did not fill nik register form</name>
+    <title>Customer did not fill nik register form</title>
+    <test-cases>
+        <test-case start='1621789441538' status='broken' stop='1621789456981'>
+            <name>should show error message when empty nik</name>
+            <title>should show error message when empty nik</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d8e21c57-65f7-46fa-80de-3df09a1042ab-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='76d67e5e-82b7-474e-84b7-4c9fb9ea2656-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='d6f4d299-92e9-4c52-bd51-ab3de9cebef6-attachment.png' type='image/png' size='74062'/>
+                <attachment title='Screenshot' source='c067bf78-4fec-4c5e-882d-5e99cbef20c1-attachment.png' type='image/png' size='75895'/>
+                <attachment title='Screenshot' source='c9840fb3-7c3d-4427-b8c5-9213d7ac684d-attachment.png' type='image/png' size='75875'/>
+                <attachment title='Screenshot' source='7512f9a4-b164-4a9c-a0f7-f71b384e4e82-attachment.png' type='image/png' size='72815'/>
+                <attachment title='Screenshot' source='a3bb9533-f7a5-4c5d-ace8-479ac3b38667-attachment.png' type='image/png' size='72778'/>
+                <attachment title='Screenshot' source='f4bb1f78-7b1d-4add-994b-bb041f557449-attachment.png' type='image/png' size='68909'/>
+                <attachment title='Screenshot' source='7db72036-3cfc-4e4a-94ef-61d4aaf9dd25-attachment.png' type='image/png' size='68865'/>
+                <attachment title='Screenshot' source='37aa839d-3708-4525-a1d8-d767a1bcf594-attachment.png' type='image/png' size='68281'/>
+                <attachment title='Execution video' source='cbab1cb4-e36c-4b21-8ff2-172a27d25538-attachment.mp4' type='video/mp4' size='169'/>
+            </attachments>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=90.0.4430.212)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=90.0.4430.212)
+                    at Object.getErrorFromResponseBody (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer did not fill nik register form" timestamp="2021-05-23T23:46:28" time="12.543" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer did not fill nik register form"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\register\successgendermale.register.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer did not fill nik register form" name="should show error message when empty nik" time="12.142">
+      <failure/>
+      <error message="Options must be an object"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/916b39f4bc574323045791c9f8d62a16/window/maximize - {}
+COMMAND: POST /session/916b39f4bc574323045791c9f8d62a16/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create"}
+COMMAND: GET /session/916b39f4bc574323045791c9f8d62a16/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/916b39f4bc574323045791c9f8d62a16/screenshot - {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/916b39f4bc574323045791c9f8d62a16/element/a1b6b1c0-cda1-43fa-addf-672ce92bd121/clear - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/916b39f4bc574323045791c9f8d62a16/screenshot - {}
+COMMAND: POST /session/916b39f4bc574323045791c9f8d62a16/element/a1b6b1c0-cda1-43fa-addf-672ce92bd121/value - {"text":"pfmwdio1@yopmail.com"}
+RESULT: {}
+RESULT: {"text":"pfmwdio1@yopmail.com"}
+COMMAND: GET /session/916b39f4bc574323045791c9f8d62a16/screenshot - {}
+COMMAND: POST /session/916b39f4bc574323045791c9f8d62a16/element - {"using":"css selector","value":"#password"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/916b39f4bc574323045791c9f8d62a16/element/56d6c5c4-9213-46ed-9014-002c1d7fa018/clear - {}
+RESULT: {}
+COMMAND: GET /session/916b39f4bc574323045791c9f8d62a16/screenshot - {}
+COMMAND: POST /session/916b39f4bc574323045791c9f8d62a16/element/56d6c5c4-9213-46ed-9014-002c1d7fa018/value - {"text":"Pfm12345"}
+RESULT: {}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/916b39f4bc574323045791c9f8d62a16/screenshot - {}
+COMMAND: POST /session/916b39f4bc574323045791c9f8d62a16/element - {"using":"css selector","value":"#password_confirmation"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password_confirmation"}
+COMMAND: POST /session/916b39f4bc574323045791c9f8d62a16/element/53b510a1-fcda-4b2e-ab6b-5634f246b1d0/clear - {}
+RESULT: {}
+COMMAND: GET /session/916b39f4bc574323045791c9f8d62a16/screenshot - {}
+COMMAND: POST /session/916b39f4bc574323045791c9f8d62a16/element/53b510a1-fcda-4b2e-ab6b-5634f246b1d0/value - {"text":"Pfm12345"}
+RESULT: {}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/916b39f4bc574323045791c9f8d62a16/screenshot - {}
+COMMAND: POST /session/916b39f4bc574323045791c9f8d62a16/element - {"using":"css selector","value":"#firstname"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#firstname"}
+COMMAND: POST /session/916b39f4bc574323045791c9f8d62a16/element/01aefdc8-578c-4e15-bd4a-b39a1128f1e3/clear - {}
+RESULT: {}
+COMMAND: GET /session/916b39f4bc574323045791c9f8d62a16/screenshot - {}
+COMMAND: POST /session/916b39f4bc574323045791c9f8d62a16/element/01aefdc8-578c-4e15-bd4a-b39a1128f1e3/value - {"text":"Pfm Wdio Satu"}
+RESULT: {}
+RESULT: {"text":"Pfm Wdio Satu"}
+COMMAND: GET /session/916b39f4bc574323045791c9f8d62a16/screenshot - {}
+COMMAND: POST /session/916b39f4bc574323045791c9f8d62a16/element - {"using":"css selector","value":"#male"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#male"}
+COMMAND: GET /session/916b39f4bc574323045791c9f8d62a16/screenshot - {}
+COMMAND: GET /session/916b39f4bc574323045791c9f8d62a16/screenshot - {}
+COMMAND: DELETE /session/916b39f4bc574323045791c9f8d62a16 - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+TypeError: Options must be an object
+    at Element.click (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\commands\element\click.js:78:15)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:38)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Element.elementErrorHandlerCallbackFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\middlewares.js:23:32)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at RegisterPage.register (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\pageobjects\estore\/register.page.js:46:9)
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\register\/successgendermale.register.js:22:9)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

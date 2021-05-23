@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer did not fill email login form" timestamp="2021-05-22T13:38:54" time="25.25" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer did not fill email login form"/>
+      <property name="capabilities" value="chrome.90_0_4430_72.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\login\emptyemail.login.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_72.windows.Customer did not fill email login form" name="should show error message when empty email" time="25.183">
+      <failure/>
+      <error message="Expect $(`#email-error`) to be displayed&#xA;&#xA;Expected: &quot;displayed&quot;&#xA;Received: &quot;not displayed&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/window/current/maximize - {}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://primafreshmart.com/customer/account/login"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element/0/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element/0/value - {"value":[]}
+RESULT: {"value":[]}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element/1/clear - {}
+RESULT: {}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element/1/value - {"value":["P","f","m","1","2","3","4","5"]}
+RESULT: {"value":["P","f","m","1","2","3","4","5"]}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element/2/click - {}
+RESULT: {}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/element - {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/execute - {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"failed\",\"reason\": \"At least 1 assertion failed\"}}"}
+COMMAND: GET /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7/screenshot - {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: DELETE /session/5d4befd70d25dc1446d1859864f0d0e6941fbea7 - {}
+RESULT: {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"failed\",\"reason\": \"At least 1 assertion failed\"}}"}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`#email-error`) to be displayed
+
+Expected: "displayed"
+Received: "not displayed"
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\login\/emptyemail.login.js:23:46)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

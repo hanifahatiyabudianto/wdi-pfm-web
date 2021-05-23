@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621787018025' stop='1621787050545'>
+    <name>Customer did not fill password confirm register form</name>
+    <title>Customer did not fill password confirm register form</title>
+    <test-cases>
+        <test-case start='1621787018026' status='failed' stop='1621787050544'>
+            <name>should show error message when empty password confirm</name>
+            <title>should show error message when empty password confirm</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='73de0228-7267-456b-b4da-46f97022b0e2-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='ec285e53-7d75-40ff-8258-c1435f1d9c7a-attachment.png' type='image/png' size='74062'/>
+                <attachment title='Screenshot' source='6e4eaf21-bdca-44f5-8a6c-40beaea9e104-attachment.png' type='image/png' size='74062'/>
+                <attachment title='Screenshot' source='8f7b75e7-a939-4261-a9ed-1d5868083e74-attachment.png' type='image/png' size='75895'/>
+                <attachment title='Screenshot' source='a5de50fc-5961-421b-9536-47816a70c3be-attachment.png' type='image/png' size='75875'/>
+                <attachment title='Screenshot' source='d31e0d28-770b-48e8-840d-3514fda75850-attachment.png' type='image/png' size='72815'/>
+                <attachment title='Screenshot' source='2ad5775b-09d0-4553-9de1-7bd8adbbb646-attachment.png' type='image/png' size='72815'/>
+                <attachment title='Screenshot' source='e0c23f96-a269-4bc0-ad7f-649772fc78a2-attachment.png' type='image/png' size='72807'/>
+                <attachment title='Screenshot' source='cfc45661-8bbf-4b4c-9a1f-128827a31308-attachment.png' type='image/png' size='72807'/>
+                <attachment title='Screenshot' source='3843742a-1754-4852-98f3-01d4d83d1d62-attachment.png' type='image/png' size='72185'/>
+                <attachment title='Screenshot' source='3575ca02-83c7-495e-8568-4297e08c6dcf-attachment.png' type='image/png' size='61134'/>
+                <attachment title='Screenshot' source='4e35ed48-2f53-47eb-b1b2-afb1402855ab-attachment.png' type='image/png' size='61162'/>
+                <attachment title='Screenshot' source='09580fab-29f8-45ba-a654-2f068980cb30-attachment.png' type='image/png' size='61134'/>
+                <attachment title='Screenshot' source='a85b7db0-d886-4de0-8b7a-644af32957a7-attachment.png' type='image/png' size='62775'/>
+                <attachment title='Screenshot' source='9732804f-df54-4e7d-ba23-d7e7f2544b47-attachment.png' type='image/png' size='62756'/>
+                <attachment title='Screenshot' source='578c524d-b673-45c6-ae31-73d8b06efac8-attachment.png' type='image/png' size='76935'/>
+                <attachment title='Screenshot' source='106f15b6-a59a-498b-8a53-9734eeee3310-attachment.png' type='image/png' size='62136'/>
+                <attachment title='Screenshot' source='681b5a45-dfc7-4ad5-8b43-699707c8089c-attachment.png' type='image/png' size='61167'/>
+                <attachment title='Execution video' source='e20a3509-01dc-4e36-a3f2-da64b60d917d-attachment.mp4' type='video/mp4' size='195'/>
+            </attachments>
+            <failure>
+                <message>Expect  to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"</message>
+                <stack-trace>Error: Expect  to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"
+                    at Context.&lt;anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\register\/emptypasswordconfirm.register.js:23:52)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

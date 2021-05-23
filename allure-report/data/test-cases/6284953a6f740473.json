@@ -1,0 +1,192 @@
+{
+  "uid" : "6284953a6f740473",
+  "name" : "should show error message when empty email",
+  "fullName" : "Customer did not fill email register form.should show error message when empty email",
+  "historyId" : "5e0e9e3a4f42661229303a7643746d43",
+  "time" : {
+    "start" : 1621670528462,
+    "stop" : 1621670543075,
+    "duration" : 14613
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fa778ffb558c951d",
+      "name" : "Screenshot",
+      "source" : "fa778ffb558c951d.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "1fcc88a2b5a34422",
+      "name" : "Screenshot",
+      "source" : "1fcc88a2b5a34422.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "9e4baf5da419a09c",
+      "name" : "Screenshot",
+      "source" : "9e4baf5da419a09c.png",
+      "type" : "image/png",
+      "size" : 74062
+    }, {
+      "uid" : "a25f182314f0ca6d",
+      "name" : "Screenshot",
+      "source" : "a25f182314f0ca6d.png",
+      "type" : "image/png",
+      "size" : 74067
+    }, {
+      "uid" : "5d845a0cd14b988c",
+      "name" : "Screenshot",
+      "source" : "5d845a0cd14b988c.png",
+      "type" : "image/png",
+      "size" : 74062
+    }, {
+      "uid" : "7189a53d76dcb4b0",
+      "name" : "Screenshot",
+      "source" : "7189a53d76dcb4b0.png",
+      "type" : "image/png",
+      "size" : 70992
+    }, {
+      "uid" : "41afd2e459118297",
+      "name" : "Screenshot",
+      "source" : "41afd2e459118297.png",
+      "type" : "image/png",
+      "size" : 70959
+    }, {
+      "uid" : "cc67d0c45a3d85db",
+      "name" : "Screenshot",
+      "source" : "cc67d0c45a3d85db.png",
+      "type" : "image/png",
+      "size" : 67274
+    }, {
+      "uid" : "76420278657b0a9",
+      "name" : "Screenshot",
+      "source" : "76420278657b0a9.png",
+      "type" : "image/png",
+      "size" : 67241
+    }, {
+      "uid" : "2099dff64bdf2db3",
+      "name" : "Screenshot",
+      "source" : "2099dff64bdf2db3.png",
+      "type" : "image/png",
+      "size" : 66634
+    }, {
+      "uid" : "51004349267d3039",
+      "name" : "Screenshot",
+      "source" : "51004349267d3039.png",
+      "type" : "image/png",
+      "size" : 57448
+    }, {
+      "uid" : "2868febdc6b9e841",
+      "name" : "Screenshot",
+      "source" : "2868febdc6b9e841.png",
+      "type" : "image/png",
+      "size" : 57448
+    }, {
+      "uid" : "bcb4cb138c4b6c98",
+      "name" : "Screenshot",
+      "source" : "bcb4cb138c4b6c98.png",
+      "type" : "image/png",
+      "size" : 57423
+    }, {
+      "uid" : "c322387c52e3bc39",
+      "name" : "Screenshot",
+      "source" : "c322387c52e3bc39.png",
+      "type" : "image/png",
+      "size" : 58900
+    }, {
+      "uid" : "10371ab2ab56e0a7",
+      "name" : "Screenshot",
+      "source" : "10371ab2ab56e0a7.png",
+      "type" : "image/png",
+      "size" : 73020
+    }, {
+      "uid" : "efc32dab2ddfc4f2",
+      "name" : "Screenshot",
+      "source" : "efc32dab2ddfc4f2.png",
+      "type" : "image/png",
+      "size" : 73020
+    }, {
+      "uid" : "5eb07e43574aa162",
+      "name" : "Screenshot",
+      "source" : "5eb07e43574aa162.png",
+      "type" : "image/png",
+      "size" : 75239
+    }, {
+      "uid" : "300731f26e528ea5",
+      "name" : "Screenshot",
+      "source" : "300731f26e528ea5.png",
+      "type" : "image/png",
+      "size" : 67144
+    }, {
+      "uid" : "64da3f856a5c2a22",
+      "name" : "Execution video",
+      "source" : "64da3f856a5c2a22.mp4",
+      "type" : "video/mp4",
+      "size" : 42229
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 19,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Register"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty email"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6284953a6f740473.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

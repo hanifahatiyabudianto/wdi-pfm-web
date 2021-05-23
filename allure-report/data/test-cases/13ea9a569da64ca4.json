@@ -1,0 +1,139 @@
+{
+  "uid" : "13ea9a569da64ca4",
+  "name" : "should register with fill form data with gender is male",
+  "fullName" : "Customer success register.should register with fill form data with gender is male",
+  "historyId" : "3c4451632e1d58018dca338d6f324eac",
+  "time" : {
+    "start" : 1621791387493,
+    "stop" : 1621791398985,
+    "duration" : 11492
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=90.0.4430.212)",
+  "statusTrace" : "invalid selector: invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=90.0.4430.212)\n                    at Object.getErrorFromResponseBody (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Browser.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Browser.$ (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:83:17)\n                    at Browser.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at RegisterPage.register (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\pageobjects\\estore\\/register.page.js:46:16)\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\register\\/successgendermale.register.js:22:9)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=90.0.4430.212)",
+    "statusTrace" : "invalid selector: invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=90.0.4430.212)\n                    at Object.getErrorFromResponseBody (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Browser.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Browser.$ (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:83:17)\n                    at Browser.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at RegisterPage.register (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\pageobjects\\estore\\/register.page.js:46:16)\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\register\\/successgendermale.register.js:22:9)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a455d9735edfd841",
+      "name" : "Screenshot",
+      "source" : "a455d9735edfd841.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "461c35cfd9635fb6",
+      "name" : "Screenshot",
+      "source" : "461c35cfd9635fb6.png",
+      "type" : "image/png",
+      "size" : 74062
+    }, {
+      "uid" : "71f705a6898d71d6",
+      "name" : "Screenshot",
+      "source" : "71f705a6898d71d6.png",
+      "type" : "image/png",
+      "size" : 74062
+    }, {
+      "uid" : "b50bee2e10c07712",
+      "name" : "Screenshot",
+      "source" : "b50bee2e10c07712.png",
+      "type" : "image/png",
+      "size" : 75895
+    }, {
+      "uid" : "d0414ab36a79fc3e",
+      "name" : "Screenshot",
+      "source" : "d0414ab36a79fc3e.png",
+      "type" : "image/png",
+      "size" : 75875
+    }, {
+      "uid" : "ad7920988dc1dece",
+      "name" : "Screenshot",
+      "source" : "ad7920988dc1dece.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "bfb85fb2e137cd2d",
+      "name" : "Screenshot",
+      "source" : "bfb85fb2e137cd2d.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "3bf7f5c4bd89150",
+      "name" : "Screenshot",
+      "source" : "3bf7f5c4bd89150.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "a197e04b212e63fd",
+      "name" : "Screenshot",
+      "source" : "a197e04b212e63fd.png",
+      "type" : "image/png",
+      "size" : 68865
+    }, {
+      "uid" : "ec8bade6af5310d3",
+      "name" : "Screenshot",
+      "source" : "ec8bade6af5310d3.png",
+      "type" : "image/png",
+      "size" : 68281
+    }, {
+      "uid" : "eb96a599486dee55",
+      "name" : "Execution video",
+      "source" : "eb96a599486dee55.mp4",
+      "type" : "video/mp4",
+      "size" : 17664
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer success register"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer success register"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register with fill form data with gender is male"
+  }, {
+    "name" : "package",
+    "value" : "Customer success register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13ea9a569da64ca4.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

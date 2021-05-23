@@ -5,7 +5,7 @@
     "name" : "Prima Freshmart Customer Login",
     "children" : [ {
       "name" : "should save a screenshot of the browser view when success login",
-      "uid" : "cdba04479fd2aa25",
+      "uid" : "1235a46a6a49ebe3",
       "parentUid" : "428acf92daa9aaaf53af78d2d76a0af3",
       "status" : "passed",
       "time" : {
@@ -18,7 +18,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "b2b3ef6b0ce7319c",
+      "uid" : "43d212a69fd96a30",
       "parentUid" : "428acf92daa9aaaf53af78d2d76a0af3",
       "status" : "passed",
       "time" : {
@@ -31,7 +31,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should avatar will be displayed",
-      "uid" : "8f5b11aaa98ecfd4",
+      "uid" : "f44089d7d2c2b17e",
       "parentUid" : "428acf92daa9aaaf53af78d2d76a0af3",
       "status" : "passed",
       "time" : {
@@ -44,7 +44,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should direct to my account page",
-      "uid" : "5c4b0bd93228805e",
+      "uid" : "2173d40a5ace273",
       "parentUid" : "428acf92daa9aaaf53af78d2d76a0af3",
       "status" : "passed",
       "time" : {
@@ -57,7 +57,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should save a screenshot of the browser view of account page",
-      "uid" : "423d1b69e01eadac",
+      "uid" : "62bd5fa3b2622e00",
       "parentUid" : "428acf92daa9aaaf53af78d2d76a0af3",
       "status" : "passed",
       "time" : {
@@ -70,7 +70,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should save a screenshot of the browser view when success login",
-      "uid" : "b5db7977f892f23e",
+      "uid" : "9e6900a04b7430ae",
       "parentUid" : "428acf92daa9aaaf53af78d2d76a0af3",
       "status" : "passed",
       "time" : {
@@ -83,7 +83,7 @@
       "parameters" : [ "Chrome-90.0.4430.212", "90.0.4430.212" ]
     }, {
       "name" : "should save a screenshot of the browser view when success login",
-      "uid" : "e4e44c9b321b2429",
+      "uid" : "30a9d087eeed65bd",
       "parentUid" : "428acf92daa9aaaf53af78d2d76a0af3",
       "status" : "passed",
       "time" : {
@@ -96,7 +96,7 @@
       "parameters" : [ "Chrome-90.0.4430.212" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "ab33e5340f57843e",
+      "uid" : "28822d5c22662dff",
       "parentUid" : "428acf92daa9aaaf53af78d2d76a0af3",
       "status" : "passed",
       "time" : {
@@ -109,7 +109,7 @@
       "parameters" : [ "Chrome-90.0.4430.212" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "69f98186a476d37f",
+      "uid" : "73f98488dab8062e",
       "parentUid" : "428acf92daa9aaaf53af78d2d76a0af3",
       "status" : "passed",
       "time" : {
@@ -120,13 +120,65 @@
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Chrome-90.0.4430.212", "90.0.4430.212" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "f15b02c4bd550149",
+      "parentUid" : "428acf92daa9aaaf53af78d2d76a0af3",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621665331048,
+        "stop" : 1621665360307,
+        "duration" : 29259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.72" ]
+    }, {
+      "name" : "should avatar will be displayed",
+      "uid" : "ad9ba399388bac43",
+      "parentUid" : "428acf92daa9aaaf53af78d2d76a0af3",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621665360310,
+        "stop" : 1621665372137,
+        "duration" : 11827
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.72" ]
+    }, {
+      "name" : "should direct to my account page",
+      "uid" : "8aa1499cd7f33dea",
+      "parentUid" : "428acf92daa9aaaf53af78d2d76a0af3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1621665372143,
+        "stop" : 1621665432149,
+        "duration" : 60006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.72" ]
+    }, {
+      "name" : "should save a screenshot of the browser view of account page",
+      "uid" : "3c581973d70a6f63",
+      "parentUid" : "428acf92daa9aaaf53af78d2d76a0af3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621665432150,
+        "stop" : 1621665432170,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.72" ]
     } ],
     "uid" : "428acf92daa9aaaf53af78d2d76a0af3"
   }, {
     "name" : "Login Page negative case",
     "children" : [ {
       "name" : "should show error message when empty email",
-      "uid" : "3a1ce01dc25194b4",
+      "uid" : "52aed33bae31f5c1",
       "parentUid" : "646d1da3a9492ad39fb66209380b7d06",
       "status" : "passed",
       "time" : {
@@ -139,7 +191,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should save a screenshot of the browser view when empty email",
-      "uid" : "56265f364dd1242d",
+      "uid" : "f09cd96897806df9",
       "parentUid" : "646d1da3a9492ad39fb66209380b7d06",
       "status" : "passed",
       "time" : {
@@ -152,7 +204,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should show error message when empty password",
-      "uid" : "c1c5b7accb4890ef",
+      "uid" : "3f60ad4dd3ee3c8a",
       "parentUid" : "646d1da3a9492ad39fb66209380b7d06",
       "status" : "passed",
       "time" : {
@@ -165,7 +217,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should save a screenshot of the browser view when empty password",
-      "uid" : "b2716202749cb4c2",
+      "uid" : "80a934160688d368",
       "parentUid" : "646d1da3a9492ad39fb66209380b7d06",
       "status" : "passed",
       "time" : {
@@ -178,7 +230,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should show error message invalid format email",
-      "uid" : "29294795a1dc031a",
+      "uid" : "d509c8f758ca157c",
       "parentUid" : "646d1da3a9492ad39fb66209380b7d06",
       "status" : "passed",
       "time" : {
@@ -191,7 +243,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should save a screenshot of the browser view when invalid format email",
-      "uid" : "673aabf55537e90d",
+      "uid" : "17a3b05cc0580be5",
       "parentUid" : "646d1da3a9492ad39fb66209380b7d06",
       "status" : "passed",
       "time" : {
@@ -204,7 +256,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should show error message wrong password",
-      "uid" : "b4b853ca45894703",
+      "uid" : "8644bc8dcf172115",
       "parentUid" : "646d1da3a9492ad39fb66209380b7d06",
       "status" : "passed",
       "time" : {
@@ -217,7 +269,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should save a screenshot of the browser view when wrong password",
-      "uid" : "ec1628965aeb3361",
+      "uid" : "4cea356977cc25b2",
       "parentUid" : "646d1da3a9492ad39fb66209380b7d06",
       "status" : "passed",
       "time" : {
@@ -230,7 +282,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should show error message Confirmation Required",
-      "uid" : "b37b00790304abc9",
+      "uid" : "acdf43863e7397b4",
       "parentUid" : "646d1da3a9492ad39fb66209380b7d06",
       "status" : "passed",
       "time" : {
@@ -243,7 +295,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should save a screenshot of the browser view when Confirmation Required",
-      "uid" : "2cac83eba63d4769",
+      "uid" : "bc23b6e2f5bbd968",
       "parentUid" : "646d1da3a9492ad39fb66209380b7d06",
       "status" : "passed",
       "time" : {
@@ -260,7 +312,7 @@
     "name" : "Banner Homepage",
     "children" : [ {
       "name" : "should show the banner container",
-      "uid" : "8b885412c8fa03ac",
+      "uid" : "565f50f56ad09dd8",
       "parentUid" : "a19508f200fae31e0a97c21303f0bf5d",
       "status" : "passed",
       "time" : {
@@ -273,7 +325,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should show the banner image",
-      "uid" : "712b43b13fc64419",
+      "uid" : "5f22c80182ba0ad3",
       "parentUid" : "a19508f200fae31e0a97c21303f0bf5d",
       "status" : "passed",
       "time" : {
@@ -286,7 +338,7 @@
       "parameters" : [ "Edge-90.0.818.62" ]
     }, {
       "name" : "should slick next image banner",
-      "uid" : "dd31f5ace48aa89d",
+      "uid" : "8948048a4e8299ce",
       "parentUid" : "a19508f200fae31e0a97c21303f0bf5d",
       "status" : "passed",
       "time" : {
@@ -303,7 +355,7 @@
     "name" : "My Login application",
     "children" : [ {
       "name" : "should login with valid credentials",
-      "uid" : "812a4e703966d3ac",
+      "uid" : "6283af81f16c0b8a",
       "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
       "status" : "passed",
       "time" : {
@@ -320,7 +372,7 @@
     "name" : "Customer did not fill email register form",
     "children" : [ {
       "name" : "should show error message when empty email",
-      "uid" : "9e881b0c60aab069",
+      "uid" : "573f24f4b0eaa60c",
       "parentUid" : "b1877cf25a01eddb34c3e71d6b55e0e5",
       "status" : "passed",
       "time" : {
@@ -331,7 +383,361 @@
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "Chrome-90.0.4430.212", "90.0.4430.212" ]
+    }, {
+      "name" : "should show error message when empty email",
+      "uid" : "d0b472cb0197455a",
+      "parentUid" : "b1877cf25a01eddb34c3e71d6b55e0e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621670486161,
+        "stop" : 1621670494385,
+        "duration" : 8224
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "should show error message when empty email",
+      "uid" : "9a6a11b302ba9147",
+      "parentUid" : "b1877cf25a01eddb34c3e71d6b55e0e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621786432616,
+        "stop" : 1621786442640,
+        "duration" : 10024
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
     } ],
     "uid" : "b1877cf25a01eddb34c3e71d6b55e0e5"
+  }, {
+    "name" : "Customer success login",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "77bda6ec5cec5930",
+      "parentUid" : "3de8f9372e4c3d03cc8512583f024812",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621665705792,
+        "stop" : 1621665717980,
+        "duration" : 12188
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.72" ]
+    } ],
+    "uid" : "3de8f9372e4c3d03cc8512583f024812"
+  }, {
+    "name" : "Customer did not fill email login form",
+    "children" : [ {
+      "name" : "should show error message when empty email",
+      "uid" : "7b41989ff601c63d",
+      "parentUid" : "c012b869a44dd6753b2043647a09efa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621665784575,
+        "stop" : 1621665793154,
+        "duration" : 8579
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.72" ]
+    } ],
+    "uid" : "c012b869a44dd6753b2043647a09efa6"
+  }, {
+    "name" : "Customer did not fill password login form",
+    "children" : [ {
+      "name" : "should show error message when empty password",
+      "uid" : "b9b246f0dcbd5747",
+      "parentUid" : "aeecaa255d20d85c9ccf66055aff3e0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621665836853,
+        "stop" : 1621665844471,
+        "duration" : 7618
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.72" ]
+    } ],
+    "uid" : "aeecaa255d20d85c9ccf66055aff3e0e"
+  }, {
+    "name" : "Customer fill email login with invalid format",
+    "children" : [ {
+      "name" : "should show error message invalid format email",
+      "uid" : "5a20dd0a924cb683",
+      "parentUid" : "d33ea0a0f7b8ce0a21f526421a773dd2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621665892738,
+        "stop" : 1621665917440,
+        "duration" : 24702
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.72" ]
+    }, {
+      "name" : "should show error message invalid format email",
+      "uid" : "d891bd572363c6d0",
+      "parentUid" : "d33ea0a0f7b8ce0a21f526421a773dd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621666423545,
+        "stop" : 1621666428313,
+        "duration" : 4768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    } ],
+    "uid" : "d33ea0a0f7b8ce0a21f526421a773dd2"
+  }, {
+    "name" : "Customer fill password login with invalid format",
+    "children" : [ {
+      "name" : "should show error message wrong password",
+      "uid" : "65e4f85cc6a230db",
+      "parentUid" : "4b04ad41c040e2ba68d752dff74c5bc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621667749435,
+        "stop" : 1621667761528,
+        "duration" : 12093
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    } ],
+    "uid" : "4b04ad41c040e2ba68d752dff74c5bc7"
+  }, {
+    "name" : "Customer account has not been confirmed",
+    "children" : [ {
+      "name" : "should show message that the account has not been confirmed",
+      "uid" : "8b6d8d613a09b10e",
+      "parentUid" : "c9dab784600c1c3636085765b2d77ba0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621668411767,
+        "stop" : 1621668417314,
+        "duration" : 5547
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "should save a screenshot of the browser view when Confirmation Required",
+      "uid" : "7f7a9cc6822ee71d",
+      "parentUid" : "c9dab784600c1c3636085765b2d77ba0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621668417315,
+        "stop" : 1621668417325,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    } ],
+    "uid" : "c9dab784600c1c3636085765b2d77ba0"
+  }, {
+    "name" : "Customer did not fill name register form",
+    "children" : [ {
+      "name" : "should show error message when empty name",
+      "uid" : "6639b31204adb204",
+      "parentUid" : "e6135afb1a2bcfee98f5fc11562e0e68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621786723123,
+        "stop" : 1621786733830,
+        "duration" : 10707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    } ],
+    "uid" : "e6135afb1a2bcfee98f5fc11562e0e68"
+  }, {
+    "name" : "Customer did not fill password register form",
+    "children" : [ {
+      "name" : "should show error message when empty password",
+      "uid" : "dd38d63deba17116",
+      "parentUid" : "65e91017aab40daeb050936a06c35303",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621786937240,
+        "stop" : 1621786948997,
+        "duration" : 11757
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    } ],
+    "uid" : "65e91017aab40daeb050936a06c35303"
+  }, {
+    "name" : "Customer did not fill password confirm register form",
+    "children" : [ {
+      "name" : "should show error message when empty password confirm",
+      "uid" : "d8cf59a9b2a15d57",
+      "parentUid" : "d9cc0a569ef831193b9906d118224e3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621787208110,
+        "stop" : 1621787219996,
+        "duration" : 11886
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    } ],
+    "uid" : "d9cc0a569ef831193b9906d118224e3d"
+  }, {
+    "name" : "Customer did not fill phone number register form",
+    "children" : [ {
+      "name" : "should show error message when empty phone number",
+      "uid" : "2daffe9a51dc8fb8",
+      "parentUid" : "104cf459d4f721c2c9a2f1c28d8469d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621787949019,
+        "stop" : 1621787963461,
+        "duration" : 14442
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    } ],
+    "uid" : "104cf459d4f721c2c9a2f1c28d8469d6"
+  }, {
+    "name" : "Customer did not fill nik register form",
+    "children" : [ {
+      "name" : "should show error message when empty nik",
+      "uid" : "b73c013af1d07efc",
+      "parentUid" : "f23664d48fd345b789808c8bbce9a556",
+      "status" : "broken",
+      "time" : {
+        "start" : 1621789441538,
+        "stop" : 1621789456981,
+        "duration" : 15443
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    } ],
+    "uid" : "f23664d48fd345b789808c8bbce9a556"
+  }, {
+    "name" : "Customer success register",
+    "children" : [ {
+      "name" : "should register with fill form data with gender is male",
+      "uid" : "afa26500d80885e5",
+      "parentUid" : "98803e07262aa86cd8cf449ebe89f88b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621792487935,
+        "stop" : 1621792512486,
+        "duration" : 24551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    } ],
+    "uid" : "98803e07262aa86cd8cf449ebe89f88b"
+  }, {
+    "name" : "Customer did not check tnc register form",
+    "children" : [ {
+      "name" : "should show error message when did not check tnc",
+      "uid" : "cf10d15462216374",
+      "parentUid" : "ea5edbbb04357aba76a6c873d6e9a950",
+      "status" : "failed",
+      "time" : {
+        "start" : 1621792982136,
+        "stop" : 1621793008066,
+        "duration" : 25930
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    } ],
+    "uid" : "ea5edbbb04357aba76a6c873d6e9a950"
+  }, {
+    "name" : "Customer failed register",
+    "children" : [ {
+      "name" : "should register with fill with registered email",
+      "uid" : "c9a15a98f24d26f",
+      "parentUid" : "4a7d216e10a9befa1ff03fadde9399b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621794696057,
+        "stop" : 1621794708515,
+        "duration" : 12458
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    } ],
+    "uid" : "4a7d216e10a9befa1ff03fadde9399b8"
+  }, {
+    "name" : "Customer success back to login page",
+    "children" : [ {
+      "name" : "should redirect to login page",
+      "uid" : "2cc8856511bd58a7",
+      "parentUid" : "35e4e8922b92bb38b7e3321e5ffb4cf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621798393706,
+        "stop" : 1621798400202,
+        "duration" : 6496
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    } ],
+    "uid" : "35e4e8922b92bb38b7e3321e5ffb4cf1"
+  }, {
+    "name" : "Customer success forgot password",
+    "children" : [ {
+      "name" : "should forgot password with valid credentials",
+      "uid" : "91985d27fe011fe8",
+      "parentUid" : "bcd63e48cd515d1fd0cf2260635ce312",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621798445397,
+        "stop" : 1621798456736,
+        "duration" : 11339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    } ],
+    "uid" : "bcd63e48cd515d1fd0cf2260635ce312"
+  }, {
+    "name" : "Customer failed forgot password",
+    "children" : [ {
+      "name" : "should forgot password with empty email",
+      "uid" : "b9a21201310fa7a5",
+      "parentUid" : "2fde3b403b5046ec88be92a8fcdf88f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621798537124,
+        "stop" : 1621798543671,
+        "duration" : 6547
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    }, {
+      "name" : "should forgot password with valid credentials, but to many requested",
+      "uid" : "783bc406608030f",
+      "parentUid" : "2fde3b403b5046ec88be92a8fcdf88f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621798583417,
+        "stop" : 1621798591574,
+        "duration" : 8157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    } ],
+    "uid" : "2fde3b403b5046ec88be92a8fcdf88f6"
   } ]
 }

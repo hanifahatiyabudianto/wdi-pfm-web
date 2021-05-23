@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer failed register" timestamp="2021-05-24T01:19:56" time="21.166" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer failed register"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\register\registeredphonenumber.register.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer failed register" name="should register with fill with registered email" time="20.895">
+      <failure/>
+      <error message="Expect $(`#nik-error`) to be displayed&#xA;&#xA;Expected: &quot;displayed&quot;&#xA;Received: &quot;not displayed&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/window/maximize - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create"}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/1f302952-cce6-4749-af20-872fc26ee57c/clear - {}
+RESULT: {}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/1f302952-cce6-4749-af20-872fc26ee57c/value - {"text":"hello.hanifahatiya@gmail.com"}
+RESULT: {}
+RESULT: {}
+RESULT: {"text":"hello.hanifahatiya@gmail.com"}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#password"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/e2b524e5-7058-4b32-bcbe-aed2d87d5257/clear - {}
+RESULT: {}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/e2b524e5-7058-4b32-bcbe-aed2d87d5257/value - {"text":"Pfm12345"}
+RESULT: {}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#password_confirmation"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password_confirmation"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/30ff8d2c-fdee-44b7-8409-994496f8e60d/clear - {}
+RESULT: {}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/30ff8d2c-fdee-44b7-8409-994496f8e60d/value - {"text":"Pfm12345"}
+RESULT: {}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#firstname"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#firstname"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/902787f3-a962-450b-911c-993331d98b62/clear - {}
+RESULT: {}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/902787f3-a962-450b-911c-993331d98b62/value - {"text":"Pfm Wdio Satu"}
+RESULT: {}
+RESULT: {"text":"Pfm Wdio Satu"}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"div.input-wraper > label:nth-child(2)"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"div.input-wraper > label:nth-child(2)"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/3b7909ba-6677-4aef-94dc-5fab3ceef18b/click - {}
+RESULT: {}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#nik"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/f9a7beb4-8116-4c88-8520-021ba2e5d93e/clear - {}
+RESULT: {}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/f9a7beb4-8116-4c88-8520-021ba2e5d93e/value - {"text":"0001112223330001"}
+RESULT: {}
+RESULT: {"text":"0001112223330001"}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#phone_number"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#phone_number"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/2865da3d-3250-4573-954c-4a4aa33e4985/clear - {}
+RESULT: {}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/2865da3d-3250-4573-954c-4a4aa33e4985/value - {"text":"8123400000001"}
+RESULT: {}
+RESULT: {"text":"8123400000001"}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#dob"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#dob"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/7dda4d17-566b-401a-9d0d-b2a399da1fc4/clear - {}
+RESULT: {}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/7dda4d17-566b-401a-9d0d-b2a399da1fc4/value - {"text":"01-01-1985"}
+RESULT: {}
+RESULT: {"text":"01-01-1985"}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/6c591ef3-e076-4d2d-bf0e-8f58f4dc4764/click - {}
+RESULT: {}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element/a19177c1-ae60-4c55-8dca-4ed3c37059f4/click - {}
+RESULT: {}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: POST /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/element - {"using":"css selector","value":"#nik-error"}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+RESULT: {"using":"css selector","value":"#nik-error"}
+COMMAND: GET /session/ee6dc2f6d6fa2574e877e9f4f37a96a8/screenshot - {}
+COMMAND: DELETE /session/ee6dc2f6d6fa2574e877e9f4f37a96a8 - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`#nik-error`) to be displayed
+
+Expected: "displayed"
+Received: "not displayed"
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\register\/registeredphonenumber.register.js:22:47)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

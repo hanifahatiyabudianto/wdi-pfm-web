@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer did not fill password login form" timestamp="2021-05-22T13:43:56" time="7.634" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer did not fill password login form"/>
+      <property name="capabilities" value="chrome.90_0_4430_72.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\login\emptypassword.login.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_72.windows.Customer did not fill password login form" name="should show error message when empty password" time="7.603">
+      <system-out><![CDATA[
+COMMAND: POST /session/e00ca2f34376708c46671d9718f19a712765ef63/window/current/maximize - {}
+COMMAND: POST /session/e00ca2f34376708c46671d9718f19a712765ef63/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/e00ca2f34376708c46671d9718f19a712765ef63/element/0/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: POST /session/e00ca2f34376708c46671d9718f19a712765ef63/element/0/value - {"value":["h","e","l","l","o",".","h","a","n","i","(18 more items)"]}
+RESULT: {"value":["h","e","l","l","o",".","h","a","n","i","(18 more items)"]}
+COMMAND: POST /session/e00ca2f34376708c46671d9718f19a712765ef63/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/e00ca2f34376708c46671d9718f19a712765ef63/element/1/clear - {}
+RESULT: {}
+COMMAND: POST /session/e00ca2f34376708c46671d9718f19a712765ef63/element/1/value - {"value":[]}
+RESULT: {"value":[]}
+COMMAND: POST /session/e00ca2f34376708c46671d9718f19a712765ef63/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/e00ca2f34376708c46671d9718f19a712765ef63/element/2/click - {}
+RESULT: {}
+COMMAND: POST /session/e00ca2f34376708c46671d9718f19a712765ef63/element - {"using":"css selector","value":"#password-error"}
+RESULT: {"using":"css selector","value":"#password-error"}
+COMMAND: GET /session/e00ca2f34376708c46671d9718f19a712765ef63/element/3/displayed - {}
+RESULT: {}
+COMMAND: POST /session/e00ca2f34376708c46671d9718f19a712765ef63/element - {"using":"css selector","value":"#password-error"}
+RESULT: {"using":"css selector","value":"#password-error"}
+COMMAND: GET /session/e00ca2f34376708c46671d9718f19a712765ef63/element/3/text - {}
+RESULT: {}
+COMMAND: POST /session/e00ca2f34376708c46671d9718f19a712765ef63/execute - {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\",\"reason\": \"Assertions passed\"}}"}
+COMMAND: GET /session/e00ca2f34376708c46671d9718f19a712765ef63/screenshot - {}
+RESULT: {}
+RESULT: {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"passed\",\"reason\": \"Assertions passed\"}}"}
+COMMAND: DELETE /session/e00ca2f34376708c46671d9718f19a712765ef63 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

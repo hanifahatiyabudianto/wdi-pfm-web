@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer success back to login page" timestamp="2021-05-24T02:28:24" time="6.508" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer success back to login page"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\forgotpassword\backtologinpage.forgotpassword.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer success back to login page" name="should redirect to login page" time="6.392">
+      <system-out><![CDATA[
+COMMAND: POST /session/2cef173ffa334cdb97e37582bc6764fc/window/maximize - {}
+COMMAND: POST /session/2cef173ffa334cdb97e37582bc6764fc/element - {"using":"css selector","value":"div.secondary > a.action.remind"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+COMMAND: GET /session/2cef173ffa334cdb97e37582bc6764fc/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/2cef173ffa334cdb97e37582bc6764fc/screenshot - {}
+RESULT: {"using":"css selector","value":"div.secondary > a.action.remind"}
+COMMAND: POST /session/2cef173ffa334cdb97e37582bc6764fc/element/b619412a-b525-42a4-ae3c-70cc646ff9ac/click - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/2cef173ffa334cdb97e37582bc6764fc/screenshot - {}
+COMMAND: GET /session/2cef173ffa334cdb97e37582bc6764fc/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/2cef173ffa334cdb97e37582bc6764fc/screenshot - {}
+COMMAND: POST /session/2cef173ffa334cdb97e37582bc6764fc/element - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/2cef173ffa334cdb97e37582bc6764fc/element/7d157a85-77f2-424d-9a97-c9131b8331be/click - {}
+RESULT: {}
+COMMAND: GET /session/2cef173ffa334cdb97e37582bc6764fc/screenshot - {}
+COMMAND: GET /session/2cef173ffa334cdb97e37582bc6764fc/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/2cef173ffa334cdb97e37582bc6764fc/screenshot - {}
+COMMAND: GET /session/2cef173ffa334cdb97e37582bc6764fc/screenshot - {}
+COMMAND: DELETE /session/2cef173ffa334cdb97e37582bc6764fc - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

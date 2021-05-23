@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer account has not been confirmed" timestamp="2021-05-22T14:21:18" time="22.271" tests="2" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer account has not been confirmed"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\login\confirmationrequired.login.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer account has not been confirmed" name="should show message that the account has not been confirmed" time="22.23">
+      <failure/>
+      <error message="Expect $(`div.message-error`) to have text containing&#xA;&#xA;Expected: &quot;Akun ini belum terkonfirmasi. Mohon cek email Anda untuk mengkonfirmasi.&quot;&#xA;Received: &quot;&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/window/maximize - {}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element/2b84e0dc-54c8-4d73-897f-a4a4e605ae99/clear - {}
+RESULT: {}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element/2b84e0dc-54c8-4d73-897f-a4a4e605ae99/value - {"text":"hanifah@yopmail.com"}
+RESULT: {"text":"hanifah@yopmail.com"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element/8255dbf0-f1e4-4ccd-96ec-57da7cba96e5/clear - {}
+RESULT: {}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element/8255dbf0-f1e4-4ccd-96ec-57da7cba96e5/value - {"text":"Pfm12345"}
+RESULT: {"text":"Pfm12345"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element/d2aa4086-d2ff-4681-b6b6-1eb6edf89507/click - {}
+RESULT: {}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element/441203dc-7e41-4c4a-9da8-10d7922aaab7/clear - {}
+RESULT: {}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element/441203dc-7e41-4c4a-9da8-10d7922aaab7/value - {"text":"Pfm24@yopmail.com"}
+RESULT: {"text":"Pfm24@yopmail.com"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element/5d614da6-0dce-482c-b5e8-da30a2ab5004/clear - {}
+RESULT: {}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element/5d614da6-0dce-482c-b5e8-da30a2ab5004/value - {"text":"Pfm12345"}
+RESULT: {"text":"Pfm12345"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element/6e13e19d-ecbd-4458-b389-537536d0911a/click - {}
+RESULT: {}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f668caa0-2ecd-4eaa-bfe2-f6d07454dc90","ELEMENT":"f668caa0-2ecd-4eaa-bfe2-f6d07454dc90"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f668caa0-2ecd-4eaa-bfe2-f6d07454dc90","ELEMENT":"f668caa0-2ecd-4eaa-bfe2-f6d07454dc90"}]}
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/element/f668caa0-2ecd-4eaa-bfe2-f6d07454dc90/text - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`div.message-error`) to have text containing
+
+Expected: "Akun ini belum terkonfirmasi. Mohon cek email Anda untuk mengkonfirmasi."
+Received: ""
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\login\/confirmationrequired.login.js:26:47)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer account has not been confirmed" name="should save a screenshot of the browser view when Confirmation Required" time="0.007">
+      <system-out><![CDATA[
+COMMAND: POST /session/681cabc7e0a8fb84932fa9988a558a54/window/maximize - {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/screenshot - {}
+COMMAND: GET /session/681cabc7e0a8fb84932fa9988a558a54/screenshot - {}
+COMMAND: DELETE /session/681cabc7e0a8fb84932fa9988a558a54 - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

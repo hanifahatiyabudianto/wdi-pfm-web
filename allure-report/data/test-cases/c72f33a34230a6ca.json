@@ -1,0 +1,88 @@
+{
+  "uid" : "c72f33a34230a6ca",
+  "name" : "should show error message when empty email",
+  "fullName" : "Customer did not fill email register form.should show error message when empty email",
+  "historyId" : "5bdb2fb75cf73453c46ba365af52a998",
+  "time" : {
+    "start" : 1621271850332,
+    "stop" : 1621271850421,
+    "duration" : 89
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "RegisterPage.login is not a function",
+  "statusTrace" : "TypeError: RegisterPage.login is not a function\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\case\\negative\\register\\/emptyemail.register.js:22:28)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "RegisterPage.login is not a function",
+    "statusTrace" : "TypeError: RegisterPage.login is not a function\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\case\\negative\\register\\/emptyemail.register.js:22:28)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "45dc773a5231fc86",
+      "name" : "Execution video",
+      "source" : "45dc773a5231fc86.mp4",
+      "type" : "video/mp4",
+      "size" : 173
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Register"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty email"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c72f33a34230a6ca.json",
+  "parameterValues" : [ "Chrome-90.0.4430.212", "90.0.4430.212" ]
+}

@@ -1,0 +1,67 @@
+{
+  "uid" : "f715f6b38eae0f86",
+  "name" : "should show error message when empty email",
+  "fullName" : "Customer did not fill email register form.should show error message when empty email",
+  "historyId" : "3122c6ac6f958d349a35085ddb4efae0",
+  "time" : {
+    "start" : 1621668713070,
+    "stop" : 1621668717415,
+    "duration" : 4345
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid element state\n                  (Session info: chrome=90.0.4430.212)",
+  "statusTrace" : "invalid element state: invalid element state\n                  (Session info: chrome=90.0.4430.212)\n                    at Object.getErrorFromResponseBody (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Register"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty email"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f715f6b38eae0f86.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

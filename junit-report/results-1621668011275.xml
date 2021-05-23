@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer account has not been confirmed" timestamp="2021-05-22T14:20:16" time="17.174" tests="2" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer account has not been confirmed"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\login\confirmationrequired.login.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer account has not been confirmed" name="should show message that the account has not been confirmed" time="17.114">
+      <failure/>
+      <error message="Expect $(`div.message-error`) to have text&#xA;&#xA;Expected: &quot;Akun ini belum terkonfirmasi. Mohon cek email Anda untuk mengkonfirmasi.&quot;&#xA;Received: &quot;&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/window/maximize - {}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element/02bcb45e-218a-4c54-9ef4-bd4dd228b99a/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element/02bcb45e-218a-4c54-9ef4-bd4dd228b99a/value - {"text":"hanifah@yopmail.com"}
+RESULT: {"text":"hanifah@yopmail.com"}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element/7c7edf7d-e5c8-4a00-90db-737517ecbf03/clear - {}
+RESULT: {}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element/7c7edf7d-e5c8-4a00-90db-737517ecbf03/value - {"text":"Pfm12345"}
+RESULT: {"text":"Pfm12345"}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element/5799b74f-2251-45df-a386-113b814dbc10/click - {}
+RESULT: {}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element/ea9a09ba-bd02-48f7-a824-9dc61a603318/clear - {}
+RESULT: {}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element/ea9a09ba-bd02-48f7-a824-9dc61a603318/value - {"text":"Pfm24@yopmail.com"}
+RESULT: {"text":"Pfm24@yopmail.com"}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element/604327eb-dee1-4698-9b18-e84cf23d09fc/clear - {}
+RESULT: {}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element/604327eb-dee1-4698-9b18-e84cf23d09fc/value - {"text":"Pfm12345"}
+RESULT: {"text":"Pfm12345"}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element/c0075854-2117-4556-99d3-5d5068c64fb8/click - {}
+RESULT: {}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"3607a57e-df24-49cb-9892-74923a828470","ELEMENT":"3607a57e-df24-49cb-9892-74923a828470"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"3607a57e-df24-49cb-9892-74923a828470","ELEMENT":"3607a57e-df24-49cb-9892-74923a828470"}]}
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+RESULT: {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/element/3607a57e-df24-49cb-9892-74923a828470/text - {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`div.message-error`) to have text
+
+Expected: "Akun ini belum terkonfirmasi. Mohon cek email Anda untuk mengkonfirmasi."
+Received: ""
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\login\/confirmationrequired.login.js:26:47)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer account has not been confirmed" name="should save a screenshot of the browser view when Confirmation Required" time="0.006">
+      <system-out><![CDATA[
+COMMAND: POST /session/51023c9ff20a925b579692a72702bd04/window/maximize - {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/screenshot - {}
+COMMAND: GET /session/51023c9ff20a925b579692a72702bd04/screenshot - {}
+COMMAND: DELETE /session/51023c9ff20a925b579692a72702bd04 - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer success register" timestamp="2021-05-24T00:47:15" time="6.062" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer success register"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\register\successgendermale.register.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer success register" name="should register with fill form data with gender is male" time="5.965">
+      <failure/>
+      <error message="element not interactable&#xA;  (Session info: chrome=90.0.4430.212)"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/window/maximize - {}
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://primafreshmart.com/customer/account/create"}
+COMMAND: GET /session/bf5388af8f349f8faa56a7af37c9e507/screenshot - {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/element/fb34799b-93c3-451f-90b4-e2a3b07e5312/clear - {}
+RESULT: {}
+COMMAND: GET /session/bf5388af8f349f8faa56a7af37c9e507/screenshot - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/bf5388af8f349f8faa56a7af37c9e507/screenshot - {}
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/element/fb34799b-93c3-451f-90b4-e2a3b07e5312/value - {"text":"pfmwdio1@yopmail.com"}
+RESULT: {}
+RESULT: {}
+RESULT: {"text":"pfmwdio1@yopmail.com"}
+COMMAND: GET /session/bf5388af8f349f8faa56a7af37c9e507/screenshot - {}
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/element - {"using":"css selector","value":"#password"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/element/4d0a1b5b-940b-43e7-9e45-e99d34abdcef/clear - {}
+RESULT: {}
+COMMAND: GET /session/bf5388af8f349f8faa56a7af37c9e507/screenshot - {}
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/element/4d0a1b5b-940b-43e7-9e45-e99d34abdcef/value - {"text":"Pfm12345"}
+RESULT: {}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/bf5388af8f349f8faa56a7af37c9e507/screenshot - {}
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/element - {"using":"css selector","value":"#password_confirmation"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password_confirmation"}
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/element/faaf56f8-738e-4365-863f-2a9a8f31caa7/clear - {}
+RESULT: {}
+COMMAND: GET /session/bf5388af8f349f8faa56a7af37c9e507/screenshot - {}
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/element/faaf56f8-738e-4365-863f-2a9a8f31caa7/value - {"text":"Pfm12345"}
+RESULT: {}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/bf5388af8f349f8faa56a7af37c9e507/screenshot - {}
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/element - {"using":"css selector","value":"#firstname"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#firstname"}
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/element/8d83be3a-034a-4c64-b34b-12d591a2686e/clear - {}
+RESULT: {}
+COMMAND: GET /session/bf5388af8f349f8faa56a7af37c9e507/screenshot - {}
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/element/8d83be3a-034a-4c64-b34b-12d591a2686e/value - {"text":"Pfm Wdio Satu"}
+RESULT: {}
+RESULT: {"text":"Pfm Wdio Satu"}
+COMMAND: GET /session/bf5388af8f349f8faa56a7af37c9e507/screenshot - {}
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/element - {"using":"css selector","value":"input[value=\"1\"]"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"input[value=\"1\"]"}
+COMMAND: POST /session/bf5388af8f349f8faa56a7af37c9e507/element/39155c97-c016-4ffd-95ec-6fc0817fb285/click - {}
+COMMAND: GET /session/bf5388af8f349f8faa56a7af37c9e507/screenshot - {}
+COMMAND: GET /session/bf5388af8f349f8faa56a7af37c9e507/screenshot - {}
+COMMAND: DELETE /session/bf5388af8f349f8faa56a7af37c9e507 - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+element not interactable: element not interactable
+  (Session info: chrome=90.0.4430.212)
+    at Object.getErrorFromResponseBody (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriver\build\utils.js:189:12)
+    at WebDriverRequest._request (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriver\build\request.js:168:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at Element.elementErrorHandlerCallbackFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\middlewares.js:23:32)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at Element.elementErrorHandlerCallbackFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\middlewares.js:23:32)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

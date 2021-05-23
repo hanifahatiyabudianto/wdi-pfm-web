@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer failed forgot password" timestamp="2021-05-24T02:15:30" time="8.473" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer failed forgot password"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\forgotpassword\emptyemail.forgotpassword.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer failed forgot password" name="should forgot password with empty email" time="8.346">
+      <system-out><![CDATA[
+COMMAND: POST /session/842dc777ed9c828de9fd776dd075688d/window/maximize - {}
+COMMAND: POST /session/842dc777ed9c828de9fd776dd075688d/element - {"using":"css selector","value":"div.secondary > a.action.remind"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+COMMAND: GET /session/842dc777ed9c828de9fd776dd075688d/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/842dc777ed9c828de9fd776dd075688d/screenshot - {}
+RESULT: {"using":"css selector","value":"div.secondary > a.action.remind"}
+COMMAND: POST /session/842dc777ed9c828de9fd776dd075688d/element/833593a8-85cb-4abc-b5e4-e3d44d192bea/click - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/842dc777ed9c828de9fd776dd075688d/screenshot - {}
+COMMAND: POST /session/842dc777ed9c828de9fd776dd075688d/element - {"using":"css selector","value":"#email_address"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/842dc777ed9c828de9fd776dd075688d/element/551752e6-3336-434a-aa11-6ba75d836510/clear - {}
+RESULT: {}
+COMMAND: GET /session/842dc777ed9c828de9fd776dd075688d/screenshot - {}
+COMMAND: POST /session/842dc777ed9c828de9fd776dd075688d/element/551752e6-3336-434a-aa11-6ba75d836510/value - {"text":""}
+RESULT: {}
+RESULT: {"text":""}
+COMMAND: GET /session/842dc777ed9c828de9fd776dd075688d/screenshot - {}
+COMMAND: POST /session/842dc777ed9c828de9fd776dd075688d/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/842dc777ed9c828de9fd776dd075688d/element/d6449735-0083-409d-9f48-5c017fd2211e/click - {}
+RESULT: {}
+COMMAND: GET /session/842dc777ed9c828de9fd776dd075688d/screenshot - {}
+COMMAND: POST /session/842dc777ed9c828de9fd776dd075688d/element - {"using":"css selector","value":"#email_address-error"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#email_address-error"}
+COMMAND: POST /session/842dc777ed9c828de9fd776dd075688d/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"daa217ba-774e-4e66-930e-b786442d549f","ELEMENT":"daa217ba-774e-4e66-930e-b786442d549f"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"daa217ba-774e-4e66-930e-b786442d549f","ELEMENT":"daa217ba-774e-4e66-930e-b786442d549f"}]}
+COMMAND: POST /session/842dc777ed9c828de9fd776dd075688d/element - {"using":"css selector","value":"#email_address-error"}
+RESULT: {"using":"css selector","value":"#email_address-error"}
+COMMAND: GET /session/842dc777ed9c828de9fd776dd075688d/element/daa217ba-774e-4e66-930e-b786442d549f/text - {}
+RESULT: {}
+COMMAND: GET /session/842dc777ed9c828de9fd776dd075688d/screenshot - {}
+COMMAND: DELETE /session/842dc777ed9c828de9fd776dd075688d - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

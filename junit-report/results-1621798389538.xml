@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer success back to login page" timestamp="2021-05-24T02:33:13" time="6.513" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer success back to login page"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\forgotpassword\backtologinpage.forgotpassword.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer success back to login page" name="should redirect to login page" time="6.42">
+      <system-out><![CDATA[
+COMMAND: POST /session/fa4867a1bea399ea1b3844bc8cd66188/window/maximize - {}
+COMMAND: POST /session/fa4867a1bea399ea1b3844bc8cd66188/element - {"using":"css selector","value":"div.secondary > a.action.remind"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+COMMAND: GET /session/fa4867a1bea399ea1b3844bc8cd66188/screenshot - {}
+RESULT: {"using":"css selector","value":"div.secondary > a.action.remind"}
+COMMAND: POST /session/fa4867a1bea399ea1b3844bc8cd66188/element/9dc6284a-7d54-4e54-93fe-68af55fc294c/click - {}
+RESULT: {}
+COMMAND: GET /session/fa4867a1bea399ea1b3844bc8cd66188/screenshot - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/fa4867a1bea399ea1b3844bc8cd66188/screenshot - {}
+COMMAND: GET /session/fa4867a1bea399ea1b3844bc8cd66188/url - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/fa4867a1bea399ea1b3844bc8cd66188/screenshot - {}
+COMMAND: POST /session/fa4867a1bea399ea1b3844bc8cd66188/element - {"using":"css selector","value":"#forgotpass-title"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#forgotpass-title"}
+COMMAND: GET /session/fa4867a1bea399ea1b3844bc8cd66188/element/b1459196-6de2-45aa-ab54-6be4d6aabc8c/text - {}
+RESULT: {}
+COMMAND: POST /session/fa4867a1bea399ea1b3844bc8cd66188/element - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/fa4867a1bea399ea1b3844bc8cd66188/element/c3629fd7-5e6a-4239-9a10-aa80867ea846/click - {}
+RESULT: {}
+COMMAND: GET /session/fa4867a1bea399ea1b3844bc8cd66188/screenshot - {}
+COMMAND: GET /session/fa4867a1bea399ea1b3844bc8cd66188/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/fa4867a1bea399ea1b3844bc8cd66188/screenshot - {}
+COMMAND: POST /session/fa4867a1bea399ea1b3844bc8cd66188/element - {"using":"css selector","value":"#block-customer-login-heading"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#block-customer-login-heading"}
+COMMAND: GET /session/fa4867a1bea399ea1b3844bc8cd66188/element/a9b6ec11-c0ca-4a66-9587-3f5ff672a830/text - {}
+RESULT: {}
+COMMAND: GET /session/fa4867a1bea399ea1b3844bc8cd66188/screenshot - {}
+COMMAND: DELETE /session/fa4867a1bea399ea1b3844bc8cd66188 - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

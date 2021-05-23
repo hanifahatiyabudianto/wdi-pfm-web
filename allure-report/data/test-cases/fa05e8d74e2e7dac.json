@@ -1,0 +1,322 @@
+{
+  "uid" : "fa05e8d74e2e7dac",
+  "name" : "should register with fill with registered email",
+  "fullName" : "Customer failed register.should register with fill with registered email",
+  "historyId" : "684ac8ac0c62b2fab54de4958da93ea4",
+  "time" : {
+    "start" : 1621793553740,
+    "stop" : 1621793575632,
+    "duration" : 21892
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create\"",
+  "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/registeredphonenumber.register.js:22:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create\"",
+    "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/registeredphonenumber.register.js:22:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4dc28ff8a5f6def0",
+      "name" : "Screenshot",
+      "source" : "4dc28ff8a5f6def0.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "472a5979cb457376",
+      "name" : "Screenshot",
+      "source" : "472a5979cb457376.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "54b0ccba2855d211",
+      "name" : "Screenshot",
+      "source" : "54b0ccba2855d211.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "655490eba6c2bd5d",
+      "name" : "Screenshot",
+      "source" : "655490eba6c2bd5d.png",
+      "type" : "image/png",
+      "size" : 73170
+    }, {
+      "uid" : "17ee40c60ec72146",
+      "name" : "Screenshot",
+      "source" : "17ee40c60ec72146.png",
+      "type" : "image/png",
+      "size" : 76099
+    }, {
+      "uid" : "3374c1d02ead1fb5",
+      "name" : "Screenshot",
+      "source" : "3374c1d02ead1fb5.png",
+      "type" : "image/png",
+      "size" : 73002
+    }, {
+      "uid" : "9ecee5728df7da87",
+      "name" : "Screenshot",
+      "source" : "9ecee5728df7da87.png",
+      "type" : "image/png",
+      "size" : 73002
+    }, {
+      "uid" : "3d718563e13e6566",
+      "name" : "Screenshot",
+      "source" : "3d718563e13e6566.png",
+      "type" : "image/png",
+      "size" : 69107
+    }, {
+      "uid" : "8ecb963e68dd9305",
+      "name" : "Screenshot",
+      "source" : "8ecb963e68dd9305.png",
+      "type" : "image/png",
+      "size" : 69063
+    }, {
+      "uid" : "39f6eb4a56034f78",
+      "name" : "Screenshot",
+      "source" : "39f6eb4a56034f78.png",
+      "type" : "image/png",
+      "size" : 68478
+    }, {
+      "uid" : "f5be64137af1f9e",
+      "name" : "Screenshot",
+      "source" : "f5be64137af1f9e.png",
+      "type" : "image/png",
+      "size" : 68485
+    }, {
+      "uid" : "db6e546f42677c84",
+      "name" : "Screenshot",
+      "source" : "db6e546f42677c84.png",
+      "type" : "image/png",
+      "size" : 57577
+    }, {
+      "uid" : "f8b434070877140f",
+      "name" : "Screenshot",
+      "source" : "f8b434070877140f.png",
+      "type" : "image/png",
+      "size" : 58110
+    }, {
+      "uid" : "be948dfd927d529d",
+      "name" : "Screenshot",
+      "source" : "be948dfd927d529d.png",
+      "type" : "image/png",
+      "size" : 59038
+    }, {
+      "uid" : "ffbc1ec2ced21ae5",
+      "name" : "Screenshot",
+      "source" : "ffbc1ec2ced21ae5.png",
+      "type" : "image/png",
+      "size" : 59038
+    }, {
+      "uid" : "e565bccc1bc9be93",
+      "name" : "Screenshot",
+      "source" : "e565bccc1bc9be93.png",
+      "type" : "image/png",
+      "size" : 59038
+    }, {
+      "uid" : "aa8cd0443cfa482b",
+      "name" : "Screenshot",
+      "source" : "aa8cd0443cfa482b.png",
+      "type" : "image/png",
+      "size" : 78464
+    }, {
+      "uid" : "ff234b1f1f4fd0eb",
+      "name" : "Screenshot",
+      "source" : "ff234b1f1f4fd0eb.png",
+      "type" : "image/png",
+      "size" : 79945
+    }, {
+      "uid" : "bf62646dbc7504d2",
+      "name" : "Screenshot",
+      "source" : "bf62646dbc7504d2.png",
+      "type" : "image/png",
+      "size" : 61651
+    }, {
+      "uid" : "6cc5dee683765a48",
+      "name" : "Screenshot",
+      "source" : "6cc5dee683765a48.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "579bc52e1b159ae9",
+      "name" : "Screenshot",
+      "source" : "579bc52e1b159ae9.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "de012e60d04a9b9b",
+      "name" : "Screenshot",
+      "source" : "de012e60d04a9b9b.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "4ab7221a6f5bf990",
+      "name" : "Screenshot",
+      "source" : "4ab7221a6f5bf990.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "978dbb46a5f331e6",
+      "name" : "Screenshot",
+      "source" : "978dbb46a5f331e6.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "d2eb8d6cd9d8930d",
+      "name" : "Screenshot",
+      "source" : "d2eb8d6cd9d8930d.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "88a966e0657ea3db",
+      "name" : "Screenshot",
+      "source" : "88a966e0657ea3db.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "45d6776fbbf83ed1",
+      "name" : "Screenshot",
+      "source" : "45d6776fbbf83ed1.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "dcf6f058445b255e",
+      "name" : "Screenshot",
+      "source" : "dcf6f058445b255e.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "6e3deb6c9bc83499",
+      "name" : "Screenshot",
+      "source" : "6e3deb6c9bc83499.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "917ffd3f3c43ea1a",
+      "name" : "Screenshot",
+      "source" : "917ffd3f3c43ea1a.png",
+      "type" : "image/png",
+      "size" : 61628
+    }, {
+      "uid" : "4c5734783b7f5496",
+      "name" : "Screenshot",
+      "source" : "4c5734783b7f5496.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "fac4a9635f0cde1d",
+      "name" : "Screenshot",
+      "source" : "fac4a9635f0cde1d.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "c4f6106c910b1b78",
+      "name" : "Screenshot",
+      "source" : "c4f6106c910b1b78.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "14188ba13a080f1c",
+      "name" : "Screenshot",
+      "source" : "14188ba13a080f1c.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "ac143dc35245f600",
+      "name" : "Screenshot",
+      "source" : "ac143dc35245f600.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "ffb032348b662f7f",
+      "name" : "Screenshot",
+      "source" : "ffb032348b662f7f.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "cd85c129642b342a",
+      "name" : "Screenshot",
+      "source" : "cd85c129642b342a.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "4674ed4c7ce2213e",
+      "name" : "Screenshot",
+      "source" : "4674ed4c7ce2213e.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "ed0e836d1d757b9d",
+      "name" : "Screenshot",
+      "source" : "ed0e836d1d757b9d.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "fb37ab03de10d044",
+      "name" : "Execution video",
+      "source" : "fb37ab03de10d044.mp4",
+      "type" : "video/mp4",
+      "size" : 39721
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 40,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Positive Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Success Register"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register with fill with registered email"
+  }, {
+    "name" : "package",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fa05e8d74e2e7dac.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

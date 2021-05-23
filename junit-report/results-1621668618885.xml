@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer did not fill email register form" timestamp="2021-05-22T14:30:23" time="7.27" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer did not fill email register form"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\register\emptyemail.register.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer did not fill email register form" name="should show error message when empty email" time="7.242">
+      <failure/>
+      <error message="invalid element state&#xA;  (Session info: chrome=90.0.4430.212)"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/window/maximize - {}
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/element/c5fc4bf5-d709-48e3-8376-ca1405122bdd/clear - {}
+RESULT: {}
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/element/c5fc4bf5-d709-48e3-8376-ca1405122bdd/value - {"text":""}
+RESULT: {"text":""}
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/element/f135cb03-fb7b-4f4b-9228-295c6bb50a0b/clear - {}
+RESULT: {}
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/element/f135cb03-fb7b-4f4b-9228-295c6bb50a0b/value - {"text":"Pfm12345"}
+RESULT: {"text":"Pfm12345"}
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/element - {"using":"css selector","value":"#password_confirmation"}
+RESULT: {"using":"css selector","value":"#password_confirmation"}
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/element/18deabfb-6473-46a3-bac3-63c3f8d9a66f/clear - {}
+RESULT: {}
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/element/18deabfb-6473-46a3-bac3-63c3f8d9a66f/value - {"text":"Pfm12345"}
+RESULT: {"text":"Pfm12345"}
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/element - {"using":"css selector","value":"#firstname"}
+RESULT: {"using":"css selector","value":"#firstname"}
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/element/1688f750-c640-42fc-90df-b3616384539f/clear - {}
+RESULT: {}
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/element/1688f750-c640-42fc-90df-b3616384539f/value - {"text":"Pfm Wdio Satu"}
+RESULT: {"text":"Pfm Wdio Satu"}
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/element - {"using":"css selector","value":"#male"}
+RESULT: {"using":"css selector","value":"#male"}
+COMMAND: POST /session/0f72e467919c49f3dafe2f0c0ecf64c7/element/a089ee90-842c-4c73-ac18-32844e8f12bc/clear - {}
+COMMAND: GET /session/0f72e467919c49f3dafe2f0c0ecf64c7/screenshot - {}
+COMMAND: DELETE /session/0f72e467919c49f3dafe2f0c0ecf64c7 - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+invalid element state: invalid element state
+  (Session info: chrome=90.0.4430.212)
+    at Object.getErrorFromResponseBody (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriver\build\utils.js:189:12)
+    at WebDriverRequest._request (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriver\build\request.js:168:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at Element.elementErrorHandlerCallbackFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\middlewares.js:23:32)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at Element.elementErrorHandlerCallbackFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\middlewares.js:23:32)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

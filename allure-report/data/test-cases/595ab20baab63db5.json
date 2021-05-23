@@ -1,0 +1,126 @@
+{
+  "uid" : "595ab20baab63db5",
+  "name" : "should forgot password with valid credentials, but to many requested",
+  "fullName" : "Customer failed forgot password.should forgot password with valid credentials, but to many requested",
+  "historyId" : "6102bbbd54d822c61b40d5267d100593",
+  "time" : {
+    "start" : 1621797104580,
+    "stop" : 1621797114360,
+    "duration" : 9780
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "59f60a09df98afb3",
+      "name" : "Screenshot",
+      "source" : "59f60a09df98afb3.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "8f30e77376e81967",
+      "name" : "Screenshot",
+      "source" : "8f30e77376e81967.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "f0cfc8312a10ffc0",
+      "name" : "Screenshot",
+      "source" : "f0cfc8312a10ffc0.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "bf23a3a81a1326f1",
+      "name" : "Screenshot",
+      "source" : "bf23a3a81a1326f1.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "ce0063bfb8a579ef",
+      "name" : "Screenshot",
+      "source" : "ce0063bfb8a579ef.png",
+      "type" : "image/png",
+      "size" : 59488
+    }, {
+      "uid" : "2701101bfba38b66",
+      "name" : "Screenshot",
+      "source" : "2701101bfba38b66.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "179decdec552f6b8",
+      "name" : "Screenshot",
+      "source" : "179decdec552f6b8.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "d20f99a1b090d359",
+      "name" : "Execution video",
+      "source" : "d20f99a1b090d359.mp4",
+      "type" : "video/mp4",
+      "size" : 19875
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Forgot Password"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer failed forgot password"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer failed forgot password"
+  }, {
+    "name" : "testMethod",
+    "value" : "should forgot password with valid credentials, but to many requested"
+  }, {
+    "name" : "package",
+    "value" : "Customer failed forgot password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "595ab20baab63db5.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

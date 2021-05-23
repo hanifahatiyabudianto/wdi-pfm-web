@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621787378070' stop='1621787399446'>
+    <name>Customer did not fill phone number register form</name>
+    <title>Customer did not fill phone number register form</title>
+    <test-cases>
+        <test-case start='1621787378071' status='failed' stop='1621787399444'>
+            <name>should show error message when empty phone number</name>
+            <title>should show error message when empty phone number</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a431f966-664b-4a0f-9a32-a66b06264f70-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='8b82f67c-2b4c-4e4a-945d-c693a6bb5723-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='cedacc6c-f8b1-4182-bb8c-e72ae1c510d8-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='65f1d3b2-8e1d-4cc9-b9b0-88bcb476edcd-attachment.png' type='image/png' size='72962'/>
+                <attachment title='Screenshot' source='7d9ef36d-f8f7-489b-a33c-0f994148ba5d-attachment.png' type='image/png' size='72962'/>
+                <attachment title='Screenshot' source='b6dd1882-fda2-47ff-98b3-d58c0aaa13aa-attachment.png' type='image/png' size='69805'/>
+                <attachment title='Screenshot' source='e45d7db6-4e6c-477e-9267-e1be9874aa1a-attachment.png' type='image/png' size='72820'/>
+                <attachment title='Screenshot' source='63a354b4-d16a-43f6-8bcd-837454e34b98-attachment.png' type='image/png' size='68909'/>
+                <attachment title='Screenshot' source='fea28cab-aa1f-47db-9b7a-702a989686f5-attachment.png' type='image/png' size='68281'/>
+                <attachment title='Screenshot' source='28a8fffc-83a8-4407-9058-72a6a822e105-attachment.png' type='image/png' size='68281'/>
+                <attachment title='Screenshot' source='21d06bd8-b022-4d24-820e-ba1439dded16-attachment.png' type='image/png' size='57505'/>
+                <attachment title='Screenshot' source='d1bf039d-c1d2-46df-b542-683c91f4facd-attachment.png' type='image/png' size='57505'/>
+                <attachment title='Screenshot' source='535055d5-0d2c-4e51-98ba-88126217033e-attachment.png' type='image/png' size='57469'/>
+                <attachment title='Screenshot' source='ddc89bdd-d1a5-4694-b091-258fe96ea4e6-attachment.png' type='image/png' size='58945'/>
+                <attachment title='Screenshot' source='e67cb25a-7aa9-4596-9724-2393aedd8e33-attachment.png' type='image/png' size='58945'/>
+                <attachment title='Screenshot' source='6a3ae1f8-0638-4840-bf22-c0757f1792a6-attachment.png' type='image/png' size='73752'/>
+                <attachment title='Screenshot' source='5a778531-a79b-436a-991c-c618291ecacd-attachment.png' type='image/png' size='75347'/>
+                <attachment title='Screenshot' source='f8439e0d-9f24-4a60-bac5-d1f18091c441-attachment.png' type='image/png' size='62549'/>
+                <attachment title='Execution video' source='d3ba413b-1a4b-4f2b-8e0b-f2c25d88ad19-attachment.mp4' type='video/mp4' size='187'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`#phone_number-error`) to have text
+                
+                Expected: "Harus diisi"
+                Received: "Format handphone salah."</message>
+                <stack-trace>Error: Expect $(`#phone_number-error`) to have text
+                
+                Expected: "Harus diisi"
+                Received: "Format handphone salah."
+                    at Context.&lt;anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\register\/emptyphonenumber.register.js:24:55)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

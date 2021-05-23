@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621793842482' stop='1621793864355'>
+    <name>Customer failed register</name>
+    <title>Customer failed register</title>
+    <test-cases>
+        <test-case start='1621793842483' status='failed' stop='1621793864354'>
+            <name>should register with fill with registered email</name>
+            <title>should register with fill with registered email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='High'/>
+                <label name='Positive Case' value='undefined'/>
+                <label name='feature' value='Success Register'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ded4f0b3-8b3b-4d8b-b54e-1387353b0765-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='080d4ce6-b30b-46f6-bfd8-470edadf8823-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='e0ecfb7f-75cd-4f46-8cb1-3f5ebdc131c1-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='1331e0a7-6a7b-4c68-a638-25edc23f6f87-attachment.png' type='image/png' size='73170'/>
+                <attachment title='Screenshot' source='79176e00-f251-4e4c-b1c3-96ece13b0c86-attachment.png' type='image/png' size='73170'/>
+                <attachment title='Screenshot' source='d061675c-90de-4bd6-ae77-85186bd10353-attachment.png' type='image/png' size='73002'/>
+                <attachment title='Screenshot' source='c9b27c3c-7651-4f83-869e-44eb6dd94a80-attachment.png' type='image/png' size='73002'/>
+                <attachment title='Screenshot' source='bd92836c-51d4-48c7-9a4e-e37d3136d9f0-attachment.png' type='image/png' size='69107'/>
+                <attachment title='Screenshot' source='fdb81381-270a-4ec5-b679-f6162b28644f-attachment.png' type='image/png' size='69107'/>
+                <attachment title='Screenshot' source='52e5861b-9ca9-4e9f-92ef-863cb422f22e-attachment.png' type='image/png' size='68478'/>
+                <attachment title='Screenshot' source='518c9230-a756-4d55-a62a-53c911af4c5b-attachment.png' type='image/png' size='68485'/>
+                <attachment title='Screenshot' source='18990276-10ed-4cb0-8b96-211b1555c39e-attachment.png' type='image/png' size='57577'/>
+                <attachment title='Screenshot' source='45bd9f6c-15a7-47d2-8988-cafb35d38766-attachment.png' type='image/png' size='58110'/>
+                <attachment title='Screenshot' source='63f03475-f0b0-41d9-9da4-8d6e76d4fde2-attachment.png' type='image/png' size='58110'/>
+                <attachment title='Screenshot' source='30c906a4-4a4e-49cf-b957-4546870dbd8c-attachment.png' type='image/png' size='59038'/>
+                <attachment title='Screenshot' source='f91dd8dd-2a86-47a0-b31c-0bed9fefded9-attachment.png' type='image/png' size='59038'/>
+                <attachment title='Screenshot' source='a99964cf-b86d-464f-b685-c06825cd8c30-attachment.png' type='image/png' size='78464'/>
+                <attachment title='Screenshot' source='adf81968-80f5-499e-b024-9d5910d63030-attachment.png' type='image/png' size='78748'/>
+                <attachment title='Screenshot' source='3fd2491c-1dd6-43c5-9503-dabd68af8594-attachment.png' type='image/png' size='61654'/>
+                <attachment title='Execution video' source='0c0274b1-0208-4f29-afba-b3a434797ac3-attachment.mp4' type='video/mp4' size='161'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`div.message-error.error.message`) to have text
+                
+                Expected: "Akun telah terdaftar. Jika anda yakin email ini milik anda, klik disini untuk mengakses akun Anda."
+                Received: undefined</message>
+                <stack-trace>Error: Expect $(`div.message-error.error.message`) to have text
+                
+                Expected: "Akun telah terdaftar. Jika anda yakin email ini milik anda, klik disini untuk mengakses akun Anda."
+                Received: undefined
+                    at Context.&lt;anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\register\/registeredemail.register.js:23:56)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

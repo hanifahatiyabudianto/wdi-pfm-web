@@ -1,5 +1,132 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/\"",
+      "children" : [ {
+        "name" : "should login with valid credentials",
+        "uid" : "f15b02c4bd550149",
+        "parentUid" : "98fb267294ddb6251df1d9b1b627126e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621665331048,
+          "stop" : 1621665360307,
+          "duration" : 29259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.72" ]
+      } ],
+      "uid" : "98fb267294ddb6251df1d9b1b627126e"
+    }, {
+      "name" : "Expect $(`span.avatar-name`) to have text containing\n                \n                Expected: \"Atiya\"\n                Received: \"Hani Hani\"",
+      "children" : [ {
+        "name" : "should avatar will be displayed",
+        "uid" : "ad9ba399388bac43",
+        "parentUid" : "031420ccfeea9dab92dcc467e3d2a474",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621665360310,
+          "stop" : 1621665372137,
+          "duration" : 11827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.72" ]
+      } ],
+      "uid" : "031420ccfeea9dab92dcc467e3d2a474"
+    }, {
+      "name" : "Expect $(`#email-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "children" : [ {
+        "name" : "should show error message invalid format email",
+        "uid" : "5a20dd0a924cb683",
+        "parentUid" : "64e58c74e515cb05662e8274abd61233",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621665892738,
+          "stop" : 1621665917440,
+          "duration" : 24702
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.72" ]
+      } ],
+      "uid" : "64e58c74e515cb05662e8274abd61233"
+    }, {
+      "name" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/createpost/\"",
+      "children" : [ {
+        "name" : "should register with fill form data with gender is male",
+        "uid" : "afa26500d80885e5",
+        "parentUid" : "80d48d2dce03b4d8451daefe176a8624",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621792487935,
+          "stop" : 1621792512486,
+          "duration" : 24551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+      } ],
+      "uid" : "80d48d2dce03b4d8451daefe176a8624"
+    }, {
+      "name" : "Expect $(`#termscondition-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "children" : [ {
+        "name" : "should show error message when did not check tnc",
+        "uid" : "cf10d15462216374",
+        "parentUid" : "0f62b1592a44366dfe17a335ba1f572c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621792982136,
+          "stop" : 1621793008066,
+          "duration" : 25930
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+      } ],
+      "uid" : "0f62b1592a44366dfe17a335ba1f572c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 60000ms exceeded. The execution in the test \"Prima Freshmart Customer Login should direct to my account page\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\login\\view.myaccount.js)",
+      "children" : [ {
+        "name" : "should direct to my account page",
+        "uid" : "8aa1499cd7f33dea",
+        "parentUid" : "0190177aaf6008f748bf2bf2087613f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621665372143,
+          "stop" : 1621665432149,
+          "duration" : 60006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.72" ]
+      } ],
+      "uid" : "0190177aaf6008f748bf2bf2087613f1"
+    }, {
+      "name" : "element not interactable\n                  (Session info: chrome=90.0.4430.212)",
+      "children" : [ {
+        "name" : "should show error message when empty nik",
+        "uid" : "b73c013af1d07efc",
+        "parentUid" : "0c8fb8bf5c19211c8530d88ebc0525e6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621789441538,
+          "stop" : 1621789456981,
+          "duration" : 15443
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+      } ],
+      "uid" : "0c8fb8bf5c19211c8530d88ebc0525e6"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

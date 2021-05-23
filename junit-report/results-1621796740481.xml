@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer success forgot password" timestamp="2021-05-24T02:05:45" time="18.649" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer success forgot password"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\forgotpassword\success.forgotpassword.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer success forgot password" name="should forgot password with valid credentials" time="18.412">
+      <failure/>
+      <error message="Expect window to have url containing&#xA;&#xA;Expected: &quot;https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer&quot;&#xA;Received: &quot;https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/forgotpassword/&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/e31d2ce8613a8bb930f180091fa328da/window/maximize - {}
+COMMAND: POST /session/e31d2ce8613a8bb930f180091fa328da/element - {"using":"css selector","value":"div.secondary > a.action.remind"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+RESULT: {"using":"css selector","value":"div.secondary > a.action.remind"}
+COMMAND: POST /session/e31d2ce8613a8bb930f180091fa328da/element/47de6996-f682-4b6f-9974-2146782ca1d7/click - {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: POST /session/e31d2ce8613a8bb930f180091fa328da/element - {"using":"css selector","value":"#email_address"}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/e31d2ce8613a8bb930f180091fa328da/element/1a7c2b13-70ae-4d5e-a74d-3d56edf7f5bb/clear - {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: POST /session/e31d2ce8613a8bb930f180091fa328da/element/1a7c2b13-70ae-4d5e-a74d-3d56edf7f5bb/value - {"text":"hello.hanifahatiya@gmail.com"}
+RESULT: {}
+RESULT: {"text":"hello.hanifahatiya@gmail.com"}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: POST /session/e31d2ce8613a8bb930f180091fa328da/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/e31d2ce8613a8bb930f180091fa328da/element/151bf3eb-3b9e-49c0-b547-2f4e11d316ed/click - {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/url - {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+COMMAND: DELETE /session/e31d2ce8613a8bb930f180091fa328da - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/e31d2ce8613a8bb930f180091fa328da/screenshot - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect window to have url containing
+
+Expected: "https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer"
+Received: "https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/forgotpassword/"
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\forgotpassword\/success.forgotpassword.js:24:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

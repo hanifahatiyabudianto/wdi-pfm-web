@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621792719449' stop='1621792739593'>
+    <name>Customer did not check tnc register form</name>
+    <title>Customer did not check tnc register form</title>
+    <test-cases>
+        <test-case start='1621792719449' status='failed' stop='1621792739592'>
+            <name>should show error message when did not check tnc</name>
+            <title>should show error message when did not check tnc</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='555a8f32-a8fc-48bb-a8cd-95f13cb6c583-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='a43e83cf-eb93-484d-abb7-4e40a56312bd-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='ae3b96c1-017a-404b-be77-9f6b8caa7fbd-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='c9a24a83-e57f-40a9-a9ab-2fa953f66297-attachment.png' type='image/png' size='72962'/>
+                <attachment title='Screenshot' source='e783cb8e-a8ed-41e9-883d-27081e316bb9-attachment.png' type='image/png' size='75892'/>
+                <attachment title='Screenshot' source='d3575348-fc6e-4487-8ddf-b87dea40e295-attachment.png' type='image/png' size='72815'/>
+                <attachment title='Screenshot' source='c866463a-903c-44d9-95b1-85fb520e110f-attachment.png' type='image/png' size='72815'/>
+                <attachment title='Screenshot' source='cabab07f-2188-4579-8af5-bfcb10e8f411-attachment.png' type='image/png' size='68909'/>
+                <attachment title='Screenshot' source='92b54c92-fbc6-4312-88e9-f5d0bf70882b-attachment.png' type='image/png' size='68909'/>
+                <attachment title='Screenshot' source='39c5a490-8090-4e8d-afb0-550aae5e81de-attachment.png' type='image/png' size='68281'/>
+                <attachment title='Screenshot' source='252eca05-f134-496f-99ed-2073bcbec4fe-attachment.png' type='image/png' size='68287'/>
+                <attachment title='Screenshot' source='3939163f-0507-4a08-904c-1cfe7537f1e9-attachment.png' type='image/png' size='57527'/>
+                <attachment title='Screenshot' source='354bfd57-0bdf-4f3f-96ba-38803e0bd386-attachment.png' type='image/png' size='58066'/>
+                <attachment title='Screenshot' source='cba546c8-8dc5-438d-a788-a33fdade1e4b-attachment.png' type='image/png' size='58066'/>
+                <attachment title='Screenshot' source='6a429533-762d-4540-b026-4de312ca1339-attachment.png' type='image/png' size='58994'/>
+                <attachment title='Screenshot' source='eddf25bf-0620-4d59-b4af-80e6d5059960-attachment.png' type='image/png' size='58994'/>
+                <attachment title='Screenshot' source='399d15ca-7ef4-4327-bb78-0dfcefa82aeb-attachment.png' type='image/png' size='75201'/>
+                <attachment title='Screenshot' source='065aa90d-4b59-4577-832e-b1c1e39f5459-attachment.png' type='image/png' size='75423'/>
+                <attachment title='Execution video' source='e7a4f4a3-e3cb-4c3e-95cf-ce0d1e225624-attachment.mp4' type='video/mp4' size='178'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`#termscondition-error`) to have text
+                
+                Expected: "Harus diisi"
+                Received: "Harus disetujui"</message>
+                <stack-trace>Error: Expect $(`#termscondition-error`) to have text
+                
+                Expected: "Harus diisi"
+                Received: "Harus disetujui"
+                    at Context.&lt;anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\register\/notchecktnc.register.js:24:47)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

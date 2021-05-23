@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer success forgot password" timestamp="2021-05-24T01:56:55" time="0.297" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer success forgot password"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\forgotpassword\success.forgotpassword.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer success forgot password" name="should forgot password with valid credentials" time="0.093">
+      <failure/>
+      <error message="ForgotPasswordPage.btnLogin.click is not a function"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/80f612cc1029ecdf28784f75ed55f13e/window/maximize - {}
+COMMAND: POST /session/80f612cc1029ecdf28784f75ed55f13e/element - {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: GET /session/80f612cc1029ecdf28784f75ed55f13e/screenshot - {}
+COMMAND: DELETE /session/80f612cc1029ecdf28784f75ed55f13e - {}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+COMMAND: GET /session/80f612cc1029ecdf28784f75ed55f13e/screenshot - {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {}
+COMMAND: GET /session/80f612cc1029ecdf28784f75ed55f13e/screenshot - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+TypeError: ForgotPasswordPage.btnLogin.click is not a function
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\forgotpassword\/success.forgotpassword.js:22:43)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:25)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

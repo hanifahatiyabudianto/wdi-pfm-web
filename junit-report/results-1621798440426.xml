@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer success forgot password" timestamp="2021-05-24T02:34:05" time="11.357" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer success forgot password"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\forgotpassword\success.forgotpassword.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer success forgot password" name="should forgot password with valid credentials" time="11.262">
+      <system-out><![CDATA[
+COMMAND: POST /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/window/maximize - {}
+COMMAND: POST /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/element - {"using":"css selector","value":"div.secondary > a.action.remind"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+COMMAND: GET /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/screenshot - {}
+RESULT: {"using":"css selector","value":"div.secondary > a.action.remind"}
+COMMAND: POST /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/element/c5f67d45-ee24-4991-a77e-0f4d5a794bde/click - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/screenshot - {}
+COMMAND: POST /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/element - {"using":"css selector","value":"#forgotpass-title"}
+RESULT: {"using":"css selector","value":"#forgotpass-title"}
+COMMAND: GET /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/element/1ed178fa-0581-4864-8c97-599240ee25ed/text - {}
+RESULT: {}
+RESULT: {}
+COMMAND: POST /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/element - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/element/b32691a5-6c9a-4a34-8426-7f7e2b3fd186/clear - {}
+RESULT: {}
+COMMAND: GET /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/screenshot - {}
+COMMAND: POST /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/element/b32691a5-6c9a-4a34-8426-7f7e2b3fd186/value - {"text":"hello.hanifahatiya@gmail.com"}
+RESULT: {"text":"hello.hanifahatiya@gmail.com"}
+COMMAND: GET /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/screenshot - {}
+COMMAND: POST /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/element/663c4bfe-ccda-422a-b223-a217ea551354/click - {}
+RESULT: {}
+COMMAND: GET /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/screenshot - {}
+COMMAND: GET /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/url - {}
+RESULT: {}
+COMMAND: GET /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/screenshot - {}
+COMMAND: POST /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/element - {"using":"css selector","value":"#block-customer-login-heading"}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#block-customer-login-heading"}
+COMMAND: GET /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/element/01aa3e30-eae6-4ba7-bd4e-e4b4cca53a69/text - {}
+RESULT: {}
+COMMAND: POST /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/element - {"using":"css selector","value":"div.message-success.success.message"}
+RESULT: {"using":"css selector","value":"div.message-success.success.message"}
+COMMAND: POST /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/elements - {"using":"css selector","value":"div.message-success.success.message"}
+RESULT: {"using":"css selector","value":"div.message-success.success.message"}
+COMMAND: POST /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/element - {"using":"css selector","value":"div.message-success.success.message"}
+RESULT: {"using":"css selector","value":"div.message-success.success.message"}
+COMMAND: GET /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/element/98111dd5-e3f2-414f-a265-3f6b35672547/text - {}
+RESULT: {}
+COMMAND: GET /session/6cf2ce7c0b71139d276bd7ac5a0e60bf/screenshot - {}
+COMMAND: DELETE /session/6cf2ce7c0b71139d276bd7ac5a0e60bf - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

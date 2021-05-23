@@ -1,0 +1,200 @@
+{
+  "uid" : "91985d27fe011fe8",
+  "name" : "should forgot password with valid credentials",
+  "fullName" : "Customer success forgot password.should forgot password with valid credentials",
+  "historyId" : "d3de46b41965448382ad5b9981f3b9fb",
+  "time" : {
+    "start" : 1621798445397,
+    "stop" : 1621798456736,
+    "duration" : 11339
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3c6e16e528bcd670",
+      "name" : "Screenshot",
+      "source" : "3c6e16e528bcd670.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "84c5e0d0da189564",
+      "name" : "Screenshot",
+      "source" : "84c5e0d0da189564.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "a2048a5465ec3415",
+      "name" : "Screenshot",
+      "source" : "a2048a5465ec3415.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "8716c24d967b4da8",
+      "name" : "Screenshot",
+      "source" : "8716c24d967b4da8.png",
+      "type" : "image/png",
+      "size" : 60431
+    }, {
+      "uid" : "1c8711651fa3bd85",
+      "name" : "Screenshot",
+      "source" : "1c8711651fa3bd85.png",
+      "type" : "image/png",
+      "size" : 62297
+    }, {
+      "uid" : "ef20f3a217a69864",
+      "name" : "Screenshot",
+      "source" : "ef20f3a217a69864.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "245c0f34c11ec76",
+      "name" : "Screenshot",
+      "source" : "245c0f34c11ec76.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "d30591d65c135152",
+      "name" : "Execution video",
+      "source" : "d30591d65c135152.mp4",
+      "type" : "video/mp4",
+      "size" : 24289
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Positive Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Success Forgot Password"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer success forgot password"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer success forgot password"
+  }, {
+    "name" : "testMethod",
+    "value" : "should forgot password with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Customer success forgot password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7ae6e9da512cf0ea",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/forgotpassword/\"",
+      "time" : {
+        "start" : 1621796745489,
+        "stop" : 1621796764070,
+        "duration" : 18581
+      }
+    }, {
+      "uid" : "e4583ea463e0d85e",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer/aHR0cHM6Ly9lcHJpbWFmcmVzaG1hcnQuY3AuY28uaWQvcGZtL2luZGV4LnBocC9jdXN0b21lci9hY2NvdW50L2luZGV4Lw%2C%2C/\"",
+      "time" : {
+        "start" : 1621796660764,
+        "stop" : 1621796682330,
+        "duration" : 21566
+      }
+    }, {
+      "uid" : "445dc3ee3471d1fa",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"#forgotpass-back\" because element wasn't found",
+      "time" : {
+        "start" : 1621796534696,
+        "stop" : 1621796550268,
+        "duration" : 15572
+      }
+    }, {
+      "uid" : "de312f8952fe447a",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"#forgotpass-back\" because element wasn't found",
+      "time" : {
+        "start" : 1621796358235,
+        "stop" : 1621796371182,
+        "duration" : 12947
+      }
+    }, {
+      "uid" : "e7993aa1828507b2",
+      "status" : "broken",
+      "statusDetails" : "ForgotPasswordPage.btnLogin.click is not a function",
+      "time" : {
+        "start" : 1621796250111,
+        "stop" : 1621796250273,
+        "duration" : 162
+      }
+    }, {
+      "uid" : "de787700726d0a76",
+      "status" : "broken",
+      "statusDetails" : "ForgotPasswordPage.btnLogin.click is not a function",
+      "time" : {
+        "start" : 1621796215899,
+        "stop" : 1621796216130,
+        "duration" : 231
+      }
+    }, {
+      "uid" : "39246eb513cc9daf",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#email_address\" because element wasn't found",
+      "time" : {
+        "start" : 1621796153177,
+        "stop" : 1621796168225,
+        "duration" : 15048
+      }
+    }, {
+      "uid" : "9c95730307bb2a88",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"#forgotpass-back\" because element wasn't found",
+      "time" : {
+        "start" : 1621796009700,
+        "stop" : 1621796023174,
+        "duration" : 13474
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91985d27fe011fe8.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "6c9d6bf99c377c2",
+  "name" : "should save a screenshot of the browser view when invalid format email",
+  "fullName" : "Login Page negative case.should save a screenshot of the browser view when invalid format email",
+  "historyId" : "42ef12fba06c181ebd61e0472c6d0809",
+  "time" : {
+    "start" : 1621191711902,
+    "stop" : 1621191711903,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Page negative case"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Page negative case"
+  }, {
+    "name" : "testMethod",
+    "value" : "should save a screenshot of the browser view when invalid format email"
+  }, {
+    "name" : "package",
+    "value" : "Login Page negative case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Edge-90.0.818.62"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c9d6bf99c377c2.json",
+  "parameterValues" : [ "Edge-90.0.818.62" ]
+}

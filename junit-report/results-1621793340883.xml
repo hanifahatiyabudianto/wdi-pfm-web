@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer failed register" timestamp="2021-05-24T01:09:05" time="19.141" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer failed register"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\register\registeredemail.register.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer failed register" name="should register with fill with registered email" time="18.977">
+      <failure/>
+      <error message="Expect window to have url&#xA;&#xA;Expected: &quot;https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create/&quot;&#xA;Received: &quot;https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/window/maximize - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create"}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/bf675549-9f24-4cb7-8d7f-c9880eb10e35/clear - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/bf675549-9f24-4cb7-8d7f-c9880eb10e35/value - {"text":"hello.hanifahatiya@gmail.com"}
+RESULT: {}
+RESULT: {"text":"hello.hanifahatiya@gmail.com"}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element - {"using":"css selector","value":"#password"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/b06b69c0-e4fb-42cf-a9d0-1c2e39ea04b9/clear - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/b06b69c0-e4fb-42cf-a9d0-1c2e39ea04b9/value - {"text":"Pfm12345"}
+RESULT: {}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element - {"using":"css selector","value":"#password_confirmation"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password_confirmation"}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/7fa97cb0-cc93-4d0b-a7ea-87ddfea5e8d7/clear - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/7fa97cb0-cc93-4d0b-a7ea-87ddfea5e8d7/value - {"text":"Pfm12345"}
+RESULT: {}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element - {"using":"css selector","value":"#firstname"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#firstname"}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/dc8f0f94-8dce-4320-85e2-4137c2f9b839/clear - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/dc8f0f94-8dce-4320-85e2-4137c2f9b839/value - {"text":"Pfm Wdio Satu"}
+RESULT: {}
+RESULT: {"text":"Pfm Wdio Satu"}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element - {"using":"css selector","value":"div.input-wraper > label:nth-child(2)"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"div.input-wraper > label:nth-child(2)"}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/aa29f17f-ee1a-4a1b-a3e1-a3d9766b8f53/click - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element - {"using":"css selector","value":"#nik"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#nik"}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/f493b06f-ff64-479e-8a6c-237478098938/clear - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/f493b06f-ff64-479e-8a6c-237478098938/value - {"text":"0001112223330001"}
+RESULT: {}
+RESULT: {"text":"0001112223330001"}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element - {"using":"css selector","value":"#phone_number"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#phone_number"}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/15aaefa1-99c6-4f1d-91bb-a44f6f668b2b/clear - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/15aaefa1-99c6-4f1d-91bb-a44f6f668b2b/value - {"text":"8123400000001"}
+RESULT: {}
+RESULT: {"text":"8123400000001"}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element - {"using":"css selector","value":"#dob"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#dob"}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/691c2135-3f29-434e-82a8-ec2d729f4837/clear - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/691c2135-3f29-434e-82a8-ec2d729f4837/value - {"text":"01-01-1985"}
+RESULT: {}
+RESULT: {"text":"01-01-1985"}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element - {"using":"css selector","value":"form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark"}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/e8d8156a-fdd8-4023-bae7-0b986f854c72/click - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/b4151deb655c7abeb8af49aa8ee5f5b2/element/bb8b9222-97d9-4100-9fef-8620695e0ae3/click - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+RESULT: {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/url - {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: GET /session/b4151deb655c7abeb8af49aa8ee5f5b2/screenshot - {}
+COMMAND: DELETE /session/b4151deb655c7abeb8af49aa8ee5f5b2 - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect window to have url
+
+Expected: "https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create/"
+Received: "https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create"
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\register\/registeredemail.register.js:22:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

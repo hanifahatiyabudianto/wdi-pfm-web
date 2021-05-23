@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621670528462' stop='1621670543076'>
+    <name>Customer did not fill email register form</name>
+    <title>Customer did not fill email register form</title>
+    <test-cases>
+        <test-case start='1621670528462' status='passed' stop='1621670543075'>
+            <name>should show error message when empty email</name>
+            <title>should show error message when empty email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='High'/>
+                <label name='Negative Case' value='undefined'/>
+                <label name='feature' value='Failed Register'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='32847aea-3f41-4c8b-bbb5-13b0d1a32138-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='67d300bf-a4ef-41a0-838f-73ef6e5499cf-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='e5fcbd70-7060-4c3d-a6a5-d679ac55ba17-attachment.png' type='image/png' size='74062'/>
+                <attachment title='Screenshot' source='13b22be5-6aff-469d-9f08-2dd88dd64d82-attachment.png' type='image/png' size='74067'/>
+                <attachment title='Screenshot' source='ea86f0b6-8271-4886-a105-7d3e6811ec79-attachment.png' type='image/png' size='74062'/>
+                <attachment title='Screenshot' source='ec677e5f-c7d4-4a3f-bc55-fe5683e63e6d-attachment.png' type='image/png' size='70992'/>
+                <attachment title='Screenshot' source='6de6b304-3f88-45a3-83fd-c0eb317c030e-attachment.png' type='image/png' size='70959'/>
+                <attachment title='Screenshot' source='8e47f497-f96b-4cb6-927f-4ab41a94693a-attachment.png' type='image/png' size='67274'/>
+                <attachment title='Screenshot' source='7483b2f8-af60-4b81-8622-dd24ad55a366-attachment.png' type='image/png' size='67241'/>
+                <attachment title='Screenshot' source='a91702f3-e3c9-433a-935a-983bb6b7e604-attachment.png' type='image/png' size='66634'/>
+                <attachment title='Screenshot' source='92040c2b-4a60-4213-90d5-8be4ccf016f6-attachment.png' type='image/png' size='57448'/>
+                <attachment title='Screenshot' source='71ae5fe6-231e-4d07-b51c-cdd1c2c392fb-attachment.png' type='image/png' size='57448'/>
+                <attachment title='Screenshot' source='2e086922-1d9a-4f1b-8be2-a2d1c4d6d13e-attachment.png' type='image/png' size='57423'/>
+                <attachment title='Screenshot' source='347e3d6f-5c96-426a-afb7-a00cafd312f4-attachment.png' type='image/png' size='58900'/>
+                <attachment title='Screenshot' source='e3e8e36b-40a7-4ec3-b44b-ab213ad798b1-attachment.png' type='image/png' size='73020'/>
+                <attachment title='Screenshot' source='2cf4f154-c6c7-4b82-b531-7a3501e72369-attachment.png' type='image/png' size='73020'/>
+                <attachment title='Screenshot' source='dfc8520c-6d47-4999-baeb-4d42449ea3fe-attachment.png' type='image/png' size='75239'/>
+                <attachment title='Screenshot' source='006d3e22-fc22-4e3a-bb13-718963ed8d89-attachment.png' type='image/png' size='67144'/>
+                <attachment title='Execution video' source='2b5cb544-4ea3-4f44-ab86-b51d19b30163-attachment.mp4' type='video/mp4' size='173'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

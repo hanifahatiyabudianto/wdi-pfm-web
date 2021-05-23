@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer fill password login with invalid format" timestamp="2021-05-22T14:15:49" time="12.106" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer fill password login with invalid format"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\login\invalidformatpassword.login.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer fill password login with invalid format" name="should show error message wrong password" time="12.084">
+      <system-out><![CDATA[
+COMMAND: POST /session/a0d1893a100799933b83febb47461bdd/window/maximize - {}
+COMMAND: POST /session/a0d1893a100799933b83febb47461bdd/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/a0d1893a100799933b83febb47461bdd/element/184cdd71-c639-4373-b72c-2a9a1e3f37af/clear - {}
+RESULT: {}
+COMMAND: POST /session/a0d1893a100799933b83febb47461bdd/element/184cdd71-c639-4373-b72c-2a9a1e3f37af/value - {"text":"hello.hanifahatiya@gmail.com"}
+RESULT: {"text":"hello.hanifahatiya@gmail.com"}
+COMMAND: POST /session/a0d1893a100799933b83febb47461bdd/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/a0d1893a100799933b83febb47461bdd/element/d349cf87-80ed-495b-8e60-1be609a64298/clear - {}
+RESULT: {}
+COMMAND: POST /session/a0d1893a100799933b83febb47461bdd/element/d349cf87-80ed-495b-8e60-1be609a64298/value - {"text":"Pfm"}
+RESULT: {"text":"Pfm"}
+COMMAND: POST /session/a0d1893a100799933b83febb47461bdd/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/a0d1893a100799933b83febb47461bdd/element/f329ad72-ca98-4929-8b57-3cb8ca08a8eb/click - {}
+RESULT: {}
+COMMAND: POST /session/a0d1893a100799933b83febb47461bdd/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: POST /session/a0d1893a100799933b83febb47461bdd/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: POST /session/a0d1893a100799933b83febb47461bdd/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: POST /session/a0d1893a100799933b83febb47461bdd/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"cbf41fc9-4425-42e5-b8da-bc5b54adf1db","ELEMENT":"cbf41fc9-4425-42e5-b8da-bc5b54adf1db"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"cbf41fc9-4425-42e5-b8da-bc5b54adf1db","ELEMENT":"cbf41fc9-4425-42e5-b8da-bc5b54adf1db"}]}
+COMMAND: POST /session/a0d1893a100799933b83febb47461bdd/element - {"using":"css selector","value":"div.message-error"}
+RESULT: {"using":"css selector","value":"div.message-error"}
+COMMAND: GET /session/a0d1893a100799933b83febb47461bdd/element/cbf41fc9-4425-42e5-b8da-bc5b54adf1db/text - {}
+RESULT: {}
+COMMAND: GET /session/a0d1893a100799933b83febb47461bdd/screenshot - {}
+COMMAND: DELETE /session/a0d1893a100799933b83febb47461bdd - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

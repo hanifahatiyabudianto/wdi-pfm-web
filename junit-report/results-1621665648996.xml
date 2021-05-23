@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer success login" timestamp="2021-05-22T13:40:57" time="25.671" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer success login"/>
+      <property name="capabilities" value="chrome.90_0_4430_72.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\login\success.login.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_72.windows.Customer success login" name="should login with valid credentials" time="25.638">
+      <failure/>
+      <error message="Expect window to have url&#xA;&#xA;Expected: &quot;https://eprimafreshmart.cp.co.id/pfm/index.php/&quot;&#xA;Received: &quot;https://primafreshmart.com/&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/window/current/maximize - {}
+COMMAND: POST /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://primafreshmart.com/customer/account/login"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/element/0/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: POST /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/element/0/value - {"value":["h","e","l","l","o",".","h","a","n","i","(18 more items)"]}
+RESULT: {"value":["h","e","l","l","o",".","h","a","n","i","(18 more items)"]}
+COMMAND: POST /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/element/1/clear - {}
+RESULT: {}
+COMMAND: POST /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/element/1/value - {"value":["P","f","m","1","2","3","4","5"]}
+RESULT: {"value":["P","f","m","1","2","3","4","5"]}
+COMMAND: POST /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/element/2/click - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/url - {}
+RESULT: {}
+COMMAND: POST /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/execute - {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"failed\",\"reason\": \"At least 1 assertion failed\"}}"}
+COMMAND: GET /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c/screenshot - {}
+COMMAND: DELETE /session/b2d88cb8d70aa18167e33581709e43da9a4bbf9c - {}
+RESULT: {"script":"browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\":\"failed\",\"reason\": \"At least 1 assertion failed\"}}"}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect window to have url
+
+Expected: "https://eprimafreshmart.cp.co.id/pfm/index.php/"
+Received: "https://primafreshmart.com/"
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\login\/success.login.js:23:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

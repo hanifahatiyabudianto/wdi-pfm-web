@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer success forgot password" timestamp="2021-05-24T01:59:18" time="12.967" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer success forgot password"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\forgotpassword\success.forgotpassword.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer success forgot password" name="should forgot password with valid credentials" time="12.869">
+      <failure/>
+      <error message="Can't call click on element with selector &quot;#forgotpass-back&quot; because element wasn't found"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/window/maximize - {}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/element - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+COMMAND: GET /session/aa5805d8678a8b759dc43f41093d84a4/screenshot - {}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {}
+COMMAND: GET /session/aa5805d8678a8b759dc43f41093d84a4/screenshot - {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: POST /session/aa5805d8678a8b759dc43f41093d84a4/elements - {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: GET /session/aa5805d8678a8b759dc43f41093d84a4/screenshot - {}
+RESULT: {"using":"css selector","value":"#forgotpass-back"}
+COMMAND: DELETE /session/aa5805d8678a8b759dc43f41093d84a4 - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Can't call click on element with selector "#forgotpass-back" because element wasn't found
+    at Object.implicitWait [as default] (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+    at Element.elementErrorHandlerCallbackFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\middlewares.js:19:29)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\forgotpassword\/success.forgotpassword.js:22:9)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

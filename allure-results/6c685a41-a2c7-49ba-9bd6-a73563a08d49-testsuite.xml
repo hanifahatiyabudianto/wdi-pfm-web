@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621788388229' stop='1621788400739'>
+    <name>Customer did not fill nik register form</name>
+    <title>Customer did not fill nik register form</title>
+    <test-cases>
+        <test-case start='1621788388231' status='broken' stop='1621788400738'>
+            <name>should show error message when empty nik</name>
+            <title>should show error message when empty nik</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3db13334-ef67-4c85-9940-91e00412148e-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='4696b815-d528-4d1e-9637-8fb00c3acb23-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='014c75f7-8305-49ef-bd5c-3f382004d1e0-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='6648bc43-3eb1-48ed-ab89-7dcb3298a791-attachment.png' type='image/png' size='72962'/>
+                <attachment title='Screenshot' source='8341f96e-da6b-4df4-a94e-dea86c9510fa-attachment.png' type='image/png' size='72962'/>
+                <attachment title='Screenshot' source='c919ae9c-7210-4c6b-aba4-a06057778314-attachment.png' type='image/png' size='69805'/>
+                <attachment title='Screenshot' source='562de715-4a09-4f29-a3d1-a932f6fffc08-attachment.png' type='image/png' size='71840'/>
+                <attachment title='Screenshot' source='464251c3-790f-446a-bb4d-d840bed558b7-attachment.png' type='image/png' size='68909'/>
+                <attachment title='Screenshot' source='e9dd63ca-ce0c-4f46-8293-00d54db4155b-attachment.png' type='image/png' size='68909'/>
+                <attachment title='Screenshot' source='ebea809a-5f08-4cc0-987d-3aa0f099a522-attachment.png' type='image/png' size='68281'/>
+                <attachment title='Execution video' source='ea20ad25-11d4-42c3-bc99-3219d3b8c706-attachment.mp4' type='video/mp4' size='169'/>
+            </attachments>
+            <failure>
+                <message>Options must be an object</message>
+                <stack-trace>TypeError: Options must be an object
+                    at Element.click (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\commands\element\click.js:78:15)
+                    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:38)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at RegisterPage.register (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\pageobjects\estore\/register.page.js:46:9)
+                    at Context.&lt;anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\register\/successgendermale.register.js:22:9)
+                    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

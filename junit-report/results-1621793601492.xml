@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer failed register" timestamp="2021-05-24T01:13:25" time="19.686" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer failed register"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\register\registeredphonenumber.register.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer failed register" name="should register with fill with registered email" time="19.523">
+      <failure/>
+      <error message="Expect $(`#phone_number-error`) to have text&#xA;&#xA;Expected: &quot;Nomor Handphone sudah dipakai.&quot;&#xA;Received: undefined"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/window/maximize - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create"}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/e90163d4-a6a0-47a4-8bba-a684a521965e/clear - {}
+RESULT: {}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/e90163d4-a6a0-47a4-8bba-a684a521965e/value - {"text":"hello.hanifahatiya@gmail.com"}
+RESULT: {}
+RESULT: {}
+RESULT: {"text":"hello.hanifahatiya@gmail.com"}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element - {"using":"css selector","value":"#password"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/c4b68a11-2fe2-4bbb-be4b-fb3fcb14bad4/clear - {}
+RESULT: {}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/c4b68a11-2fe2-4bbb-be4b-fb3fcb14bad4/value - {"text":"Pfm12345"}
+RESULT: {}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element - {"using":"css selector","value":"#password_confirmation"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password_confirmation"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/7e08b61d-36ef-4ac3-bc40-dd1fb88b15f4/clear - {}
+RESULT: {}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/7e08b61d-36ef-4ac3-bc40-dd1fb88b15f4/value - {"text":"Pfm12345"}
+RESULT: {}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element - {"using":"css selector","value":"#firstname"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#firstname"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/2c68af36-b45b-406c-9fb2-d577e9ee8b21/clear - {}
+RESULT: {}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/2c68af36-b45b-406c-9fb2-d577e9ee8b21/value - {"text":"Pfm Wdio Satu"}
+RESULT: {}
+RESULT: {"text":"Pfm Wdio Satu"}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element - {"using":"css selector","value":"div.input-wraper > label:nth-child(2)"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"div.input-wraper > label:nth-child(2)"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/729f0ebf-f56d-4fab-ae8a-f3ba1580e282/click - {}
+RESULT: {}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element - {"using":"css selector","value":"#nik"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#nik"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/4890ed55-8ca8-4e48-aa7d-a54014fedbc5/clear - {}
+RESULT: {}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/4890ed55-8ca8-4e48-aa7d-a54014fedbc5/value - {"text":"0001112223330001"}
+RESULT: {"text":"0001112223330001"}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element - {"using":"css selector","value":"#phone_number"}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#phone_number"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/62243e1c-3745-4746-852e-294e302b0fc2/clear - {}
+RESULT: {}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/62243e1c-3745-4746-852e-294e302b0fc2/value - {"text":"8123400000001"}
+RESULT: {}
+RESULT: {"text":"8123400000001"}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element - {"using":"css selector","value":"#dob"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#dob"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/a27e9bb1-549e-4162-a715-84cb8d174320/clear - {}
+RESULT: {}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/a27e9bb1-549e-4162-a715-84cb8d174320/value - {"text":"01-01-1985"}
+RESULT: {}
+RESULT: {"text":"01-01-1985"}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element - {"using":"css selector","value":"form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/4a4ecba6-deef-45f9-81e0-f13c337c71bb/click - {}
+RESULT: {}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element/46e600a0-4a0d-4807-aac5-f42994b303e4/click - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/element - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: POST /session/5e565b664a339130f78e22c4d4934605/elements - {"using":"css selector","value":"#phone_number-error"}
+RESULT: {"using":"css selector","value":"#phone_number-error"}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: GET /session/5e565b664a339130f78e22c4d4934605/screenshot - {}
+COMMAND: DELETE /session/5e565b664a339130f78e22c4d4934605 - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`#phone_number-error`) to have text
+
+Expected: "Nomor Handphone sudah dipakai."
+Received: undefined
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\register\/registeredphonenumber.register.js:23:55)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

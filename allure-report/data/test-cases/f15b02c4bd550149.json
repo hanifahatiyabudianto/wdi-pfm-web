@@ -1,0 +1,88 @@
+{
+  "uid" : "f15b02c4bd550149",
+  "name" : "should login with valid credentials",
+  "fullName" : "Prima Freshmart Customer Login.should login with valid credentials",
+  "historyId" : "a4fae47daafc8097f48035bc772220bf",
+  "time" : {
+    "start" : 1621665331048,
+    "stop" : 1621665360307,
+    "duration" : 29259
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/\"",
+  "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/\"\n                    at successLogin (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\login\\/view.myaccount.js:15:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bb7b275b369e41ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621352352140,
+        "stop" : 1621352370582,
+        "duration" : 18442
+      }
+    }, {
+      "uid" : "fe6e9adabb1ef247",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621350920637,
+        "stop" : 1621350945652,
+        "duration" : 25015
+      }
+    }, {
+      "uid" : "69ddc0525d42d89f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621350761711,
+        "stop" : 1621350780466,
+        "duration" : 18755
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f15b02c4bd550149.json",
+  "parameterValues" : [ "chrome-90.0.4430.72" ]
+}

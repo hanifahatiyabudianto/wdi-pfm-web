@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621786937240' stop='1621786948998'>
+    <name>Customer did not fill password register form</name>
+    <title>Customer did not fill password register form</title>
+    <test-cases>
+        <test-case start='1621786937240' status='passed' stop='1621786948997'>
+            <name>should show error message when empty password</name>
+            <title>should show error message when empty password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='49fa1464-2fb6-4097-b71a-91eb2da199bc-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='87827882-3bb2-4c16-b8d9-d56dfe17b91d-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='da157b5a-714c-43ff-a723-6900215d9584-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='3a2cd961-ee97-43b6-9667-da767b3ecbf7-attachment.png' type='image/png' size='72962'/>
+                <attachment title='Screenshot' source='7e74ee2d-e2fa-4d4c-afb8-e68ba013e9ce-attachment.png' type='image/png' size='72938'/>
+                <attachment title='Screenshot' source='febf1d12-6bc4-40bd-9fab-68acddd0032e-attachment.png' type='image/png' size='75962'/>
+                <attachment title='Screenshot' source='67adebc5-8662-4a88-83a3-ef6bf1c81781-attachment.png' type='image/png' size='75898'/>
+                <attachment title='Screenshot' source='2b0ec24e-fc25-40e6-b5e9-724a5d6fcd98-attachment.png' type='image/png' size='72472'/>
+                <attachment title='Screenshot' source='93a1d427-24e0-4e4c-9123-b5679f91f0fd-attachment.png' type='image/png' size='71847'/>
+                <attachment title='Screenshot' source='d8fcd794-4a02-42fd-ac5f-856926cfdf3e-attachment.png' type='image/png' size='71847'/>
+                <attachment title='Screenshot' source='671e8205-32a6-4473-b816-13d20757c21f-attachment.png' type='image/png' size='60720'/>
+                <attachment title='Screenshot' source='8fa1fe01-450e-4c97-84b5-5e4dc147324b-attachment.png' type='image/png' size='60720'/>
+                <attachment title='Screenshot' source='6ccb03d1-efbb-4b00-9a01-ab3ce6b94aea-attachment.png' type='image/png' size='60692'/>
+                <attachment title='Screenshot' source='503013d7-7411-4f46-8041-cbf19985db54-attachment.png' type='image/png' size='62350'/>
+                <attachment title='Screenshot' source='6c7a6670-b7e6-413f-958d-444fe8c87d3f-attachment.png' type='image/png' size='62350'/>
+                <attachment title='Screenshot' source='041baa87-9183-400a-97b4-15988c3a475f-attachment.png' type='image/png' size='76603'/>
+                <attachment title='Screenshot' source='62342a17-58a5-4ade-9932-1ce4d3f67c72-attachment.png' type='image/png' size='78224'/>
+                <attachment title='Screenshot' source='bd86c4fc-e4b5-4635-bb45-f796498dc24c-attachment.png' type='image/png' size='71504'/>
+                <attachment title='Execution video' source='3d001570-b113-41f3-9aff-e9a6d7ea015a-attachment.mp4' type='video/mp4' size='179'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

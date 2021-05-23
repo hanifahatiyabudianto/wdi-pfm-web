@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621665331047' stop='1621665432178'>
+    <name>Prima Freshmart Customer Login</name>
+    <title>Prima Freshmart Customer Login</title>
+    <test-cases>
+        <test-case start='1621665331048' status='failed' stop='1621665360307'>
+            <name>should login with valid credentials</name>
+            <title>should login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.72'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect window to have url
+                
+                Expected: "https://primafreshmart.com/"
+                Received: "https://eprimafreshmart.cp.co.id/pfm/index.php/"</message>
+                <stack-trace>Error: Expect window to have url
+                
+                Expected: "https://primafreshmart.com/"
+                Received: "https://eprimafreshmart.cp.co.id/pfm/index.php/"
+                    at successLogin (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\login\/view.myaccount.js:15:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621665360310' status='failed' stop='1621665372137'>
+            <name>should avatar will be displayed</name>
+            <title>should avatar will be displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`span.avatar-name`) to have text containing
+                
+                Expected: "Atiya"
+                Received: "Hani Hani"</message>
+                <stack-trace>Error: Expect $(`span.avatar-name`) to have text containing
+                
+                Expected: "Atiya"
+                Received: "Hani Hani"
+                    at Context.&lt;anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\login\/view.myaccount.js:31:43)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621665372143' status='broken' stop='1621665432149'>
+            <name>should direct to my account page</name>
+            <title>should direct to my account page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Prima Freshmart Customer Login should direct to my account page" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\login\view.myaccount.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Prima Freshmart Customer Login should direct to my account page" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\login\view.myaccount.js)
+                    at createTimeoutError (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:554:17)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621665432150' status='passed' stop='1621665432170'>
+            <name>should save a screenshot of the browser view of account page</name>
+            <title>should save a screenshot of the browser view of account page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.72'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

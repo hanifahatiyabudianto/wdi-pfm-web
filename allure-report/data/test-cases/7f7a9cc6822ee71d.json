@@ -1,0 +1,90 @@
+{
+  "uid" : "7f7a9cc6822ee71d",
+  "name" : "should save a screenshot of the browser view when Confirmation Required",
+  "fullName" : "Customer account has not been confirmed.should save a screenshot of the browser view when Confirmation Required",
+  "historyId" : "ea8734a59d74c9c01af4ff9f03af3c31",
+  "time" : {
+    "start" : 1621668417315,
+    "stop" : 1621668417325,
+    "duration" : 10
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer account has not been confirmed"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer account has not been confirmed"
+  }, {
+    "name" : "testMethod",
+    "value" : "should save a screenshot of the browser view when Confirmation Required"
+  }, {
+    "name" : "package",
+    "value" : "Customer account has not been confirmed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2f1c5be07f418cf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621668100809,
+        "stop" : 1621668100821,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "65c996bed3b62ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621668033178,
+        "stop" : 1621668033194,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "f9686011194cf8aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621667876959,
+        "stop" : 1621667876987,
+        "duration" : 28
+      }
+    }, {
+      "uid" : "178159c7de5ae876",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621667806749,
+        "stop" : 1621667806760,
+        "duration" : 11
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f7a9cc6822ee71d.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

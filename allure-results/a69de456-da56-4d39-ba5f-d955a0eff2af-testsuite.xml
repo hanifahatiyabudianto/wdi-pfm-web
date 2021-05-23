@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621792925846' stop='1621792938112'>
+    <name>Customer did not check tnc register form</name>
+    <title>Customer did not check tnc register form</title>
+    <test-cases>
+        <test-case start='1621792925846' status='passed' stop='1621792938111'>
+            <name>should show error message when did not check tnc</name>
+            <title>should show error message when did not check tnc</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ee87d8c3-a0cc-4fc9-bc54-9b3e0c4ee93b-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='da41c5ac-e8df-472d-8bd1-3df40f12c22c-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='cb74f61c-5221-440e-a213-2416bbe77cd3-attachment.png' type='image/png' size='71025'/>
+                <attachment title='Screenshot' source='69597515-7359-435d-9af0-2b78d898ea9b-attachment.png' type='image/png' size='72962'/>
+                <attachment title='Screenshot' source='448d2a90-b801-46ef-b5a1-41a69fe733c1-attachment.png' type='image/png' size='72962'/>
+                <attachment title='Screenshot' source='6c2f3b80-d974-4427-a7ed-92948e99ab14-attachment.png' type='image/png' size='72815'/>
+                <attachment title='Screenshot' source='a933cec9-237f-4f2e-bf0a-41e2748493c1-attachment.png' type='image/png' size='72815'/>
+                <attachment title='Screenshot' source='cca13638-beb9-4bc7-832f-35e9c01fc3e3-attachment.png' type='image/png' size='68909'/>
+                <attachment title='Screenshot' source='f7f5434d-7c92-4b67-aefb-49c5abb8256b-attachment.png' type='image/png' size='68909'/>
+                <attachment title='Screenshot' source='15ea1ec3-f7b6-4399-9483-94992a75b3ee-attachment.png' type='image/png' size='68281'/>
+                <attachment title='Screenshot' source='9875188f-59c3-4414-9560-ecd6a83d0a4b-attachment.png' type='image/png' size='68287'/>
+                <attachment title='Screenshot' source='f766019c-5355-4c86-a031-3ea6c6cf92ef-attachment.png' type='image/png' size='54288'/>
+                <attachment title='Screenshot' source='9ba7b13c-1110-4b3a-a430-361056e316c8-attachment.png' type='image/png' size='54288'/>
+                <attachment title='Screenshot' source='f9b047d2-7f81-480f-b4ac-725646540850-attachment.png' type='image/png' size='54315'/>
+                <attachment title='Screenshot' source='6946d25d-8bdf-41b8-bead-71943c131ade-attachment.png' type='image/png' size='55406'/>
+                <attachment title='Screenshot' source='aa9a4933-e39a-4517-a9e0-791a4e08e82f-attachment.png' type='image/png' size='70712'/>
+                <attachment title='Screenshot' source='d69ccd44-48a6-4036-a91b-a56a30ac28fd-attachment.png' type='image/png' size='70712'/>
+                <attachment title='Screenshot' source='4a6d5ba0-0188-4642-b8d2-04193e4a0812-attachment.png' type='image/png' size='67643'/>
+                <attachment title='Execution video' source='c6cea3a3-3b4e-47c0-8a14-3aab31b9360e-attachment.mp4' type='video/mp4' size='178'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

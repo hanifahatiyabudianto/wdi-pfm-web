@@ -1,0 +1,65 @@
+{
+  "uid" : "3c12acbf124a4fd",
+  "name" : "should login with valid credentials",
+  "fullName" : "Customer success login.should login with valid credentials",
+  "historyId" : "5d0110ce35b70dce37e4b63b7cbe16a0",
+  "time" : {
+    "start" : 1621659545750,
+    "stop" : 1621659567451,
+    "duration" : 21701
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Positive Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Success Login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer success login"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer success login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Customer success login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.72"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c12acbf124a4fd.json",
+  "parameterValues" : [ "chrome-90.0.4430.72" ]
+}

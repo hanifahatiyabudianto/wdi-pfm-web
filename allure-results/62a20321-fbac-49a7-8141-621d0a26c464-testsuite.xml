@@ -1,0 +1,42 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621798445397' stop='1621798456737'>
+    <name>Customer success forgot password</name>
+    <title>Customer success forgot password</title>
+    <test-cases>
+        <test-case start='1621798445397' status='passed' stop='1621798456736'>
+            <name>should forgot password with valid credentials</name>
+            <title>should forgot password with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='High'/>
+                <label name='Positive Case' value='undefined'/>
+                <label name='feature' value='Success Forgot Password'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='24d1196a-b965-45a6-88b0-1279f47f2478-attachment.png' type='image/png' size='60385'/>
+                <attachment title='Screenshot' source='65cac811-0695-4871-bef2-08ee38888b1c-attachment.png' type='image/png' size='60385'/>
+                <attachment title='Screenshot' source='b5c40da5-7e5f-42a5-8178-c07bd3d9b534-attachment.png' type='image/png' size='58153'/>
+                <attachment title='Screenshot' source='8cb157eb-0150-4e3c-9d1b-6e64d09851b3-attachment.png' type='image/png' size='60431'/>
+                <attachment title='Screenshot' source='5f0cc740-4b83-4dc3-81f4-9096b8bcbb44-attachment.png' type='image/png' size='62297'/>
+                <attachment title='Screenshot' source='e0730652-58fa-45c1-9aef-2489cb3409e7-attachment.png' type='image/png' size='60385'/>
+                <attachment title='Screenshot' source='8d87049d-f603-4dff-bbc7-b1fee8857459-attachment.png' type='image/png' size='60385'/>
+                <attachment title='Execution video' source='540065a2-aff5-4fce-afed-cb7f80df8827-attachment.mp4' type='video/mp4' size='167'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

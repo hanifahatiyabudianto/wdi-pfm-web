@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621796358234' stop='1621796371186'>
+    <name>Customer success forgot password</name>
+    <title>Customer success forgot password</title>
+    <test-cases>
+        <test-case start='1621796358235' status='broken' stop='1621796371182'>
+            <name>should forgot password with valid credentials</name>
+            <title>should forgot password with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='High'/>
+                <label name='Positive Case' value='undefined'/>
+                <label name='feature' value='Success Forgot Password'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1f792133-40a1-492e-8fd1-beca2827a227-attachment.png' type='image/png' size='60385'/>
+                <attachment title='Screenshot' source='c58bfe0a-91a4-4fce-bf89-0493e0796317-attachment.png' type='image/png' size='60385'/>
+                <attachment title='Execution video' source='a508b727-b1eb-4480-a0e3-3deb387bbd97-attachment.mp4' type='video/mp4' size='167'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "#forgotpass-back" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#forgotpass-back" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\middlewares.js:19:29)
+                    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+                    at Context.&lt;anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\forgotpassword\/success.forgotpassword.js:22:9)
+                    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer success forgot password" timestamp="2021-05-24T01:55:53" time="15.065" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer success forgot password"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\forgotpassword\success.forgotpassword.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer success forgot password" name="should forgot password with valid credentials" time="14.907">
+      <failure/>
+      <error message="Can't call setValue on element with selector &quot;#email_address&quot; because element wasn't found"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/window/maximize - {}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/element - {"using":"css selector","value":"#email_address"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+COMMAND: GET /session/bf9853d5f801032a707e8c2296a28ca1/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/bf9853d5f801032a707e8c2296a28ca1/screenshot - {}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/bf9853d5f801032a707e8c2296a28ca1/elements - {"using":"css selector","value":"#email_address"}
+COMMAND: GET /session/bf9853d5f801032a707e8c2296a28ca1/screenshot - {}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: DELETE /session/bf9853d5f801032a707e8c2296a28ca1 - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Can't call setValue on element with selector "#email_address" because element wasn't found
+    at Object.implicitWait [as default] (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+    at Element.elementErrorHandlerCallbackFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\middlewares.js:19:29)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at ForgotPasswordPage.forgotpassword (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\pageobjects\estore\/forgotpassword.page.js:27:9)
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\forgotpassword\/success.forgotpassword.js:22:9)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

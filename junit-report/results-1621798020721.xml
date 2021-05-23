@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer success back to login page" timestamp="2021-05-24T02:27:05" time="14.054" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer success back to login page"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\forgotpassword\backtologinpage.forgotpassword.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer success back to login page" name="should redirect to login page" time="13.923">
+      <failure/>
+      <error message="Expect window to have url containing&#xA;&#xA;Expected: &quot;https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer/&quot;&#xA;Received: &quot;https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/forgotpassword/&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/7b900ec86f1cbd09e698b65c04238f64/window/maximize - {}
+COMMAND: POST /session/7b900ec86f1cbd09e698b65c04238f64/element - {"using":"css selector","value":"div.secondary > a.action.remind"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {"using":"css selector","value":"div.secondary > a.action.remind"}
+COMMAND: POST /session/7b900ec86f1cbd09e698b65c04238f64/element/1c343995-ead0-4c41-85b2-beaf1eb00f68/click - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/url - {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b900ec86f1cbd09e698b65c04238f64/screenshot - {}
+COMMAND: DELETE /session/7b900ec86f1cbd09e698b65c04238f64 - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect window to have url containing
+
+Expected: "https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer/"
+Received: "https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/forgotpassword/"
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\forgotpassword\/backtologinpage.forgotpassword.js:23:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,233 @@
+{
+  "uid" : "cf10d15462216374",
+  "name" : "should show error message when did not check tnc",
+  "fullName" : "Customer did not check tnc register form.should show error message when did not check tnc",
+  "historyId" : "fd5282da7b97f2193a90c9c73077840a",
+  "time" : {
+    "start" : 1621792982136,
+    "stop" : 1621793008066,
+    "duration" : 25930
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`#termscondition-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+  "statusTrace" : "Error: Expect $(`#termscondition-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/notchecktnc.register.js:23:47)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`#termscondition-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+    "statusTrace" : "Error: Expect $(`#termscondition-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/notchecktnc.register.js:23:47)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a2a959117bbf3ef2",
+      "name" : "Screenshot",
+      "source" : "a2a959117bbf3ef2.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "a857bc2452da875e",
+      "name" : "Screenshot",
+      "source" : "a857bc2452da875e.png",
+      "type" : "image/png",
+      "size" : 74062
+    }, {
+      "uid" : "6f55116cfb16ef20",
+      "name" : "Screenshot",
+      "source" : "6f55116cfb16ef20.png",
+      "type" : "image/png",
+      "size" : 74062
+    }, {
+      "uid" : "bae6f0400bda624c",
+      "name" : "Screenshot",
+      "source" : "bae6f0400bda624c.png",
+      "type" : "image/png",
+      "size" : 75895
+    }, {
+      "uid" : "2fc5bcaa4ad03352",
+      "name" : "Screenshot",
+      "source" : "2fc5bcaa4ad03352.png",
+      "type" : "image/png",
+      "size" : 75895
+    }, {
+      "uid" : "412033f1943d6e71",
+      "name" : "Screenshot",
+      "source" : "412033f1943d6e71.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "f7e87521fd535bec",
+      "name" : "Screenshot",
+      "source" : "f7e87521fd535bec.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "ce60339c2139a019",
+      "name" : "Screenshot",
+      "source" : "ce60339c2139a019.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "b891ce06ad7fe554",
+      "name" : "Screenshot",
+      "source" : "b891ce06ad7fe554.png",
+      "type" : "image/png",
+      "size" : 68281
+    }, {
+      "uid" : "f42b048b195fe3b4",
+      "name" : "Screenshot",
+      "source" : "f42b048b195fe3b4.png",
+      "type" : "image/png",
+      "size" : 68281
+    }, {
+      "uid" : "23bf1ea8166e09ea",
+      "name" : "Screenshot",
+      "source" : "23bf1ea8166e09ea.png",
+      "type" : "image/png",
+      "size" : 68287
+    }, {
+      "uid" : "b5c95ba1bd899248",
+      "name" : "Screenshot",
+      "source" : "b5c95ba1bd899248.png",
+      "type" : "image/png",
+      "size" : 57527
+    }, {
+      "uid" : "ab075fc63f61ddc2",
+      "name" : "Screenshot",
+      "source" : "ab075fc63f61ddc2.png",
+      "type" : "image/png",
+      "size" : 58066
+    }, {
+      "uid" : "da501082e986b67d",
+      "name" : "Screenshot",
+      "source" : "da501082e986b67d.png",
+      "type" : "image/png",
+      "size" : 58066
+    }, {
+      "uid" : "8be3cd80af3e3291",
+      "name" : "Screenshot",
+      "source" : "8be3cd80af3e3291.png",
+      "type" : "image/png",
+      "size" : 58994
+    }, {
+      "uid" : "888f4ee5b4d5acfb",
+      "name" : "Screenshot",
+      "source" : "888f4ee5b4d5acfb.png",
+      "type" : "image/png",
+      "size" : 58994
+    }, {
+      "uid" : "7063cffeebdd89bd",
+      "name" : "Screenshot",
+      "source" : "7063cffeebdd89bd.png",
+      "type" : "image/png",
+      "size" : 75201
+    }, {
+      "uid" : "ad139cac7ff33f8a",
+      "name" : "Screenshot",
+      "source" : "ad139cac7ff33f8a.png",
+      "type" : "image/png",
+      "size" : 76844
+    }, {
+      "uid" : "1c5f9f4a44cc849e",
+      "name" : "Screenshot",
+      "source" : "1c5f9f4a44cc849e.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "405ab35d9d9a8688",
+      "name" : "Execution video",
+      "source" : "405ab35d9d9a8688.mp4",
+      "type" : "video/mp4",
+      "size" : 45512
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 20,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not check tnc register form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not check tnc register form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when did not check tnc"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not check tnc register form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e29254fdfa5370c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621792925846,
+        "stop" : 1621792938111,
+        "duration" : 12265
+      }
+    }, {
+      "uid" : "d82127ef2bab4c32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621792804079,
+        "stop" : 1621792822348,
+        "duration" : 18269
+      }
+    }, {
+      "uid" : "1f1fd92fc9d52d25",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#termscondition-error`) to have text\n                \n                Expected: \"Harus diisi\"\n                Received: \"Harus disetujui\"",
+      "time" : {
+        "start" : 1621792719449,
+        "stop" : 1621792739592,
+        "duration" : 20143
+      }
+    }, {
+      "uid" : "be41dcf64f4f16d7",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark`) to have text\n                \n                Expected: \"Harus diisi\"\n                Received: \"\"",
+      "time" : {
+        "start" : 1621792637433,
+        "stop" : 1621792658157,
+        "duration" : 20724
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cf10d15462216374.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

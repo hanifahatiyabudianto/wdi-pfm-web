@@ -1,0 +1,276 @@
+{
+  "uid" : "28822d5c22662dff",
+  "name" : "should login with valid credentials",
+  "fullName" : "Prima Freshmart Customer Login.should login with valid credentials",
+  "historyId" : "bf655cdf1f49fe6614af488dfdea2722",
+  "time" : {
+    "start" : 1621259632039,
+    "stop" : 1621259639449,
+    "duration" : 7410
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Success Login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "74ba033f08fd0f6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621259534495,
+        "stop" : 1621259541062,
+        "duration" : 6567
+      }
+    }, {
+      "uid" : "4ee5c97e1812af7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621259335762,
+        "stop" : 1621259349585,
+        "duration" : 13823
+      }
+    }, {
+      "uid" : "e32acb29b15e6624",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621258999789,
+        "stop" : 1621259007178,
+        "duration" : 7389
+      }
+    }, {
+      "uid" : "93bbcc4e588bbd86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621258896167,
+        "stop" : 1621258903417,
+        "duration" : 7250
+      }
+    }, {
+      "uid" : "b2cf13642fdc58d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621258858968,
+        "stop" : 1621258872906,
+        "duration" : 13938
+      }
+    }, {
+      "uid" : "e89938c877d695f1",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1621258718948,
+        "stop" : 1621258718964,
+        "duration" : 16
+      }
+    }, {
+      "uid" : "5eaae8158856b7d7",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1621258481681,
+        "stop" : 1621258481692,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "a2cb5d0be34e0e90",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1621258228810,
+        "stop" : 1621258228837,
+        "duration" : 27
+      }
+    }, {
+      "uid" : "8c340fbddc684b14",
+      "status" : "broken",
+      "statusDetails" : "allureReporter is not defined",
+      "time" : {
+        "start" : 1621257772084,
+        "stop" : 1621257772095,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "fddeeaddb62b9bed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621198237634,
+        "stop" : 1621198244682,
+        "duration" : 7048
+      }
+    }, {
+      "uid" : "4960e11859b925db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621198169096,
+        "stop" : 1621198176253,
+        "duration" : 7157
+      }
+    }, {
+      "uid" : "6647509319cbc8d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621198046812,
+        "stop" : 1621198061713,
+        "duration" : 14901
+      }
+    }, {
+      "uid" : "6118423c8a75b32a",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/a\"\n                Received: \"https://primafreshmart.com/\"",
+      "time" : {
+        "start" : 1621196590540,
+        "stop" : 1621196603747,
+        "duration" : 13207
+      }
+    }, {
+      "uid" : "c68615b6fd0ead1e",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/a\"\n                Received: \"https://primafreshmart.com/\"",
+      "time" : {
+        "start" : 1621196545934,
+        "stop" : 1621196558924,
+        "duration" : 12990
+      }
+    }, {
+      "uid" : "f6b79b82434bcf80",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/a\"\n                Received: \"https://primafreshmart.com/\"",
+      "time" : {
+        "start" : 1621196387079,
+        "stop" : 1621196400573,
+        "duration" : 13494
+      }
+    }, {
+      "uid" : "93375728b4b8a5f5",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/a\"\n                Received: \"https://primafreshmart.com/\"",
+      "time" : {
+        "start" : 1621196163861,
+        "stop" : 1621196176757,
+        "duration" : 12896
+      }
+    }, {
+      "uid" : "9f868fd951912bb8",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/a\"\n                Received: \"https://primafreshmart.com/\"",
+      "time" : {
+        "start" : 1621196045033,
+        "stop" : 1621196058668,
+        "duration" : 13635
+      }
+    }, {
+      "uid" : "2222eb065161b0ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621196012941,
+        "stop" : 1621196019691,
+        "duration" : 6750
+      }
+    }, {
+      "uid" : "ca597dbb64566dd",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/a\"\n                Received: \"https://primafreshmart.com/\"",
+      "time" : {
+        "start" : 1621195823699,
+        "stop" : 1621195838177,
+        "duration" : 14478
+      }
+    }, {
+      "uid" : "1cdd285f81b5a9a3",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/a\"\n                Received: \"https://primafreshmart.com/\"",
+      "time" : {
+        "start" : 1621195641581,
+        "stop" : 1621195654791,
+        "duration" : 13210
+      }
+    }, {
+      "uid" : "c787ad4c9a31b1a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621195525484,
+        "stop" : 1621195531982,
+        "duration" : 6498
+      }
+    }, {
+      "uid" : "ce3f1f16744cf9ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621195249118,
+        "stop" : 1621195260453,
+        "duration" : 11335
+      }
+    }, {
+      "uid" : "2a00b33396476f16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621195003892,
+        "stop" : 1621195013127,
+        "duration" : 9235
+      }
+    }, {
+      "uid" : "9380288b803b571d",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/a\"\n                Received: \"https://primafreshmart.com/\"",
+      "time" : {
+        "start" : 1621194481482,
+        "stop" : 1621194495350,
+        "duration" : 13868
+      }
+    }, {
+      "uid" : "7b158774d884b9f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621193889407,
+        "stop" : 1621193902213,
+        "duration" : 12806
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28822d5c22662dff.json",
+  "parameterValues" : [ "Chrome-90.0.4430.212" ]
+}

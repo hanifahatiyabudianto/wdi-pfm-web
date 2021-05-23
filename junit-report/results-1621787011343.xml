@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer did not fill password confirm register form" timestamp="2021-05-23T23:23:38" time="32.569" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer did not fill password confirm register form"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\register\emptypasswordconfirm.register.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer did not fill password confirm register form" name="should show error message when empty password confirm" time="32.381">
+      <failure/>
+      <error message="Expect  to be displayed&#xA;&#xA;Expected: &quot;displayed&quot;&#xA;Received: &quot;not displayed&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/window/maximize - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create"}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/179c17b0-dcea-4633-9480-275b98b88a4b/clear - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/179c17b0-dcea-4633-9480-275b98b88a4b/value - {"text":"pfmwdio1@yopmail.com"}
+RESULT: {}
+RESULT: {"text":"pfmwdio1@yopmail.com"}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element - {"using":"css selector","value":"#password"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/4b8ef3ed-9bac-4762-a313-c77c0ef9ba8d/clear - {}
+RESULT: {}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/4b8ef3ed-9bac-4762-a313-c77c0ef9ba8d/value - {"text":"Pfm12345"}
+RESULT: {}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element - {"using":"css selector","value":"#password_confirmation"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password_confirmation"}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/1291de07-04ca-4967-ba86-5afd1a0c5ee5/clear - {}
+RESULT: {}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/1291de07-04ca-4967-ba86-5afd1a0c5ee5/value - {"text":""}
+RESULT: {}
+RESULT: {"text":""}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element - {"using":"css selector","value":"#firstname"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#firstname"}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/8edfe6e7-0495-4f98-9a2d-11937c3898fa/clear - {}
+RESULT: {}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/8edfe6e7-0495-4f98-9a2d-11937c3898fa/value - {"text":"Pfm Wdio Satu"}
+RESULT: {}
+RESULT: {"text":"Pfm Wdio Satu"}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element - {"using":"css selector","value":"#nik"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#nik"}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/38b31413-5a0f-4daf-ba38-b7b93e9c1bc1/clear - {}
+RESULT: {}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/38b31413-5a0f-4daf-ba38-b7b93e9c1bc1/value - {"text":""}
+RESULT: {}
+RESULT: {"text":""}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element - {"using":"css selector","value":"#phone_number"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#phone_number"}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/463985a8-cc6c-4335-bc51-8c91d6540727/clear - {}
+RESULT: {}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/463985a8-cc6c-4335-bc51-8c91d6540727/value - {"text":"0001112223330001"}
+RESULT: {}
+RESULT: {"text":"0001112223330001"}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element - {"using":"css selector","value":"#dob"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#dob"}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/3d148c96-eee6-4a1f-bdfc-262e30aa955d/clear - {}
+RESULT: {}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/3d148c96-eee6-4a1f-bdfc-262e30aa955d/value - {"text":"8123400000001"}
+RESULT: {}
+RESULT: {"text":"8123400000001"}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element - {"using":"css selector","value":"form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark"}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/dc1219b4-0c6b-47da-ae3c-f578d7518542/click - {}
+RESULT: {}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/faea0a2544a98ea8efbf4877710d184f/element/dbfaee92-e698-43d1-b3de-b9bde89b0a23/click - {}
+RESULT: {}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: GET /session/faea0a2544a98ea8efbf4877710d184f/screenshot - {}
+COMMAND: DELETE /session/faea0a2544a98ea8efbf4877710d184f - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect  to be displayed
+
+Expected: "displayed"
+Received: "not displayed"
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\register\/emptypasswordconfirm.register.js:23:52)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621796991212' stop='1621797007954'>
+    <name>Customer failed forgot password</name>
+    <title>Customer failed forgot password</title>
+    <test-cases>
+        <test-case start='1621796991213' status='failed' stop='1621797007952'>
+            <name>should forgot password with valid credentials, but to many requested</name>
+            <title>should forgot password with valid credentials, but to many requested</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='High'/>
+                <label name='Negative Case' value='undefined'/>
+                <label name='feature' value='Failed Forgot Password'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2d0d1d6e-d953-4510-876a-cf9237f3d300-attachment.png' type='image/png' size='60385'/>
+                <attachment title='Screenshot' source='56a026eb-34c4-4dae-b4ae-3104be39ff27-attachment.png' type='image/png' size='60385'/>
+                <attachment title='Screenshot' source='9bf35773-0e00-4663-8d16-c2ed070a4dc0-attachment.png' type='image/png' size='58153'/>
+                <attachment title='Screenshot' source='8fc847cf-b420-420d-a9ac-054c5ec7c22e-attachment.png' type='image/png' size='58153'/>
+                <attachment title='Screenshot' source='807fc6a4-751a-4a7c-8144-81cf26d677ff-attachment.png' type='image/png' size='59488'/>
+                <attachment title='Screenshot' source='7495d561-3845-4df5-aa70-b86ebaf78c22-attachment.png' type='image/png' size='58153'/>
+                <attachment title='Screenshot' source='d801270e-ef26-4c83-a56e-2a88e586035b-attachment.png' type='image/png' size='58153'/>
+                <attachment title='Execution video' source='5a8b5eec-273c-4c2f-a92f-cb75dd0eb0c4-attachment.mp4' type='video/mp4' size='188'/>
+            </attachments>
+            <failure>
+                <message>Expect  to be present
+                
+                Expected: "present"
+                Received: "not present"</message>
+                <stack-trace>Error: Expect  to be present
+                
+                Expected: "present"
+                Received: "not present"
+                    at Context.&lt;anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\forgotpassword\/tomanyrequested.forgotpassword.js:25:54)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

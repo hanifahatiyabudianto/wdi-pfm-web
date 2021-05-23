@@ -1,12 +1,6 @@
 const video = require('wdio-video-reporter');
 
 exports.config = {
-    //Browserstack Config
-    user: 'hanifahatiyabudi_y0A1YR',
-    key: 'KwLrzSGqmxDMf1x5oeXB',
-    updateJob: false,
-
-        //
     // ====================
     // Runner Configuration
     // ====================
@@ -33,44 +27,52 @@ exports.config = {
     // define all tests
     specs: [
         // './test/specs/**/*.js'
-        // './test/specs/case/positive/login/success.login.js'
-        './test/specs/case/positive/login/view.myaccount.js'
-        // './test/specs/case/negative/login/emptyemail.login.js' 
-        // './test/specs/case/negative/login/emptypassword.login.js'
-        // './test/specs/case/negative/login/invalidformat.login.js'  
-        // './test/specs/case/negative/login/invalidformatemail.login.js'
-        // './test/specs/case/negative/login/invalidformatpassword.login.js'
-        // './test/specs/case/negative/login/confirmationrequired.login.js'
-        // './test/specs/case/negative/register/emptyemail.register.js'
-        // './test/specs/case/negative/register/emptypassword.register.js'
-        // './test/specs/case/negative/register/emptypasswordconfirm.register.js'  -> masih error
-        // './test/specs/case/negative/register/emptyname.register.js'
-        // './test/specs/case/negative/register/emptynik.register.js'
-        // './test/specs/case/negative/register/emptyphonenumber.register.js'
-        // './test/specs/case/negative/register/notchecktnc.register.js'  -> masih error
+        // './test/specs/estore/positive/login/success.login.js'
+        // './test/specs/estore/positive/login/view.myaccount.js'
+        // './test/specs/estore/negative/login/emptyemail.login.js' 
+        // './test/specs/estore/negative/login/emptypassword.login.js'
+        // './test/specs/estore/negative/login/invalidformat.login.js'  
+        // './test/specs/estore/negative/login/invalidformatemail.login.js'
+        // './test/specs/estore/negative/login/invalidformatpassword.login.js'
+        // './test/specs/estore/negative/login/confirmationrequired.login.js'
+        // './test/specs/estore/positive/register/success.register.js'
+        // './test/specs/estore/positive/register/successgendermale.register.js'
+        // './test/specs/estore/negative/register/emptyemail.register.js'
+        // './test/specs/estore/negative/register/emptypassword.register.js'
+        // './test/specs/estore/negative/register/emptypasswordconfirm.register.js'
+        // './test/specs/estore/negative/register/emptyname.register.js'
+        // './test/specs/estore/negative/register/emptynik.register.js'
+        // './test/specs/estore/negative/register/emptyphonenumber.register.js'
+        // './test/specs/estore/negative/register/notchecktnc.register.js'
+        // './test/specs/estore/negative/register/registeredemail.register.js'
+        // './test/specs/estore/negative/register/registeredphonenumber.register.js'
+        // './test/specs/estore/positive/forgotpassword/success.forgotpassword.js'
+        // './test/specs/estore/positive/forgotpassword/backtologinpage.forgotpassword.js'
+        // './test/specs/estore/negative/forgotpassword/emptyemail.forgotpassword.js'
+        './test/specs/estore/negative/forgotpassword/tomanyrequested.forgotpassword.js'
     ],
     // ...
     // define specific suites. to run "npx wdio wdio.conf.js --suites positivecase --suites negativecase"
     suites: {
         positivecase: [
-            './test/specs/case/positive/login/success.login.js',
-            './test/specs/case/positive/login/view.myaccount.js'
+            './test/specs/estore/positive/login/success.login.js',
+            './test/specs/estore/positive/login/view.myaccount.js'
         ],
         negativecase: [
-            './test/specs/case/negative/login/emptyemail.login.js',
-            './test/specs/case/negative/login/emptypassword.login.js',
-            './test/specs/case/negative/login/invalidformat.login.js', 
-            './test/specs/case/negative/login/invalidformatemail.login.js',
-            './test/specs/case/negative/login/invalidformatpassword.login.js',
-            './test/specs/case/negative/login/confirmationrequired.login.login.js',
+            './test/specs/estore/negative/login/emptyemail.login.js',
+            './test/specs/estore/negative/login/emptypassword.login.js',
+            './test/specs/estore/negative/login/invalidformat.login.js', 
+            './test/specs/estore/negative/login/invalidformatemail.login.js',
+            './test/specs/estore/negative/login/invalidformatpassword.login.js',
+            './test/specs/estore/negative/login/confirmationrequired.login.login.js',
             
-            './test/specs/case/negative/register/emptyemail.register.js',
-            './test/specs/case/negative/register/emptypassword.register.js',
-            './test/specs/case/negative/register/emptypasswordconfirm.register.js',
-            './test/specs/case/negative/register/emptyname.register.js',
-            './test/specs/case/negative/register/emptynik.register.js',
-            './test/specs/case/negative/register/emptyphonenumber.register.js',
-            './test/specs/case/negative/register/notchecktnc.register.js'
+            './test/specs/estore/negative/register/emptyemail.register.js',
+            './test/specs/estore/negative/register/emptypassword.register.js',
+            './test/specs/estore/negative/register/emptypasswordconfirm.register.js',
+            './test/specs/estore/negative/register/emptyname.register.js',
+            './test/specs/estore/negative/register/emptynik.register.js',
+            './test/specs/estore/negative/register/emptyphonenumber.register.js',
+            './test/specs/estore/negative/register/notchecktnc.register.js'
         ],
     },
 
@@ -101,29 +103,21 @@ exports.config = {
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://docs.saucelabs.com/reference/platforms-configurator
-    //
-    commonCapabilities: {
-        name: 'parallel_test',
-        build: 'browserstack-build-1'
-      },
-
     capabilities: [
         {
         //     // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         //     // grid with only 5 firefox instances available you can make sure that not more than
         //     // 5 instances get started at a time.
-            // maxInstances: 5,
-             browserName: 'chrome',
-             browser_version: 'latest',
-             os: 'Windows',
-             os_version: '10'
-            //  acceptInsecureCerts: true
+            maxInstances: 5,
+            browserName: 'chrome',
+            acceptInsecureCerts: true
             // If outputDir is provided WebdriverIO can capture driver session logs
             // it is possible to configure which logTypes to include/exclude.
             // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
             // excludeDriverLogs: ['bugreport', 'server'],
-        },/*
-        {
+        }
+        /*
+        , {
             maxInstances: 5,
             browserName: 'firefox',
             browser_version: 'latest',
@@ -204,14 +198,7 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     // services: ['chromedriver'],   //only run test case(s) at chrome browser
-    // services: ['selenium-standalone'],
-    host: 'hub.browserstack.com',
-    services: ['browserstack'],
-    // services: [
-    //     ['browserstack', {
-    //         browserstackLocal: true
-    //     }]
-    // ],
+    services: ['selenium-standalone'],
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -235,16 +222,16 @@ exports.config = {
     // see also: https://webdriver.io/docs/dot-reporter
     // reporters: ['spec'],
     reporters: [
-        // [
-        //     video, {
-        //         saveAllVideos: true,       // If true, also saves videos for successful test cases
-        //         videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
-        //     }
-        // ],
+        [
+            video, {
+                saveAllVideos: true,       // If true, also saves videos for successful test cases
+                videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
+            }
+        ],
         [
             'allure', 
             {
-                outputDir: 'allure-results',
+                outputDir: './allure-results',
                 disableWebdriverStepsReporting: true,
                 disableWebdriverScreenshotsReporting: false,
             },
@@ -361,22 +348,13 @@ exports.config = {
     // },
     // afterTest: function (test, context, { error, result, duration, passed, retries }) {
     // },
-    // Code to mark the status of test on BrowserStack based on the assertion status
-    afterTest: function (test, context, { passed }) {
-        if(passed) {
-        browser.executeScript('browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"passed","reason": "Assertions passed"}}');
-        } else {
-        browser.executeScript('browserstack_executor: {"action": "setSessionStatus", "arguments": {"status":"failed","reason": "At least 1 assertion failed"}}');
+
+    afterStep: function (test, context, { error, result, duration, passed, retries }) {
+        if (passed) {
+           browser.takeScreenshot();
         }
     },
-
-    // afterStep: function (test, context, { error, result, duration, passed, retries }) {
-    //     if (passed) {
-    //        browser.takeScreenshot();
-    //     }
-    // },
     
-
     /**
      * Hook that gets executed after the suite has ended
      * @param {Object} suite suite details
@@ -447,8 +425,3 @@ exports.config = {
     //onReload: function(oldSessionId, newSessionId) {
     //}
 }
-    // Code to support common capabilities
-exports.config.capabilities.forEach(function(caps, index){
-    for(var i in exports.config.commonCapabilities) caps[i] = caps[i] || exports.config.commonCapabilities[i];
-    exports.config.capabilities[index] = { ...caps, ...caps['browser'] && { browserName: caps['browser'] } };
-});

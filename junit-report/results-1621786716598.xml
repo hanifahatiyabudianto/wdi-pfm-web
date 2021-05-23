@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer did not fill name register form" timestamp="2021-05-23T23:18:43" time="10.728" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer did not fill name register form"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\register\emptyname.register.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer did not fill name register form" name="should show error message when empty name" time="10.59">
+      <system-out><![CDATA[
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/window/maximize - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create"}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/52acd9db-80d2-4666-80a4-e796b1a9eb95/clear - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/52acd9db-80d2-4666-80a4-e796b1a9eb95/value - {"text":"pfmwdio1@yopmail.com"}
+RESULT: {}
+RESULT: {"text":"pfmwdio1@yopmail.com"}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element - {"using":"css selector","value":"#password"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/d1086958-27cc-42cc-b05a-cc0476f77a2e/clear - {}
+RESULT: {}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/d1086958-27cc-42cc-b05a-cc0476f77a2e/value - {"text":"Pfm12345"}
+RESULT: {}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element - {"using":"css selector","value":"#password_confirmation"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password_confirmation"}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/e2b51983-15bf-443d-bc3e-d48d3fdf07bb/clear - {}
+RESULT: {}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/e2b51983-15bf-443d-bc3e-d48d3fdf07bb/value - {"text":"Pfm12345"}
+RESULT: {}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element - {"using":"css selector","value":"#firstname"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#firstname"}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/8bf2ba0c-7a36-4101-81d2-d33766448b2f/clear - {}
+RESULT: {}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/8bf2ba0c-7a36-4101-81d2-d33766448b2f/value - {"text":""}
+RESULT: {"text":""}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element - {"using":"css selector","value":"#nik"}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#nik"}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/c723dc4c-f32e-4d3b-a1c1-9cd16f7ae9d8/clear - {}
+RESULT: {}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/c723dc4c-f32e-4d3b-a1c1-9cd16f7ae9d8/value - {"text":""}
+RESULT: {}
+RESULT: {"text":""}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element - {"using":"css selector","value":"#phone_number"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#phone_number"}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/c14258a9-bd95-44cd-adb8-2473cb9105fc/clear - {}
+RESULT: {}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/c14258a9-bd95-44cd-adb8-2473cb9105fc/value - {"text":"0001112223330001"}
+RESULT: {}
+RESULT: {"text":"0001112223330001"}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element - {"using":"css selector","value":"#dob"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#dob"}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/8a004fc7-ec68-430d-91ce-fe5fa56551e1/clear - {}
+RESULT: {}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/8a004fc7-ec68-430d-91ce-fe5fa56551e1/value - {"text":"8123400000001"}
+RESULT: {}
+RESULT: {"text":"8123400000001"}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element - {"using":"css selector","value":"form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark"}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/fe52dd4f-24b8-4824-a6a4-6731ef782a2f/click - {}
+RESULT: {}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element/c0b8b240-4cf3-401e-87f8-aed3360985c9/click - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element - {"using":"css selector","value":"#firstname-error"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#firstname-error"}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"cdb44251-9830-43e1-808b-7cb38b602f8f","ELEMENT":"cdb44251-9830-43e1-808b-7cb38b602f8f"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"cdb44251-9830-43e1-808b-7cb38b602f8f","ELEMENT":"cdb44251-9830-43e1-808b-7cb38b602f8f"}]}
+COMMAND: POST /session/1e8f32d9f092ee8a678845f39e34bfe4/element - {"using":"css selector","value":"#firstname-error"}
+RESULT: {"using":"css selector","value":"#firstname-error"}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/element/cdb44251-9830-43e1-808b-7cb38b602f8f/text - {}
+RESULT: {}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: GET /session/1e8f32d9f092ee8a678845f39e34bfe4/screenshot - {}
+COMMAND: DELETE /session/1e8f32d9f092ee8a678845f39e34bfe4 - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

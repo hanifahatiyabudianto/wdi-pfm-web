@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer did not fill email register form" timestamp="2021-05-22T14:39:26" time="5.155" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer did not fill email register form"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\register\emptyemail.register.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer did not fill email register form" name="should show error message when empty email" time="5.121">
+      <failure/>
+      <error message="Malformed type for &quot;elementId&quot; parameter of command isElementSelected&#xA;Expected: string&#xA;Actual: boolean&#xA;&#xA;For more info see https://w3c.github.io/webdriver/#dfn-is-element-selected&#xA;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/window/maximize - {}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element/e695e79c-af02-4996-bccc-b20287771fdd/clear - {}
+RESULT: {}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element/e695e79c-af02-4996-bccc-b20287771fdd/value - {"text":""}
+RESULT: {"text":""}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element - {"using":"css selector","value":"#password"}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element/80e24e03-16cb-4272-9a96-aa360d780bdc/clear - {}
+RESULT: {}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element/80e24e03-16cb-4272-9a96-aa360d780bdc/value - {"text":"Pfm12345"}
+RESULT: {"text":"Pfm12345"}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element - {"using":"css selector","value":"#password_confirmation"}
+RESULT: {"using":"css selector","value":"#password_confirmation"}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element/39bc7876-a2be-497e-b8c9-55338ea4bfae/clear - {}
+RESULT: {}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element/39bc7876-a2be-497e-b8c9-55338ea4bfae/value - {"text":"Pfm12345"}
+RESULT: {"text":"Pfm12345"}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element - {"using":"css selector","value":"#firstname"}
+RESULT: {"using":"css selector","value":"#firstname"}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element/e0cc8d8e-204f-4dd3-a04d-4944c073592b/clear - {}
+RESULT: {}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element/e0cc8d8e-204f-4dd3-a04d-4944c073592b/value - {"text":"Pfm Wdio Satu"}
+RESULT: {"text":"Pfm Wdio Satu"}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element - {"using":"css selector","value":"#nik"}
+RESULT: {"using":"css selector","value":"#nik"}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element/960bad02-80f0-4bac-a75b-86a88635426a/clear - {}
+RESULT: {}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element/960bad02-80f0-4bac-a75b-86a88635426a/value - {"text":"0001112223330001"}
+RESULT: {"text":"0001112223330001"}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element - {"using":"css selector","value":"#phone_number"}
+RESULT: {"using":"css selector","value":"#phone_number"}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element/3f8186c8-558e-4b72-bfa4-ab51d6b0db8e/clear - {}
+RESULT: {}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element/3f8186c8-558e-4b72-bfa4-ab51d6b0db8e/value - {"text":"8123400000001"}
+RESULT: {"text":"8123400000001"}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element - {"using":"css selector","value":"#dob"}
+RESULT: {"using":"css selector","value":"#dob"}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element/4d2a93b9-51f3-4f6a-881d-5d9cbc12b539/clear - {}
+RESULT: {}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element/4d2a93b9-51f3-4f6a-881d-5d9cbc12b539/value - {"text":"01-01-1985"}
+RESULT: {"text":"01-01-1985"}
+COMMAND: POST /session/674c4e0e20ccad62a69a90d9b8cc32c3/element - {"using":"css selector","value":"form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark"}
+RESULT: {"using":"css selector","value":"form.form.create.account.form-create-account:nth-child(4) div.termsconditions:nth-child(8) label.label-radio div.control > span.radiomark"}
+COMMAND: GET /session/674c4e0e20ccad62a69a90d9b8cc32c3/screenshot - {}
+COMMAND: DELETE /session/674c4e0e20ccad62a69a90d9b8cc32c3 - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Malformed type for "elementId" parameter of command isElementSelected
+Expected: string
+Actual: boolean
+
+For more info see https://w3c.github.io/webdriver/#dfn-is-element-selected
+
+    at Element.protocolCommand (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriver\build\command.js:53:23)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:38)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at Element.elementErrorHandlerCallbackFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\middlewares.js:23:32)
+    at Element.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at RegisterPage.register (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\pageobjects\estore\/register.page.js:50:9)
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\register\/emptyemail.register.js:23:9)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

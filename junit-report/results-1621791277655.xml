@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer success register" timestamp="2021-05-24T00:34:44" time="13.402" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer success register"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\register\successgendermale.register.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer success register" name="should register with fill form data with gender is male" time="13.188">
+      <failure/>
+      <error message="invalid selector: An invalid or illegal selector was specified&#xA;  (Session info: chrome=90.0.4430.212)"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/1b58a505d867d8771b4217693e918150/window/maximize - {}
+COMMAND: POST /session/1b58a505d867d8771b4217693e918150/element - {"using":"css selector","value":"#email"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create"}
+COMMAND: GET /session/1b58a505d867d8771b4217693e918150/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/1b58a505d867d8771b4217693e918150/screenshot - {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/1b58a505d867d8771b4217693e918150/element/83056f15-ad71-4162-87f1-aec69365e041/clear - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/1b58a505d867d8771b4217693e918150/screenshot - {}
+COMMAND: POST /session/1b58a505d867d8771b4217693e918150/element/83056f15-ad71-4162-87f1-aec69365e041/value - {"text":"pfmwdio1@yopmail.com"}
+RESULT: {}
+RESULT: {"text":"pfmwdio1@yopmail.com"}
+COMMAND: GET /session/1b58a505d867d8771b4217693e918150/screenshot - {}
+COMMAND: POST /session/1b58a505d867d8771b4217693e918150/element - {"using":"css selector","value":"#password"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password"}
+COMMAND: POST /session/1b58a505d867d8771b4217693e918150/element/db6c8662-3e3f-4c5f-84a6-c3be8c481fea/clear - {}
+RESULT: {}
+COMMAND: GET /session/1b58a505d867d8771b4217693e918150/screenshot - {}
+COMMAND: POST /session/1b58a505d867d8771b4217693e918150/element/db6c8662-3e3f-4c5f-84a6-c3be8c481fea/value - {"text":"Pfm12345"}
+RESULT: {}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/1b58a505d867d8771b4217693e918150/screenshot - {}
+COMMAND: POST /session/1b58a505d867d8771b4217693e918150/element - {"using":"css selector","value":"#password_confirmation"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#password_confirmation"}
+COMMAND: POST /session/1b58a505d867d8771b4217693e918150/element/4c8f8ee2-c2c9-4c5f-b4f9-6905239703eb/clear - {}
+RESULT: {}
+COMMAND: GET /session/1b58a505d867d8771b4217693e918150/screenshot - {}
+COMMAND: POST /session/1b58a505d867d8771b4217693e918150/element/4c8f8ee2-c2c9-4c5f-b4f9-6905239703eb/value - {"text":"Pfm12345"}
+RESULT: {"text":"Pfm12345"}
+COMMAND: GET /session/1b58a505d867d8771b4217693e918150/screenshot - {}
+COMMAND: POST /session/1b58a505d867d8771b4217693e918150/element - {"using":"css selector","value":"#firstname"}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#firstname"}
+COMMAND: POST /session/1b58a505d867d8771b4217693e918150/element/a34449a1-44e8-4c90-b06d-bfeb40e50c99/clear - {}
+RESULT: {}
+COMMAND: GET /session/1b58a505d867d8771b4217693e918150/screenshot - {}
+COMMAND: POST /session/1b58a505d867d8771b4217693e918150/element/a34449a1-44e8-4c90-b06d-bfeb40e50c99/value - {"text":"Pfm Wdio Satu"}
+RESULT: {}
+RESULT: {"text":"Pfm Wdio Satu"}
+COMMAND: GET /session/1b58a505d867d8771b4217693e918150/screenshot - {}
+COMMAND: POST /session/1b58a505d867d8771b4217693e918150/element - {"using":"css selector","value":"id(\"form-validate\")/div[@class=\"field gender\"]/div[@class=\"control\"]/div[@class=\"input-wraper\"]/label[1]"}
+RESULT: {}
+COMMAND: GET /session/1b58a505d867d8771b4217693e918150/screenshot - {}
+COMMAND: GET /session/1b58a505d867d8771b4217693e918150/screenshot - {}
+COMMAND: DELETE /session/1b58a505d867d8771b4217693e918150 - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+invalid selector: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=90.0.4430.212)
+    at Object.getErrorFromResponseBody (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriver\build\utils.js:189:12)
+    at WebDriverRequest._request (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriver\build\request.js:168:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Browser.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at Browser.$ (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\webdriverio\build\commands\browser\$.js:83:17)
+    at Browser.wrapCommandFn (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:78:29)
+    at RegisterPage.register (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\pageobjects\estore\/register.page.js:46:16)
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\positive\register\/successgendermale.register.js:22:9)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
