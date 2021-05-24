@@ -1,0 +1,298 @@
+{
+  "uid" : "ebe90a756b6b77e3",
+  "name" : "should register with fill with registered email",
+  "fullName" : "Customer failed register.should register with fill with registered email",
+  "historyId" : "684ac8ac0c62b2fab54de4958da93ea4",
+  "time" : {
+    "start" : 1621793345787,
+    "stop" : 1621793364863,
+    "duration" : 19076
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create\"",
+  "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/registeredemail.register.js:22:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create\"",
+    "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/registeredemail.register.js:22:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "462f2ac228c12bc",
+      "name" : "Screenshot",
+      "source" : "462f2ac228c12bc.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "97573fadafe3ff7f",
+      "name" : "Screenshot",
+      "source" : "97573fadafe3ff7f.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "6a9b9ec862e44e56",
+      "name" : "Screenshot",
+      "source" : "6a9b9ec862e44e56.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "99037954d88a206",
+      "name" : "Screenshot",
+      "source" : "99037954d88a206.png",
+      "type" : "image/png",
+      "size" : 73170
+    }, {
+      "uid" : "6e7209b41392387e",
+      "name" : "Screenshot",
+      "source" : "6e7209b41392387e.png",
+      "type" : "image/png",
+      "size" : 73170
+    }, {
+      "uid" : "835c2a8a99114307",
+      "name" : "Screenshot",
+      "source" : "835c2a8a99114307.png",
+      "type" : "image/png",
+      "size" : 69997
+    }, {
+      "uid" : "3dad781165a6c897",
+      "name" : "Screenshot",
+      "source" : "3dad781165a6c897.png",
+      "type" : "image/png",
+      "size" : 73043
+    }, {
+      "uid" : "fc88aa5209aa296a",
+      "name" : "Screenshot",
+      "source" : "fc88aa5209aa296a.png",
+      "type" : "image/png",
+      "size" : 69107
+    }, {
+      "uid" : "ce14d729eac3a6b1",
+      "name" : "Screenshot",
+      "source" : "ce14d729eac3a6b1.png",
+      "type" : "image/png",
+      "size" : 69107
+    }, {
+      "uid" : "f18b9c571df76443",
+      "name" : "Screenshot",
+      "source" : "f18b9c571df76443.png",
+      "type" : "image/png",
+      "size" : 68478
+    }, {
+      "uid" : "3b018faed5bd24c3",
+      "name" : "Screenshot",
+      "source" : "3b018faed5bd24c3.png",
+      "type" : "image/png",
+      "size" : 68485
+    }, {
+      "uid" : "21ed9233112ce507",
+      "name" : "Screenshot",
+      "source" : "21ed9233112ce507.png",
+      "type" : "image/png",
+      "size" : 57577
+    }, {
+      "uid" : "e6f2bda14140e54",
+      "name" : "Screenshot",
+      "source" : "e6f2bda14140e54.png",
+      "type" : "image/png",
+      "size" : 58110
+    }, {
+      "uid" : "d3f2fb8c0ebdb9db",
+      "name" : "Screenshot",
+      "source" : "d3f2fb8c0ebdb9db.png",
+      "type" : "image/png",
+      "size" : 58110
+    }, {
+      "uid" : "76d967a1ea63777e",
+      "name" : "Screenshot",
+      "source" : "76d967a1ea63777e.png",
+      "type" : "image/png",
+      "size" : 59038
+    }, {
+      "uid" : "25f3aba22356c104",
+      "name" : "Screenshot",
+      "source" : "25f3aba22356c104.png",
+      "type" : "image/png",
+      "size" : 59038
+    }, {
+      "uid" : "e462c0c4cda5ad21",
+      "name" : "Screenshot",
+      "source" : "e462c0c4cda5ad21.png",
+      "type" : "image/png",
+      "size" : 78464
+    }, {
+      "uid" : "b3b80a9857a0642b",
+      "name" : "Screenshot",
+      "source" : "b3b80a9857a0642b.png",
+      "type" : "image/png",
+      "size" : 80686
+    }, {
+      "uid" : "a9da6fe6a1cbb6cf",
+      "name" : "Screenshot",
+      "source" : "a9da6fe6a1cbb6cf.png",
+      "type" : "image/png",
+      "size" : 61651
+    }, {
+      "uid" : "79e0c2c3eb49fc11",
+      "name" : "Screenshot",
+      "source" : "79e0c2c3eb49fc11.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "1a2b425fe7709d21",
+      "name" : "Screenshot",
+      "source" : "1a2b425fe7709d21.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "379d33b35a7bc028",
+      "name" : "Screenshot",
+      "source" : "379d33b35a7bc028.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "543096813e9a5139",
+      "name" : "Screenshot",
+      "source" : "543096813e9a5139.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "d25b87ad9324eb4d",
+      "name" : "Screenshot",
+      "source" : "d25b87ad9324eb4d.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "e42eb9cb42999659",
+      "name" : "Screenshot",
+      "source" : "e42eb9cb42999659.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "e6a015f295857020",
+      "name" : "Screenshot",
+      "source" : "e6a015f295857020.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "2c8ea3cf6c5b7127",
+      "name" : "Screenshot",
+      "source" : "2c8ea3cf6c5b7127.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "9cb885cb92012158",
+      "name" : "Screenshot",
+      "source" : "9cb885cb92012158.png",
+      "type" : "image/png",
+      "size" : 61688
+    }, {
+      "uid" : "cd8883d021aca98c",
+      "name" : "Screenshot",
+      "source" : "cd8883d021aca98c.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "c60fca8951d781f",
+      "name" : "Screenshot",
+      "source" : "c60fca8951d781f.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "e11170a81def47a5",
+      "name" : "Screenshot",
+      "source" : "e11170a81def47a5.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "31bf3981bceb8e9b",
+      "name" : "Screenshot",
+      "source" : "31bf3981bceb8e9b.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "ee868897ef3011fe",
+      "name" : "Screenshot",
+      "source" : "ee868897ef3011fe.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "f9b97c06e22f03c3",
+      "name" : "Screenshot",
+      "source" : "f9b97c06e22f03c3.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "214ec46acc2afad9",
+      "name" : "Screenshot",
+      "source" : "214ec46acc2afad9.png",
+      "type" : "image/png",
+      "size" : 61576
+    }, {
+      "uid" : "e11fa8235f5574c",
+      "name" : "Execution video",
+      "source" : "e11fa8235f5574c.mp4",
+      "type" : "video/mp4",
+      "size" : 161
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 36,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Positive Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Success Register"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register with fill with registered email"
+  }, {
+    "name" : "package",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ebe90a756b6b77e3.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

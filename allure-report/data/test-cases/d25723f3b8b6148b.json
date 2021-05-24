@@ -1,0 +1,187 @@
+{
+  "uid" : "d25723f3b8b6148b",
+  "name" : "should show error message when empty phone number",
+  "fullName" : "Customer did not fill phone number register form.should show error message when empty phone number",
+  "historyId" : "46ca45e95459901c52d068e28d96aebf",
+  "time" : {
+    "start" : 1621787378071,
+    "stop" : 1621787399444,
+    "duration" : 21373
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`#phone_number-error`) to have text\n                \n                Expected: \"Harus diisi\"\n                Received: \"Format handphone salah.\"",
+  "statusTrace" : "Error: Expect $(`#phone_number-error`) to have text\n                \n                Expected: \"Harus diisi\"\n                Received: \"Format handphone salah.\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/emptyphonenumber.register.js:24:55)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`#phone_number-error`) to have text\n                \n                Expected: \"Harus diisi\"\n                Received: \"Format handphone salah.\"",
+    "statusTrace" : "Error: Expect $(`#phone_number-error`) to have text\n                \n                Expected: \"Harus diisi\"\n                Received: \"Format handphone salah.\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/emptyphonenumber.register.js:24:55)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4270c1f6880571b7",
+      "name" : "Screenshot",
+      "source" : "4270c1f6880571b7.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "5260d3f2c8b85ce5",
+      "name" : "Screenshot",
+      "source" : "5260d3f2c8b85ce5.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "a7d9b11b61d727ee",
+      "name" : "Screenshot",
+      "source" : "a7d9b11b61d727ee.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "134367ab566e7588",
+      "name" : "Screenshot",
+      "source" : "134367ab566e7588.png",
+      "type" : "image/png",
+      "size" : 72962
+    }, {
+      "uid" : "991b1c2deb8c1978",
+      "name" : "Screenshot",
+      "source" : "991b1c2deb8c1978.png",
+      "type" : "image/png",
+      "size" : 72962
+    }, {
+      "uid" : "333acfa56095486b",
+      "name" : "Screenshot",
+      "source" : "333acfa56095486b.png",
+      "type" : "image/png",
+      "size" : 69805
+    }, {
+      "uid" : "af95fe86886a6ef8",
+      "name" : "Screenshot",
+      "source" : "af95fe86886a6ef8.png",
+      "type" : "image/png",
+      "size" : 72820
+    }, {
+      "uid" : "701f33771940f5af",
+      "name" : "Screenshot",
+      "source" : "701f33771940f5af.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "d1c888bf52f36fa3",
+      "name" : "Screenshot",
+      "source" : "d1c888bf52f36fa3.png",
+      "type" : "image/png",
+      "size" : 68281
+    }, {
+      "uid" : "56a4cf56277b8662",
+      "name" : "Screenshot",
+      "source" : "56a4cf56277b8662.png",
+      "type" : "image/png",
+      "size" : 68281
+    }, {
+      "uid" : "480a99b84223c38f",
+      "name" : "Screenshot",
+      "source" : "480a99b84223c38f.png",
+      "type" : "image/png",
+      "size" : 57505
+    }, {
+      "uid" : "b73a689f792f1e8e",
+      "name" : "Screenshot",
+      "source" : "b73a689f792f1e8e.png",
+      "type" : "image/png",
+      "size" : 57505
+    }, {
+      "uid" : "1b7399b805b76f5e",
+      "name" : "Screenshot",
+      "source" : "1b7399b805b76f5e.png",
+      "type" : "image/png",
+      "size" : 57469
+    }, {
+      "uid" : "40912b50a96adc30",
+      "name" : "Screenshot",
+      "source" : "40912b50a96adc30.png",
+      "type" : "image/png",
+      "size" : 58945
+    }, {
+      "uid" : "e2b96ddc6c567da5",
+      "name" : "Screenshot",
+      "source" : "e2b96ddc6c567da5.png",
+      "type" : "image/png",
+      "size" : 58945
+    }, {
+      "uid" : "5eb313cdcd5477e7",
+      "name" : "Screenshot",
+      "source" : "5eb313cdcd5477e7.png",
+      "type" : "image/png",
+      "size" : 73752
+    }, {
+      "uid" : "3efa36d2b51f13a4",
+      "name" : "Screenshot",
+      "source" : "3efa36d2b51f13a4.png",
+      "type" : "image/png",
+      "size" : 75347
+    }, {
+      "uid" : "8065f5c7a0b9f4c9",
+      "name" : "Screenshot",
+      "source" : "8065f5c7a0b9f4c9.png",
+      "type" : "image/png",
+      "size" : 62549
+    }, {
+      "uid" : "409cc25a298a7e18",
+      "name" : "Execution video",
+      "source" : "409cc25a298a7e18.mp4",
+      "type" : "video/mp4",
+      "size" : 34814
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 19,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill phone number register form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill phone number register form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty phone number"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill phone number register form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d25723f3b8b6148b.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

@@ -1,0 +1,139 @@
+{
+  "uid" : "4096aeccd533cdca",
+  "name" : "should register with fill form data with gender is male",
+  "fullName" : "Customer success register.should register with fill form data with gender is male",
+  "historyId" : "3c4451632e1d58018dca338d6f324eac",
+  "time" : {
+    "start" : 1621791939667,
+    "stop" : 1621791949141,
+    "duration" : 9474
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable\n                  (Session info: chrome=90.0.4430.212)",
+  "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=90.0.4430.212)\n                    at Object.getErrorFromResponseBody (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable\n                  (Session info: chrome=90.0.4430.212)",
+    "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=90.0.4430.212)\n                    at Object.getErrorFromResponseBody (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f9ba1b8fe8951a23",
+      "name" : "Screenshot",
+      "source" : "f9ba1b8fe8951a23.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "c5d819249695fae7",
+      "name" : "Screenshot",
+      "source" : "c5d819249695fae7.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "6d929bad482538bc",
+      "name" : "Screenshot",
+      "source" : "6d929bad482538bc.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "6a7e6b94e270beeb",
+      "name" : "Screenshot",
+      "source" : "6a7e6b94e270beeb.png",
+      "type" : "image/png",
+      "size" : 72962
+    }, {
+      "uid" : "5f4415aa3ecf9407",
+      "name" : "Screenshot",
+      "source" : "5f4415aa3ecf9407.png",
+      "type" : "image/png",
+      "size" : 72962
+    }, {
+      "uid" : "77a9ecc44dec7a8b",
+      "name" : "Screenshot",
+      "source" : "77a9ecc44dec7a8b.png",
+      "type" : "image/png",
+      "size" : 69805
+    }, {
+      "uid" : "d42f5135a13475db",
+      "name" : "Screenshot",
+      "source" : "d42f5135a13475db.png",
+      "type" : "image/png",
+      "size" : 69805
+    }, {
+      "uid" : "25a96b5a5e3cecb5",
+      "name" : "Screenshot",
+      "source" : "25a96b5a5e3cecb5.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "6c0c2496d80e0f3f",
+      "name" : "Screenshot",
+      "source" : "6c0c2496d80e0f3f.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "3817d4b2a11a9390",
+      "name" : "Screenshot",
+      "source" : "3817d4b2a11a9390.png",
+      "type" : "image/png",
+      "size" : 68281
+    }, {
+      "uid" : "e48fe1f7478e7e00",
+      "name" : "Execution video",
+      "source" : "e48fe1f7478e7e00.mp4",
+      "type" : "video/mp4",
+      "size" : 17557
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer success register"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer success register"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register with fill form data with gender is male"
+  }, {
+    "name" : "package",
+    "value" : "Customer success register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4096aeccd533cdca.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

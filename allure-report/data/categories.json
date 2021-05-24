@@ -7,7 +7,7 @@
       "name" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/\"",
       "children" : [ {
         "name" : "should login with valid credentials",
-        "uid" : "f15b02c4bd550149",
+        "uid" : "f64dbaf12da72e28",
         "parentUid" : "98fb267294ddb6251df1d9b1b627126e",
         "status" : "failed",
         "time" : {
@@ -24,7 +24,7 @@
       "name" : "Expect $(`span.avatar-name`) to have text containing\n                \n                Expected: \"Atiya\"\n                Received: \"Hani Hani\"",
       "children" : [ {
         "name" : "should avatar will be displayed",
-        "uid" : "ad9ba399388bac43",
+        "uid" : "2203c31bcc1a4dc9",
         "parentUid" : "031420ccfeea9dab92dcc467e3d2a474",
         "status" : "failed",
         "time" : {
@@ -41,7 +41,7 @@
       "name" : "Expect $(`#email-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
       "children" : [ {
         "name" : "should show error message invalid format email",
-        "uid" : "5a20dd0a924cb683",
+        "uid" : "b746a55cdb43d570",
         "parentUid" : "64e58c74e515cb05662e8274abd61233",
         "status" : "failed",
         "time" : {
@@ -58,7 +58,7 @@
       "name" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/createpost/\"",
       "children" : [ {
         "name" : "should register with fill form data with gender is male",
-        "uid" : "afa26500d80885e5",
+        "uid" : "bcd5274852060120",
         "parentUid" : "80d48d2dce03b4d8451daefe176a8624",
         "status" : "failed",
         "time" : {
@@ -75,7 +75,7 @@
       "name" : "Expect $(`#termscondition-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
       "children" : [ {
         "name" : "should show error message when did not check tnc",
-        "uid" : "cf10d15462216374",
+        "uid" : "1b8639969693be2d",
         "parentUid" : "0f62b1592a44366dfe17a335ba1f572c",
         "status" : "failed",
         "time" : {
@@ -88,6 +88,23 @@
         "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
       } ],
       "uid" : "0f62b1592a44366dfe17a335ba1f572c"
+    }, {
+      "name" : "Expect window to have url containing\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/forgotpassword/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer/aHR0cHM6Ly9lcHJpbWFmcmVzaG1hcnQuY3AuY28uaWQvcGZtL2luZGV4LnBocC9jdXN0b21lci9hY2NvdW50L2luZGV4Lw%2C%2C/\"",
+      "children" : [ {
+        "name" : "should forgot password with valid credentials, but to many requested",
+        "uid" : "777c36479d3e992a",
+        "parentUid" : "effb48fcc856ea52bb20461a0e51e321",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621864221325,
+          "stop" : 1621864242652,
+          "duration" : 21327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+      } ],
+      "uid" : "effb48fcc856ea52bb20461a0e51e321"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   }, {
@@ -96,7 +113,7 @@
       "name" : "Timeout of 60000ms exceeded. The execution in the test \"Prima Freshmart Customer Login should direct to my account page\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\login\\view.myaccount.js)",
       "children" : [ {
         "name" : "should direct to my account page",
-        "uid" : "8aa1499cd7f33dea",
+        "uid" : "3c5942de1c76dfde",
         "parentUid" : "0190177aaf6008f748bf2bf2087613f1",
         "status" : "broken",
         "time" : {
@@ -113,7 +130,7 @@
       "name" : "element not interactable\n                  (Session info: chrome=90.0.4430.212)",
       "children" : [ {
         "name" : "should show error message when empty nik",
-        "uid" : "b73c013af1d07efc",
+        "uid" : "8d76733b074c2711",
         "parentUid" : "0c8fb8bf5c19211c8530d88ebc0525e6",
         "status" : "broken",
         "time" : {
@@ -126,6 +143,23 @@
         "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
       } ],
       "uid" : "0c8fb8bf5c19211c8530d88ebc0525e6"
+    }, {
+      "name" : "Page.open is not a function",
+      "children" : [ {
+        "name" : "\"before all\" hook for Customer did not fill name contact us form",
+        "uid" : "646c247c3f5b761b",
+        "parentUid" : "d71993b80a18ed132e415eb763fbc232",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621873701887,
+          "stop" : 1621873701906,
+          "duration" : 19
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.212" ]
+      } ],
+      "uid" : "d71993b80a18ed132e415eb763fbc232"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

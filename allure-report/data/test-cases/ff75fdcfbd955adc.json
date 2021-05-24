@@ -1,0 +1,288 @@
+{
+  "uid" : "ff75fdcfbd955adc",
+  "name" : "should register with fill with registered email",
+  "fullName" : "Customer failed register.should register with fill with registered email",
+  "historyId" : "684ac8ac0c62b2fab54de4958da93ea4",
+  "time" : {
+    "start" : 1621794696057,
+    "stop" : 1621794708515,
+    "duration" : 12458
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "23a852de2f26897d",
+      "name" : "Screenshot",
+      "source" : "23a852de2f26897d.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "388c72ac30166dc7",
+      "name" : "Screenshot",
+      "source" : "388c72ac30166dc7.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "179071e1f4afa643",
+      "name" : "Screenshot",
+      "source" : "179071e1f4afa643.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "1b4f9175d00e1e6d",
+      "name" : "Screenshot",
+      "source" : "1b4f9175d00e1e6d.png",
+      "type" : "image/png",
+      "size" : 76099
+    }, {
+      "uid" : "971895ffea222a94",
+      "name" : "Screenshot",
+      "source" : "971895ffea222a94.png",
+      "type" : "image/png",
+      "size" : 76099
+    }, {
+      "uid" : "782d7a25f5e1c4e8",
+      "name" : "Screenshot",
+      "source" : "782d7a25f5e1c4e8.png",
+      "type" : "image/png",
+      "size" : 73002
+    }, {
+      "uid" : "4af03385cade360f",
+      "name" : "Screenshot",
+      "source" : "4af03385cade360f.png",
+      "type" : "image/png",
+      "size" : 73002
+    }, {
+      "uid" : "efb95a160c67da2b",
+      "name" : "Screenshot",
+      "source" : "efb95a160c67da2b.png",
+      "type" : "image/png",
+      "size" : 69107
+    }, {
+      "uid" : "816c8fbcc57cddf5",
+      "name" : "Screenshot",
+      "source" : "816c8fbcc57cddf5.png",
+      "type" : "image/png",
+      "size" : 69107
+    }, {
+      "uid" : "298cec250b1dc217",
+      "name" : "Screenshot",
+      "source" : "298cec250b1dc217.png",
+      "type" : "image/png",
+      "size" : 68478
+    }, {
+      "uid" : "c8e94102c8b346e9",
+      "name" : "Screenshot",
+      "source" : "c8e94102c8b346e9.png",
+      "type" : "image/png",
+      "size" : 68485
+    }, {
+      "uid" : "be083a4464490100",
+      "name" : "Screenshot",
+      "source" : "be083a4464490100.png",
+      "type" : "image/png",
+      "size" : 57577
+    }, {
+      "uid" : "aa9a90c9ed892725",
+      "name" : "Screenshot",
+      "source" : "aa9a90c9ed892725.png",
+      "type" : "image/png",
+      "size" : 58110
+    }, {
+      "uid" : "b6fc4f92988dbec4",
+      "name" : "Screenshot",
+      "source" : "b6fc4f92988dbec4.png",
+      "type" : "image/png",
+      "size" : 58110
+    }, {
+      "uid" : "1c31e4aedf561881",
+      "name" : "Screenshot",
+      "source" : "1c31e4aedf561881.png",
+      "type" : "image/png",
+      "size" : 59185
+    }, {
+      "uid" : "d7ce9b42cbafb65",
+      "name" : "Screenshot",
+      "source" : "d7ce9b42cbafb65.png",
+      "type" : "image/png",
+      "size" : 59185
+    }, {
+      "uid" : "c40cc5f298501774",
+      "name" : "Screenshot",
+      "source" : "c40cc5f298501774.png",
+      "type" : "image/png",
+      "size" : 75460
+    }, {
+      "uid" : "e66e7ca629da5ca0",
+      "name" : "Screenshot",
+      "source" : "e66e7ca629da5ca0.png",
+      "type" : "image/png",
+      "size" : 77118
+    }, {
+      "uid" : "bb7ee6be362c32d8",
+      "name" : "Screenshot",
+      "source" : "bb7ee6be362c32d8.png",
+      "type" : "image/png",
+      "size" : 72577
+    }, {
+      "uid" : "c7ac34916333cd31",
+      "name" : "Execution video",
+      "source" : "c7ac34916333cd31.mp4",
+      "type" : "video/mp4",
+      "size" : 43916
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 20,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Positive Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Success Register"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register with fill with registered email"
+  }, {
+    "name" : "package",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2d88395d4490c064",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621794649011,
+        "stop" : 1621794667638,
+        "duration" : 18627
+      }
+    }, {
+      "uid" : "52a7da3a6993ba0f",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`div.message-error.error.message`) to be present\n                \n                Expected: \"present\"\n                Received: \"not present\"",
+      "time" : {
+        "start" : 1621794572038,
+        "stop" : 1621794593086,
+        "duration" : 21048
+      }
+    }, {
+      "uid" : "f22812bc1ca42830",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621794350979,
+        "stop" : 1621794362094,
+        "duration" : 11115
+      }
+    }, {
+      "uid" : "9f38609cedad2680",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#phone_number-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1621794058773,
+        "stop" : 1621794078816,
+        "duration" : 20043
+      }
+    }, {
+      "uid" : "ad8f634ffde097fb",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#nik-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1621793996243,
+        "stop" : 1621794017396,
+        "duration" : 21153
+      }
+    }, {
+      "uid" : "a50671ac7a3a2ad4",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#phone_number-error`) to have text\n                \n                Expected: \"Nomor handphone sudah dipakai\"\n                Received: undefined",
+      "time" : {
+        "start" : 1621793922200,
+        "stop" : 1621793942700,
+        "duration" : 20500
+      }
+    }, {
+      "uid" : "2d9c874c7899ab6",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`div.message-error.error.message`) to have text\n                \n                Expected: \"Akun telah terdaftar. Jika anda yakin email ini milik anda, klik disini untuk mengakses akun Anda.\"\n                Received: undefined",
+      "time" : {
+        "start" : 1621793842483,
+        "stop" : 1621793864354,
+        "duration" : 21871
+      }
+    }, {
+      "uid" : "672294548a9fef28",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#phone_number-error`) to have text\n                \n                Expected: \"Nomor Handphone sudah dipakai.\"\n                Received: undefined",
+      "time" : {
+        "start" : 1621793605543,
+        "stop" : 1621793625201,
+        "duration" : 19658
+      }
+    }, {
+      "uid" : "f0e5634ec70a21f8",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create\"",
+      "time" : {
+        "start" : 1621793553740,
+        "stop" : 1621793575632,
+        "duration" : 21892
+      }
+    }, {
+      "uid" : "ebe90a756b6b77e3",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/create\"",
+      "time" : {
+        "start" : 1621793345787,
+        "stop" : 1621793364863,
+        "duration" : 19076
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff75fdcfbd955adc.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

@@ -1,0 +1,198 @@
+{
+  "uid" : "2d88395d4490c064",
+  "name" : "should register with fill with registered email",
+  "fullName" : "Customer failed register.should register with fill with registered email",
+  "historyId" : "684ac8ac0c62b2fab54de4958da93ea4",
+  "time" : {
+    "start" : 1621794649011,
+    "stop" : 1621794667638,
+    "duration" : 18627
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c2ed75b2be9d5925",
+      "name" : "Screenshot",
+      "source" : "c2ed75b2be9d5925.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "36ee975e85b07d2e",
+      "name" : "Screenshot",
+      "source" : "36ee975e85b07d2e.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "66e3e9b49e7b36ba",
+      "name" : "Screenshot",
+      "source" : "66e3e9b49e7b36ba.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "356c39f21e09cd18",
+      "name" : "Screenshot",
+      "source" : "356c39f21e09cd18.png",
+      "type" : "image/png",
+      "size" : 76099
+    }, {
+      "uid" : "7f30e81f94482ae1",
+      "name" : "Screenshot",
+      "source" : "7f30e81f94482ae1.png",
+      "type" : "image/png",
+      "size" : 76072
+    }, {
+      "uid" : "1eaaacc18e978f4c",
+      "name" : "Screenshot",
+      "source" : "1eaaacc18e978f4c.png",
+      "type" : "image/png",
+      "size" : 73002
+    }, {
+      "uid" : "a9b54d557e2fc0c4",
+      "name" : "Screenshot",
+      "source" : "a9b54d557e2fc0c4.png",
+      "type" : "image/png",
+      "size" : 72970
+    }, {
+      "uid" : "b30a0af3ae9372ff",
+      "name" : "Screenshot",
+      "source" : "b30a0af3ae9372ff.png",
+      "type" : "image/png",
+      "size" : 69107
+    }, {
+      "uid" : "bace3ca46e182a20",
+      "name" : "Screenshot",
+      "source" : "bace3ca46e182a20.png",
+      "type" : "image/png",
+      "size" : 69063
+    }, {
+      "uid" : "6a358300777cde57",
+      "name" : "Screenshot",
+      "source" : "6a358300777cde57.png",
+      "type" : "image/png",
+      "size" : 68478
+    }, {
+      "uid" : "3d9468c22dad5c01",
+      "name" : "Screenshot",
+      "source" : "3d9468c22dad5c01.png",
+      "type" : "image/png",
+      "size" : 68485
+    }, {
+      "uid" : "4fdf95e2ba1eb76",
+      "name" : "Screenshot",
+      "source" : "4fdf95e2ba1eb76.png",
+      "type" : "image/png",
+      "size" : 58110
+    }, {
+      "uid" : "775e771e5c33f14f",
+      "name" : "Screenshot",
+      "source" : "775e771e5c33f14f.png",
+      "type" : "image/png",
+      "size" : 58110
+    }, {
+      "uid" : "7ed74ea34d9f0dee",
+      "name" : "Screenshot",
+      "source" : "7ed74ea34d9f0dee.png",
+      "type" : "image/png",
+      "size" : 59185
+    }, {
+      "uid" : "c462b3880c58be05",
+      "name" : "Screenshot",
+      "source" : "c462b3880c58be05.png",
+      "type" : "image/png",
+      "size" : 59185
+    }, {
+      "uid" : "f22ea4976a680fac",
+      "name" : "Screenshot",
+      "source" : "f22ea4976a680fac.png",
+      "type" : "image/png",
+      "size" : 59176
+    }, {
+      "uid" : "f0a734703d0ac02f",
+      "name" : "Screenshot",
+      "source" : "f0a734703d0ac02f.png",
+      "type" : "image/png",
+      "size" : 75460
+    }, {
+      "uid" : "b291a29292e80ff0",
+      "name" : "Screenshot",
+      "source" : "b291a29292e80ff0.png",
+      "type" : "image/png",
+      "size" : 75207
+    }, {
+      "uid" : "3d8b425552e5f094",
+      "name" : "Screenshot",
+      "source" : "3d8b425552e5f094.png",
+      "type" : "image/png",
+      "size" : 72577
+    }, {
+      "uid" : "4e13bd74f349c8cc",
+      "name" : "Execution video",
+      "source" : "4e13bd74f349c8cc.mp4",
+      "type" : "video/mp4",
+      "size" : 43519
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 20,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Positive Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Success Register"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register with fill with registered email"
+  }, {
+    "name" : "package",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d88395d4490c064.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

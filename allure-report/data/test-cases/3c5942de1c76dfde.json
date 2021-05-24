@@ -1,0 +1,88 @@
+{
+  "uid" : "3c5942de1c76dfde",
+  "name" : "should direct to my account page",
+  "fullName" : "Prima Freshmart Customer Login.should direct to my account page",
+  "historyId" : "b9988ac00f2bbb5f3d1f2ccf4b90e497",
+  "time" : {
+    "start" : 1621665372143,
+    "stop" : 1621665432149,
+    "duration" : 60006
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 60000ms exceeded. The execution in the test \"Prima Freshmart Customer Login should direct to my account page\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\login\\view.myaccount.js)",
+  "statusTrace" : "Error: Timeout of 60000ms exceeded. The execution in the test \"Prima Freshmart Customer Login should direct to my account page\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\login\\view.myaccount.js)\n                    at createTimeoutError (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\mocha\\lib\\errors.js:498:15)\n                    at Test.Runnable._timeoutError (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\mocha\\lib\\runnable.js:431:10)\n                    at Timeout.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\mocha\\lib\\runnable.js:246:24)\n                    at listOnTimeout (internal/timers.js:554:17)\n                    at processTimers (internal/timers.js:497:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should direct to my account page"
+  }, {
+    "name" : "package",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fc586a61e8c4a9e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621352372456,
+        "stop" : 1621352377624,
+        "duration" : 5168
+      }
+    }, {
+      "uid" : "4b1e03eefd0558b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621350947338,
+        "stop" : 1621350952484,
+        "duration" : 5146
+      }
+    }, {
+      "uid" : "7a9593b5a30312b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621350782112,
+        "stop" : 1621350787167,
+        "duration" : 5055
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3c5942de1c76dfde.json",
+  "parameterValues" : [ "chrome-90.0.4430.72" ]
+}

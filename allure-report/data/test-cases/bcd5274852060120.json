@@ -1,0 +1,277 @@
+{
+  "uid" : "bcd5274852060120",
+  "name" : "should register with fill form data with gender is male",
+  "fullName" : "Customer success register.should register with fill form data with gender is male",
+  "historyId" : "3c4451632e1d58018dca338d6f324eac",
+  "time" : {
+    "start" : 1621792487935,
+    "stop" : 1621792512486,
+    "duration" : 24551
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/createpost/\"",
+  "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/createpost/\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\register\\/successgendermale.register.js:23:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/createpost/\"",
+    "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/createpost/\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\register\\/successgendermale.register.js:23:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "25d4df2badeff7d7",
+      "name" : "Screenshot",
+      "source" : "25d4df2badeff7d7.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "ede7fac37c42d176",
+      "name" : "Screenshot",
+      "source" : "ede7fac37c42d176.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "bc01434b4b46351f",
+      "name" : "Screenshot",
+      "source" : "bc01434b4b46351f.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "416acb7b8ea9c577",
+      "name" : "Screenshot",
+      "source" : "416acb7b8ea9c577.png",
+      "type" : "image/png",
+      "size" : 75895
+    }, {
+      "uid" : "e6679197fc07a9cd",
+      "name" : "Screenshot",
+      "source" : "e6679197fc07a9cd.png",
+      "type" : "image/png",
+      "size" : 75875
+    }, {
+      "uid" : "533e1228aa078861",
+      "name" : "Screenshot",
+      "source" : "533e1228aa078861.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "2538c33cba7c99e6",
+      "name" : "Screenshot",
+      "source" : "2538c33cba7c99e6.png",
+      "type" : "image/png",
+      "size" : 72778
+    }, {
+      "uid" : "4d3be9438212e212",
+      "name" : "Screenshot",
+      "source" : "4d3be9438212e212.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "5caba531a5c7fd6a",
+      "name" : "Screenshot",
+      "source" : "5caba531a5c7fd6a.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "f88c2ffa54155e8e",
+      "name" : "Screenshot",
+      "source" : "f88c2ffa54155e8e.png",
+      "type" : "image/png",
+      "size" : 68281
+    }, {
+      "uid" : "191f123372c8d461",
+      "name" : "Screenshot",
+      "source" : "191f123372c8d461.png",
+      "type" : "image/png",
+      "size" : 68287
+    }, {
+      "uid" : "2509b07f467a07c5",
+      "name" : "Screenshot",
+      "source" : "2509b07f467a07c5.png",
+      "type" : "image/png",
+      "size" : 57527
+    }, {
+      "uid" : "fca2cd137b046bc",
+      "name" : "Screenshot",
+      "source" : "fca2cd137b046bc.png",
+      "type" : "image/png",
+      "size" : 58066
+    }, {
+      "uid" : "acf86c606aa3837e",
+      "name" : "Screenshot",
+      "source" : "acf86c606aa3837e.png",
+      "type" : "image/png",
+      "size" : 58994
+    }, {
+      "uid" : "b001f936952749e9",
+      "name" : "Screenshot",
+      "source" : "b001f936952749e9.png",
+      "type" : "image/png",
+      "size" : 58994
+    }, {
+      "uid" : "ad74c9d1913d62ac",
+      "name" : "Screenshot",
+      "source" : "ad74c9d1913d62ac.png",
+      "type" : "image/png",
+      "size" : 58972
+    }, {
+      "uid" : "6a1721d49a4399e",
+      "name" : "Screenshot",
+      "source" : "6a1721d49a4399e.png",
+      "type" : "image/png",
+      "size" : 75201
+    }, {
+      "uid" : "84fc9857754842c0",
+      "name" : "Screenshot",
+      "source" : "84fc9857754842c0.png",
+      "type" : "image/png",
+      "size" : 76844
+    }, {
+      "uid" : "631ecf4f3647154d",
+      "name" : "Screenshot",
+      "source" : "631ecf4f3647154d.png",
+      "type" : "image/png",
+      "size" : 31944
+    }, {
+      "uid" : "81a27eca6cc510e0",
+      "name" : "Screenshot",
+      "source" : "81a27eca6cc510e0.png",
+      "type" : "image/png",
+      "size" : 31944
+    }, {
+      "uid" : "8a5933db50916e64",
+      "name" : "Screenshot",
+      "source" : "8a5933db50916e64.png",
+      "type" : "image/png",
+      "size" : 31944
+    }, {
+      "uid" : "56e58d1c249f0885",
+      "name" : "Screenshot",
+      "source" : "56e58d1c249f0885.png",
+      "type" : "image/png",
+      "size" : 31944
+    }, {
+      "uid" : "37126735533c0c6c",
+      "name" : "Screenshot",
+      "source" : "37126735533c0c6c.png",
+      "type" : "image/png",
+      "size" : 31944
+    }, {
+      "uid" : "e9ab220f4a76f38e",
+      "name" : "Screenshot",
+      "source" : "e9ab220f4a76f38e.png",
+      "type" : "image/png",
+      "size" : 31944
+    }, {
+      "uid" : "e77cf6b5a26e5968",
+      "name" : "Screenshot",
+      "source" : "e77cf6b5a26e5968.png",
+      "type" : "image/png",
+      "size" : 31944
+    }, {
+      "uid" : "42a2c88a1a11d5c8",
+      "name" : "Screenshot",
+      "source" : "42a2c88a1a11d5c8.png",
+      "type" : "image/png",
+      "size" : 31944
+    }, {
+      "uid" : "2acfb643d2665d79",
+      "name" : "Execution video",
+      "source" : "2acfb643d2665d79.mp4",
+      "type" : "video/mp4",
+      "size" : 170
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 27,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer success register"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer success register"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register with fill form data with gender is male"
+  }, {
+    "name" : "package",
+    "value" : "Customer success register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b2cdc7724b2aacd0",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621792035686,
+        "stop" : 1621792041731,
+        "duration" : 6045
+      }
+    }, {
+      "uid" : "4096aeccd533cdca",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621791939667,
+        "stop" : 1621791949141,
+        "duration" : 9474
+      }
+    }, {
+      "uid" : "f3a20343a7f843b9",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621791387493,
+        "stop" : 1621791398985,
+        "duration" : 11492
+      }
+    }, {
+      "uid" : "b2a8c14f9724fc98",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: An invalid or illegal selector was specified\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621791284978,
+        "stop" : 1621791298355,
+        "duration" : 13377
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bcd5274852060120.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

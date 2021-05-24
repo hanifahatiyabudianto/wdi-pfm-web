@@ -1,0 +1,244 @@
+{
+  "uid" : "dce836fcd5a70250",
+  "name" : "should forgot password with valid credentials",
+  "fullName" : "Customer success forgot password.should forgot password with valid credentials",
+  "historyId" : "d3de46b41965448382ad5b9981f3b9fb",
+  "time" : {
+    "start" : 1621796660764,
+    "stop" : 1621796682330,
+    "duration" : 21566
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer/aHR0cHM6Ly9lcHJpbWFmcmVzaG1hcnQuY3AuY28uaWQvcGZtL2luZGV4LnBocC9jdXN0b21lci9hY2NvdW50L2luZGV4Lw%2C%2C/\"",
+  "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer/aHR0cHM6Ly9lcHJpbWFmcmVzaG1hcnQuY3AuY28uaWQvcGZtL2luZGV4LnBocC9jdXN0b21lci9hY2NvdW50L2luZGV4Lw%2C%2C/\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\forgotpassword\\/success.forgotpassword.js:24:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer/aHR0cHM6Ly9lcHJpbWFmcmVzaG1hcnQuY3AuY28uaWQvcGZtL2luZGV4LnBocC9jdXN0b21lci9hY2NvdW50L2luZGV4Lw%2C%2C/\"",
+    "statusTrace" : "Error: Expect window to have url\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer/aHR0cHM6Ly9lcHJpbWFmcmVzaG1hcnQuY3AuY28uaWQvcGZtL2luZGV4LnBocC9jdXN0b21lci9hY2NvdW50L2luZGV4Lw%2C%2C/\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\forgotpassword\\/success.forgotpassword.js:24:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dead7a81a54bbc73",
+      "name" : "Screenshot",
+      "source" : "dead7a81a54bbc73.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "718130e063ea62b2",
+      "name" : "Screenshot",
+      "source" : "718130e063ea62b2.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "371fab8de3b4a373",
+      "name" : "Screenshot",
+      "source" : "371fab8de3b4a373.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "60db624766397069",
+      "name" : "Screenshot",
+      "source" : "60db624766397069.png",
+      "type" : "image/png",
+      "size" : 59488
+    }, {
+      "uid" : "2aac3f6d68e7d7ce",
+      "name" : "Screenshot",
+      "source" : "2aac3f6d68e7d7ce.png",
+      "type" : "image/png",
+      "size" : 59488
+    }, {
+      "uid" : "65bb20b9d89272bf",
+      "name" : "Screenshot",
+      "source" : "65bb20b9d89272bf.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "a48e3442ad3dee39",
+      "name" : "Screenshot",
+      "source" : "a48e3442ad3dee39.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "8a355776f62fe8c3",
+      "name" : "Screenshot",
+      "source" : "8a355776f62fe8c3.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "b3ebd739c15db663",
+      "name" : "Screenshot",
+      "source" : "b3ebd739c15db663.png",
+      "type" : "image/png",
+      "size" : 73448
+    }, {
+      "uid" : "96b15bea5f44d718",
+      "name" : "Screenshot",
+      "source" : "96b15bea5f44d718.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "68353057295f236e",
+      "name" : "Screenshot",
+      "source" : "68353057295f236e.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "519606ebfc7fd0c5",
+      "name" : "Screenshot",
+      "source" : "519606ebfc7fd0c5.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "d931930f3ecdc253",
+      "name" : "Screenshot",
+      "source" : "d931930f3ecdc253.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "f64bf2cb862f79ce",
+      "name" : "Screenshot",
+      "source" : "f64bf2cb862f79ce.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "e463a0c49ecd2c5f",
+      "name" : "Screenshot",
+      "source" : "e463a0c49ecd2c5f.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "ea7294fd68dc30e5",
+      "name" : "Screenshot",
+      "source" : "ea7294fd68dc30e5.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "ba7a651a8e4bd407",
+      "name" : "Screenshot",
+      "source" : "ba7a651a8e4bd407.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "9833cea501e2967c",
+      "name" : "Screenshot",
+      "source" : "9833cea501e2967c.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "18636433b3c933a7",
+      "name" : "Screenshot",
+      "source" : "18636433b3c933a7.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "5e33ebb860562e25",
+      "name" : "Screenshot",
+      "source" : "5e33ebb860562e25.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "3c024cd0c8ec371d",
+      "name" : "Screenshot",
+      "source" : "3c024cd0c8ec371d.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "ba71ad4d55383f6",
+      "name" : "Screenshot",
+      "source" : "ba71ad4d55383f6.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "b83f936ad7d321ea",
+      "name" : "Screenshot",
+      "source" : "b83f936ad7d321ea.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "11ec245fdbf40ae7",
+      "name" : "Screenshot",
+      "source" : "11ec245fdbf40ae7.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "946b85c8c2a2caf",
+      "name" : "Screenshot",
+      "source" : "946b85c8c2a2caf.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "dcb848b7891a3074",
+      "name" : "Screenshot",
+      "source" : "dcb848b7891a3074.png",
+      "type" : "image/png",
+      "size" : 76298
+    }, {
+      "uid" : "fcdd55fef5c641eb",
+      "name" : "Execution video",
+      "source" : "fcdd55fef5c641eb.mp4",
+      "type" : "video/mp4",
+      "size" : 32842
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 27,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Positive Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Success Forgot Password"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer success forgot password"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer success forgot password"
+  }, {
+    "name" : "testMethod",
+    "value" : "should forgot password with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Customer success forgot password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dce836fcd5a70250.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

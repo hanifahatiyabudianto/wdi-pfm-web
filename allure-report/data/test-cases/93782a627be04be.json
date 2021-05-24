@@ -1,0 +1,303 @@
+{
+  "uid" : "93782a627be04be",
+  "name" : "should avatar will be displayed",
+  "fullName" : "Prima Freshmart Customer Login.should avatar will be displayed",
+  "historyId" : "8bf7f95cc2799aa94eff25f05c6103ba",
+  "time" : {
+    "start" : 1621192083724,
+    "stop" : 1621192084865,
+    "duration" : 1141
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1621192083959,
+        "stop" : 1621192084073,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e3dfee4610036ac",
+        "name" : "Request",
+        "source" : "e3dfee4610036ac.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "3254b994678bc5ec",
+        "name" : "Response",
+        "source" : "3254b994678bc5ec.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "executeScript",
+      "time" : {
+        "start" : 1621192084141,
+        "stop" : 1621192084461,
+        "duration" : 320
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "61c65c177148c64d",
+        "name" : "Request",
+        "source" : "61c65c177148c64d.json",
+        "type" : "application/json",
+        "size" : 8283
+      }, {
+        "uid" : "b9fbe69b398b8d04",
+        "name" : "Response",
+        "source" : "b9fbe69b398b8d04.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "executeScript",
+      "time" : {
+        "start" : 1621192084508,
+        "stop" : 1621192084610,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4976f55123036706",
+        "name" : "Request",
+        "source" : "4976f55123036706.json",
+        "type" : "application/json",
+        "size" : 5595
+      }, {
+        "uid" : "57611e3ffd7d2678",
+        "name" : "Response",
+        "source" : "57611e3ffd7d2678.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1621192084641,
+        "stop" : 1621192084650,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8dfd856446968cb3",
+        "name" : "Request",
+        "source" : "8dfd856446968cb3.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "24ffb211f7068de5",
+        "name" : "Response",
+        "source" : "24ffb211f7068de5.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "elementClick",
+      "time" : {
+        "start" : 1621192084657,
+        "stop" : 1621192084697,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "219e3a80b6ce9fe6",
+        "name" : "Request",
+        "source" : "219e3a80b6ce9fe6.json",
+        "type" : "application/json",
+        "size" : 30
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1621192084703,
+        "stop" : 1621192084714,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c1f1589ca8ca2fd6",
+        "name" : "Request",
+        "source" : "c1f1589ca8ca2fd6.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "4edb25b304914c0f",
+        "name" : "Response",
+        "source" : "4edb25b304914c0f.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "executeScript",
+      "time" : {
+        "start" : 1621192084788,
+        "stop" : 1621192084813,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "22b258a111f583d9",
+        "name" : "Request",
+        "source" : "22b258a111f583d9.json",
+        "type" : "application/json",
+        "size" : 8283
+      }, {
+        "uid" : "593fb232cecf96b1",
+        "name" : "Response",
+        "source" : "593fb232cecf96b1.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1621192084826,
+        "stop" : 1621192084831,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1db1238eb94158f1",
+        "name" : "Request",
+        "source" : "1db1238eb94158f1.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "4d3d26944cf2eac2",
+        "name" : "Response",
+        "source" : "4d3d26944cf2eac2.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "getElementText",
+      "time" : {
+        "start" : 1621192084854,
+        "stop" : 1621192084864,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4559ad321c65a2dd",
+        "name" : "Request",
+        "source" : "4559ad321c65a2dd.json",
+        "type" : "application/json",
+        "size" : 30
+      }, {
+        "uid" : "47832bbabdc5f594",
+        "name" : "Response",
+        "source" : "47832bbabdc5f594.json",
+        "type" : "application/json",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 17,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should avatar will be displayed"
+  }, {
+    "name" : "package",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Edge-90.0.818.62"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "93782a627be04be.json",
+  "parameterValues" : [ "Edge-90.0.818.62" ]
+}

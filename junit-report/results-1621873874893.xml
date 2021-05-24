@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer did not fill name contact us form" timestamp="2021-05-24T23:31:20" time="31.091" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer did not fill name contact us form"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\contactus\emptyname.contactus.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer did not fill name contact us form" name="should show error message when empty name" time="30.909">
+      <failure/>
+      <error message="Expect $(`#email-error`) to be displayed&#xA;&#xA;Expected: &quot;displayed&quot;&#xA;Received: &quot;not displayed&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/window/maximize - {}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#footer-contact"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/"}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/screenshot - {}
+RESULT: {"using":"css selector","value":"#footer-contact"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element/d7db56a1-c42c-40ae-9f3e-2e017a97e984/click - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/screenshot - {}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#contact-title"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#contact-title"}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/element/45fc60ed-d161-4dc6-8317-b0352e26a767/text - {}
+RESULT: {}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/url - {}
+RESULT: {}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/screenshot - {}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#name"}
+RESULT: {"using":"css selector","value":"#name"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element/7a60a96f-a9ab-4cb9-a699-97494df43b6a/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/screenshot - {}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element/7a60a96f-a9ab-4cb9-a699-97494df43b6a/value - {"text":""}
+RESULT: {}
+RESULT: {"text":""}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/screenshot - {}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#telephone"}
+RESULT: {"using":"css selector","value":"#telephone"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element/996ffe51-5f3a-4a8a-8a6f-4c6d8bdf30ab/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/screenshot - {}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element/996ffe51-5f3a-4a8a-8a6f-4c6d8bdf30ab/value - {"text":"8123400000001"}
+RESULT: {}
+RESULT: {"text":"8123400000001"}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/screenshot - {}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element/3528d708-8faf-428e-9d41-12a9ddca47a0/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/screenshot - {}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element/3528d708-8faf-428e-9d41-12a9ddca47a0/value - {"text":"pfmwdio1@yopmail.com"}
+RESULT: {"text":"pfmwdio1@yopmail.com"}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/screenshot - {}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#comment"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#comment"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element/39857e3b-b6b4-4554-bb39-eb021625d464/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/screenshot - {}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element/39857e3b-b6b4-4554-bb39-eb021625d464/value - {"text":"Bagaimana cara pengiriman telur ayam?"}
+RESULT: {"text":"Bagaimana cara pengiriman telur ayam?"}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/screenshot - {}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element/27e248ae-994a-4b8f-b4c8-64b30ef54436/click - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/screenshot - {}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: POST /session/6ebc1b04fb18b02216abee7ca3bac1d0/element - {"using":"css selector","value":"#email-error"}
+RESULT: {"using":"css selector","value":"#email-error"}
+COMMAND: GET /session/6ebc1b04fb18b02216abee7ca3bac1d0/screenshot - {}
+COMMAND: DELETE /session/6ebc1b04fb18b02216abee7ca3bac1d0 - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`#email-error`) to be displayed
+
+Expected: "displayed"
+Received: "not displayed"
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\contactus\/emptyname.contactus.js:28:49)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

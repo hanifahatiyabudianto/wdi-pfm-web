@@ -1,0 +1,58 @@
+{
+  "uid" : "7cc25ab5d5c5fdd6",
+  "name" : "should show error message when empty name",
+  "fullName" : "Customer did not fill name contact us form.should show error message when empty name",
+  "historyId" : "49c1f6668d482d87c598841a8c6f1454",
+  "time" : {
+    "start" : 1621873701906,
+    "stop" : 1621873701908,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill name contact us form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill name contact us form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty name"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill name contact us form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7cc25ab5d5c5fdd6.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

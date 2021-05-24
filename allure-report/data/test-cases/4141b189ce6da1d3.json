@@ -1,0 +1,108 @@
+{
+  "uid" : "4141b189ce6da1d3",
+  "name" : "should show the banner image",
+  "fullName" : "Banner Homepage.should show the banner image",
+  "historyId" : "f69095d44a80a1182cb703cff801f2d8",
+  "time" : {
+    "start" : 1621191693353,
+    "stop" : 1621191693567,
+    "duration" : 214
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1621191693365,
+        "stop" : 0,
+        "duration" : -1621191693365
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "navigateTo",
+        "time" : {
+          "start" : 1621191693384,
+          "stop" : 0,
+          "duration" : -1621191693384
+        },
+        "status" : "unknown",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d1daaf7895631376",
+          "name" : "Request",
+          "source" : "d1daaf7895631376.json",
+          "type" : "application/json",
+          "size" : 42
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "d8ea1966274564e2",
+        "name" : "Request",
+        "source" : "d8ea1966274564e2.json",
+        "type" : "application/json",
+        "size" : 158
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Banner Homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Banner Homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show the banner image"
+  }, {
+    "name" : "package",
+    "value" : "Banner Homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Edge-90.0.818.62"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4141b189ce6da1d3.json",
+  "parameterValues" : [ "Edge-90.0.818.62" ]
+}

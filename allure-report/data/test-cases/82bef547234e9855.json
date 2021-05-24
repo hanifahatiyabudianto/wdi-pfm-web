@@ -1,0 +1,67 @@
+{
+  "uid" : "82bef547234e9855",
+  "name" : "should show error message when empty password",
+  "fullName" : "Customer did not fill password login form.should show error message when empty password",
+  "historyId" : "8da1472fe6ea67a46e599d89c7a5eac9",
+  "time" : {
+    "start" : 1621665836853,
+    "stop" : 1621665844471,
+    "duration" : 7618
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill password login form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill password login form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty password"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill password login form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82bef547234e9855.json",
+  "parameterValues" : [ "chrome-90.0.4430.72" ]
+}

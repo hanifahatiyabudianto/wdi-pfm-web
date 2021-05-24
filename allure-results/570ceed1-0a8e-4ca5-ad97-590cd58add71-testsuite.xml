@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621874079585' stop='1621874107863'>
+    <name>Customer did not fill name contact us form</name>
+    <title>Customer did not fill name contact us form</title>
+    <test-cases>
+        <test-case start='1621874079586' status='failed' stop='1621874107861'>
+            <name>should show error message when empty name</name>
+            <title>should show error message when empty name</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='severity' value='High'/>
+                <label name='Negative Case' value='undefined'/>
+                <label name='feature' value='Failed Send Message Contact Us'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+                <parameter kind='argument' name='browserVersion' value='90.0.4430.212'/>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='17ce4b56-3e46-49b8-8a7a-95200ea964c2-attachment.png' type='image/png' size='1106568'/>
+                <attachment title='Screenshot' source='af615700-37c4-424e-a2d0-af4162a087d7-attachment.png' type='image/png' size='309719'/>
+                <attachment title='Screenshot' source='4940d42b-ca6d-4c3f-8ae1-fe6dfc14f557-attachment.png' type='image/png' size='309719'/>
+                <attachment title='Screenshot' source='0507143d-6477-43e7-ab5b-5769a9854d04-attachment.png' type='image/png' size='312510'/>
+                <attachment title='Screenshot' source='030c4301-0d2a-44e9-abcf-90593015eabd-attachment.png' type='image/png' size='312510'/>
+                <attachment title='Screenshot' source='0af798e2-7fa3-4c2f-8ef5-09e0fb568d9c-attachment.png' type='image/png' size='312521'/>
+                <attachment title='Screenshot' source='5dab0062-1a7b-48e8-82b3-ffe9d7972467-attachment.png' type='image/png' size='312510'/>
+                <attachment title='Screenshot' source='de2ee49e-3ce3-43d3-8ad8-0db5f3097e58-attachment.png' type='image/png' size='313545'/>
+                <attachment title='Screenshot' source='6b53b795-b069-445a-81c4-cbd02d423076-attachment.png' type='image/png' size='313515'/>
+                <attachment title='Screenshot' source='04641f4e-9cc2-487c-a831-de68ecd0a750-attachment.png' type='image/png' size='314572'/>
+                <attachment title='Screenshot' source='9c61ceca-dc10-49eb-b029-4c72b84e8a88-attachment.png' type='image/png' size='314550'/>
+                <attachment title='Screenshot' source='c76f892d-f1c7-4981-9246-89cd9af694fd-attachment.png' type='image/png' size='314424'/>
+                <attachment title='Screenshot' source='38427d0b-a284-4db3-ac4b-e94f7816d0d8-attachment.png' type='image/png' size='309719'/>
+                <attachment title='Execution video' source='96c4391a-9b1a-47bf-b43d-b6d0d35f5dac-attachment.mp4' type='video/mp4' size='173'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`#name-error`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"</message>
+                <stack-trace>Error: Expect $(`#name-error`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"
+                    at Context.&lt;anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\contactus\/emptyname.contactus.js:28:49)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+                    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

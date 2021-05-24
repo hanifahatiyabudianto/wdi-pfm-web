@@ -1,0 +1,130 @@
+{
+  "uid" : "89cca160b41c4eaf",
+  "name" : "should forgot password with empty email",
+  "fullName" : "Customer failed forgot password.should forgot password with empty email",
+  "historyId" : "c5e62863599069b80990e48e5464264f",
+  "time" : {
+    "start" : 1621798537124,
+    "stop" : 1621798543671,
+    "duration" : 6547
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8e2a203a7be56e93",
+      "name" : "Screenshot",
+      "source" : "8e2a203a7be56e93.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "a2257db719b81b31",
+      "name" : "Screenshot",
+      "source" : "a2257db719b81b31.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "3477237ab333d6d7",
+      "name" : "Screenshot",
+      "source" : "3477237ab333d6d7.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "2311128f5023b611",
+      "name" : "Screenshot",
+      "source" : "2311128f5023b611.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "ca67c6f50eb7bee1",
+      "name" : "Screenshot",
+      "source" : "ca67c6f50eb7bee1.png",
+      "type" : "image/png",
+      "size" : 58180
+    }, {
+      "uid" : "43b2800ced3fd8fb",
+      "name" : "Screenshot",
+      "source" : "43b2800ced3fd8fb.png",
+      "type" : "image/png",
+      "size" : 59681
+    }, {
+      "uid" : "b91db260a317390b",
+      "name" : "Execution video",
+      "source" : "b91db260a317390b.mp4",
+      "type" : "video/mp4",
+      "size" : 17156
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Forgot Password"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer failed forgot password"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer failed forgot password"
+  }, {
+    "name" : "testMethod",
+    "value" : "should forgot password with empty email"
+  }, {
+    "name" : "package",
+    "value" : "Customer failed forgot password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c351e4f4978ea627",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621797330352,
+        "stop" : 1621797338807,
+        "duration" : 8455
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89cca160b41c4eaf.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

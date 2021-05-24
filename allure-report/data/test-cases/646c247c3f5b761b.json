@@ -1,0 +1,64 @@
+{
+  "uid" : "646c247c3f5b761b",
+  "name" : "\"before all\" hook for Customer did not fill name contact us form",
+  "fullName" : "Customer did not fill name contact us form.\"before all\" hook for Customer did not fill name contact us form",
+  "historyId" : "1a70e4e35527b714bf4bdb9d6de16bb2",
+  "time" : {
+    "start" : 1621873701887,
+    "stop" : 1621873701906,
+    "duration" : 19
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Page.open is not a function",
+  "statusTrace" : "TypeError: Page.open is not a function\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\contactus\\/emptyname.contactus.js:11:14)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill name contact us form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill name contact us form"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Customer did not fill name contact us form"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill name contact us form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "646c247c3f5b761b.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

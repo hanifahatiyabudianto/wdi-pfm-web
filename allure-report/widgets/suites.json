@@ -1,5 +1,5 @@
 {
-  "total" : 22,
+  "total" : 27,
   "items" : [ {
     "uid" : "19f02ef0ff9c8d193443a8e7f7774e1e",
     "name" : "Prima Freshmart Customer Login",
@@ -14,6 +14,17 @@
   }, {
     "uid" : "094f2da06f1bcebc3caf299780036871",
     "name" : "Customer fill email login with invalid format",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "4cce68e2093674bf4b6a7b17bc3e860c",
+    "name" : "Customer failed forgot password",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -43,6 +54,17 @@
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
+    }
+  }, {
+    "uid" : "4f050e291733153d136298fdb5951900",
+    "name" : "Customer did not fill name contact us form",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
     }
   }, {
     "uid" : "d1052900f2ca7bffb3002d81df031986",
@@ -87,28 +109,6 @@
       "passed" : 3,
       "unknown" : 0,
       "total" : 3
-    }
-  }, {
-    "uid" : "3a33abd1b6302951315c9daea1ca073e",
-    "name" : "Customer account has not been confirmed",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "4cce68e2093674bf4b6a7b17bc3e860c",
-    "name" : "Customer failed forgot password",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
     }
   } ]
 }

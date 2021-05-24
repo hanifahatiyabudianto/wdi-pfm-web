@@ -1,0 +1,202 @@
+{
+  "uid" : "2d9c874c7899ab6",
+  "name" : "should register with fill with registered email",
+  "fullName" : "Customer failed register.should register with fill with registered email",
+  "historyId" : "684ac8ac0c62b2fab54de4958da93ea4",
+  "time" : {
+    "start" : 1621793842483,
+    "stop" : 1621793864354,
+    "duration" : 21871
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`div.message-error.error.message`) to have text\n                \n                Expected: \"Akun telah terdaftar. Jika anda yakin email ini milik anda, klik disini untuk mengakses akun Anda.\"\n                Received: undefined",
+  "statusTrace" : "Error: Expect $(`div.message-error.error.message`) to have text\n                \n                Expected: \"Akun telah terdaftar. Jika anda yakin email ini milik anda, klik disini untuk mengakses akun Anda.\"\n                Received: undefined\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/registeredemail.register.js:23:56)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`div.message-error.error.message`) to have text\n                \n                Expected: \"Akun telah terdaftar. Jika anda yakin email ini milik anda, klik disini untuk mengakses akun Anda.\"\n                Received: undefined",
+    "statusTrace" : "Error: Expect $(`div.message-error.error.message`) to have text\n                \n                Expected: \"Akun telah terdaftar. Jika anda yakin email ini milik anda, klik disini untuk mengakses akun Anda.\"\n                Received: undefined\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/registeredemail.register.js:23:56)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "61eadbb4f5235cd5",
+      "name" : "Screenshot",
+      "source" : "61eadbb4f5235cd5.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "1e06cc26f6c79dae",
+      "name" : "Screenshot",
+      "source" : "1e06cc26f6c79dae.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "5fa26b5791b9857b",
+      "name" : "Screenshot",
+      "source" : "5fa26b5791b9857b.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "cc88b60fefd765d",
+      "name" : "Screenshot",
+      "source" : "cc88b60fefd765d.png",
+      "type" : "image/png",
+      "size" : 73170
+    }, {
+      "uid" : "dd23651c5d014fae",
+      "name" : "Screenshot",
+      "source" : "dd23651c5d014fae.png",
+      "type" : "image/png",
+      "size" : 73170
+    }, {
+      "uid" : "31a1456dd5bbace7",
+      "name" : "Screenshot",
+      "source" : "31a1456dd5bbace7.png",
+      "type" : "image/png",
+      "size" : 73002
+    }, {
+      "uid" : "e6f5c345d9060d04",
+      "name" : "Screenshot",
+      "source" : "e6f5c345d9060d04.png",
+      "type" : "image/png",
+      "size" : 73002
+    }, {
+      "uid" : "3e9aa2841f4c5aa2",
+      "name" : "Screenshot",
+      "source" : "3e9aa2841f4c5aa2.png",
+      "type" : "image/png",
+      "size" : 69107
+    }, {
+      "uid" : "929705b1dff829b2",
+      "name" : "Screenshot",
+      "source" : "929705b1dff829b2.png",
+      "type" : "image/png",
+      "size" : 69107
+    }, {
+      "uid" : "8306bd2857f60b24",
+      "name" : "Screenshot",
+      "source" : "8306bd2857f60b24.png",
+      "type" : "image/png",
+      "size" : 68478
+    }, {
+      "uid" : "7dba706378a272f8",
+      "name" : "Screenshot",
+      "source" : "7dba706378a272f8.png",
+      "type" : "image/png",
+      "size" : 68485
+    }, {
+      "uid" : "d494e8900123d032",
+      "name" : "Screenshot",
+      "source" : "d494e8900123d032.png",
+      "type" : "image/png",
+      "size" : 57577
+    }, {
+      "uid" : "57b4266eeecd53ef",
+      "name" : "Screenshot",
+      "source" : "57b4266eeecd53ef.png",
+      "type" : "image/png",
+      "size" : 58110
+    }, {
+      "uid" : "ab5c7267b76cf82d",
+      "name" : "Screenshot",
+      "source" : "ab5c7267b76cf82d.png",
+      "type" : "image/png",
+      "size" : 58110
+    }, {
+      "uid" : "1175d7e24070dd14",
+      "name" : "Screenshot",
+      "source" : "1175d7e24070dd14.png",
+      "type" : "image/png",
+      "size" : 59038
+    }, {
+      "uid" : "2e97360447f1bc81",
+      "name" : "Screenshot",
+      "source" : "2e97360447f1bc81.png",
+      "type" : "image/png",
+      "size" : 59038
+    }, {
+      "uid" : "5d008ce6fb607464",
+      "name" : "Screenshot",
+      "source" : "5d008ce6fb607464.png",
+      "type" : "image/png",
+      "size" : 78464
+    }, {
+      "uid" : "ff56670d8ca65783",
+      "name" : "Screenshot",
+      "source" : "ff56670d8ca65783.png",
+      "type" : "image/png",
+      "size" : 78748
+    }, {
+      "uid" : "f5d909cc79484ec2",
+      "name" : "Screenshot",
+      "source" : "f5d909cc79484ec2.png",
+      "type" : "image/png",
+      "size" : 61654
+    }, {
+      "uid" : "a9fd18374099d418",
+      "name" : "Execution video",
+      "source" : "a9fd18374099d418.mp4",
+      "type" : "video/mp4",
+      "size" : 34940
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 20,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Positive Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Success Register"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register with fill with registered email"
+  }, {
+    "name" : "package",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d9c874c7899ab6.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

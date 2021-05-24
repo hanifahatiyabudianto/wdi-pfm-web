@@ -1,0 +1,166 @@
+{
+  "uid" : "f352678039154bc5",
+  "name" : "should show error message when empty name",
+  "fullName" : "Customer did not fill name contact us form.should show error message when empty name",
+  "historyId" : "76d8da4d66561ee7d91e20abccbc3e09",
+  "time" : {
+    "start" : 1621873880249,
+    "stop" : 1621873911317,
+    "duration" : 31068
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`#email-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+  "statusTrace" : "Error: Expect $(`#email-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\contactus\\/emptyname.contactus.js:28:49)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`#email-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+    "statusTrace" : "Error: Expect $(`#email-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\contactus\\/emptyname.contactus.js:28:49)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f0a0d949d4e35fe7",
+      "name" : "Screenshot",
+      "source" : "f0a0d949d4e35fe7.png",
+      "type" : "image/png",
+      "size" : 1106568
+    }, {
+      "uid" : "124ac752a1da7698",
+      "name" : "Screenshot",
+      "source" : "124ac752a1da7698.png",
+      "type" : "image/png",
+      "size" : 1109262
+    }, {
+      "uid" : "d9a9c6defdc10665",
+      "name" : "Screenshot",
+      "source" : "d9a9c6defdc10665.png",
+      "type" : "image/png",
+      "size" : 309719
+    }, {
+      "uid" : "39a04cfaa762a3aa",
+      "name" : "Screenshot",
+      "source" : "39a04cfaa762a3aa.png",
+      "type" : "image/png",
+      "size" : 312510
+    }, {
+      "uid" : "978c4373a9e8e277",
+      "name" : "Screenshot",
+      "source" : "978c4373a9e8e277.png",
+      "type" : "image/png",
+      "size" : 312510
+    }, {
+      "uid" : "cc902cc5fb3ce29f",
+      "name" : "Screenshot",
+      "source" : "cc902cc5fb3ce29f.png",
+      "type" : "image/png",
+      "size" : 312521
+    }, {
+      "uid" : "410a2cacd1ec638d",
+      "name" : "Screenshot",
+      "source" : "410a2cacd1ec638d.png",
+      "type" : "image/png",
+      "size" : 312510
+    }, {
+      "uid" : "8da220514d1104fe",
+      "name" : "Screenshot",
+      "source" : "8da220514d1104fe.png",
+      "type" : "image/png",
+      "size" : 313545
+    }, {
+      "uid" : "c3fa3d6facde4d8",
+      "name" : "Screenshot",
+      "source" : "c3fa3d6facde4d8.png",
+      "type" : "image/png",
+      "size" : 314572
+    }, {
+      "uid" : "4a6f44eb104204e5",
+      "name" : "Screenshot",
+      "source" : "4a6f44eb104204e5.png",
+      "type" : "image/png",
+      "size" : 314572
+    }, {
+      "uid" : "3894fa838591719",
+      "name" : "Screenshot",
+      "source" : "3894fa838591719.png",
+      "type" : "image/png",
+      "size" : 314424
+    }, {
+      "uid" : "4c3b8243ff5bf7ec",
+      "name" : "Screenshot",
+      "source" : "4c3b8243ff5bf7ec.png",
+      "type" : "image/png",
+      "size" : 314424
+    }, {
+      "uid" : "2a13bdd3c4aa29c0",
+      "name" : "Screenshot",
+      "source" : "2a13bdd3c4aa29c0.png",
+      "type" : "image/png",
+      "size" : 309719
+    }, {
+      "uid" : "cdce54c49d54f54e",
+      "name" : "Execution video",
+      "source" : "cdce54c49d54f54e.mp4",
+      "type" : "video/mp4",
+      "size" : 63472
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Send Message Contact Us"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill name contact us form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill name contact us form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty name"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill name contact us form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f352678039154bc5.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

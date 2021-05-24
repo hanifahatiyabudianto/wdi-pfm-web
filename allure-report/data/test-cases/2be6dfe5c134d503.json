@@ -1,0 +1,202 @@
+{
+  "uid" : "2be6dfe5c134d503",
+  "name" : "should show error message when empty phone number",
+  "fullName" : "Customer did not fill phone number register form.should show error message when empty phone number",
+  "historyId" : "46ca45e95459901c52d068e28d96aebf",
+  "time" : {
+    "start" : 1621787949019,
+    "stop" : 1621787963461,
+    "duration" : 14442
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1473f2fb4a27f948",
+      "name" : "Screenshot",
+      "source" : "1473f2fb4a27f948.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "ca7e4a98debba8cd",
+      "name" : "Screenshot",
+      "source" : "ca7e4a98debba8cd.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "69d66e052cc22e8f",
+      "name" : "Screenshot",
+      "source" : "69d66e052cc22e8f.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "50716188519de1ba",
+      "name" : "Screenshot",
+      "source" : "50716188519de1ba.png",
+      "type" : "image/png",
+      "size" : 75888
+    }, {
+      "uid" : "b035c5059b48ccdf",
+      "name" : "Screenshot",
+      "source" : "b035c5059b48ccdf.png",
+      "type" : "image/png",
+      "size" : 75875
+    }, {
+      "uid" : "5cbde6631095aecc",
+      "name" : "Screenshot",
+      "source" : "5cbde6631095aecc.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "ff6ff6e5f0fee63d",
+      "name" : "Screenshot",
+      "source" : "ff6ff6e5f0fee63d.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "df5820b9909f3a2f",
+      "name" : "Screenshot",
+      "source" : "df5820b9909f3a2f.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "c750e0bb001e3b35",
+      "name" : "Screenshot",
+      "source" : "c750e0bb001e3b35.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "6572b11595a26679",
+      "name" : "Screenshot",
+      "source" : "6572b11595a26679.png",
+      "type" : "image/png",
+      "size" : 68281
+    }, {
+      "uid" : "1fa017c3c789aa97",
+      "name" : "Screenshot",
+      "source" : "1fa017c3c789aa97.png",
+      "type" : "image/png",
+      "size" : 57505
+    }, {
+      "uid" : "47df27e82d31e42a",
+      "name" : "Screenshot",
+      "source" : "47df27e82d31e42a.png",
+      "type" : "image/png",
+      "size" : 58040
+    }, {
+      "uid" : "7b2ba808bf7e4f72",
+      "name" : "Screenshot",
+      "source" : "7b2ba808bf7e4f72.png",
+      "type" : "image/png",
+      "size" : 58040
+    }, {
+      "uid" : "56f5fbdfbd04aacb",
+      "name" : "Screenshot",
+      "source" : "56f5fbdfbd04aacb.png",
+      "type" : "image/png",
+      "size" : 58023
+    }, {
+      "uid" : "41e19b40e99393d6",
+      "name" : "Screenshot",
+      "source" : "41e19b40e99393d6.png",
+      "type" : "image/png",
+      "size" : 58023
+    }, {
+      "uid" : "24bf1dba3bd565dd",
+      "name" : "Screenshot",
+      "source" : "24bf1dba3bd565dd.png",
+      "type" : "image/png",
+      "size" : 75121
+    }, {
+      "uid" : "bb066a35e8f66350",
+      "name" : "Screenshot",
+      "source" : "bb066a35e8f66350.png",
+      "type" : "image/png",
+      "size" : 74698
+    }, {
+      "uid" : "3787d4d2a892ef33",
+      "name" : "Screenshot",
+      "source" : "3787d4d2a892ef33.png",
+      "type" : "image/png",
+      "size" : 59242
+    }, {
+      "uid" : "fca25259e0c2f008",
+      "name" : "Execution video",
+      "source" : "fca25259e0c2f008.mp4",
+      "type" : "video/mp4",
+      "size" : 34484
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 19,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill phone number register form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill phone number register form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty phone number"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill phone number register form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "25d656eb5178b304",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621787453749,
+        "stop" : 1621787469011,
+        "duration" : 15262
+      }
+    }, {
+      "uid" : "d25723f3b8b6148b",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#phone_number-error`) to have text\n                \n                Expected: \"Harus diisi\"\n                Received: \"Format handphone salah.\"",
+      "time" : {
+        "start" : 1621787378071,
+        "stop" : 1621787399444,
+        "duration" : 21373
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2be6dfe5c134d503.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

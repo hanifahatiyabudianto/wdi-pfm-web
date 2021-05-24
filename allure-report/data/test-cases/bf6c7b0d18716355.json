@@ -1,0 +1,182 @@
+{
+  "uid" : "bf6c7b0d18716355",
+  "name" : "should show error message when empty name",
+  "fullName" : "Customer did not fill name contact us form.should show error message when empty name",
+  "historyId" : "76d8da4d66561ee7d91e20abccbc3e09",
+  "time" : {
+    "start" : 1621874230839,
+    "stop" : 1621874249110,
+    "duration" : 18271
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1c3bf4281b92294a",
+      "name" : "Screenshot",
+      "source" : "1c3bf4281b92294a.png",
+      "type" : "image/png",
+      "size" : 1106568
+    }, {
+      "uid" : "50cadbb3bdb4c698",
+      "name" : "Screenshot",
+      "source" : "50cadbb3bdb4c698.png",
+      "type" : "image/png",
+      "size" : 1106568
+    }, {
+      "uid" : "2e77866ff18cb0f",
+      "name" : "Screenshot",
+      "source" : "2e77866ff18cb0f.png",
+      "type" : "image/png",
+      "size" : 309719
+    }, {
+      "uid" : "635a90aac6c3ee3c",
+      "name" : "Screenshot",
+      "source" : "635a90aac6c3ee3c.png",
+      "type" : "image/png",
+      "size" : 312510
+    }, {
+      "uid" : "1d2da16005649db1",
+      "name" : "Screenshot",
+      "source" : "1d2da16005649db1.png",
+      "type" : "image/png",
+      "size" : 312510
+    }, {
+      "uid" : "84bc89eef0133322",
+      "name" : "Screenshot",
+      "source" : "84bc89eef0133322.png",
+      "type" : "image/png",
+      "size" : 312521
+    }, {
+      "uid" : "a875f0c729fbfe27",
+      "name" : "Screenshot",
+      "source" : "a875f0c729fbfe27.png",
+      "type" : "image/png",
+      "size" : 312510
+    }, {
+      "uid" : "5a3ecd31b6deee9f",
+      "name" : "Screenshot",
+      "source" : "5a3ecd31b6deee9f.png",
+      "type" : "image/png",
+      "size" : 313545
+    }, {
+      "uid" : "f0c4969df2ba62ad",
+      "name" : "Screenshot",
+      "source" : "f0c4969df2ba62ad.png",
+      "type" : "image/png",
+      "size" : 313545
+    }, {
+      "uid" : "ede227722fcdd79",
+      "name" : "Screenshot",
+      "source" : "ede227722fcdd79.png",
+      "type" : "image/png",
+      "size" : 314572
+    }, {
+      "uid" : "8dd3f0e745d6578a",
+      "name" : "Screenshot",
+      "source" : "8dd3f0e745d6578a.png",
+      "type" : "image/png",
+      "size" : 314572
+    }, {
+      "uid" : "1381946f5b54171f",
+      "name" : "Screenshot",
+      "source" : "1381946f5b54171f.png",
+      "type" : "image/png",
+      "size" : 314424
+    }, {
+      "uid" : "338b1e51a3469e27",
+      "name" : "Screenshot",
+      "source" : "338b1e51a3469e27.png",
+      "type" : "image/png",
+      "size" : 296986
+    }, {
+      "uid" : "cf7779f6b3f0d4f",
+      "name" : "Execution video",
+      "source" : "cf7779f6b3f0d4f.mp4",
+      "type" : "video/mp4",
+      "size" : 64480
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Send Message Contact Us"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill name contact us form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill name contact us form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty name"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill name contact us form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cfa455cfbd056699",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#name-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1621874079586,
+        "stop" : 1621874107861,
+        "duration" : 28275
+      }
+    }, {
+      "uid" : "f352678039154bc5",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#email-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+      "time" : {
+        "start" : 1621873880249,
+        "stop" : 1621873911317,
+        "duration" : 31068
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf6c7b0d18716355.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

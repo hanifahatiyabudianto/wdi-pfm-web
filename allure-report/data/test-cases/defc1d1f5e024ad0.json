@@ -1,0 +1,74 @@
+{
+  "uid" : "defc1d1f5e024ad0",
+  "name" : "should show the banner image",
+  "fullName" : "Banner Homepage.should show the banner image",
+  "historyId" : "f69095d44a80a1182cb703cff801f2d8",
+  "time" : {
+    "start" : 1621192833792,
+    "stop" : 1621192833795,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Banner Homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Banner Homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show the banner image"
+  }, {
+    "name" : "package",
+    "value" : "Banner Homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Edge-90.0.818.62"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d9cc6ada872fb534",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621192055140,
+        "stop" : 1621192055142,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "4141b189ce6da1d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621191693353,
+        "stop" : 1621191693567,
+        "duration" : 214
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "defc1d1f5e024ad0.json",
+  "parameterValues" : [ "Edge-90.0.818.62" ]
+}

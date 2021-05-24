@@ -1,0 +1,181 @@
+{
+  "uid" : "8195f1fcbc1cd572",
+  "name" : "should show error message when empty email",
+  "fullName" : "Customer did not fill email register form.should show error message when empty email",
+  "historyId" : "3122c6ac6f958d349a35085ddb4efae0",
+  "time" : {
+    "start" : 1621670486161,
+    "stop" : 1621670494385,
+    "duration" : 8224
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Register"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty email"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill email register form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5ee3fedc5dc652d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621670185300,
+        "stop" : 1621670190196,
+        "duration" : 4896
+      }
+    }, {
+      "uid" : "a717b4f87b1f2242",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621669790919,
+        "stop" : 1621669795896,
+        "duration" : 4977
+      }
+    }, {
+      "uid" : "9f26c8962b64f9b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621669511863,
+        "stop" : 1621669520178,
+        "duration" : 8315
+      }
+    }, {
+      "uid" : "1734a024dec0c138",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command isElementSelected\n                Expected: string\n                Actual: number\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-is-element-selected\n                ",
+      "time" : {
+        "start" : 1621669369662,
+        "stop" : 1621669375579,
+        "duration" : 5917
+      }
+    }, {
+      "uid" : "8c2df9d17107993a",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command isElementSelected\n                Expected: string\n                Actual: boolean\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-is-element-selected\n                ",
+      "time" : {
+        "start" : 1621669252323,
+        "stop" : 1621669257767,
+        "duration" : 5444
+      }
+    }, {
+      "uid" : "33b42ed9c12ba944",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command isElementSelected\n                Expected: string\n                Actual: boolean\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-is-element-selected\n                ",
+      "time" : {
+        "start" : 1621669166689,
+        "stop" : 1621669171830,
+        "duration" : 5141
+      }
+    }, {
+      "uid" : "753fa6dc24a00f1a",
+      "status" : "broken",
+      "statusDetails" : "unknown command: unknown command: session/3ccf3914fa1b6995ebdea2f27c708ea5/element/selected",
+      "time" : {
+        "start" : 1621669075836,
+        "stop" : 1621669080373,
+        "duration" : 4537
+      }
+    }, {
+      "uid" : "b82f9660430f8f59",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command isElementSelected\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-is-element-selected\n                ",
+      "time" : {
+        "start" : 1621669014725,
+        "stop" : 1621669019555,
+        "duration" : 4830
+      }
+    }, {
+      "uid" : "f8758d8d0f92c273",
+      "status" : "failed",
+      "statusDetails" : "Malformed type for \"elementId\" parameter of command isElementSelected\n                Expected: string\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-is-element-selected\n                ",
+      "time" : {
+        "start" : 1621668888710,
+        "stop" : 1621668893028,
+        "duration" : 4318
+      }
+    }, {
+      "uid" : "84f83388526b767d",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621668785904,
+        "stop" : 1621668792392,
+        "duration" : 6488
+      }
+    }, {
+      "uid" : "5669416aefa82a41",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621668713070,
+        "stop" : 1621668717415,
+        "duration" : 4345
+      }
+    }, {
+      "uid" : "61482182d933cc83",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621668623282,
+        "stop" : 1621668630536,
+        "duration" : 7254
+      }
+    }, {
+      "uid" : "d6b493e8ad5cd424",
+      "status" : "broken",
+      "statusDetails" : "invalid element state\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621668473798,
+        "stop" : 1621668477894,
+        "duration" : 4096
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8195f1fcbc1cd572.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

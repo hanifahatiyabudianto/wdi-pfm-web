@@ -1,0 +1,202 @@
+{
+  "uid" : "ad8f634ffde097fb",
+  "name" : "should register with fill with registered email",
+  "fullName" : "Customer failed register.should register with fill with registered email",
+  "historyId" : "684ac8ac0c62b2fab54de4958da93ea4",
+  "time" : {
+    "start" : 1621793996243,
+    "stop" : 1621794017396,
+    "duration" : 21153
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`#nik-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+  "statusTrace" : "Error: Expect $(`#nik-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/registeredphonenumber.register.js:22:47)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`#nik-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+    "statusTrace" : "Error: Expect $(`#nik-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/registeredphonenumber.register.js:22:47)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cffd8748d8108d0c",
+      "name" : "Screenshot",
+      "source" : "cffd8748d8108d0c.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "383e598f35861cfe",
+      "name" : "Screenshot",
+      "source" : "383e598f35861cfe.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "8f4dd74d33ced848",
+      "name" : "Screenshot",
+      "source" : "8f4dd74d33ced848.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "f1aa5c287ca89c56",
+      "name" : "Screenshot",
+      "source" : "f1aa5c287ca89c56.png",
+      "type" : "image/png",
+      "size" : 73170
+    }, {
+      "uid" : "93bf22fb07af1fe5",
+      "name" : "Screenshot",
+      "source" : "93bf22fb07af1fe5.png",
+      "type" : "image/png",
+      "size" : 76099
+    }, {
+      "uid" : "c63bff2b6fde4cb7",
+      "name" : "Screenshot",
+      "source" : "c63bff2b6fde4cb7.png",
+      "type" : "image/png",
+      "size" : 73002
+    }, {
+      "uid" : "45cd0320199fbf67",
+      "name" : "Screenshot",
+      "source" : "45cd0320199fbf67.png",
+      "type" : "image/png",
+      "size" : 73002
+    }, {
+      "uid" : "169b0123dc9057f4",
+      "name" : "Screenshot",
+      "source" : "169b0123dc9057f4.png",
+      "type" : "image/png",
+      "size" : 69107
+    }, {
+      "uid" : "4ae93c0119d5cc9b",
+      "name" : "Screenshot",
+      "source" : "4ae93c0119d5cc9b.png",
+      "type" : "image/png",
+      "size" : 69107
+    }, {
+      "uid" : "48085413ec5a4204",
+      "name" : "Screenshot",
+      "source" : "48085413ec5a4204.png",
+      "type" : "image/png",
+      "size" : 68478
+    }, {
+      "uid" : "9440df134218ae5a",
+      "name" : "Screenshot",
+      "source" : "9440df134218ae5a.png",
+      "type" : "image/png",
+      "size" : 68485
+    }, {
+      "uid" : "f0342eb632824943",
+      "name" : "Screenshot",
+      "source" : "f0342eb632824943.png",
+      "type" : "image/png",
+      "size" : 57577
+    }, {
+      "uid" : "f712def8f2c78cbf",
+      "name" : "Screenshot",
+      "source" : "f712def8f2c78cbf.png",
+      "type" : "image/png",
+      "size" : 58110
+    }, {
+      "uid" : "5b2f286510b6d11e",
+      "name" : "Screenshot",
+      "source" : "5b2f286510b6d11e.png",
+      "type" : "image/png",
+      "size" : 58110
+    }, {
+      "uid" : "7a7d32c2af1250d4",
+      "name" : "Screenshot",
+      "source" : "7a7d32c2af1250d4.png",
+      "type" : "image/png",
+      "size" : 59038
+    }, {
+      "uid" : "ebfbda3189b2551a",
+      "name" : "Screenshot",
+      "source" : "ebfbda3189b2551a.png",
+      "type" : "image/png",
+      "size" : 59038
+    }, {
+      "uid" : "b2c4c14cc3c2fa7d",
+      "name" : "Screenshot",
+      "source" : "b2c4c14cc3c2fa7d.png",
+      "type" : "image/png",
+      "size" : 78464
+    }, {
+      "uid" : "b088998a9eff8afc",
+      "name" : "Screenshot",
+      "source" : "b088998a9eff8afc.png",
+      "type" : "image/png",
+      "size" : 79599
+    }, {
+      "uid" : "1f34848b9e4f9b4a",
+      "name" : "Screenshot",
+      "source" : "1f34848b9e4f9b4a.png",
+      "type" : "image/png",
+      "size" : 61651
+    }, {
+      "uid" : "54f741e819f74266",
+      "name" : "Execution video",
+      "source" : "54f741e819f74266.mp4",
+      "type" : "video/mp4",
+      "size" : 34746
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 20,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Positive Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Success Register"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register with fill with registered email"
+  }, {
+    "name" : "package",
+    "value" : "Customer failed register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad8f634ffde097fb.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

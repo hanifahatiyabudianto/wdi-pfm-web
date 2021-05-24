@@ -1,0 +1,162 @@
+{
+  "uid" : "f5708d508ed41d7b",
+  "name" : "should show alert success send message contact us",
+  "fullName" : "Customer success send message contact us.should show alert success send message contact us",
+  "historyId" : "e7af4fd179de071a95b7dec7e0cf1ba6",
+  "time" : {
+    "start" : 1621874926199,
+    "stop" : 1621874946678,
+    "duration" : 20479
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2913cd5a83c16031",
+      "name" : "Screenshot",
+      "source" : "2913cd5a83c16031.png",
+      "type" : "image/png",
+      "size" : 1106568
+    }, {
+      "uid" : "2a488e01fbb2e086",
+      "name" : "Screenshot",
+      "source" : "2a488e01fbb2e086.png",
+      "type" : "image/png",
+      "size" : 1106568
+    }, {
+      "uid" : "520c7ba58836c9c6",
+      "name" : "Screenshot",
+      "source" : "520c7ba58836c9c6.png",
+      "type" : "image/png",
+      "size" : 309719
+    }, {
+      "uid" : "97e8c857b5a664a0",
+      "name" : "Screenshot",
+      "source" : "97e8c857b5a664a0.png",
+      "type" : "image/png",
+      "size" : 312510
+    }, {
+      "uid" : "8681b7d3cb510c67",
+      "name" : "Screenshot",
+      "source" : "8681b7d3cb510c67.png",
+      "type" : "image/png",
+      "size" : 312510
+    }, {
+      "uid" : "cd6efb57a9b7a959",
+      "name" : "Screenshot",
+      "source" : "cd6efb57a9b7a959.png",
+      "type" : "image/png",
+      "size" : 310039
+    }, {
+      "uid" : "7873a3ce79ca7949",
+      "name" : "Screenshot",
+      "source" : "7873a3ce79ca7949.png",
+      "type" : "image/png",
+      "size" : 310022
+    }, {
+      "uid" : "b948d28bd4f6e1f4",
+      "name" : "Screenshot",
+      "source" : "b948d28bd4f6e1f4.png",
+      "type" : "image/png",
+      "size" : 311118
+    }, {
+      "uid" : "269a7d7c5e864237",
+      "name" : "Screenshot",
+      "source" : "269a7d7c5e864237.png",
+      "type" : "image/png",
+      "size" : 311088
+    }, {
+      "uid" : "ec28fbfb25110fbe",
+      "name" : "Screenshot",
+      "source" : "ec28fbfb25110fbe.png",
+      "type" : "image/png",
+      "size" : 312162
+    }, {
+      "uid" : "bd0c1bb800559321",
+      "name" : "Screenshot",
+      "source" : "bd0c1bb800559321.png",
+      "type" : "image/png",
+      "size" : 312135
+    }, {
+      "uid" : "3800dcb8cda79ffc",
+      "name" : "Screenshot",
+      "source" : "3800dcb8cda79ffc.png",
+      "type" : "image/png",
+      "size" : 312091
+    }, {
+      "uid" : "7ae16169554dcbf",
+      "name" : "Screenshot",
+      "source" : "7ae16169554dcbf.png",
+      "type" : "image/png",
+      "size" : 309719
+    }, {
+      "uid" : "b8eaff7c6d616864",
+      "name" : "Execution video",
+      "source" : "b8eaff7c6d616864.mp4",
+      "type" : "video/mp4",
+      "size" : 64202
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Positive Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Success Contact Us"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer success send message contact us"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer success send message contact us"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show alert success send message contact us"
+  }, {
+    "name" : "package",
+    "value" : "Customer success send message contact us"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5708d508ed41d7b.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

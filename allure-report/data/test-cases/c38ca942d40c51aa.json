@@ -1,0 +1,172 @@
+{
+  "uid" : "c38ca942d40c51aa",
+  "name" : "should show error message when empty comment",
+  "fullName" : "Customer did not fill comment contact us form.should show error message when empty comment",
+  "historyId" : "244641118dd2c9891d21556253a7df1d",
+  "time" : {
+    "start" : 1621874591476,
+    "stop" : 1621874609770,
+    "duration" : 18294
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "59873aef6e783e4",
+      "name" : "Screenshot",
+      "source" : "59873aef6e783e4.png",
+      "type" : "image/png",
+      "size" : 1106568
+    }, {
+      "uid" : "b38b4e468967130a",
+      "name" : "Screenshot",
+      "source" : "b38b4e468967130a.png",
+      "type" : "image/png",
+      "size" : 309719
+    }, {
+      "uid" : "e050dd65dc453a01",
+      "name" : "Screenshot",
+      "source" : "e050dd65dc453a01.png",
+      "type" : "image/png",
+      "size" : 309719
+    }, {
+      "uid" : "bd7335bbea00437d",
+      "name" : "Screenshot",
+      "source" : "bd7335bbea00437d.png",
+      "type" : "image/png",
+      "size" : 312510
+    }, {
+      "uid" : "182653cea59eb626",
+      "name" : "Screenshot",
+      "source" : "182653cea59eb626.png",
+      "type" : "image/png",
+      "size" : 312510
+    }, {
+      "uid" : "94f715efad66101",
+      "name" : "Screenshot",
+      "source" : "94f715efad66101.png",
+      "type" : "image/png",
+      "size" : 310039
+    }, {
+      "uid" : "2a737657b6f45969",
+      "name" : "Screenshot",
+      "source" : "2a737657b6f45969.png",
+      "type" : "image/png",
+      "size" : 310022
+    }, {
+      "uid" : "be029da0abcdd24c",
+      "name" : "Screenshot",
+      "source" : "be029da0abcdd24c.png",
+      "type" : "image/png",
+      "size" : 311118
+    }, {
+      "uid" : "5ef0f5944e478107",
+      "name" : "Screenshot",
+      "source" : "5ef0f5944e478107.png",
+      "type" : "image/png",
+      "size" : 311088
+    }, {
+      "uid" : "93bb3123d2e38c3e",
+      "name" : "Screenshot",
+      "source" : "93bb3123d2e38c3e.png",
+      "type" : "image/png",
+      "size" : 312162
+    }, {
+      "uid" : "91f308575d35e15e",
+      "name" : "Screenshot",
+      "source" : "91f308575d35e15e.png",
+      "type" : "image/png",
+      "size" : 312135
+    }, {
+      "uid" : "11c4a08a07263ee7",
+      "name" : "Screenshot",
+      "source" : "11c4a08a07263ee7.png",
+      "type" : "image/png",
+      "size" : 312390
+    }, {
+      "uid" : "fb57430fc51fa8ae",
+      "name" : "Screenshot",
+      "source" : "fb57430fc51fa8ae.png",
+      "type" : "image/png",
+      "size" : 120794
+    }, {
+      "uid" : "e615dc45cdacd9fd",
+      "name" : "Execution video",
+      "source" : "e615dc45cdacd9fd.mp4",
+      "type" : "video/mp4",
+      "size" : 64998
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Send Message Contact Us"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill comment contact us form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill comment contact us form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty comment"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill comment contact us form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1058d9066da93f5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621874415343,
+        "stop" : 1621874431038,
+        "duration" : 15695
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c38ca942d40c51aa.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

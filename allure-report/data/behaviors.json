@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "should save a screenshot of the browser view when success login",
-    "uid" : "1235a46a6a49ebe3",
+    "uid" : "cd8e7d19cc32268b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -16,7 +16,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should login with valid credentials",
-    "uid" : "43d212a69fd96a30",
+    "uid" : "93cdd8a4fce79277",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -29,7 +29,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should show error message when empty email",
-    "uid" : "52aed33bae31f5c1",
+    "uid" : "bf0263b4cd55a030",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -42,7 +42,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should show the banner container",
-    "uid" : "565f50f56ad09dd8",
+    "uid" : "985f250f493e0389",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -55,7 +55,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should show the banner image",
-    "uid" : "5f22c80182ba0ad3",
+    "uid" : "defc1d1f5e024ad0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -68,7 +68,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should slick next image banner",
-    "uid" : "8948048a4e8299ce",
+    "uid" : "47889adc4ec12f4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -81,7 +81,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should login with valid credentials",
-    "uid" : "6283af81f16c0b8a",
+    "uid" : "a127dc46a2c4286d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -94,7 +94,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should save a screenshot of the browser view when empty email",
-    "uid" : "f09cd96897806df9",
+    "uid" : "13c466a1e7179133",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -107,7 +107,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should show error message when empty password",
-    "uid" : "3f60ad4dd3ee3c8a",
+    "uid" : "4f39107596532d43",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -120,7 +120,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should save a screenshot of the browser view when empty password",
-    "uid" : "80a934160688d368",
+    "uid" : "6a62971c6f0db7dc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -133,7 +133,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should show error message invalid format email",
-    "uid" : "d509c8f758ca157c",
+    "uid" : "fc56642ed0539b66",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -146,7 +146,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should save a screenshot of the browser view when invalid format email",
-    "uid" : "17a3b05cc0580be5",
+    "uid" : "4179a2ca1c62fcb2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -159,7 +159,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should show error message wrong password",
-    "uid" : "8644bc8dcf172115",
+    "uid" : "56485a6e9e35d3af",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -172,7 +172,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should save a screenshot of the browser view when wrong password",
-    "uid" : "4cea356977cc25b2",
+    "uid" : "9629f521a257fdbb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -185,7 +185,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should show error message Confirmation Required",
-    "uid" : "acdf43863e7397b4",
+    "uid" : "5d0618b39a8b95a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -198,7 +198,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should avatar will be displayed",
-    "uid" : "f44089d7d2c2b17e",
+    "uid" : "e0dda509f1dac7b5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -211,7 +211,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should direct to my account page",
-    "uid" : "2173d40a5ace273",
+    "uid" : "fc86ca31496ca3e4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -224,7 +224,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should save a screenshot of the browser view when Confirmation Required",
-    "uid" : "bc23b6e2f5bbd968",
+    "uid" : "944b67d37c31a9b0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -237,7 +237,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should save a screenshot of the browser view of account page",
-    "uid" : "62bd5fa3b2622e00",
+    "uid" : "8a65ba26657ed056",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -250,7 +250,7 @@
     "parameters" : [ "Edge-90.0.818.62" ]
   }, {
     "name" : "should save a screenshot of the browser view when success login",
-    "uid" : "9e6900a04b7430ae",
+    "uid" : "2b9c6bf64c3e63fd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -263,7 +263,7 @@
     "parameters" : [ "Chrome-90.0.4430.212", "90.0.4430.212" ]
   }, {
     "name" : "should save a screenshot of the browser view when success login",
-    "uid" : "30a9d087eeed65bd",
+    "uid" : "b6082a11e717eb7e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -278,7 +278,7 @@
     "name" : "Success Login",
     "children" : [ {
       "name" : "should login with valid credentials",
-      "uid" : "28822d5c22662dff",
+      "uid" : "fa1da19f753c013d",
       "parentUid" : "f90fceef4ea22e085331cbff9537313a",
       "status" : "passed",
       "time" : {
@@ -291,7 +291,7 @@
       "parameters" : [ "Chrome-90.0.4430.212" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "73f98488dab8062e",
+      "uid" : "70eb523d06ccb1e2",
       "parentUid" : "f90fceef4ea22e085331cbff9537313a",
       "status" : "passed",
       "time" : {
@@ -304,7 +304,7 @@
       "parameters" : [ "Chrome-90.0.4430.212", "90.0.4430.212" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "77bda6ec5cec5930",
+      "uid" : "fa97dbf5a88d8cfc",
       "parentUid" : "f90fceef4ea22e085331cbff9537313a",
       "status" : "passed",
       "time" : {
@@ -321,7 +321,7 @@
     "name" : "Failed Register",
     "children" : [ {
       "name" : "should show error message when empty email",
-      "uid" : "573f24f4b0eaa60c",
+      "uid" : "9801bba58d565af1",
       "parentUid" : "2e0395f6f3c359683de312576ccd4ab6",
       "status" : "passed",
       "time" : {
@@ -334,7 +334,7 @@
       "parameters" : [ "Chrome-90.0.4430.212", "90.0.4430.212" ]
     }, {
       "name" : "should show error message when empty email",
-      "uid" : "d0b472cb0197455a",
+      "uid" : "8195f1fcbc1cd572",
       "parentUid" : "2e0395f6f3c359683de312576ccd4ab6",
       "status" : "passed",
       "time" : {
@@ -347,7 +347,7 @@
       "parameters" : [ "chrome-90.0.4430.212" ]
     }, {
       "name" : "should show error message when empty email",
-      "uid" : "9a6a11b302ba9147",
+      "uid" : "849daf8842fab030",
       "parentUid" : "2e0395f6f3c359683de312576ccd4ab6",
       "status" : "passed",
       "time" : {
@@ -362,7 +362,7 @@
     "uid" : "2e0395f6f3c359683de312576ccd4ab6"
   }, {
     "name" : "should login with valid credentials",
-    "uid" : "f15b02c4bd550149",
+    "uid" : "f64dbaf12da72e28",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
@@ -375,7 +375,7 @@
     "parameters" : [ "chrome-90.0.4430.72" ]
   }, {
     "name" : "should avatar will be displayed",
-    "uid" : "ad9ba399388bac43",
+    "uid" : "2203c31bcc1a4dc9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
@@ -388,7 +388,7 @@
     "parameters" : [ "chrome-90.0.4430.72" ]
   }, {
     "name" : "should direct to my account page",
-    "uid" : "8aa1499cd7f33dea",
+    "uid" : "3c5942de1c76dfde",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -401,7 +401,7 @@
     "parameters" : [ "chrome-90.0.4430.72" ]
   }, {
     "name" : "should save a screenshot of the browser view of account page",
-    "uid" : "3c581973d70a6f63",
+    "uid" : "70d1dec58c9e93f3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -416,7 +416,7 @@
     "name" : "Failed Login",
     "children" : [ {
       "name" : "should show error message when empty email",
-      "uid" : "7b41989ff601c63d",
+      "uid" : "1c96b33854404f0f",
       "parentUid" : "e0713a7792e9ef11e2303c149904e3d7",
       "status" : "passed",
       "time" : {
@@ -429,7 +429,7 @@
       "parameters" : [ "chrome-90.0.4430.72" ]
     }, {
       "name" : "should show error message when empty password",
-      "uid" : "b9b246f0dcbd5747",
+      "uid" : "82bef547234e9855",
       "parentUid" : "e0713a7792e9ef11e2303c149904e3d7",
       "status" : "passed",
       "time" : {
@@ -442,7 +442,7 @@
       "parameters" : [ "chrome-90.0.4430.72" ]
     }, {
       "name" : "should show error message invalid format email",
-      "uid" : "5a20dd0a924cb683",
+      "uid" : "b746a55cdb43d570",
       "parentUid" : "e0713a7792e9ef11e2303c149904e3d7",
       "status" : "failed",
       "time" : {
@@ -455,7 +455,7 @@
       "parameters" : [ "chrome-90.0.4430.72" ]
     }, {
       "name" : "should show error message invalid format email",
-      "uid" : "d891bd572363c6d0",
+      "uid" : "be506872aea60089",
       "parentUid" : "e0713a7792e9ef11e2303c149904e3d7",
       "status" : "passed",
       "time" : {
@@ -468,7 +468,7 @@
       "parameters" : [ "chrome-90.0.4430.212" ]
     }, {
       "name" : "should show error message wrong password",
-      "uid" : "65e4f85cc6a230db",
+      "uid" : "66a7d96ffb440389",
       "parentUid" : "e0713a7792e9ef11e2303c149904e3d7",
       "status" : "passed",
       "time" : {
@@ -481,7 +481,7 @@
       "parameters" : [ "chrome-90.0.4430.212" ]
     }, {
       "name" : "should show message that the account has not been confirmed",
-      "uid" : "8b6d8d613a09b10e",
+      "uid" : "b9170f15dc46f115",
       "parentUid" : "e0713a7792e9ef11e2303c149904e3d7",
       "status" : "passed",
       "time" : {
@@ -496,7 +496,7 @@
     "uid" : "e0713a7792e9ef11e2303c149904e3d7"
   }, {
     "name" : "should save a screenshot of the browser view when Confirmation Required",
-    "uid" : "7f7a9cc6822ee71d",
+    "uid" : "27e28349c864e850",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -509,7 +509,7 @@
     "parameters" : [ "chrome-90.0.4430.212" ]
   }, {
     "name" : "should show error message when empty name",
-    "uid" : "6639b31204adb204",
+    "uid" : "ee2e1330779abe7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -522,7 +522,7 @@
     "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
   }, {
     "name" : "should show error message when empty password",
-    "uid" : "dd38d63deba17116",
+    "uid" : "10ad6e64fd9a83fd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -535,7 +535,7 @@
     "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
   }, {
     "name" : "should show error message when empty password confirm",
-    "uid" : "d8cf59a9b2a15d57",
+    "uid" : "327a36ffdec432e9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -548,7 +548,7 @@
     "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
   }, {
     "name" : "should show error message when empty phone number",
-    "uid" : "2daffe9a51dc8fb8",
+    "uid" : "2be6dfe5c134d503",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -561,7 +561,7 @@
     "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
   }, {
     "name" : "should show error message when empty nik",
-    "uid" : "b73c013af1d07efc",
+    "uid" : "8d76733b074c2711",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -574,7 +574,7 @@
     "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
   }, {
     "name" : "should register with fill form data with gender is male",
-    "uid" : "afa26500d80885e5",
+    "uid" : "bcd5274852060120",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
@@ -587,7 +587,7 @@
     "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
   }, {
     "name" : "should show error message when did not check tnc",
-    "uid" : "cf10d15462216374",
+    "uid" : "1b8639969693be2d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
@@ -602,7 +602,7 @@
     "name" : "Success Register",
     "children" : [ {
       "name" : "should register with fill with registered email",
-      "uid" : "c9a15a98f24d26f",
+      "uid" : "ff75fdcfbd955adc",
       "parentUid" : "befce2f6de61fb6a247b4b1408cde6eb",
       "status" : "passed",
       "time" : {
@@ -619,7 +619,7 @@
     "name" : "Cancel Forgot Password",
     "children" : [ {
       "name" : "should redirect to login page",
-      "uid" : "2cc8856511bd58a7",
+      "uid" : "f435d9fc20b6a147",
       "parentUid" : "26451fe26ddd8c1b2181d2f92c12f847",
       "status" : "passed",
       "time" : {
@@ -636,7 +636,7 @@
     "name" : "Success Forgot Password",
     "children" : [ {
       "name" : "should forgot password with valid credentials",
-      "uid" : "91985d27fe011fe8",
+      "uid" : "21cc711b0a2868cd",
       "parentUid" : "c42b5e35e2eb5d6c46f1a81e5e0c473c",
       "status" : "passed",
       "time" : {
@@ -653,7 +653,7 @@
     "name" : "Failed Forgot Password",
     "children" : [ {
       "name" : "should forgot password with empty email",
-      "uid" : "b9a21201310fa7a5",
+      "uid" : "89cca160b41c4eaf",
       "parentUid" : "0cfcb41b18107cbb8c7b111d608110d5",
       "status" : "passed",
       "time" : {
@@ -666,18 +666,117 @@
       "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
     }, {
       "name" : "should forgot password with valid credentials, but to many requested",
-      "uid" : "783bc406608030f",
+      "uid" : "777c36479d3e992a",
       "parentUid" : "0cfcb41b18107cbb8c7b111d608110d5",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1621798583417,
-        "stop" : 1621798591574,
-        "duration" : 8157
+        "start" : 1621864221325,
+        "stop" : 1621864242652,
+        "duration" : 21327
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
     } ],
     "uid" : "0cfcb41b18107cbb8c7b111d608110d5"
+  }, {
+    "name" : "\"before all\" hook for Customer did not fill name contact us form",
+    "uid" : "646c247c3f5b761b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1621873701887,
+      "stop" : 1621873701906,
+      "duration" : 19
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-90.0.4430.212" ]
+  }, {
+    "name" : "should show error message when empty name",
+    "uid" : "7cc25ab5d5c5fdd6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621873701906,
+      "stop" : 1621873701908,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-90.0.4430.212" ]
+  }, {
+    "name" : "Failed Send Message Contact Us",
+    "children" : [ {
+      "name" : "should show error message when empty name",
+      "uid" : "bf6c7b0d18716355",
+      "parentUid" : "ee295ee631598964dec779dec8eafb81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621874230839,
+        "stop" : 1621874249110,
+        "duration" : 18271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    }, {
+      "name" : "should show error message when empty email",
+      "uid" : "ab48a6f156b156a7",
+      "parentUid" : "ee295ee631598964dec779dec8eafb81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621874308796,
+        "stop" : 1621874322904,
+        "duration" : 14108
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    }, {
+      "name" : "should show error message when empty phone number",
+      "uid" : "6b426a45699472f9",
+      "parentUid" : "ee295ee631598964dec779dec8eafb81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621874367566,
+        "stop" : 1621874380612,
+        "duration" : 13046
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    }, {
+      "name" : "should show error message when empty comment",
+      "uid" : "c38ca942d40c51aa",
+      "parentUid" : "ee295ee631598964dec779dec8eafb81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621874591476,
+        "stop" : 1621874609770,
+        "duration" : 18294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    } ],
+    "uid" : "ee295ee631598964dec779dec8eafb81"
+  }, {
+    "name" : "Success Contact Us",
+    "children" : [ {
+      "name" : "should show alert success send message contact us",
+      "uid" : "f0fcc6c5def22aa9",
+      "parentUid" : "a72a335ae5475ac4c9dc81ab9aa8bd15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621875024167,
+        "stop" : 1621875053002,
+        "duration" : 28835
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+    } ],
+    "uid" : "a72a335ae5475ac4c9dc81ab9aa8bd15"
   } ]
 }

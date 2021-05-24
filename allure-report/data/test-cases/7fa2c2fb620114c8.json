@@ -1,0 +1,88 @@
+{
+  "uid" : "7fa2c2fb620114c8",
+  "name" : "should forgot password with valid credentials",
+  "fullName" : "Customer success forgot password.should forgot password with valid credentials",
+  "historyId" : "d3de46b41965448382ad5b9981f3b9fb",
+  "time" : {
+    "start" : 1621796215899,
+    "stop" : 1621796216130,
+    "duration" : 231
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "ForgotPasswordPage.btnLogin.click is not a function",
+  "statusTrace" : "TypeError: ForgotPasswordPage.btnLogin.click is not a function\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\forgotpassword\\/success.forgotpassword.js:22:43)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "ForgotPasswordPage.btnLogin.click is not a function",
+    "statusTrace" : "TypeError: ForgotPasswordPage.btnLogin.click is not a function\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\forgotpassword\\/success.forgotpassword.js:22:43)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6b58957697738a18",
+      "name" : "Execution video",
+      "source" : "6b58957697738a18.mp4",
+      "type" : "video/mp4",
+      "size" : 7691
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Positive Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Success Forgot Password"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer success forgot password"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer success forgot password"
+  }, {
+    "name" : "testMethod",
+    "value" : "should forgot password with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Customer success forgot password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7fa2c2fb620114c8.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

@@ -1,0 +1,164 @@
+{
+  "uid" : "ab48a6f156b156a7",
+  "name" : "should show error message when empty email",
+  "fullName" : "Customer did not fill email contact us form.should show error message when empty email",
+  "historyId" : "6eca6fa617bf15637b61a821f757206d",
+  "time" : {
+    "start" : 1621874308796,
+    "stop" : 1621874322904,
+    "duration" : 14108
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c8ba15a045b00491",
+      "name" : "Screenshot",
+      "source" : "c8ba15a045b00491.png",
+      "type" : "image/png",
+      "size" : 1106568
+    }, {
+      "uid" : "d8547986e55cde7f",
+      "name" : "Screenshot",
+      "source" : "d8547986e55cde7f.png",
+      "type" : "image/png",
+      "size" : 1106568
+    }, {
+      "uid" : "a668c01681de66f4",
+      "name" : "Screenshot",
+      "source" : "a668c01681de66f4.png",
+      "type" : "image/png",
+      "size" : 309719
+    }, {
+      "uid" : "18c28173371d6d20",
+      "name" : "Screenshot",
+      "source" : "18c28173371d6d20.png",
+      "type" : "image/png",
+      "size" : 309719
+    }, {
+      "uid" : "fe55e7c3669152a8",
+      "name" : "Screenshot",
+      "source" : "fe55e7c3669152a8.png",
+      "type" : "image/png",
+      "size" : 312345
+    }, {
+      "uid" : "7b301585a4627aaf",
+      "name" : "Screenshot",
+      "source" : "7b301585a4627aaf.png",
+      "type" : "image/png",
+      "size" : 310039
+    }, {
+      "uid" : "dfbbce529e5f60e1",
+      "name" : "Screenshot",
+      "source" : "dfbbce529e5f60e1.png",
+      "type" : "image/png",
+      "size" : 310039
+    }, {
+      "uid" : "2c8c5fadba392a1e",
+      "name" : "Screenshot",
+      "source" : "2c8c5fadba392a1e.png",
+      "type" : "image/png",
+      "size" : 311118
+    }, {
+      "uid" : "f4911d78bc5be2be",
+      "name" : "Screenshot",
+      "source" : "f4911d78bc5be2be.png",
+      "type" : "image/png",
+      "size" : 311468
+    }, {
+      "uid" : "af1cd85e7466b402",
+      "name" : "Screenshot",
+      "source" : "af1cd85e7466b402.png",
+      "type" : "image/png",
+      "size" : 311468
+    }, {
+      "uid" : "531f7188d8850529",
+      "name" : "Screenshot",
+      "source" : "531f7188d8850529.png",
+      "type" : "image/png",
+      "size" : 311207
+    }, {
+      "uid" : "ed9bb1bddfbb2dbe",
+      "name" : "Screenshot",
+      "source" : "ed9bb1bddfbb2dbe.png",
+      "type" : "image/png",
+      "size" : 311207
+    }, {
+      "uid" : "e4c2c8d71958e73a",
+      "name" : "Screenshot",
+      "source" : "e4c2c8d71958e73a.png",
+      "type" : "image/png",
+      "size" : 197794
+    }, {
+      "uid" : "fa9ed4e47fe6b5c9",
+      "name" : "Execution video",
+      "source" : "fa9ed4e47fe6b5c9.mp4",
+      "type" : "video/mp4",
+      "size" : 73014
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Send Message Contact Us"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill email contact us form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill email contact us form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty email"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill email contact us form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab48a6f156b156a7.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

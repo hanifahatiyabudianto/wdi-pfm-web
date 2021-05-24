@@ -1,0 +1,163 @@
+{
+  "uid" : "8d76733b074c2711",
+  "name" : "should show error message when empty nik",
+  "fullName" : "Customer did not fill nik register form.should show error message when empty nik",
+  "historyId" : "88f5f5c3ca50925627fdd0cd77f050a4",
+  "time" : {
+    "start" : 1621789441538,
+    "stop" : 1621789456981,
+    "duration" : 15443
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable\n                  (Session info: chrome=90.0.4430.212)",
+  "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=90.0.4430.212)\n                    at Object.getErrorFromResponseBody (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable\n                  (Session info: chrome=90.0.4430.212)",
+    "statusTrace" : "element not interactable: element not interactable\n                  (Session info: chrome=90.0.4430.212)\n                    at Object.getErrorFromResponseBody (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriver\\build\\utils.js:189:12)\n                    at WebDriverRequest._request (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriver\\build\\request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b776cb2d2d4477c5",
+      "name" : "Screenshot",
+      "source" : "b776cb2d2d4477c5.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "9a6b77b24ac93316",
+      "name" : "Screenshot",
+      "source" : "9a6b77b24ac93316.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "c410270958450525",
+      "name" : "Screenshot",
+      "source" : "c410270958450525.png",
+      "type" : "image/png",
+      "size" : 74062
+    }, {
+      "uid" : "de2ebe3d54d728fb",
+      "name" : "Screenshot",
+      "source" : "de2ebe3d54d728fb.png",
+      "type" : "image/png",
+      "size" : 75895
+    }, {
+      "uid" : "1476080eef513abe",
+      "name" : "Screenshot",
+      "source" : "1476080eef513abe.png",
+      "type" : "image/png",
+      "size" : 75875
+    }, {
+      "uid" : "a8d6a83165a85bb",
+      "name" : "Screenshot",
+      "source" : "a8d6a83165a85bb.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "8ec45b12bcfa0e25",
+      "name" : "Screenshot",
+      "source" : "8ec45b12bcfa0e25.png",
+      "type" : "image/png",
+      "size" : 72778
+    }, {
+      "uid" : "ed3c02a3888985ac",
+      "name" : "Screenshot",
+      "source" : "ed3c02a3888985ac.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "6126115536995aef",
+      "name" : "Screenshot",
+      "source" : "6126115536995aef.png",
+      "type" : "image/png",
+      "size" : 68865
+    }, {
+      "uid" : "808ab79f50eaea4d",
+      "name" : "Screenshot",
+      "source" : "808ab79f50eaea4d.png",
+      "type" : "image/png",
+      "size" : 68281
+    }, {
+      "uid" : "30ab6055aae0e26",
+      "name" : "Execution video",
+      "source" : "30ab6055aae0e26.mp4",
+      "type" : "video/mp4",
+      "size" : 17655
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill nik register form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill nik register form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty nik"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill nik register form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eddd75862ca3eebe",
+      "status" : "broken",
+      "statusDetails" : "Options must be an object",
+      "time" : {
+        "start" : 1621788457232,
+        "stop" : 1621788471236,
+        "duration" : 14004
+      }
+    }, {
+      "uid" : "e7499ea25a874e6d",
+      "status" : "broken",
+      "statusDetails" : "Options must be an object",
+      "time" : {
+        "start" : 1621788388231,
+        "stop" : 1621788400738,
+        "duration" : 12507
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8d76733b074c2711.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

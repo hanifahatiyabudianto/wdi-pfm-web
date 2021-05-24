@@ -1,0 +1,88 @@
+{
+  "uid" : "2203c31bcc1a4dc9",
+  "name" : "should avatar will be displayed",
+  "fullName" : "Prima Freshmart Customer Login.should avatar will be displayed",
+  "historyId" : "227119b61e993d53b80ffcece1af6f54",
+  "time" : {
+    "start" : 1621665360310,
+    "stop" : 1621665372137,
+    "duration" : 11827
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`span.avatar-name`) to have text containing\n                \n                Expected: \"Atiya\"\n                Received: \"Hani Hani\"",
+  "statusTrace" : "Error: Expect $(`span.avatar-name`) to have text containing\n                \n                Expected: \"Atiya\"\n                Received: \"Hani Hani\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\login\\/view.myaccount.js:31:43)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should avatar will be displayed"
+  }, {
+    "name" : "package",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f0b3d2f416192604",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621352370584,
+        "stop" : 1621352372455,
+        "duration" : 1871
+      }
+    }, {
+      "uid" : "61d71ba1641293b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621350945657,
+        "stop" : 1621350947336,
+        "duration" : 1679
+      }
+    }, {
+      "uid" : "fb03ef80dff10d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621350780468,
+        "stop" : 1621350782110,
+        "duration" : 1642
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2203c31bcc1a4dc9.json",
+  "parameterValues" : [ "chrome-90.0.4430.72" ]
+}

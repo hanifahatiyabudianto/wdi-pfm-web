@@ -1,245 +1,5 @@
 [ {
-  "uid" : "b73c013af1d07efc",
-  "name" : "should show error message when empty nik",
-  "time" : {
-    "start" : 1621789441538,
-    "stop" : 1621789456981,
-    "duration" : 15443
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "8aa1499cd7f33dea",
-  "name" : "should direct to my account page",
-  "time" : {
-    "start" : 1621665372143,
-    "stop" : 1621665432149,
-    "duration" : 60006
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "17a3b05cc0580be5",
-  "name" : "should save a screenshot of the browser view when invalid format email",
-  "time" : {
-    "start" : 1621192852181,
-    "stop" : 1621192852184,
-    "duration" : 3
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "acdf43863e7397b4",
-  "name" : "should show error message Confirmation Required",
-  "time" : {
-    "start" : 1621192857848,
-    "stop" : 1621192863939,
-    "duration" : 6091
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2cc8856511bd58a7",
-  "name" : "should redirect to login page",
-  "time" : {
-    "start" : 1621798393706,
-    "stop" : 1621798400202,
-    "duration" : 6496
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d0b472cb0197455a",
-  "name" : "should show error message when empty email",
-  "time" : {
-    "start" : 1621670486161,
-    "stop" : 1621670494385,
-    "duration" : 8224
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "783bc406608030f",
-  "name" : "should forgot password with valid credentials, but to many requested",
-  "time" : {
-    "start" : 1621798583417,
-    "stop" : 1621798591574,
-    "duration" : 8157
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7f7a9cc6822ee71d",
-  "name" : "should save a screenshot of the browser view when Confirmation Required",
-  "time" : {
-    "start" : 1621668417315,
-    "stop" : 1621668417325,
-    "duration" : 10
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8948048a4e8299ce",
-  "name" : "should slick next image banner",
-  "time" : {
-    "start" : 1621192833795,
-    "stop" : 1621192848023,
-    "duration" : 14228
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3c581973d70a6f63",
-  "name" : "should save a screenshot of the browser view of account page",
-  "time" : {
-    "start" : 1621665432150,
-    "stop" : 1621665432170,
-    "duration" : 20
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4cea356977cc25b2",
-  "name" : "should save a screenshot of the browser view when wrong password",
-  "time" : {
-    "start" : 1621192857847,
-    "stop" : 1621192857848,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2173d40a5ace273",
-  "name" : "should direct to my account page",
-  "time" : {
-    "start" : 1621192863453,
-    "stop" : 1621192866485,
-    "duration" : 3032
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1235a46a6a49ebe3",
-  "name" : "should save a screenshot of the browser view when success login",
-  "time" : {
-    "start" : 1621192084826,
-    "stop" : 1621192084828,
-    "duration" : 2
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6639b31204adb204",
-  "name" : "should show error message when empty name",
-  "time" : {
-    "start" : 1621786723123,
-    "stop" : 1621786733830,
-    "duration" : 10707
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d8cf59a9b2a15d57",
-  "name" : "should show error message when empty password confirm",
-  "time" : {
-    "start" : 1621787208110,
-    "stop" : 1621787219996,
-    "duration" : 11886
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2daffe9a51dc8fb8",
-  "name" : "should show error message when empty phone number",
-  "time" : {
-    "start" : 1621787949019,
-    "stop" : 1621787963461,
-    "duration" : 14442
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "91985d27fe011fe8",
-  "name" : "should forgot password with valid credentials",
-  "time" : {
-    "start" : 1621798445397,
-    "stop" : 1621798456736,
-    "duration" : 11339
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b9b246f0dcbd5747",
-  "name" : "should show error message when empty password",
-  "time" : {
-    "start" : 1621665836853,
-    "stop" : 1621665844471,
-    "duration" : 7618
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d891bd572363c6d0",
-  "name" : "should show error message invalid format email",
-  "time" : {
-    "start" : 1621666423545,
-    "stop" : 1621666428313,
-    "duration" : 4768
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9a6a11b302ba9147",
-  "name" : "should show error message when empty email",
-  "time" : {
-    "start" : 1621786432616,
-    "stop" : 1621786442640,
-    "duration" : 10024
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "62bd5fa3b2622e00",
-  "name" : "should save a screenshot of the browser view of account page",
-  "time" : {
-    "start" : 1621192866486,
-    "stop" : 1621192866490,
-    "duration" : 4
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c9a15a98f24d26f",
-  "name" : "should register with fill with registered email",
-  "time" : {
-    "start" : 1621794696057,
-    "stop" : 1621794708515,
-    "duration" : 12458
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b9a21201310fa7a5",
-  "name" : "should forgot password with empty email",
-  "time" : {
-    "start" : 1621798537124,
-    "stop" : 1621798543671,
-    "duration" : 6547
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "565f50f56ad09dd8",
-  "name" : "should show the banner container",
-  "time" : {
-    "start" : 1621192833779,
-    "stop" : 1621192833791,
-    "duration" : 12
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ad9ba399388bac43",
+  "uid" : "2203c31bcc1a4dc9",
   "name" : "should avatar will be displayed",
   "time" : {
     "start" : 1621665360310,
@@ -249,37 +9,27 @@
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "28822d5c22662dff",
-  "name" : "should login with valid credentials",
+  "uid" : "6b426a45699472f9",
+  "name" : "should show error message when empty phone number",
   "time" : {
-    "start" : 1621259632039,
-    "stop" : 1621259639449,
-    "duration" : 7410
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "bc23b6e2f5bbd968",
-  "name" : "should save a screenshot of the browser view when Confirmation Required",
-  "time" : {
-    "start" : 1621192863939,
-    "stop" : 1621192863946,
-    "duration" : 7
+    "start" : 1621874367566,
+    "stop" : 1621874380612,
+    "duration" : 13046
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "77bda6ec5cec5930",
-  "name" : "should login with valid credentials",
+  "uid" : "82bef547234e9855",
+  "name" : "should show error message when empty password",
   "time" : {
-    "start" : 1621665705792,
-    "stop" : 1621665717980,
-    "duration" : 12188
+    "start" : 1621665836853,
+    "stop" : 1621665844471,
+    "duration" : 7618
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "dd38d63deba17116",
+  "uid" : "10ad6e64fd9a83fd",
   "name" : "should show error message when empty password",
   "time" : {
     "start" : 1621786937240,
@@ -289,87 +39,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5f22c80182ba0ad3",
-  "name" : "should show the banner image",
-  "time" : {
-    "start" : 1621192833792,
-    "stop" : 1621192833795,
-    "duration" : 3
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "573f24f4b0eaa60c",
-  "name" : "should show error message when empty email",
-  "time" : {
-    "start" : 1621271959940,
-    "stop" : 1621271966168,
-    "duration" : 6228
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d509c8f758ca157c",
-  "name" : "should show error message invalid format email",
-  "time" : {
-    "start" : 1621192851065,
-    "stop" : 1621192852180,
-    "duration" : 1115
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8b6d8d613a09b10e",
-  "name" : "should show message that the account has not been confirmed",
-  "time" : {
-    "start" : 1621668411767,
-    "stop" : 1621668417314,
-    "duration" : 5547
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9e6900a04b7430ae",
-  "name" : "should save a screenshot of the browser view when success login",
-  "time" : {
-    "start" : 1621257195062,
-    "stop" : 1621257195069,
-    "duration" : 7
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f44089d7d2c2b17e",
-  "name" : "should avatar will be displayed",
-  "time" : {
-    "start" : 1621192862224,
-    "stop" : 1621192863452,
-    "duration" : 1228
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "73f98488dab8062e",
-  "name" : "should login with valid credentials",
-  "time" : {
-    "start" : 1621260454783,
-    "stop" : 1621260460787,
-    "duration" : 6004
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "80a934160688d368",
-  "name" : "should save a screenshot of the browser view when empty password",
-  "time" : {
-    "start" : 1621192851062,
-    "stop" : 1621192851064,
-    "duration" : 2
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "43d212a69fd96a30",
+  "uid" : "93cdd8a4fce79277",
   "name" : "should login with valid credentials",
   "time" : {
     "start" : 1621192833651,
@@ -379,7 +49,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "52aed33bae31f5c1",
+  "uid" : "bf0263b4cd55a030",
   "name" : "should show error message when empty email",
   "time" : {
     "start" : 1621192833654,
@@ -389,47 +59,37 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cf10d15462216374",
-  "name" : "should show error message when did not check tnc",
+  "uid" : "fa1da19f753c013d",
+  "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1621792982136,
-    "stop" : 1621793008066,
-    "duration" : 25930
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "65e4f85cc6a230db",
-  "name" : "should show error message wrong password",
-  "time" : {
-    "start" : 1621667749435,
-    "stop" : 1621667761528,
-    "duration" : 12093
+    "start" : 1621259632039,
+    "stop" : 1621259639449,
+    "duration" : 7410
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "critical"
 }, {
-  "uid" : "5a20dd0a924cb683",
+  "uid" : "fc56642ed0539b66",
   "name" : "should show error message invalid format email",
   "time" : {
-    "start" : 1621665892738,
-    "stop" : 1621665917440,
-    "duration" : 24702
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "3f60ad4dd3ee3c8a",
-  "name" : "should show error message when empty password",
-  "time" : {
-    "start" : 1621192849204,
-    "stop" : 1621192851062,
-    "duration" : 1858
+    "start" : 1621192851065,
+    "stop" : 1621192852180,
+    "duration" : 1115
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6283af81f16c0b8a",
+  "uid" : "bf6c7b0d18716355",
+  "name" : "should show error message when empty name",
+  "time" : {
+    "start" : 1621874230839,
+    "stop" : 1621874249110,
+    "duration" : 18271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a127dc46a2c4286d",
   "name" : "should login with valid credentials",
   "time" : {
     "start" : 1621192833914,
@@ -439,47 +99,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f15b02c4bd550149",
-  "name" : "should login with valid credentials",
+  "uid" : "646c247c3f5b761b",
+  "name" : "\"before all\" hook for Customer did not fill name contact us form",
   "time" : {
-    "start" : 1621665331048,
-    "stop" : 1621665360307,
-    "duration" : 29259
+    "start" : 1621873701887,
+    "stop" : 1621873701906,
+    "duration" : 19
   },
-  "status" : "failed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "8644bc8dcf172115",
-  "name" : "should show error message wrong password",
-  "time" : {
-    "start" : 1621192852185,
-    "stop" : 1621192857846,
-    "duration" : 5661
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7b41989ff601c63d",
-  "name" : "should show error message when empty email",
-  "time" : {
-    "start" : 1621665784575,
-    "stop" : 1621665793154,
-    "duration" : 8579
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "afa26500d80885e5",
-  "name" : "should register with fill form data with gender is male",
-  "time" : {
-    "start" : 1621792487935,
-    "stop" : 1621792512486,
-    "duration" : 24551
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f09cd96897806df9",
+  "uid" : "13c466a1e7179133",
   "name" : "should save a screenshot of the browser view when empty email",
   "time" : {
     "start" : 1621192849202,
@@ -489,12 +119,452 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "30a9d087eeed65bd",
+  "uid" : "2be6dfe5c134d503",
+  "name" : "should show error message when empty phone number",
+  "time" : {
+    "start" : 1621787949019,
+    "stop" : 1621787963461,
+    "duration" : 14442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0fcc6c5def22aa9",
+  "name" : "should show alert success send message contact us",
+  "time" : {
+    "start" : 1621875024167,
+    "stop" : 1621875053002,
+    "duration" : 28835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "defc1d1f5e024ad0",
+  "name" : "should show the banner image",
+  "time" : {
+    "start" : 1621192833792,
+    "stop" : 1621192833795,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f435d9fc20b6a147",
+  "name" : "should redirect to login page",
+  "time" : {
+    "start" : 1621798393706,
+    "stop" : 1621798400202,
+    "duration" : 6496
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9170f15dc46f115",
+  "name" : "should show message that the account has not been confirmed",
+  "time" : {
+    "start" : 1621668411767,
+    "stop" : 1621668417314,
+    "duration" : 5547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "985f250f493e0389",
+  "name" : "should show the banner container",
+  "time" : {
+    "start" : 1621192833779,
+    "stop" : 1621192833791,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "944b67d37c31a9b0",
+  "name" : "should save a screenshot of the browser view when Confirmation Required",
+  "time" : {
+    "start" : 1621192863939,
+    "stop" : 1621192863946,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a62971c6f0db7dc",
+  "name" : "should save a screenshot of the browser view when empty password",
+  "time" : {
+    "start" : 1621192851062,
+    "stop" : 1621192851064,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "327a36ffdec432e9",
+  "name" : "should show error message when empty password confirm",
+  "time" : {
+    "start" : 1621787208110,
+    "stop" : 1621787219996,
+    "duration" : 11886
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee2e1330779abe7",
+  "name" : "should show error message when empty name",
+  "time" : {
+    "start" : 1621786723123,
+    "stop" : 1621786733830,
+    "duration" : 10707
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "777c36479d3e992a",
+  "name" : "should forgot password with valid credentials, but to many requested",
+  "time" : {
+    "start" : 1621864221325,
+    "stop" : 1621864242652,
+    "duration" : 21327
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f64dbaf12da72e28",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1621665331048,
+    "stop" : 1621665360307,
+    "duration" : 29259
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "be506872aea60089",
+  "name" : "should show error message invalid format email",
+  "time" : {
+    "start" : 1621666423545,
+    "stop" : 1621666428313,
+    "duration" : 4768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab48a6f156b156a7",
+  "name" : "should show error message when empty email",
+  "time" : {
+    "start" : 1621874308796,
+    "stop" : 1621874322904,
+    "duration" : 14108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d76733b074c2711",
+  "name" : "should show error message when empty nik",
+  "time" : {
+    "start" : 1621789441538,
+    "stop" : 1621789456981,
+    "duration" : 15443
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "849daf8842fab030",
+  "name" : "should show error message when empty email",
+  "time" : {
+    "start" : 1621786432616,
+    "stop" : 1621786442640,
+    "duration" : 10024
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27e28349c864e850",
+  "name" : "should save a screenshot of the browser view when Confirmation Required",
+  "time" : {
+    "start" : 1621668417315,
+    "stop" : 1621668417325,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66a7d96ffb440389",
+  "name" : "should show error message wrong password",
+  "time" : {
+    "start" : 1621667749435,
+    "stop" : 1621667761528,
+    "duration" : 12093
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c5942de1c76dfde",
+  "name" : "should direct to my account page",
+  "time" : {
+    "start" : 1621665372143,
+    "stop" : 1621665432149,
+    "duration" : 60006
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5d0618b39a8b95a",
+  "name" : "should show error message Confirmation Required",
+  "time" : {
+    "start" : 1621192857848,
+    "stop" : 1621192863939,
+    "duration" : 6091
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff75fdcfbd955adc",
+  "name" : "should register with fill with registered email",
+  "time" : {
+    "start" : 1621794696057,
+    "stop" : 1621794708515,
+    "duration" : 12458
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8195f1fcbc1cd572",
+  "name" : "should show error message when empty email",
+  "time" : {
+    "start" : 1621670486161,
+    "stop" : 1621670494385,
+    "duration" : 8224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f39107596532d43",
+  "name" : "should show error message when empty password",
+  "time" : {
+    "start" : 1621192849204,
+    "stop" : 1621192851062,
+    "duration" : 1858
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47889adc4ec12f4",
+  "name" : "should slick next image banner",
+  "time" : {
+    "start" : 1621192833795,
+    "stop" : 1621192848023,
+    "duration" : 14228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9801bba58d565af1",
+  "name" : "should show error message when empty email",
+  "time" : {
+    "start" : 1621271959940,
+    "stop" : 1621271966168,
+    "duration" : 6228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa97dbf5a88d8cfc",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1621665705792,
+    "stop" : 1621665717980,
+    "duration" : 12188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cc25ab5d5c5fdd6",
+  "name" : "should show error message when empty name",
+  "time" : {
+    "start" : 1621873701906,
+    "stop" : 1621873701908,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70eb523d06ccb1e2",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1621260454783,
+    "stop" : 1621260460787,
+    "duration" : 6004
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1c96b33854404f0f",
+  "name" : "should show error message when empty email",
+  "time" : {
+    "start" : 1621665784575,
+    "stop" : 1621665793154,
+    "duration" : 8579
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6082a11e717eb7e",
   "name" : "should save a screenshot of the browser view when success login",
   "time" : {
     "start" : 1621259349586,
     "stop" : 1621259349588,
     "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70d1dec58c9e93f3",
+  "name" : "should save a screenshot of the browser view of account page",
+  "time" : {
+    "start" : 1621665432150,
+    "stop" : 1621665432170,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4179a2ca1c62fcb2",
+  "name" : "should save a screenshot of the browser view when invalid format email",
+  "time" : {
+    "start" : 1621192852181,
+    "stop" : 1621192852184,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b9c6bf64c3e63fd",
+  "name" : "should save a screenshot of the browser view when success login",
+  "time" : {
+    "start" : 1621257195062,
+    "stop" : 1621257195069,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd8e7d19cc32268b",
+  "name" : "should save a screenshot of the browser view when success login",
+  "time" : {
+    "start" : 1621192084826,
+    "stop" : 1621192084828,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b8639969693be2d",
+  "name" : "should show error message when did not check tnc",
+  "time" : {
+    "start" : 1621792982136,
+    "stop" : 1621793008066,
+    "duration" : 25930
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "21cc711b0a2868cd",
+  "name" : "should forgot password with valid credentials",
+  "time" : {
+    "start" : 1621798445397,
+    "stop" : 1621798456736,
+    "duration" : 11339
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc86ca31496ca3e4",
+  "name" : "should direct to my account page",
+  "time" : {
+    "start" : 1621192863453,
+    "stop" : 1621192866485,
+    "duration" : 3032
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9629f521a257fdbb",
+  "name" : "should save a screenshot of the browser view when wrong password",
+  "time" : {
+    "start" : 1621192857847,
+    "stop" : 1621192857848,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56485a6e9e35d3af",
+  "name" : "should show error message wrong password",
+  "time" : {
+    "start" : 1621192852185,
+    "stop" : 1621192857846,
+    "duration" : 5661
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a65ba26657ed056",
+  "name" : "should save a screenshot of the browser view of account page",
+  "time" : {
+    "start" : 1621192866486,
+    "stop" : 1621192866490,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcd5274852060120",
+  "name" : "should register with fill form data with gender is male",
+  "time" : {
+    "start" : 1621792487935,
+    "stop" : 1621792512486,
+    "duration" : 24551
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "89cca160b41c4eaf",
+  "name" : "should forgot password with empty email",
+  "time" : {
+    "start" : 1621798537124,
+    "stop" : 1621798543671,
+    "duration" : 6547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c38ca942d40c51aa",
+  "name" : "should show error message when empty comment",
+  "time" : {
+    "start" : 1621874591476,
+    "stop" : 1621874609770,
+    "duration" : 18294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b746a55cdb43d570",
+  "name" : "should show error message invalid format email",
+  "time" : {
+    "start" : 1621665892738,
+    "stop" : 1621665917440,
+    "duration" : 24702
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0dda509f1dac7b5",
+  "name" : "should avatar will be displayed",
+  "time" : {
+    "start" : 1621192862224,
+    "stop" : 1621192863452,
+    "duration" : 1228
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,0 +1,226 @@
+{
+  "uid" : "f9b22d2699e85fa9",
+  "name" : "should forgot password with valid credentials",
+  "fullName" : "Customer success forgot password.should forgot password with valid credentials",
+  "historyId" : "d3de46b41965448382ad5b9981f3b9fb",
+  "time" : {
+    "start" : 1621796745489,
+    "stop" : 1621796764070,
+    "duration" : 18581
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect window to have url containing\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/forgotpassword/\"",
+  "statusTrace" : "Error: Expect window to have url containing\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/forgotpassword/\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\forgotpassword\\/success.forgotpassword.js:24:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect window to have url containing\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/forgotpassword/\"",
+    "statusTrace" : "Error: Expect window to have url containing\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/forgotpassword/\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\forgotpassword\\/success.forgotpassword.js:24:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "712ce4651e34c1d7",
+      "name" : "Screenshot",
+      "source" : "712ce4651e34c1d7.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "d805b0f11f50f79c",
+      "name" : "Screenshot",
+      "source" : "d805b0f11f50f79c.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "f195428ffc100461",
+      "name" : "Screenshot",
+      "source" : "f195428ffc100461.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "a2ef970aa0d8c662",
+      "name" : "Screenshot",
+      "source" : "a2ef970aa0d8c662.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "5e7723911c888e7c",
+      "name" : "Screenshot",
+      "source" : "5e7723911c888e7c.png",
+      "type" : "image/png",
+      "size" : 62297
+    }, {
+      "uid" : "1d0997d5a69b6200",
+      "name" : "Screenshot",
+      "source" : "1d0997d5a69b6200.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "162bb7c3c5a94c9d",
+      "name" : "Screenshot",
+      "source" : "162bb7c3c5a94c9d.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "a9e42cfcf5d10149",
+      "name" : "Screenshot",
+      "source" : "a9e42cfcf5d10149.png",
+      "type" : "image/png",
+      "size" : 72617
+    }, {
+      "uid" : "6b094d8d14de96eb",
+      "name" : "Screenshot",
+      "source" : "6b094d8d14de96eb.png",
+      "type" : "image/png",
+      "size" : 72617
+    }, {
+      "uid" : "b06cb8527275592f",
+      "name" : "Screenshot",
+      "source" : "b06cb8527275592f.png",
+      "type" : "image/png",
+      "size" : 72617
+    }, {
+      "uid" : "e64be137076bb961",
+      "name" : "Screenshot",
+      "source" : "e64be137076bb961.png",
+      "type" : "image/png",
+      "size" : 75336
+    }, {
+      "uid" : "cb3225eefeecbbb0",
+      "name" : "Screenshot",
+      "source" : "cb3225eefeecbbb0.png",
+      "type" : "image/png",
+      "size" : 74919
+    }, {
+      "uid" : "acfa158fe62f4c98",
+      "name" : "Screenshot",
+      "source" : "acfa158fe62f4c98.png",
+      "type" : "image/png",
+      "size" : 74919
+    }, {
+      "uid" : "4ea8a384436fce35",
+      "name" : "Screenshot",
+      "source" : "4ea8a384436fce35.png",
+      "type" : "image/png",
+      "size" : 74919
+    }, {
+      "uid" : "727e2af8639a2bf1",
+      "name" : "Screenshot",
+      "source" : "727e2af8639a2bf1.png",
+      "type" : "image/png",
+      "size" : 74919
+    }, {
+      "uid" : "3a1a8d7bb3ac0e0d",
+      "name" : "Screenshot",
+      "source" : "3a1a8d7bb3ac0e0d.png",
+      "type" : "image/png",
+      "size" : 74919
+    }, {
+      "uid" : "8b8bf020ba87d37f",
+      "name" : "Screenshot",
+      "source" : "8b8bf020ba87d37f.png",
+      "type" : "image/png",
+      "size" : 74919
+    }, {
+      "uid" : "550fcd86e0174293",
+      "name" : "Screenshot",
+      "source" : "550fcd86e0174293.png",
+      "type" : "image/png",
+      "size" : 74919
+    }, {
+      "uid" : "788d3945cd958349",
+      "name" : "Screenshot",
+      "source" : "788d3945cd958349.png",
+      "type" : "image/png",
+      "size" : 74919
+    }, {
+      "uid" : "e46caadcd0fcbcf5",
+      "name" : "Screenshot",
+      "source" : "e46caadcd0fcbcf5.png",
+      "type" : "image/png",
+      "size" : 74919
+    }, {
+      "uid" : "c2df7f18bf30e931",
+      "name" : "Screenshot",
+      "source" : "c2df7f18bf30e931.png",
+      "type" : "image/png",
+      "size" : 74919
+    }, {
+      "uid" : "a40d8b72a10bbc76",
+      "name" : "Screenshot",
+      "source" : "a40d8b72a10bbc76.png",
+      "type" : "image/png",
+      "size" : 74919
+    }, {
+      "uid" : "e0f0b82d89de2a54",
+      "name" : "Screenshot",
+      "source" : "e0f0b82d89de2a54.png",
+      "type" : "image/png",
+      "size" : 74919
+    }, {
+      "uid" : "c0d60696efe50856",
+      "name" : "Execution video",
+      "source" : "c0d60696efe50856.mp4",
+      "type" : "video/mp4",
+      "size" : 30878
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 24,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Positive Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Success Forgot Password"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer success forgot password"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer success forgot password"
+  }, {
+    "name" : "testMethod",
+    "value" : "should forgot password with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Customer success forgot password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9b22d2699e85fa9.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

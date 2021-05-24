@@ -1,0 +1,67 @@
+{
+  "uid" : "66a7d96ffb440389",
+  "name" : "should show error message wrong password",
+  "fullName" : "Customer fill password login with invalid format.should show error message wrong password",
+  "historyId" : "678f1c366d3bd123b45bea78558b269a",
+  "time" : {
+    "start" : 1621667749435,
+    "stop" : 1621667761528,
+    "duration" : 12093
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer fill password login with invalid format"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer fill password login with invalid format"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message wrong password"
+  }, {
+    "name" : "package",
+    "value" : "Customer fill password login with invalid format"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "66a7d96ffb440389.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "99baf2c98f364c25",
+  "name" : "should save a screenshot of the browser view when wrong password",
+  "fullName" : "Login Page negative case.should save a screenshot of the browser view when wrong password",
+  "historyId" : "a12969d982da2adfd4cdefc68d45fb14",
+  "time" : {
+    "start" : 1621191718256,
+    "stop" : 1621191718257,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Page negative case"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Page negative case"
+  }, {
+    "name" : "testMethod",
+    "value" : "should save a screenshot of the browser view when wrong password"
+  }, {
+    "name" : "package",
+    "value" : "Login Page negative case"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Edge-90.0.818.62"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99baf2c98f364c25.json",
+  "parameterValues" : [ "Edge-90.0.818.62" ]
+}

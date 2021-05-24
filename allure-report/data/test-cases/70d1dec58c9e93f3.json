@@ -1,0 +1,82 @@
+{
+  "uid" : "70d1dec58c9e93f3",
+  "name" : "should save a screenshot of the browser view of account page",
+  "fullName" : "Prima Freshmart Customer Login.should save a screenshot of the browser view of account page",
+  "historyId" : "5a9087a5e67f378d3cdc8d23cde7c23d",
+  "time" : {
+    "start" : 1621665432150,
+    "stop" : 1621665432170,
+    "duration" : 20
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should save a screenshot of the browser view of account page"
+  }, {
+    "name" : "package",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5f998a80ca866333",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621352377625,
+        "stop" : 1621352377637,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "7da675e04f38044c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621350952486,
+        "stop" : 1621350952516,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "8859f45d7de03779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621350787169,
+        "stop" : 1621350787192,
+        "duration" : 23
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70d1dec58c9e93f3.json",
+  "parameterValues" : [ "chrome-90.0.4430.72" ]
+}

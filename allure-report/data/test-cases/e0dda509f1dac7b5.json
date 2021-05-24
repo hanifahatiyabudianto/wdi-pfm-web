@@ -1,0 +1,321 @@
+{
+  "uid" : "e0dda509f1dac7b5",
+  "name" : "should avatar will be displayed",
+  "fullName" : "Prima Freshmart Customer Login.should avatar will be displayed",
+  "historyId" : "8bf7f95cc2799aa94eff25f05c6103ba",
+  "time" : {
+    "start" : 1621192862224,
+    "stop" : 1621192863452,
+    "duration" : 1228
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1621192862404,
+        "stop" : 1621192862472,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d229eb33f0b4ce9",
+        "name" : "Request",
+        "source" : "5d229eb33f0b4ce9.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "6b260bcbcde1007f",
+        "name" : "Response",
+        "source" : "6b260bcbcde1007f.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "executeScript",
+      "time" : {
+        "start" : 1621192862588,
+        "stop" : 1621192862636,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8ea15235edef5c04",
+        "name" : "Request",
+        "source" : "8ea15235edef5c04.json",
+        "type" : "application/json",
+        "size" : 8283
+      }, {
+        "uid" : "cd95d9ae53253d46",
+        "name" : "Response",
+        "source" : "cd95d9ae53253d46.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "executeScript",
+      "time" : {
+        "start" : 1621192862766,
+        "stop" : 1621192862839,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f449897825248126",
+        "name" : "Request",
+        "source" : "f449897825248126.json",
+        "type" : "application/json",
+        "size" : 5595
+      }, {
+        "uid" : "630008d56e82265f",
+        "name" : "Response",
+        "source" : "630008d56e82265f.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1621192862891,
+        "stop" : 1621192862902,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2fdadea6950225d",
+        "name" : "Request",
+        "source" : "2fdadea6950225d.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "31fa93cf2be8b3e7",
+        "name" : "Response",
+        "source" : "31fa93cf2be8b3e7.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "elementClick",
+      "time" : {
+        "start" : 1621192862958,
+        "stop" : 1621192863046,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d36e49975c536429",
+        "name" : "Request",
+        "source" : "d36e49975c536429.json",
+        "type" : "application/json",
+        "size" : 30
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1621192863055,
+        "stop" : 1621192863065,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e1afde98fbb54940",
+        "name" : "Request",
+        "source" : "e1afde98fbb54940.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "b7a7d7b915032737",
+        "name" : "Response",
+        "source" : "b7a7d7b915032737.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "executeScript",
+      "time" : {
+        "start" : 1621192863203,
+        "stop" : 1621192863306,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "88026d23ee2ebc6c",
+        "name" : "Request",
+        "source" : "88026d23ee2ebc6c.json",
+        "type" : "application/json",
+        "size" : 8283
+      }, {
+        "uid" : "72ff2dc1f052b3a1",
+        "name" : "Response",
+        "source" : "72ff2dc1f052b3a1.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1621192863369,
+        "stop" : 1621192863383,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5b52e82329caff71",
+        "name" : "Request",
+        "source" : "5b52e82329caff71.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "6201f68986bcf0b1",
+        "name" : "Response",
+        "source" : "6201f68986bcf0b1.json",
+        "type" : "application/json",
+        "size" : 56
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "getElementText",
+      "time" : {
+        "start" : 1621192863425,
+        "stop" : 1621192863451,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3b0b2e82a071dc7a",
+        "name" : "Request",
+        "source" : "3b0b2e82a071dc7a.json",
+        "type" : "application/json",
+        "size" : 30
+      }, {
+        "uid" : "e844b06cadcd8227",
+        "name" : "Response",
+        "source" : "e844b06cadcd8227.json",
+        "type" : "application/json",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 17,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should avatar will be displayed"
+  }, {
+    "name" : "package",
+    "value" : "Prima Freshmart Customer Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Edge-90.0.818.62"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "93782a627be04be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621192083724,
+        "stop" : 1621192084865,
+        "duration" : 1141
+      }
+    }, {
+      "uid" : "3c83a0628e9783b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621191725377,
+        "stop" : 1621191726090,
+        "duration" : 713
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e0dda509f1dac7b5.json",
+  "parameterValues" : [ "Edge-90.0.818.62" ]
+}

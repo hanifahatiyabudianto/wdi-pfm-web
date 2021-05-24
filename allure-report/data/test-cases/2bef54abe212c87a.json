@@ -1,0 +1,147 @@
+{
+  "uid" : "2bef54abe212c87a",
+  "name" : "should slick next image banner",
+  "fullName" : "Banner Homepage.should slick next image banner",
+  "historyId" : "c28d3810160b947e6f6282f8f16dcab4",
+  "time" : {
+    "start" : 1621191693568,
+    "stop" : 1621191707276,
+    "duration" : 13708
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "findElement",
+      "time" : {
+        "start" : 1621191707013,
+        "stop" : 1621191707243,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "findElement",
+        "time" : {
+          "start" : 1621191707015,
+          "stop" : 1621191707241,
+          "duration" : 226
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "findElement",
+          "time" : {
+            "start" : 1621191707112,
+            "stop" : 1621191707235,
+            "duration" : 123
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "8a0c5b878630816",
+            "name" : "Request",
+            "source" : "8a0c5b878630816.json",
+            "type" : "application/json",
+            "size" : 158
+          }, {
+            "uid" : "55dc8d0d6f7e6ae6",
+            "name" : "Response",
+            "source" : "55dc8d0d6f7e6ae6.json",
+            "type" : "application/json",
+            "size" : 56
+          } ],
+          "parameters" : [ ],
+          "attachmentsCount" : 2,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "e797cd7243b10b5d",
+          "name" : "Request",
+          "source" : "e797cd7243b10b5d.json",
+          "type" : "application/json",
+          "size" : 347
+        }, {
+          "uid" : "c7a2b8f858e9f7d5",
+          "name" : "Response",
+          "source" : "c7a2b8f858e9f7d5.json",
+          "type" : "application/json",
+          "size" : 2
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "4ea9522a766c40a6",
+        "name" : "Request",
+        "source" : "4ea9522a766c40a6.json",
+        "type" : "application/json",
+        "size" : 444
+      }, {
+        "uid" : "c7be9a2d76278f46",
+        "name" : "Response",
+        "source" : "c7be9a2d76278f46.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Banner Homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Banner Homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should slick next image banner"
+  }, {
+    "name" : "package",
+    "value" : "Banner Homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Edge-90.0.818.62"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bef54abe212c87a.json",
+  "parameterValues" : [ "Edge-90.0.818.62" ]
+}

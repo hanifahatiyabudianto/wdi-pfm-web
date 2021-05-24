@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer did not fill name contact us form" timestamp="2021-05-24T23:28:21" time="0.1" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer did not fill name contact us form"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\contactus\emptyname.contactus.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer did not fill name contact us form" name="before all hook for Customer did not fill name contact us form" time="0.018">
+      <failure/>
+      <error message="Page.open is not a function"/>
+      <system-err><![CDATA[
+TypeError: Page.open is not a function
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\contactus\/emptyname.contactus.js:11:14)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:25)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

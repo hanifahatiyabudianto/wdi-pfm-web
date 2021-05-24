@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer success send message contact us" timestamp="2021-05-24T23:50:24" time="28.863" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer success send message contact us"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\contactus\success.contactus.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer success send message contact us" name="should show alert success send message contact us" time="28.585">
+      <system-out><![CDATA[
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/window/maximize - {}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element - {"using":"css selector","value":"#footer-contact"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/"}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/screenshot - {}
+RESULT: {"using":"css selector","value":"#footer-contact"}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element/c351fd6a-645e-4167-ab8c-98451de5b9e3/click - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/screenshot - {}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element - {"using":"css selector","value":"#contact-title"}
+RESULT: {"using":"css selector","value":"#contact-title"}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/element/90464c25-2fe7-448c-9b9f-6e364046dba0/text - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/url - {}
+RESULT: {}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/screenshot - {}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element - {"using":"css selector","value":"#name"}
+RESULT: {"using":"css selector","value":"#name"}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element/9bb18fea-b9e6-4dc7-a883-220eb1351d55/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/screenshot - {}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element/9bb18fea-b9e6-4dc7-a883-220eb1351d55/value - {"text":"Hani"}
+RESULT: {}
+RESULT: {"text":"Hani"}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/screenshot - {}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element - {"using":"css selector","value":"#telephone"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#telephone"}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element/657eeff5-399d-4c94-b989-86d621eb11e8/clear - {}
+RESULT: {}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/screenshot - {}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element/657eeff5-399d-4c94-b989-86d621eb11e8/value - {"text":"8123400000001"}
+RESULT: {"text":"8123400000001"}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/screenshot - {}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element - {"using":"css selector","value":"#email"}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element/b3db33fb-2c85-4ce4-8854-45114e946037/clear - {}
+RESULT: {}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/screenshot - {}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element/b3db33fb-2c85-4ce4-8854-45114e946037/value - {"text":"pfmwdio1@yopmail.com"}
+RESULT: {}
+RESULT: {"text":"pfmwdio1@yopmail.com"}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/screenshot - {}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element - {"using":"css selector","value":"#comment"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#comment"}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element/739ffaa3-e647-4dba-9c36-5ecbc6e7371b/clear - {}
+RESULT: {}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/screenshot - {}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element/739ffaa3-e647-4dba-9c36-5ecbc6e7371b/value - {"text":"Bagaimana cara pengiriman telur ayam?"}
+RESULT: {}
+RESULT: {"text":"Bagaimana cara pengiriman telur ayam?"}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/screenshot - {}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element - {"using":"css selector","value":"#contact-submit"}
+RESULT: {"using":"css selector","value":"#contact-submit"}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element/4f37ffd2-1823-4cf3-8b0f-7227b7135b23/click - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/screenshot - {}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element - {"using":"css selector","value":"div.message-success.success.message"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"div.message-success.success.message"}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/elements - {"using":"css selector","value":"div.message-success.success.message"}
+RESULT: {"using":"css selector","value":"div.message-success.success.message"}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/elements - {"using":"css selector","value":"div.message-success.success.message"}
+RESULT: {"using":"css selector","value":"div.message-success.success.message"}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/elements - {"using":"css selector","value":"div.message-success.success.message"}
+RESULT: {"using":"css selector","value":"div.message-success.success.message"}
+COMMAND: POST /session/7b5404adfbc40a8a75e09541b430aa81/element - {"using":"css selector","value":"div.message-success.success.message"}
+RESULT: {"using":"css selector","value":"div.message-success.success.message"}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/element/2f5272af-259f-4339-868e-9d815c9318dd/text - {}
+RESULT: {}
+COMMAND: GET /session/7b5404adfbc40a8a75e09541b430aa81/screenshot - {}
+COMMAND: DELETE /session/7b5404adfbc40a8a75e09541b430aa81 - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

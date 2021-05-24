@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer failed forgot password" timestamp="2021-05-24T20:50:21" time="21.354" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer failed forgot password"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\forgotpassword\tomanyrequested.forgotpassword.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer failed forgot password" name="should forgot password with valid credentials but to many requested" time="21.174">
+      <failure/>
+      <error message="Expect window to have url containing&#xA;&#xA;Expected: &quot;https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/forgotpassword/&quot;&#xA;Received: &quot;https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer/aHR0cHM6Ly9lcHJpbWFmcmVzaG1hcnQuY3AuY28uaWQvcGZtL2luZGV4LnBocC9jdXN0b21lci9hY2NvdW50L2luZGV4Lw%2C%2C/&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/14fc167d09544026df900b7319e96599/window/maximize - {}
+COMMAND: POST /session/14fc167d09544026df900b7319e96599/element - {"using":"css selector","value":"div.secondary > a.action.remind"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login"}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {"using":"css selector","value":"div.secondary > a.action.remind"}
+COMMAND: POST /session/14fc167d09544026df900b7319e96599/element/0bd9032a-c906-4a7c-919b-b8a0ea431e04/click - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+COMMAND: POST /session/14fc167d09544026df900b7319e96599/element - {"using":"css selector","value":"#forgotpass-title"}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#forgotpass-title"}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/element/67fbf9d1-2ad4-47ed-b4b8-3b8cc76be3a7/text - {}
+RESULT: {}
+COMMAND: POST /session/14fc167d09544026df900b7319e96599/element - {"using":"css selector","value":"#email_address"}
+RESULT: {"using":"css selector","value":"#email_address"}
+COMMAND: POST /session/14fc167d09544026df900b7319e96599/element/909ffcc5-d41b-40c1-bc8c-9123fb5b960b/clear - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+COMMAND: POST /session/14fc167d09544026df900b7319e96599/element/909ffcc5-d41b-40c1-bc8c-9123fb5b960b/value - {"text":"hello.hanifahatiya@gmail.com"}
+RESULT: {}
+RESULT: {"text":"hello.hanifahatiya@gmail.com"}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+COMMAND: POST /session/14fc167d09544026df900b7319e96599/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/14fc167d09544026df900b7319e96599/element/53986514-7787-4399-a47b-9bcf29f2dc0d/click - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/url - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/14fc167d09544026df900b7319e96599/screenshot - {}
+COMMAND: DELETE /session/14fc167d09544026df900b7319e96599 - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect window to have url containing
+
+Expected: "https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/forgotpassword/"
+Received: "https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer/aHR0cHM6Ly9lcHJpbWFmcmVzaG1hcnQuY3AuY28uaWQvcGZtL2luZGV4LnBocC9jdXN0b21lci9hY2NvdW50L2luZGV4Lw%2C%2C/"
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\forgotpassword\/tomanyrequested.forgotpassword.js:25:31)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

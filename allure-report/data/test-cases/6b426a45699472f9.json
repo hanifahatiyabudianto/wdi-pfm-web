@@ -1,0 +1,164 @@
+{
+  "uid" : "6b426a45699472f9",
+  "name" : "should show error message when empty phone number",
+  "fullName" : "Customer did not fill phone number contact us form.should show error message when empty phone number",
+  "historyId" : "fdb9a94f77b7c130f69ba67e3fb02bdd",
+  "time" : {
+    "start" : 1621874367566,
+    "stop" : 1621874380612,
+    "duration" : 13046
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d6f33f1ec0b59ceb",
+      "name" : "Screenshot",
+      "source" : "d6f33f1ec0b59ceb.png",
+      "type" : "image/png",
+      "size" : 1106568
+    }, {
+      "uid" : "a4a27cc178efd83a",
+      "name" : "Screenshot",
+      "source" : "a4a27cc178efd83a.png",
+      "type" : "image/png",
+      "size" : 309719
+    }, {
+      "uid" : "bf4bfb69ce74411f",
+      "name" : "Screenshot",
+      "source" : "bf4bfb69ce74411f.png",
+      "type" : "image/png",
+      "size" : 309719
+    }, {
+      "uid" : "1ba1730b08ecdb18",
+      "name" : "Screenshot",
+      "source" : "1ba1730b08ecdb18.png",
+      "type" : "image/png",
+      "size" : 312510
+    }, {
+      "uid" : "71a02c43eefa2328",
+      "name" : "Screenshot",
+      "source" : "71a02c43eefa2328.png",
+      "type" : "image/png",
+      "size" : 312510
+    }, {
+      "uid" : "e47a2260afb440d",
+      "name" : "Screenshot",
+      "source" : "e47a2260afb440d.png",
+      "type" : "image/png",
+      "size" : 310039
+    }, {
+      "uid" : "a4aad0c08396adc6",
+      "name" : "Screenshot",
+      "source" : "a4aad0c08396adc6.png",
+      "type" : "image/png",
+      "size" : 310039
+    }, {
+      "uid" : "5be5fe60103e6ffd",
+      "name" : "Screenshot",
+      "source" : "5be5fe60103e6ffd.png",
+      "type" : "image/png",
+      "size" : 310045
+    }, {
+      "uid" : "8d36e8d17328803d",
+      "name" : "Screenshot",
+      "source" : "8d36e8d17328803d.png",
+      "type" : "image/png",
+      "size" : 311049
+    }, {
+      "uid" : "c73823d866a2c911",
+      "name" : "Screenshot",
+      "source" : "c73823d866a2c911.png",
+      "type" : "image/png",
+      "size" : 311049
+    }, {
+      "uid" : "91c38b9b0381a77f",
+      "name" : "Screenshot",
+      "source" : "91c38b9b0381a77f.png",
+      "type" : "image/png",
+      "size" : 311030
+    }, {
+      "uid" : "a6005b422ed1253d",
+      "name" : "Screenshot",
+      "source" : "a6005b422ed1253d.png",
+      "type" : "image/png",
+      "size" : 311000
+    }, {
+      "uid" : "75e2fc772546061d",
+      "name" : "Screenshot",
+      "source" : "75e2fc772546061d.png",
+      "type" : "image/png",
+      "size" : 197598
+    }, {
+      "uid" : "5991305245d2c925",
+      "name" : "Execution video",
+      "source" : "5991305245d2c925.mp4",
+      "type" : "video/mp4",
+      "size" : 66332
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Send Message Contact Us"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill phone number contact us form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill phone number contact us form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty phone number"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill phone number contact us form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6b426a45699472f9.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

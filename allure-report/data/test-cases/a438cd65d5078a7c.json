@@ -1,0 +1,130 @@
+{
+  "uid" : "a438cd65d5078a7c",
+  "name" : "should forgot password with valid credentials, but to many requested",
+  "fullName" : "Customer failed forgot password.should forgot password with valid credentials, but to many requested",
+  "historyId" : "6102bbbd54d822c61b40d5267d100593",
+  "time" : {
+    "start" : 1621796991213,
+    "stop" : 1621797007952,
+    "duration" : 16739
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect  to be present\n                \n                Expected: \"present\"\n                Received: \"not present\"",
+  "statusTrace" : "Error: Expect  to be present\n                \n                Expected: \"present\"\n                Received: \"not present\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\forgotpassword\\/tomanyrequested.forgotpassword.js:25:54)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect  to be present\n                \n                Expected: \"present\"\n                Received: \"not present\"",
+    "statusTrace" : "Error: Expect  to be present\n                \n                Expected: \"present\"\n                Received: \"not present\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\forgotpassword\\/tomanyrequested.forgotpassword.js:25:54)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d653ec0107fa4753",
+      "name" : "Screenshot",
+      "source" : "d653ec0107fa4753.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "38ac5c974ef362dc",
+      "name" : "Screenshot",
+      "source" : "38ac5c974ef362dc.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "17cac53809da6436",
+      "name" : "Screenshot",
+      "source" : "17cac53809da6436.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "82176ecbd2d5e413",
+      "name" : "Screenshot",
+      "source" : "82176ecbd2d5e413.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "f0da3315e4032749",
+      "name" : "Screenshot",
+      "source" : "f0da3315e4032749.png",
+      "type" : "image/png",
+      "size" : 59488
+    }, {
+      "uid" : "ab5f0d358bd5321",
+      "name" : "Screenshot",
+      "source" : "ab5f0d358bd5321.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "259a05e8afe80a09",
+      "name" : "Screenshot",
+      "source" : "259a05e8afe80a09.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "d00c6cab141ec502",
+      "name" : "Execution video",
+      "source" : "d00c6cab141ec502.mp4",
+      "type" : "video/mp4",
+      "size" : 18016
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Failed Forgot Password"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "High"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer failed forgot password"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer failed forgot password"
+  }, {
+    "name" : "testMethod",
+    "value" : "should forgot password with valid credentials, but to many requested"
+  }, {
+    "name" : "package",
+    "value" : "Customer failed forgot password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a438cd65d5078a7c.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

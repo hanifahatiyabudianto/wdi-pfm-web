@@ -1,0 +1,187 @@
+{
+  "uid" : "856ee9abde47aeba",
+  "name" : "should show error message when empty password confirm",
+  "fullName" : "Customer did not fill password confirm register form.should show error message when empty password confirm",
+  "historyId" : "d160ab1a2983fbeba392a55e35708fe8",
+  "time" : {
+    "start" : 1621787018026,
+    "stop" : 1621787050544,
+    "duration" : 32518
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect  to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+  "statusTrace" : "Error: Expect  to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/emptypasswordconfirm.register.js:23:52)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect  to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
+    "statusTrace" : "Error: Expect  to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/emptypasswordconfirm.register.js:23:52)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "629a945bb9777633",
+      "name" : "Screenshot",
+      "source" : "629a945bb9777633.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "1dad2828bd17f2d2",
+      "name" : "Screenshot",
+      "source" : "1dad2828bd17f2d2.png",
+      "type" : "image/png",
+      "size" : 74062
+    }, {
+      "uid" : "71c36560bde2a5fa",
+      "name" : "Screenshot",
+      "source" : "71c36560bde2a5fa.png",
+      "type" : "image/png",
+      "size" : 74062
+    }, {
+      "uid" : "132502844d8ac05f",
+      "name" : "Screenshot",
+      "source" : "132502844d8ac05f.png",
+      "type" : "image/png",
+      "size" : 75895
+    }, {
+      "uid" : "f2b36ed292a83e3e",
+      "name" : "Screenshot",
+      "source" : "f2b36ed292a83e3e.png",
+      "type" : "image/png",
+      "size" : 75875
+    }, {
+      "uid" : "e3cd38816c701699",
+      "name" : "Screenshot",
+      "source" : "e3cd38816c701699.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "42f8ba68a053aeb2",
+      "name" : "Screenshot",
+      "source" : "42f8ba68a053aeb2.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "cd5e35eef98d7046",
+      "name" : "Screenshot",
+      "source" : "cd5e35eef98d7046.png",
+      "type" : "image/png",
+      "size" : 72807
+    }, {
+      "uid" : "cd1f9b02becb5234",
+      "name" : "Screenshot",
+      "source" : "cd1f9b02becb5234.png",
+      "type" : "image/png",
+      "size" : 72807
+    }, {
+      "uid" : "d97e7bd683e502e1",
+      "name" : "Screenshot",
+      "source" : "d97e7bd683e502e1.png",
+      "type" : "image/png",
+      "size" : 72185
+    }, {
+      "uid" : "9e2cbb8167dab28",
+      "name" : "Screenshot",
+      "source" : "9e2cbb8167dab28.png",
+      "type" : "image/png",
+      "size" : 61134
+    }, {
+      "uid" : "bea5f25b08ddd186",
+      "name" : "Screenshot",
+      "source" : "bea5f25b08ddd186.png",
+      "type" : "image/png",
+      "size" : 61162
+    }, {
+      "uid" : "fa125a9c645bea14",
+      "name" : "Screenshot",
+      "source" : "fa125a9c645bea14.png",
+      "type" : "image/png",
+      "size" : 61134
+    }, {
+      "uid" : "1581c7f2d20b34b3",
+      "name" : "Screenshot",
+      "source" : "1581c7f2d20b34b3.png",
+      "type" : "image/png",
+      "size" : 62775
+    }, {
+      "uid" : "f065b38053381c6",
+      "name" : "Screenshot",
+      "source" : "f065b38053381c6.png",
+      "type" : "image/png",
+      "size" : 62756
+    }, {
+      "uid" : "979309abb100c791",
+      "name" : "Screenshot",
+      "source" : "979309abb100c791.png",
+      "type" : "image/png",
+      "size" : 76935
+    }, {
+      "uid" : "1548679e4e7a83c5",
+      "name" : "Screenshot",
+      "source" : "1548679e4e7a83c5.png",
+      "type" : "image/png",
+      "size" : 62136
+    }, {
+      "uid" : "6c62cea5e11af26",
+      "name" : "Screenshot",
+      "source" : "6c62cea5e11af26.png",
+      "type" : "image/png",
+      "size" : 61167
+    }, {
+      "uid" : "3bb4045040a66d76",
+      "name" : "Execution video",
+      "source" : "3bb4045040a66d76.mp4",
+      "type" : "video/mp4",
+      "size" : 42883
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 19,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill password confirm register form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill password confirm register form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty password confirm"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill password confirm register form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "856ee9abde47aeba.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

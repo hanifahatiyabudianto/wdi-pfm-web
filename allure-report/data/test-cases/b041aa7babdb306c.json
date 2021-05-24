@@ -1,0 +1,114 @@
+{
+  "uid" : "b041aa7babdb306c",
+  "name" : "should redirect to login page",
+  "fullName" : "Customer success back to login page.should redirect to login page",
+  "historyId" : "a34caf2c3be6f058358439fe7017daea",
+  "time" : {
+    "start" : 1621798104633,
+    "stop" : 1621798111125,
+    "duration" : 6492
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8f1ba4e370459df6",
+      "name" : "Screenshot",
+      "source" : "8f1ba4e370459df6.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "97dcdfb55fe16406",
+      "name" : "Screenshot",
+      "source" : "97dcdfb55fe16406.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "5e3e004a302185ff",
+      "name" : "Screenshot",
+      "source" : "5e3e004a302185ff.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "33f28444e6837321",
+      "name" : "Screenshot",
+      "source" : "33f28444e6837321.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "bab84ada22f3f340",
+      "name" : "Screenshot",
+      "source" : "bab84ada22f3f340.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "1a41ceed93908bea",
+      "name" : "Execution video",
+      "source" : "1a41ceed93908bea.mp4",
+      "type" : "video/mp4",
+      "size" : 15315
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Cancel Forgot Password"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "Low"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer success back to login page"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer success back to login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should redirect to login page"
+  }, {
+    "name" : "package",
+    "value" : "Customer success back to login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b041aa7babdb306c.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

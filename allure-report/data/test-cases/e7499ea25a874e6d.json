@@ -1,0 +1,139 @@
+{
+  "uid" : "e7499ea25a874e6d",
+  "name" : "should show error message when empty nik",
+  "fullName" : "Customer did not fill nik register form.should show error message when empty nik",
+  "historyId" : "88f5f5c3ca50925627fdd0cd77f050a4",
+  "time" : {
+    "start" : 1621788388231,
+    "stop" : 1621788400738,
+    "duration" : 12507
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Options must be an object",
+  "statusTrace" : "TypeError: Options must be an object\n                    at Element.click (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\commands\\element\\click.js:78:15)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:38)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at RegisterPage.register (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\pageobjects\\estore\\/register.page.js:46:9)\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\register\\/successgendermale.register.js:22:9)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Options must be an object",
+    "statusTrace" : "TypeError: Options must be an object\n                    at Element.click (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\commands\\element\\click.js:78:15)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:38)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at Element.wrapCommandFn (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at RegisterPage.register (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\pageobjects\\estore\\/register.page.js:46:9)\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\register\\/successgendermale.register.js:22:9)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "53e38c42a1396680",
+      "name" : "Screenshot",
+      "source" : "53e38c42a1396680.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "166f4f376635673a",
+      "name" : "Screenshot",
+      "source" : "166f4f376635673a.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "e9745c6117052fb2",
+      "name" : "Screenshot",
+      "source" : "e9745c6117052fb2.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "806a0b15518d0336",
+      "name" : "Screenshot",
+      "source" : "806a0b15518d0336.png",
+      "type" : "image/png",
+      "size" : 72962
+    }, {
+      "uid" : "9598d410f684b26b",
+      "name" : "Screenshot",
+      "source" : "9598d410f684b26b.png",
+      "type" : "image/png",
+      "size" : 72962
+    }, {
+      "uid" : "8d13042396368595",
+      "name" : "Screenshot",
+      "source" : "8d13042396368595.png",
+      "type" : "image/png",
+      "size" : 69805
+    }, {
+      "uid" : "a542edb9c9c1fd49",
+      "name" : "Screenshot",
+      "source" : "a542edb9c9c1fd49.png",
+      "type" : "image/png",
+      "size" : 71840
+    }, {
+      "uid" : "6aafc53bae0e3738",
+      "name" : "Screenshot",
+      "source" : "6aafc53bae0e3738.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "af0ec6283a7434ee",
+      "name" : "Screenshot",
+      "source" : "af0ec6283a7434ee.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "5dd2c26c57e86d9f",
+      "name" : "Screenshot",
+      "source" : "5dd2c26c57e86d9f.png",
+      "type" : "image/png",
+      "size" : 68281
+    }, {
+      "uid" : "20437d05920b6894",
+      "name" : "Execution video",
+      "source" : "20437d05920b6894.mp4",
+      "type" : "video/mp4",
+      "size" : 17626
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill nik register form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill nik register form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty nik"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill nik register form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7499ea25a874e6d.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

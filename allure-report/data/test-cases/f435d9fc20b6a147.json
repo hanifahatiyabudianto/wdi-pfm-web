@@ -1,0 +1,139 @@
+{
+  "uid" : "f435d9fc20b6a147",
+  "name" : "should redirect to login page",
+  "fullName" : "Customer success back to login page.should redirect to login page",
+  "historyId" : "a34caf2c3be6f058358439fe7017daea",
+  "time" : {
+    "start" : 1621798393706,
+    "stop" : 1621798400202,
+    "duration" : 6496
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f01365d476a1284a",
+      "name" : "Screenshot",
+      "source" : "f01365d476a1284a.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "4ba411468769f577",
+      "name" : "Screenshot",
+      "source" : "4ba411468769f577.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "90ced6b16e1065f8",
+      "name" : "Screenshot",
+      "source" : "90ced6b16e1065f8.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "99a62a5f68f163d6",
+      "name" : "Screenshot",
+      "source" : "99a62a5f68f163d6.png",
+      "type" : "image/png",
+      "size" : 58153
+    }, {
+      "uid" : "f5d771e90618a22e",
+      "name" : "Screenshot",
+      "source" : "f5d771e90618a22e.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "c3f71bc7dbe58525",
+      "name" : "Screenshot",
+      "source" : "c3f71bc7dbe58525.png",
+      "type" : "image/png",
+      "size" : 60385
+    }, {
+      "uid" : "6e50857c681efb95",
+      "name" : "Execution video",
+      "source" : "6e50857c681efb95.mp4",
+      "type" : "video/mp4",
+      "size" : 19433
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "Negative Case",
+    "value" : "undefined"
+  }, {
+    "name" : "feature",
+    "value" : "Cancel Forgot Password"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "Low"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer success back to login page"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer success back to login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should redirect to login page"
+  }, {
+    "name" : "package",
+    "value" : "Customer success back to login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b041aa7babdb306c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621798104633,
+        "stop" : 1621798111125,
+        "duration" : 6492
+      }
+    }, {
+      "uid" : "e42456924d4a4b46",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/forgotpassword/\"",
+      "time" : {
+        "start" : 1621798025211,
+        "stop" : 1621798039230,
+        "duration" : 14019
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f435d9fc20b6a147.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

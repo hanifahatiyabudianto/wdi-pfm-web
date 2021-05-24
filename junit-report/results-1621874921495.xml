@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer success send message contact us" timestamp="2021-05-24T23:48:46" time="20.498" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer success send message contact us"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\positive\contactus\success.contactus.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer success send message contact us" name="should show alert success send message contact us" time="20.384">
+      <system-out><![CDATA[
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/window/maximize - {}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element - {"using":"css selector","value":"#footer-contact"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/"}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/screenshot - {}
+RESULT: {}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/screenshot - {}
+RESULT: {"using":"css selector","value":"#footer-contact"}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element/f5ce258d-9084-42f4-a127-37ddf1e6fdb1/click - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/screenshot - {}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element - {"using":"css selector","value":"#contact-title"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#contact-title"}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/element/b0006300-0000-42fe-bdca-357b8b1b5730/text - {}
+RESULT: {}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/url - {}
+RESULT: {}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/screenshot - {}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element - {"using":"css selector","value":"#name"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#name"}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element/73360642-d117-44cb-b7ea-87cf06493d06/clear - {}
+RESULT: {}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/screenshot - {}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element/73360642-d117-44cb-b7ea-87cf06493d06/value - {"text":"Hani"}
+RESULT: {}
+RESULT: {"text":"Hani"}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/screenshot - {}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element - {"using":"css selector","value":"#telephone"}
+RESULT: {"using":"css selector","value":"#telephone"}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element/14c3fb84-0c23-4a5e-a557-5217b01600c7/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/screenshot - {}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element/14c3fb84-0c23-4a5e-a557-5217b01600c7/value - {"text":"8123400000001"}
+RESULT: {}
+RESULT: {"text":"8123400000001"}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/screenshot - {}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element/29360320-b76c-4898-8f9c-a4b4fd516a84/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/screenshot - {}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element/29360320-b76c-4898-8f9c-a4b4fd516a84/value - {"text":"pfmwdio1@yopmail.com"}
+RESULT: {}
+RESULT: {"text":"pfmwdio1@yopmail.com"}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/screenshot - {}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element - {"using":"css selector","value":"#comment"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#comment"}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element/5985b5c2-125e-4c1b-956e-748e125ad4cd/clear - {}
+RESULT: {}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/screenshot - {}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element/5985b5c2-125e-4c1b-956e-748e125ad4cd/value - {"text":"Bagaimana cara pengiriman telur ayam?"}
+RESULT: {}
+RESULT: {"text":"Bagaimana cara pengiriman telur ayam?"}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/screenshot - {}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element - {"using":"css selector","value":"#contact-submit"}
+RESULT: {"using":"css selector","value":"#contact-submit"}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element/d23e71b6-db53-43c7-8c25-c3b1b3feae08/click - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/screenshot - {}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element - {"using":"css selector","value":"div.message-success.success.message"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"div.message-success.success.message"}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/elements - {"using":"css selector","value":"div.message-success.success.message"}
+RESULT: {"using":"css selector","value":"div.message-success.success.message"}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/elements - {"using":"css selector","value":"div.message-success.success.message"}
+RESULT: {"using":"css selector","value":"div.message-success.success.message"}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/elements - {"using":"css selector","value":"div.message-success.success.message"}
+RESULT: {"using":"css selector","value":"div.message-success.success.message"}
+COMMAND: POST /session/ce1c891a262557ab968546b55bb9b394/element - {"using":"css selector","value":"div.message-success.success.message"}
+RESULT: {"using":"css selector","value":"div.message-success.success.message"}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/element/279bfb7b-d692-42f1-9e8e-4b4d9849cb19/text - {}
+RESULT: {}
+COMMAND: GET /session/ce1c891a262557ab968546b55bb9b394/screenshot - {}
+COMMAND: DELETE /session/ce1c891a262557ab968546b55bb9b394 - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

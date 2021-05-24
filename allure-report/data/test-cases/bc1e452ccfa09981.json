@@ -1,0 +1,187 @@
+{
+  "uid" : "bc1e452ccfa09981",
+  "name" : "should show error message when did not check tnc",
+  "fullName" : "Customer did not check tnc register form.should show error message when did not check tnc",
+  "historyId" : "fd5282da7b97f2193a90c9c73077840a",
+  "time" : {
+    "start" : 1621792719449,
+    "stop" : 1621792739592,
+    "duration" : 20143
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`#termscondition-error`) to have text\n                \n                Expected: \"Harus diisi\"\n                Received: \"Harus disetujui\"",
+  "statusTrace" : "Error: Expect $(`#termscondition-error`) to have text\n                \n                Expected: \"Harus diisi\"\n                Received: \"Harus disetujui\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/notchecktnc.register.js:24:47)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`#termscondition-error`) to have text\n                \n                Expected: \"Harus diisi\"\n                Received: \"Harus disetujui\"",
+    "statusTrace" : "Error: Expect $(`#termscondition-error`) to have text\n                \n                Expected: \"Harus diisi\"\n                Received: \"Harus disetujui\"\n                    at Context.<anonymous> (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\negative\\register\\/notchecktnc.register.js:24:47)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Context.executeAsync (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\shim.js:136:16)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e84bb36fab4c8fd4",
+      "name" : "Screenshot",
+      "source" : "e84bb36fab4c8fd4.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "c9ca65c70456730d",
+      "name" : "Screenshot",
+      "source" : "c9ca65c70456730d.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "ff8eb8f3538001ba",
+      "name" : "Screenshot",
+      "source" : "ff8eb8f3538001ba.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "6154020c193b60c6",
+      "name" : "Screenshot",
+      "source" : "6154020c193b60c6.png",
+      "type" : "image/png",
+      "size" : 72962
+    }, {
+      "uid" : "bbd4a2b0716a92b1",
+      "name" : "Screenshot",
+      "source" : "bbd4a2b0716a92b1.png",
+      "type" : "image/png",
+      "size" : 75892
+    }, {
+      "uid" : "1a79dd5a13e88454",
+      "name" : "Screenshot",
+      "source" : "1a79dd5a13e88454.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "700087fbfaf35ceb",
+      "name" : "Screenshot",
+      "source" : "700087fbfaf35ceb.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "659ac054c7718b4",
+      "name" : "Screenshot",
+      "source" : "659ac054c7718b4.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "29616541121683da",
+      "name" : "Screenshot",
+      "source" : "29616541121683da.png",
+      "type" : "image/png",
+      "size" : 68909
+    }, {
+      "uid" : "43e959940d8d8b39",
+      "name" : "Screenshot",
+      "source" : "43e959940d8d8b39.png",
+      "type" : "image/png",
+      "size" : 68281
+    }, {
+      "uid" : "d6077cd75b1a4ae5",
+      "name" : "Screenshot",
+      "source" : "d6077cd75b1a4ae5.png",
+      "type" : "image/png",
+      "size" : 68287
+    }, {
+      "uid" : "391ba956276d9b40",
+      "name" : "Screenshot",
+      "source" : "391ba956276d9b40.png",
+      "type" : "image/png",
+      "size" : 57527
+    }, {
+      "uid" : "3304c8eeba2f2ab",
+      "name" : "Screenshot",
+      "source" : "3304c8eeba2f2ab.png",
+      "type" : "image/png",
+      "size" : 58066
+    }, {
+      "uid" : "8a83c3a8b02b6292",
+      "name" : "Screenshot",
+      "source" : "8a83c3a8b02b6292.png",
+      "type" : "image/png",
+      "size" : 58066
+    }, {
+      "uid" : "f55be129236c4b57",
+      "name" : "Screenshot",
+      "source" : "f55be129236c4b57.png",
+      "type" : "image/png",
+      "size" : 58994
+    }, {
+      "uid" : "9ec946627f15730",
+      "name" : "Screenshot",
+      "source" : "9ec946627f15730.png",
+      "type" : "image/png",
+      "size" : 58994
+    }, {
+      "uid" : "abf3b9c9bb6e11f9",
+      "name" : "Screenshot",
+      "source" : "abf3b9c9bb6e11f9.png",
+      "type" : "image/png",
+      "size" : 75201
+    }, {
+      "uid" : "5d5b48d366f37d93",
+      "name" : "Screenshot",
+      "source" : "5d5b48d366f37d93.png",
+      "type" : "image/png",
+      "size" : 75423
+    }, {
+      "uid" : "d75dab6091391eb3",
+      "name" : "Execution video",
+      "source" : "d75dab6091391eb3.mp4",
+      "type" : "video/mp4",
+      "size" : 32614
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 19,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not check tnc register form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not check tnc register form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when did not check tnc"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not check tnc register form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc1e452ccfa09981.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

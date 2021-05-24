@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer did not fill comment contact us form" timestamp="2021-05-24T23:43:11" time="18.313" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer did not fill comment contact us form"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\contactus\emptycomment.contactus.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer did not fill comment contact us form" name="should show error message when empty comment" time="18.222">
+      <system-out><![CDATA[
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/window/maximize - {}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element - {"using":"css selector","value":"#footer-contact"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/"}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/screenshot - {}
+RESULT: {"using":"css selector","value":"#footer-contact"}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element/2879a7de-af73-44a5-a987-c7401d0dda40/click - {}
+RESULT: {}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/screenshot - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/screenshot - {}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element - {"using":"css selector","value":"#contact-title"}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#contact-title"}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/element/67e46367-1354-4bdf-80fa-477328154349/text - {}
+RESULT: {}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/url - {}
+RESULT: {}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/screenshot - {}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element - {"using":"css selector","value":"#name"}
+RESULT: {"using":"css selector","value":"#name"}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element/d9bc863b-d2b6-4b3b-8b6d-cee631de009c/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/screenshot - {}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element/d9bc863b-d2b6-4b3b-8b6d-cee631de009c/value - {"text":"Hani"}
+RESULT: {}
+RESULT: {"text":"Hani"}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/screenshot - {}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element - {"using":"css selector","value":"#telephone"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#telephone"}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element/df72ba5a-b0e9-4ab5-a226-3fc098d3f6c1/clear - {}
+RESULT: {}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/screenshot - {}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element/df72ba5a-b0e9-4ab5-a226-3fc098d3f6c1/value - {"text":"8123400000001"}
+RESULT: {}
+RESULT: {"text":"8123400000001"}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/screenshot - {}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element - {"using":"css selector","value":"#email"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element/95106cdd-9ead-4e92-b631-bfb6c0f1d09f/clear - {}
+RESULT: {}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/screenshot - {}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element/95106cdd-9ead-4e92-b631-bfb6c0f1d09f/value - {"text":"pfmwdio1@yopmail.com"}
+RESULT: {}
+RESULT: {"text":"pfmwdio1@yopmail.com"}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/screenshot - {}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element - {"using":"css selector","value":"#comment"}
+RESULT: {"using":"css selector","value":"#comment"}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element/cf69ed3f-2e2b-4a43-bef8-79c30f93d5a8/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/screenshot - {}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element/cf69ed3f-2e2b-4a43-bef8-79c30f93d5a8/value - {"text":""}
+RESULT: {}
+RESULT: {"text":""}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/screenshot - {}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element - {"using":"css selector","value":"#contact-submit"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#contact-submit"}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element/396857ac-bd04-4d5c-9692-7f4a02349c02/click - {}
+RESULT: {}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/screenshot - {}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element - {"using":"css selector","value":"#comment-error"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#comment-error"}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"8df1100d-1d7c-4574-939d-048f5a35729a","ELEMENT":"8df1100d-1d7c-4574-939d-048f5a35729a"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"8df1100d-1d7c-4574-939d-048f5a35729a","ELEMENT":"8df1100d-1d7c-4574-939d-048f5a35729a"}]}
+COMMAND: POST /session/1be10748e4b6980250e784b167f9677f/element - {"using":"css selector","value":"#comment-error"}
+RESULT: {"using":"css selector","value":"#comment-error"}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/element/8df1100d-1d7c-4574-939d-048f5a35729a/text - {}
+RESULT: {}
+COMMAND: GET /session/1be10748e4b6980250e784b167f9677f/screenshot - {}
+COMMAND: DELETE /session/1be10748e4b6980250e784b167f9677f - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

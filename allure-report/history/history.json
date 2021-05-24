@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "43d212a69fd96a30",
+      "uid" : "93cdd8a4fce79277",
       "status" : "passed",
       "time" : {
         "start" : 1621192833651,
@@ -28,7 +28,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "62bd5fa3b2622e00",
+      "uid" : "8a65ba26657ed056",
       "status" : "passed",
       "time" : {
         "start" : 1621192866486,
@@ -47,12 +47,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7b41989ff601c63d",
+      "uid" : "1c96b33854404f0f",
       "status" : "passed",
       "time" : {
         "start" : 1621665784575,
         "stop" : 1621665793154,
         "duration" : 8579
+      }
+    } ]
+  },
+  "49c1f6668d482d87c598841a8c6f1454" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7cc25ab5d5c5fdd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621873701906,
+        "stop" : 1621873701908,
+        "duration" : 2
       }
     } ]
   },
@@ -66,7 +85,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d509c8f758ca157c",
+      "uid" : "fc56642ed0539b66",
       "status" : "passed",
       "time" : {
         "start" : 1621192851065,
@@ -85,7 +104,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "73f98488dab8062e",
+      "uid" : "70eb523d06ccb1e2",
       "status" : "passed",
       "time" : {
         "start" : 1621260454783,
@@ -104,7 +123,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2cc8856511bd58a7",
+      "uid" : "f435d9fc20b6a147",
       "status" : "passed",
       "time" : {
         "start" : 1621798393706,
@@ -115,39 +134,21 @@
   },
   "6102bbbd54d822c61b40d5267d100593" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "783bc406608030f",
-      "status" : "passed",
+      "uid" : "777c36479d3e992a",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url containing\n                \n                Expected: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/forgotpassword/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/login/referer/aHR0cHM6Ly9lcHJpbWFmcmVzaG1hcnQuY3AuY28uaWQvcGZtL2luZGV4LnBocC9jdXN0b21lci9hY2NvdW50L2luZGV4Lw%2C%2C/\"",
       "time" : {
-        "start" : 1621798583417,
-        "stop" : 1621798591574,
-        "duration" : 8157
-      }
-    } ]
-  },
-  "bf655cdf1f49fe6614af488dfdea2722" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "28822d5c22662dff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621259632039,
-        "stop" : 1621259639449,
-        "duration" : 7410
+        "start" : 1621864221325,
+        "stop" : 1621864242652,
+        "duration" : 21327
       }
     } ]
   },
@@ -161,12 +162,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3c581973d70a6f63",
+      "uid" : "70d1dec58c9e93f3",
       "status" : "passed",
       "time" : {
         "start" : 1621665432150,
         "stop" : 1621665432170,
         "duration" : 20
+      }
+    } ]
+  },
+  "bf655cdf1f49fe6614af488dfdea2722" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fa1da19f753c013d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621259632039,
+        "stop" : 1621259639449,
+        "duration" : 7410
       }
     } ]
   },
@@ -180,7 +200,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9a6a11b302ba9147",
+      "uid" : "849daf8842fab030",
       "status" : "passed",
       "time" : {
         "start" : 1621786432616,
@@ -199,31 +219,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c9a15a98f24d26f",
+      "uid" : "ff75fdcfbd955adc",
       "status" : "passed",
       "time" : {
         "start" : 1621794696057,
         "stop" : 1621794708515,
         "duration" : 12458
-      }
-    } ]
-  },
-  "d65f95a07393ac13f2c9635596121ee1" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "6283af81f16c0b8a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621192833914,
-        "stop" : 1621192850852,
-        "duration" : 16938
       }
     } ]
   },
@@ -237,12 +238,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d0b472cb0197455a",
+      "uid" : "8195f1fcbc1cd572",
       "status" : "passed",
       "time" : {
         "start" : 1621670486161,
         "stop" : 1621670494385,
         "duration" : 8224
+      }
+    } ]
+  },
+  "d65f95a07393ac13f2c9635596121ee1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a127dc46a2c4286d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621192833914,
+        "stop" : 1621192850852,
+        "duration" : 16938
+      }
+    } ]
+  },
+  "244641118dd2c9891d21556253a7df1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c38ca942d40c51aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621874591476,
+        "stop" : 1621874609770,
+        "duration" : 18294
       }
     } ]
   },
@@ -256,7 +295,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b9b246f0dcbd5747",
+      "uid" : "82bef547234e9855",
       "status" : "passed",
       "time" : {
         "start" : 1621665836853,
@@ -275,33 +314,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cf10d15462216374",
+      "uid" : "1b8639969693be2d",
       "status" : "failed",
       "statusDetails" : "Expect $(`#termscondition-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
       "time" : {
         "start" : 1621792982136,
         "stop" : 1621793008066,
         "duration" : 25930
-      }
-    } ]
-  },
-  "a4fae47daafc8097f48035bc772220bf" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f15b02c4bd550149",
-      "status" : "failed",
-      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/\"",
-      "time" : {
-        "start" : 1621665331048,
-        "stop" : 1621665360307,
-        "duration" : 29259
       }
     } ]
   },
@@ -315,7 +334,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b9a21201310fa7a5",
+      "uid" : "89cca160b41c4eaf",
       "status" : "passed",
       "time" : {
         "start" : 1621798537124,
@@ -324,26 +343,27 @@
       }
     } ]
   },
-  "1b8b948087dc78394d869322253952ba" : {
+  "a4fae47daafc8097f48035bc772220bf" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8b6d8d613a09b10e",
-      "status" : "passed",
+      "uid" : "f64dbaf12da72e28",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/\"",
       "time" : {
-        "start" : 1621668411767,
-        "stop" : 1621668417314,
-        "duration" : 5547
+        "start" : 1621665331048,
+        "stop" : 1621665360307,
+        "duration" : 29259
       }
     } ]
   },
-  "c28d3810160b947e6f6282f8f16dcab4" : {
+  "76d8da4d66561ee7d91e20abccbc3e09" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -353,12 +373,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8948048a4e8299ce",
+      "uid" : "bf6c7b0d18716355",
       "status" : "passed",
       "time" : {
-        "start" : 1621192833795,
-        "stop" : 1621192848023,
-        "duration" : 14228
+        "start" : 1621874230839,
+        "stop" : 1621874249110,
+        "duration" : 18271
       }
     } ]
   },
@@ -372,12 +392,50 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "17a3b05cc0580be5",
+      "uid" : "4179a2ca1c62fcb2",
       "status" : "passed",
       "time" : {
         "start" : 1621192852181,
         "stop" : 1621192852184,
         "duration" : 3
+      }
+    } ]
+  },
+  "c28d3810160b947e6f6282f8f16dcab4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "47889adc4ec12f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621192833795,
+        "stop" : 1621192848023,
+        "duration" : 14228
+      }
+    } ]
+  },
+  "1b8b948087dc78394d869322253952ba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b9170f15dc46f115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621668411767,
+        "stop" : 1621668417314,
+        "duration" : 5547
       }
     } ]
   },
@@ -391,7 +449,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "afa26500d80885e5",
+      "uid" : "bcd5274852060120",
       "status" : "failed",
       "statusDetails" : "Expect window to have url\n                \n                Expected: \"https://primafreshmart.com/customer/account/create/\"\n                Received: \"https://eprimafreshmart.cp.co.id/pfm/index.php/customer/account/createpost/\"",
       "time" : {
@@ -411,12 +469,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d8cf59a9b2a15d57",
+      "uid" : "327a36ffdec432e9",
       "status" : "passed",
       "time" : {
         "start" : 1621787208110,
         "stop" : 1621787219996,
         "duration" : 11886
+      }
+    } ]
+  },
+  "fdb9a94f77b7c130f69ba67e3fb02bdd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b426a45699472f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621874367566,
+        "stop" : 1621874380612,
+        "duration" : 13046
+      }
+    } ]
+  },
+  "1a70e4e35527b714bf4bdb9d6de16bb2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "646c247c3f5b761b",
+      "status" : "broken",
+      "statusDetails" : "Page.open is not a function",
+      "time" : {
+        "start" : 1621873701887,
+        "stop" : 1621873701906,
+        "duration" : 19
       }
     } ]
   },
@@ -430,7 +527,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b73c013af1d07efc",
+      "uid" : "8d76733b074c2711",
       "status" : "broken",
       "statusDetails" : "element not interactable\n                  (Session info: chrome=90.0.4430.212)",
       "time" : {
@@ -450,7 +547,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5f22c80182ba0ad3",
+      "uid" : "defc1d1f5e024ad0",
       "status" : "passed",
       "time" : {
         "start" : 1621192833792,
@@ -469,7 +566,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1235a46a6a49ebe3",
+      "uid" : "cd8e7d19cc32268b",
       "status" : "passed",
       "time" : {
         "start" : 1621192084826,
@@ -488,31 +585,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4cea356977cc25b2",
+      "uid" : "9629f521a257fdbb",
       "status" : "passed",
       "time" : {
         "start" : 1621192857847,
         "stop" : 1621192857848,
         "duration" : 1
-      }
-    } ]
-  },
-  "2a68e66532dda888f4ede3dfbaca2ba2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "52aed33bae31f5c1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621192833654,
-        "stop" : 1621192849201,
-        "duration" : 15547
       }
     } ]
   },
@@ -526,13 +604,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8aa1499cd7f33dea",
+      "uid" : "3c5942de1c76dfde",
       "status" : "broken",
       "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Prima Freshmart Customer Login should direct to my account page\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\\Users\\Hanifah\\WebdriverIO\\pfm-estore\\test\\specs\\estore\\positive\\login\\view.myaccount.js)",
       "time" : {
         "start" : 1621665372143,
         "stop" : 1621665432149,
         "duration" : 60006
+      }
+    } ]
+  },
+  "2a68e66532dda888f4ede3dfbaca2ba2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf0263b4cd55a030",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621192833654,
+        "stop" : 1621192849201,
+        "duration" : 15547
       }
     } ]
   },
@@ -546,7 +643,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "91985d27fe011fe8",
+      "uid" : "21cc711b0a2868cd",
       "status" : "passed",
       "time" : {
         "start" : 1621798445397,
@@ -565,7 +662,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6639b31204adb204",
+      "uid" : "ee2e1330779abe7",
       "status" : "passed",
       "time" : {
         "start" : 1621786723123,
@@ -584,7 +681,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f44089d7d2c2b17e",
+      "uid" : "e0dda509f1dac7b5",
       "status" : "passed",
       "time" : {
         "start" : 1621192862224,
@@ -603,7 +700,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9e6900a04b7430ae",
+      "uid" : "2b9c6bf64c3e63fd",
       "status" : "passed",
       "time" : {
         "start" : 1621257195062,
@@ -622,7 +719,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f09cd96897806df9",
+      "uid" : "13c466a1e7179133",
       "status" : "passed",
       "time" : {
         "start" : 1621192849202,
@@ -641,7 +738,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "80a934160688d368",
+      "uid" : "6a62971c6f0db7dc",
       "status" : "passed",
       "time" : {
         "start" : 1621192851062,
@@ -660,7 +757,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "65e4f85cc6a230db",
+      "uid" : "66a7d96ffb440389",
       "status" : "passed",
       "time" : {
         "start" : 1621667749435,
@@ -679,7 +776,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "acdf43863e7397b4",
+      "uid" : "5d0618b39a8b95a",
       "status" : "passed",
       "time" : {
         "start" : 1621192857848,
@@ -698,7 +795,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "573f24f4b0eaa60c",
+      "uid" : "9801bba58d565af1",
       "status" : "passed",
       "time" : {
         "start" : 1621271959940,
@@ -717,31 +814,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "30a9d087eeed65bd",
+      "uid" : "b6082a11e717eb7e",
       "status" : "passed",
       "time" : {
         "start" : 1621259349586,
         "stop" : 1621259349588,
         "duration" : 2
-      }
-    } ]
-  },
-  "1ae4fd2fdcd6a11659961dbd97804c29" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "dd38d63deba17116",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621786937240,
-        "stop" : 1621786948997,
-        "duration" : 11757
       }
     } ]
   },
@@ -755,7 +833,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "565f50f56ad09dd8",
+      "uid" : "985f250f493e0389",
       "status" : "passed",
       "time" : {
         "start" : 1621192833779,
@@ -774,12 +852,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2daffe9a51dc8fb8",
+      "uid" : "2be6dfe5c134d503",
       "status" : "passed",
       "time" : {
         "start" : 1621787949019,
         "stop" : 1621787963461,
         "duration" : 14442
+      }
+    } ]
+  },
+  "1ae4fd2fdcd6a11659961dbd97804c29" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10ad6e64fd9a83fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621786937240,
+        "stop" : 1621786948997,
+        "duration" : 11757
       }
     } ]
   },
@@ -793,7 +890,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7f7a9cc6822ee71d",
+      "uid" : "27e28349c864e850",
       "status" : "passed",
       "time" : {
         "start" : 1621668417315,
@@ -812,12 +909,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2173d40a5ace273",
+      "uid" : "fc86ca31496ca3e4",
       "status" : "passed",
       "time" : {
         "start" : 1621192863453,
         "stop" : 1621192866485,
         "duration" : 3032
+      }
+    } ]
+  },
+  "6eca6fa617bf15637b61a821f757206d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab48a6f156b156a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621874308796,
+        "stop" : 1621874322904,
+        "duration" : 14108
       }
     } ]
   },
@@ -831,7 +947,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ad9ba399388bac43",
+      "uid" : "2203c31bcc1a4dc9",
       "status" : "failed",
       "statusDetails" : "Expect $(`span.avatar-name`) to have text containing\n                \n                Expected: \"Atiya\"\n                Received: \"Hani Hani\"",
       "time" : {
@@ -851,7 +967,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8644bc8dcf172115",
+      "uid" : "56485a6e9e35d3af",
       "status" : "passed",
       "time" : {
         "start" : 1621192852185,
@@ -870,12 +986,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bc23b6e2f5bbd968",
+      "uid" : "944b67d37c31a9b0",
       "status" : "passed",
       "time" : {
         "start" : 1621192863939,
         "stop" : 1621192863946,
         "duration" : 7
+      }
+    } ]
+  },
+  "e7af4fd179de071a95b7dec7e0cf1ba6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f0fcc6c5def22aa9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621875024167,
+        "stop" : 1621875053002,
+        "duration" : 28835
       }
     } ]
   },
@@ -889,7 +1024,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3f60ad4dd3ee3c8a",
+      "uid" : "4f39107596532d43",
       "status" : "passed",
       "time" : {
         "start" : 1621192849204,
@@ -908,7 +1043,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d891bd572363c6d0",
+      "uid" : "be506872aea60089",
       "status" : "passed",
       "time" : {
         "start" : 1621666423545,
@@ -927,7 +1062,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "77bda6ec5cec5930",
+      "uid" : "fa97dbf5a88d8cfc",
       "status" : "passed",
       "time" : {
         "start" : 1621665705792,
@@ -946,7 +1081,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5a20dd0a924cb683",
+      "uid" : "b746a55cdb43d570",
       "status" : "failed",
       "statusDetails" : "Expect $(`#email-error`) to be displayed\n                \n                Expected: \"displayed\"\n                Received: \"not displayed\"",
       "time" : {

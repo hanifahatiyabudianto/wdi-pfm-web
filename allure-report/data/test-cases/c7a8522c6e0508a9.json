@@ -1,0 +1,183 @@
+{
+  "uid" : "c7a8522c6e0508a9",
+  "name" : "should show error message when empty password confirm",
+  "fullName" : "Customer did not fill password confirm register form.should show error message when empty password confirm",
+  "historyId" : "d160ab1a2983fbeba392a55e35708fe8",
+  "time" : {
+    "start" : 1621787151666,
+    "stop" : 1621787164056,
+    "duration" : 12390
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9c9830a698bf0513",
+      "name" : "Screenshot",
+      "source" : "9c9830a698bf0513.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "c7b29e5889163209",
+      "name" : "Screenshot",
+      "source" : "c7b29e5889163209.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "a88c4a5f186a0069",
+      "name" : "Screenshot",
+      "source" : "a88c4a5f186a0069.png",
+      "type" : "image/png",
+      "size" : 71025
+    }, {
+      "uid" : "b775247c48bc1e44",
+      "name" : "Screenshot",
+      "source" : "b775247c48bc1e44.png",
+      "type" : "image/png",
+      "size" : 75895
+    }, {
+      "uid" : "11ba092f98da86ec",
+      "name" : "Screenshot",
+      "source" : "11ba092f98da86ec.png",
+      "type" : "image/png",
+      "size" : 75895
+    }, {
+      "uid" : "2b6940f90f6b4e67",
+      "name" : "Screenshot",
+      "source" : "2b6940f90f6b4e67.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "c249a730478fb874",
+      "name" : "Screenshot",
+      "source" : "c249a730478fb874.png",
+      "type" : "image/png",
+      "size" : 72815
+    }, {
+      "uid" : "2c7089ab19b42859",
+      "name" : "Screenshot",
+      "source" : "2c7089ab19b42859.png",
+      "type" : "image/png",
+      "size" : 72807
+    }, {
+      "uid" : "5437381f6054b14f",
+      "name" : "Screenshot",
+      "source" : "5437381f6054b14f.png",
+      "type" : "image/png",
+      "size" : 72807
+    }, {
+      "uid" : "9613c426f6a0415e",
+      "name" : "Screenshot",
+      "source" : "9613c426f6a0415e.png",
+      "type" : "image/png",
+      "size" : 72185
+    }, {
+      "uid" : "daf5a28d145c32d2",
+      "name" : "Screenshot",
+      "source" : "daf5a28d145c32d2.png",
+      "type" : "image/png",
+      "size" : 61162
+    }, {
+      "uid" : "6af125513fb8d301",
+      "name" : "Screenshot",
+      "source" : "6af125513fb8d301.png",
+      "type" : "image/png",
+      "size" : 61162
+    }, {
+      "uid" : "65e844a657472a0",
+      "name" : "Screenshot",
+      "source" : "65e844a657472a0.png",
+      "type" : "image/png",
+      "size" : 61134
+    }, {
+      "uid" : "2a0ac294f20fdcf1",
+      "name" : "Screenshot",
+      "source" : "2a0ac294f20fdcf1.png",
+      "type" : "image/png",
+      "size" : 62775
+    }, {
+      "uid" : "d4b9bbd8409663ae",
+      "name" : "Screenshot",
+      "source" : "d4b9bbd8409663ae.png",
+      "type" : "image/png",
+      "size" : 79590
+    }, {
+      "uid" : "b32028deb84bb2e5",
+      "name" : "Screenshot",
+      "source" : "b32028deb84bb2e5.png",
+      "type" : "image/png",
+      "size" : 76940
+    }, {
+      "uid" : "aa797244a8bdf9e0",
+      "name" : "Screenshot",
+      "source" : "aa797244a8bdf9e0.png",
+      "type" : "image/png",
+      "size" : 74490
+    }, {
+      "uid" : "2adc7007a5a07a3b",
+      "name" : "Screenshot",
+      "source" : "2adc7007a5a07a3b.png",
+      "type" : "image/png",
+      "size" : 61167
+    }, {
+      "uid" : "50569dc897321532",
+      "name" : "Execution video",
+      "source" : "50569dc897321532.mp4",
+      "type" : "video/mp4",
+      "size" : 43201
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 19,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Customer did not fill password confirm register form"
+  }, {
+    "name" : "testClass",
+    "value" : "Customer did not fill password confirm register form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show error message when empty password confirm"
+  }, {
+    "name" : "package",
+    "value" : "Customer did not fill password confirm register form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  }, {
+    "name" : "browserVersion",
+    "value" : "90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7a8522c6e0508a9.json",
+  "parameterValues" : [ "chrome-90.0.4430.212", "90.0.4430.212" ]
+}

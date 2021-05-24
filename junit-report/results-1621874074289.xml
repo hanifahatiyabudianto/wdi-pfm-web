@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Customer did not fill name contact us form" timestamp="2021-05-24T23:34:39" time="28.313" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Customer did not fill name contact us form"/>
+      <property name="capabilities" value="chrome.90_0_4430_212.windows"/>
+      <property name="file" value=".\test\specs\estore\negative\contactus\emptyname.contactus.js"/>
+    </properties>
+    <testcase classname="chrome.90_0_4430_212.windows.Customer did not fill name contact us form" name="should show error message when empty name" time="28.133">
+      <failure/>
+      <error message="Expect $(`#name-error`) to be displayed&#xA;&#xA;Expected: &quot;displayed&quot;&#xA;Received: &quot;not displayed&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/window/maximize - {}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#footer-contact"}
+RESULT: {"url":"https://eprimafreshmart.cp.co.id/pfm/index.php/"}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/screenshot - {}
+RESULT: {"using":"css selector","value":"#footer-contact"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element/c59a7298-a7d7-4931-b1a8-e26c70cb7fec/click - {}
+RESULT: {}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/screenshot - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/screenshot - {}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#contact-title"}
+RESULT: {}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#contact-title"}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/element/11375e85-bb0d-4323-914a-b3c5723f210a/text - {}
+RESULT: {}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/url - {}
+RESULT: {}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/screenshot - {}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#name"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element/bad88fe0-bb12-436f-9800-771eb40e9f4e/clear - {}
+RESULT: {}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/screenshot - {}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element/bad88fe0-bb12-436f-9800-771eb40e9f4e/value - {"text":""}
+RESULT: {}
+RESULT: {"text":""}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/screenshot - {}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#telephone"}
+RESULT: {"using":"css selector","value":"#telephone"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element/59932004-ec58-4c21-9257-aec94b07c23e/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/screenshot - {}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element/59932004-ec58-4c21-9257-aec94b07c23e/value - {"text":"8123400000001"}
+RESULT: {}
+RESULT: {"text":"8123400000001"}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/screenshot - {}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element/c2e692b9-4fc6-4fe8-bbfb-40af5d133ebe/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/screenshot - {}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element/c2e692b9-4fc6-4fe8-bbfb-40af5d133ebe/value - {"text":"pfmwdio1@yopmail.com"}
+RESULT: {}
+RESULT: {"text":"pfmwdio1@yopmail.com"}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/screenshot - {}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#comment"}
+RESULT: {"using":"css selector","value":"#comment"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element/a672e4ca-efbf-448d-b4cc-09122a6ca8cb/clear - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/screenshot - {}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element/a672e4ca-efbf-448d-b4cc-09122a6ca8cb/value - {"text":"Bagaimana cara pengiriman telur ayam?"}
+RESULT: {}
+RESULT: {"text":"Bagaimana cara pengiriman telur ayam?"}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/screenshot - {}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"button[type=\"submit\"]"}
+RESULT: {"using":"css selector","value":"button[type=\"submit\"]"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element/c7d6647b-b083-4f71-a3be-3efff676775e/click - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/screenshot - {}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: POST /session/9934819ff5b65895928f35579001eec2/element - {"using":"css selector","value":"#name-error"}
+RESULT: {"using":"css selector","value":"#name-error"}
+COMMAND: GET /session/9934819ff5b65895928f35579001eec2/screenshot - {}
+COMMAND: DELETE /session/9934819ff5b65895928f35579001eec2 - {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`#name-error`) to be displayed
+
+Expected: "displayed"
+Received: "not displayed"
+    at Context.<anonymous> (C:\Users\Hanifah\WebdriverIO\pfm-estore\test\specs\estore\negative\contactus\/emptyname.contactus.js:28:49)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Context.executeAsync (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\shim.js:136:16)
+    at Context.testFrameworkFnWrapper (C:\Users\Hanifah\WebdriverIO\pfm-estore\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

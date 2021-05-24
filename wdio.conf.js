@@ -35,6 +35,7 @@ exports.config = {
         // './test/specs/estore/negative/login/invalidformatemail.login.js'
         // './test/specs/estore/negative/login/invalidformatpassword.login.js'
         // './test/specs/estore/negative/login/confirmationrequired.login.js'
+
         // './test/specs/estore/positive/register/success.register.js'
         // './test/specs/estore/positive/register/successgendermale.register.js'
         // './test/specs/estore/negative/register/emptyemail.register.js'
@@ -46,33 +47,55 @@ exports.config = {
         // './test/specs/estore/negative/register/notchecktnc.register.js'
         // './test/specs/estore/negative/register/registeredemail.register.js'
         // './test/specs/estore/negative/register/registeredphonenumber.register.js'
+
         // './test/specs/estore/positive/forgotpassword/success.forgotpassword.js'
         // './test/specs/estore/positive/forgotpassword/backtologinpage.forgotpassword.js'
         // './test/specs/estore/negative/forgotpassword/emptyemail.forgotpassword.js'
-        './test/specs/estore/negative/forgotpassword/tomanyrequested.forgotpassword.js'
+        // './test/specs/estore/negative/forgotpassword/tomanyrequested.forgotpassword.js'
+
+        // './test/specs/estore/positive/contactus/success.contactus.js'
+        './test/specs/estore/negative/contactus/emptyname.contactus.js'
+        // './test/specs/estore/negative/contactus/emptyemail.contactus.js'
+        // './test/specs/estore/negative/contactus/emptyphonenumber.contactus.js'
+        // './test/specs/estore/negative/contactus/emptycomment.contactus.js'
     ],
-    // ...
-    // define specific suites. to run "npx wdio wdio.conf.js --suites positivecase --suites negativecase"
+    // define specific suites.
+    // To run "npx wdio wdio.conf.js --suites positivecase --suites negativecase"
     suites: {
         positivecase: [
+            './test/specs/estore/positive/register/success.register.js',
             './test/specs/estore/positive/login/success.login.js',
-            './test/specs/estore/positive/login/view.myaccount.js'
+            './test/specs/estore/positive/login/view.myaccount.js',
+            './test/specs/estore/positive/register/successgendermale.register.js',
+            './test/specs/estore/positive/forgotpassword/success.forgotpassword.js',
+            './test/specs/estore/positive/contactus/success.contactus.js'
         ],
         negativecase: [
-            './test/specs/estore/negative/login/emptyemail.login.js',
-            './test/specs/estore/negative/login/emptypassword.login.js',
-            './test/specs/estore/negative/login/invalidformat.login.js', 
-            './test/specs/estore/negative/login/invalidformatemail.login.js',
-            './test/specs/estore/negative/login/invalidformatpassword.login.js',
-            './test/specs/estore/negative/login/confirmationrequired.login.login.js',
-            
             './test/specs/estore/negative/register/emptyemail.register.js',
             './test/specs/estore/negative/register/emptypassword.register.js',
             './test/specs/estore/negative/register/emptypasswordconfirm.register.js',
             './test/specs/estore/negative/register/emptyname.register.js',
             './test/specs/estore/negative/register/emptynik.register.js',
             './test/specs/estore/negative/register/emptyphonenumber.register.js',
-            './test/specs/estore/negative/register/notchecktnc.register.js'
+            './test/specs/estore/negative/register/notchecktnc.register.js',
+            './test/specs/estore/negative/register/registeredemail.register.js',
+            './test/specs/estore/negative/register/registeredphonenumber.register.js',
+
+            './test/specs/estore/negative/login/emptyemail.login.js',
+            './test/specs/estore/negative/login/emptypassword.login.js',
+            './test/specs/estore/negative/login/invalidformat.login.js',
+            './test/specs/estore/negative/login/invalidformatemail.login.js',
+            './test/specs/estore/negative/login/invalidformatpassword.login.js',
+            './test/specs/estore/negative/login/confirmationrequired.login.js',
+
+            './test/specs/estore/positive/forgotpassword/backtologinpage.forgotpassword.js',
+            './test/specs/estore/negative/forgotpassword/emptyemail.forgotpassword.js',
+            './test/specs/estore/negative/forgotpassword/tomanyrequested.forgotpassword.js',
+
+            './test/specs/estore/negative/contactus/emptyname.contactus.js',
+            './test/specs/estore/negative/contactus/emptyemail.contactus.js',
+            './test/specs/estore/negative/contactus/emptyphonenumber.contactus.js',
+            './test/specs/estore/negative/contactus/emptycomment.contactus.js'
         ],
     },
 
@@ -337,15 +360,11 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    // afterTest: function (
-    //     test,
-    //     context,
-    //     { error, result, duration, passed, retries }
-    // ) {
-    //      if (error) {
-    //         browser.takeScreenshot();
-    //     }
-    // },
+    afterTest: function (test, context, { error, result, duration, passed, retries }) {
+         if (error) {
+            browser.takeScreenshot();
+        }
+    },
     // afterTest: function (test, context, { error, result, duration, passed, retries }) {
     // },
 
